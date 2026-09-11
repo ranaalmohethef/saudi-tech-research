@@ -1,24 +1,440 @@
-## Source Definition - Princess Nourah University (PNU)
+# Saudi Technology Research Data Hub
 
-**Source Name:**  
-Princess Nourah bint Abdulrahman University Research Publications
+## Project Overview
 
-**Source Type:**  
-Excel source files
+The Saudi Technology Research Data Hub is a data engineering project that collects, cleans, standardizes, validates, and combines research metadata from selected Saudi universities and trusted scholarly data sources.
 
-**Data Period:**  
-2023 - 2025
+Research information is distributed across university repositories, Excel and CSV files, and external APIs. These sources have different formats, structures, naming conventions, and levels of completeness.
 
-**File Format:**  
-XLSX
+The purpose of this project is to create a consistent and analysis-ready dataset that can support the analysis of technology-related research across Saudi universities.
 
-**Storage Location:**  
+---
+
+## Project Objective
+
+The project aims to build a repeatable data pipeline that:
+
+1. Collects research metadata from multiple Saudi university sources.
+2. Profiles the raw datasets and identifies data-quality issues.
+3. Cleans and standardizes data from different formats.
+4. Converts source-specific structures into a common schema.
+5. Validates records using defined schema and quality rules.
+6. Combines validated datasets.
+7. Applies transformation rules.
+8. Produces an analysis-ready dataset for future analysis.
+
+---
+
+## Data Sources
+
+The project uses a combination of university datasets, institutional repositories, and public scholarly APIs.
+
+| Source | Source Type | Format | Authentication | Project Use |
+|---|---|---|---|---|
+| Princess Nourah University (PNU) | University Open Data | Excel | None | Research publications for 2023–2025 |
+| King Saud University (KSU) | University Open Data | CSV / Excel | None | Research publication metadata |
+| KAUST Research Repository | Institutional Research Repository | CSV | None | KAUST research records |
+| KFUPM ePrints | Institutional Research Repository | JSON | None | Computer Engineering research records for 2023–2026 |
+| Crossref REST API | Public Scholarly API | JSON | None | Research metadata and KAUST 2024–2025 records |
+| OpenAlex API | Public Scholarly API | JSON | Public API access | Research metadata and potential enrichment |
+
+Detailed information about each source, including URLs, file paths, licences, sizes, and known issues, is documented in the project requirements workbook.
+
+---
+
+## Pipeline Overview
+
+The current project pipeline follows these stages:
+
+```text
+Extract
+   ↓
+Profile & Clean
+   ↓
+Schema Validation
+   ↓
+Join & Transform
+   ↓
+Processed Dataset
+```
+
+Each stage reads its input from the `data/` directory and writes its output back to the appropriate folder.
+
+---
+
+# Task 1 — Data Extraction
+
+The first stage collects raw research data from university datasets, repositories, and APIs.
+
+The original source data is preserved without applying cleaning or transformation.
+
+Raw files are stored in:
+
+```text
 data/raw/
+```
 
-**Extraction Method:**  
-The data was extracted from the original PNU Excel files using Python pandas without modifying the raw source files.
+The extraction stage includes:
 
-**Files Used:**
-- PNU_2023_raw.xlsx
-- PNU_2024_raw.xlsx
-- PNU_2025_raw.xlsx 
+- Reading CSV and Excel source files
+- Reading JSON repository records
+- Retrieving data from APIs
+- Preserving original source data
+- Recording source information and provenance
+
+Main extraction notebook:
+
+```text
+notebooks/01_extract.ipynb
+```
+
+Additional source-specific notebooks may also be used where necessary.
+
+---
+
+# Task 2 — Data Profiling and Cleaning
+
+The second stage profiles the raw data and identifies data-quality issues.
+
+Profiling includes:
+
+- Column names
+- Row and column counts
+- Data types
+- Missing values
+- Percentage of missing values
+- Unique values
+- Sample values
+- Duplicate records
+- Nested fields
+- Inconsistent text
+- Date-format differences
+
+Cleaning activities include:
+
+- Flattening nested structures
+- Standardizing column names
+- Cleaning whitespace
+- Removing unwanted markup
+- Standardizing DOI values
+- Parsing dates
+- Handling missing values
+- Reviewing duplicate records
+- Standardizing source-specific fields
+
+Cleaned datasets are stored in:
+
+```text
+data/interim/
+```
+
+Main cleaning notebook:
+
+```text
+notebooks/02_profile_clean.ipynb
+```
+
+---
+
+## Data Quality Rules
+
+The project follows several general data-quality principles:
+
+- Raw source files must remain unchanged.
+- Missing dates must not be invented.
+- If only the publication year is available, the full publication date remains empty.
+- Duplicate records must be reviewed before removal.
+- Stable source identifiers are preferred for `research_id`.
+- Missing optional metadata does not automatically cause a record to be rejected.
+- Text formatting is standardized where needed.
+- Different source structures are converted into a shared schema.
+
+---
+
+# Task 3 — Schema Definition and Validation
+
+After cleaning, the datasets are validated against a common schema.
+
+The validation process checks:
+
+- Required fields
+- Missing values
+- Publication-year ranges
+- URL format
+- DOI format
+- Publication-date validity
+- University values
+- Duplicate `research_id` values
+
+Rows that pass validation are saved as validated records.
+
+Rows that fail validation are routed to rejected datasets together with the reason for rejection.
+
+Main validation notebook:
+
+```text
+notebooks/03_schema_validate.ipynb
+```
+
+---
+
+## Common Schema
+
+All university datasets are standardized into the following common schema:
+
+| Column | Data Type | Nullable | Validation Rule |
+|---|---|---|---|
+| research_id | String | No | Must be non-empty and unique |
+| university | String | No | Must contain the standardized university name |
+| title | String | No | Must be non-empty |
+| authors | String | Yes | Author names when available |
+| publication_year | Integer | No | Must be within the valid project year range |
+| publication_date | Date | Yes | Valid YYYY-MM-DD only when a complete date is known |
+| abstract | String | Yes | Research abstract when available |
+| research_field | String | Yes | Research field when available |
+| tech_category | String | Yes | Technology category when assigned |
+| journal | String | Yes | Journal or source title when available |
+| doi | String | Yes | Must follow DOI format when available |
+| url | String | No | Must begin with http:// or https:// |
+| source | String | No | Identifies the original data source |
+
+### Publication Date Rule
+
+A full publication date is only stored when the complete year, month, and day are available.
+
+For example:
+
+```text
+2024-05-12
+```
+
+is stored as a valid publication date.
+
+If the source provides only:
+
+```text
+2024
+```
+
+the value is stored in `publication_year`, while `publication_date` remains empty.
+
+No missing month or day values are inferred.
+
+---
+
+# Task 4 — Join and Transformation
+
+Validated datasets that follow the same common schema are combined into one dataset.
+
+Because the university datasets contain the same standardized columns, they are combined vertically using:
+
+```python
+pd.concat()
+```
+
+rather than using a relational database-style join.
+
+The combined dataset preserves one row per research record.
+
+---
+
+## Transformation Rules
+
+The current transformation stage applies the following rules:
+
+| Rule ID | Input | Output | Description |
+|---|---|---|---|
+| R1 | publication_year | publication_year | Convert publication year to nullable integer |
+| R2 | doi | has_doi | Create a Boolean flag showing whether a DOI is available |
+| R3 | abstract | abstract_word_count | Calculate the number of words in the abstract |
+
+### R1 — Publication Year
+
+The publication year is converted into a consistent nullable integer type.
+
+```python
+pd.to_numeric(
+    publication_year,
+    errors="coerce"
+).astype("Int64")
+```
+
+### R2 — DOI Availability Flag
+
+A new column called:
+
+```text
+has_doi
+```
+
+is created.
+
+The value is:
+
+```text
+True
+```
+
+when a DOI exists and:
+
+```text
+False
+```
+
+when the DOI is missing.
+
+### R3 — Abstract Word Count
+
+A new column called:
+
+```text
+abstract_word_count
+```
+
+stores the number of words in each research abstract.
+
+If the abstract is missing, the word count is:
+
+```text
+0
+```
+
+---
+
+## Transformation Tests
+
+The transformation stage includes tests to verify that:
+
+- The number of records is preserved after transformation.
+- `research_id` remains unique.
+- `publication_year` contains valid values.
+- `has_doi` contains only Boolean values.
+- `abstract_word_count` is never negative.
+
+Assertion cells are used inside the notebook to verify these rules.
+
+Main transformation notebook:
+
+```text
+notebooks/04_join_transform.ipynb
+```
+
+Processed datasets are stored in:
+
+```text
+data/processed/
+```
+
+---
+
+# Repository Structure
+
+```text
+saudi-tech-research/
+│
+├── data/
+│   ├── raw/
+│   │   └── Original source files and API responses
+│   │
+│   ├── interim/
+│   │   └── Cleaned, validated, and rejected datasets
+│   │
+│   └── processed/
+│       └── Final processed datasets
+│
+├── notebooks/
+│   ├── 01_extract.ipynb
+│   ├── 02_profile_clean.ipynb
+│   ├── 03_schema_validate.ipynb
+│   └── 04_join_transform.ipynb
+│
+├── src/
+│   └── Placeholder for integration-stage Python modules
+│
+├── tests/
+│   └── Placeholder for integration-stage automated tests
+│
+├── config.yaml
+├── main.py
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+---
+
+# Technologies Used
+
+The project currently uses:
+
+- Python
+- pandas
+- Jupyter Notebook
+- VS Code
+- Git
+- GitHub
+- REST APIs
+- CSV
+- Excel
+- JSON
+
+---
+
+# Current Project Status
+
+The following stages are currently completed or being completed by the team:
+
+- Source identification
+- Data extraction
+- Data profiling
+- Data cleaning
+- Data standardization
+- Common schema definition
+- Schema validation
+- Join and transformation rules
+- Transformation testing
+- Processed CSV generation
+
+The project is currently being developed through Jupyter notebooks.
+
+Refactoring the notebook logic into the `src/` modules, connecting the entire pipeline through `main.py`, and migrating notebook tests into the `tests/` folder will be completed during the later Integration stage.
+
+---
+
+# Future Integration
+
+During the integration stage, the team will:
+
+- Merge all members' completed datasets.
+- Refactor notebook code into reusable Python modules.
+- Connect the pipeline through `main.py`.
+- Move assertion tests into the `tests/` directory.
+- Verify the pipeline from extraction to final output.
+- Produce the final team-wide analysis-ready dataset.
+
+---
+
+# Final Goal
+
+The final output of the project will be a unified dataset containing standardized research metadata from selected Saudi universities.
+
+The dataset will support questions such as:
+
+> What technology-related research is being published by Saudi universities, and how is it changing over time?
+
+The resulting data can later support:
+
+- Research trend analysis
+- University comparisons
+- Technology-category analysis
+- Dashboards
+- Research-gap identification
+- Further academic analysis
+
+---
+
+# Team Members
+
+- Rana Ayman Almohethef
+- Aryam Saad Alotaibi
+- Rana Saad AlHasaniah
