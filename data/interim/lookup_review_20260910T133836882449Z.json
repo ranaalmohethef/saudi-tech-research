@@ -1,0 +1,19 @@
+{
+  "source_record": {
+    "source_file_year": 2024,
+    "source_row_index": 69,
+    "title": "3-D Trajectory Optimization and Communication Resources Allocation in UAV-Assisted IoT Networks for Sustainable Industry 5.0",
+    "authors": "Du, PF; Shi, YQ; Cao, HT; Garg, S; Kaddoum, G; Alrashoud, M",
+    "journal": "IEEE TRANSACTIONS ON CONSUMER ELECTRONICS",
+    "existing_doi": null,
+    "missing_fields": [
+      "DOI",
+      "Abstract"
+    ],
+    "status": "pending"
+  },
+  "request_url": "https://api.crossref.org/works?query.bibliographic=3-D+Trajectory+Optimization+and+Communication+Resources+Allocation+in+UAV-Assisted+IoT+Networks+for+Sustainable+Industry+5.0+Du%2C+PF%3B+Shi%2C+YQ%3B+Cao%2C+HT%3B+Garg%2C+S%3B+Kaddoum%2C+G%3B+Alrashoud%2C+M+IEEE+TRANSACTIONS+ON+CONSUMER+ELECTRONICS&rows=3",
+  "retrieved_at": "2026-09-10T13:38:36.925823+00:00",
+  "response_file": "data/raw/crossref/lookup_sample_20260910T133836882449Z.json",
+  "status": "pending_manual_review"
+}

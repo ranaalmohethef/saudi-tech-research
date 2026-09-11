@@ -1,0 +1,5260 @@
+[
+  {
+    "source_record": {
+      "source_file_year": 2023,
+      "source_row_index": 992,
+      "title": "Non-Linear Financial Intelligence Mixed-Integer Framework for Strategic Planning in Cost Management",
+      "authors": "Alkhanifer, A; Alamri, AM",
+      "journal": "PACIFIC BUSINESS REVIEW INTERNATIONAL",
+      "existing_doi": null,
+      "missing_fields": [
+        "DOI"
+      ],
+      "status": "pending"
+    },
+    "request_url": "https://api.crossref.org/works?query.bibliographic=Non-Linear+Financial+Intelligence+Mixed-Integer+Framework+for+Strategic+Planning+in+Cost+Management+Alkhanifer%2C+A%3B+Alamri%2C+AM+PACIFIC+BUSINESS+REVIEW+INTERNATIONAL&rows=3",
+    "status": "pending_manual_review",
+    "retrieved_at": "2026-09-10T13:53:53.037692+00:00",
+    "response_file": "data/raw/crossref/sample_20260910T135347540008Z_1.json",
+    "candidates": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              28
+            ]
+          ],
+          "date-time": "2026-08-28T16:40:14Z",
+          "timestamp": 1787935214129,
+          "version": "build-2784847793"
+        },
+        "reference-count": 0,
+        "publisher": "All Academics Research Publications",
+        "issue": "01",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "SDMI"
+        ],
+        "abstract": "<jats:p>This study systematically examines the role of AI-driven Business Intelligence (BI) systems in enhancing financial decision-making, fraud detection, customer segmentation, supply chain optimization, and strategic business planning. By following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, this review ensures a transparent and rigorous analysis of existing literature. A total of 98 high-quality peer-reviewed articles were selected from an initial pool of 2,450 studies, spanning major academic databases such as Scopus, Web of Science, IEEE Xplore, ScienceDirect, and Google Scholar. The findings reveal that AI-powered BI improves forecasting accuracy by 32-45%, reduces fraudulent transactions by 47%, enhances customer engagement by 38%, and optimizes supply chain efficiency by 23%, demonstrating AI’s significant impact across industries. Furthermore, the study identifies major challenges, including data governance complexities, algorithmic transparency issues, and bias in AI models, which hinder widespread adoption. While previous research has primarily focused on the technical capabilities of AI-driven BI, this study extends the discussion by emphasizing its strategic and operational implications in modern business environments. The review underscores the need for explainable AI, fairness-aware algorithms, and improved data integration frameworks to ensure ethical, reliable, and effective AI-driven decision-making. These insights contribute to both academic discourse and industry practice, providing a comprehensive foundation for future research and practical advancements in AI-enhanced BI systems.</jats:p>",
+        "DOI": "10.71292/sdmi.v2i01.21",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              16
+            ]
+          ],
+          "date-time": "2025-02-16T06:37:49Z",
+          "timestamp": 1739687869000
+        },
+        "page": "202-223",
+        "source": "Crossref",
+        "is-referenced-by-count": 13,
+        "title": [
+          "Optimizing Business Decision-Making Through Ai-Enhanced Business Intelligence Systems: A Systematic Review Of Data-Driven Insights In Financial And Strategic Planning"
+        ],
+        "prefix": "10.71292",
+        "volume": "2",
+        "member": "52222",
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              2
+            ]
+          ]
+        },
+        "container-title": [
+          "Strategic Data Management and Innovation"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              16
+            ]
+          ],
+          "date-time": "2025-02-16T06:37:50Z",
+          "timestamp": 1739687870000
+        },
+        "score": 38.47071,
+        "resource": {
+          "primary": {
+            "URL": "https://allacademicsresearch.com/index.php/SDMI/article/view/21"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              2
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "01",
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                2
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.71292/sdmi.v2i01.21",
+        "ISSN": [
+          "3066-358X"
+        ],
+        "issn-type": [
+          {
+            "value": "3066-358X",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2024-09-04T13:13:44Z",
+          "timestamp": 1725455624758
+        },
+        "publisher-location": "Berlin/Heidelberg",
+        "reference-count": 7,
+        "publisher": "Springer-Verlag",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "3540220658"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.1007/3-540-24814-5_28",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2005,
+              11,
+              13
+            ]
+          ],
+          "date-time": "2005-11-13T23:24:50Z",
+          "timestamp": 1131924290000
+        },
+        "page": "473-483",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Linear and Mixed Integer Programming"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Hartmut",
+            "family": "Stadtler",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "reference": [
+          {
+            "key": "28_CR1",
+            "unstructured": "DASH Associates (2002) Homepage, URL: http://www.dash.co.uk, Date: July 19, 2004"
+          },
+          {
+            "key": "28_CR2",
+            "unstructured": "Hillier, F. S.; Liebermann, G. J. (2001) Introduction to Operations Research, 7th ed., New York et al."
+          },
+          {
+            "key": "28_CR3",
+            "unstructured": "ILOG CPLEX Division (2002) Homepage, URL: http://www.ilog.com/products/cplex, Date: July 19, 2004"
+          },
+          {
+            "key": "28_CR4",
+            "unstructured": "Krekó, B. (1973) Lehrbuch der Linearen Optimierung, Berlin"
+          },
+          {
+            "key": "28_CR5",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Martin, R. K. (1999) Large scale linear and integer optimization: A unified approach, Boston et al.",
+            "DOI": "10.1007/978-1-4615-4975-8"
+          },
+          {
+            "key": "28_CR6",
+            "unstructured": "Winston, W. L. (1994) Operations Research: Applications and algorithms, 3rd ed., Belmont, California"
+          },
+          {
+            "key": "28_CR7",
+            "unstructured": "Wolsey, L. A. (1998) Integer Programming, New York et al."
+          }
+        ],
+        "container-title": [
+          "Supply Chain Management and Advanced Planning"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/3-540-24814-5_28.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              11,
+              17
+            ]
+          ],
+          "date-time": "2020-11-17T20:17:44Z",
+          "timestamp": 1605644264000
+        },
+        "score": 38.01416,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/3-540-24814-5_28"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "ISBN": [
+          "3540220658"
+        ],
+        "references-count": 7,
+        "URL": "https://doi.org/10.1007/3-540-24814-5_28"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              3
+            ]
+          ],
+          "date-time": "2024-03-03T23:17:43Z",
+          "timestamp": 1709507863806
+        },
+        "reference-count": 0,
+        "publisher": "Society of Petroleum Engineers",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.2523/15759-ms",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2007,
+              12,
+              18
+            ]
+          ],
+          "date-time": "2007-12-18T00:22:16Z",
+          "timestamp": 1197937336000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Mixed Integer, Linear Programming Model for Multireservoir Strategic Planning"
+        ],
+        "prefix": "10.2523",
+        "author": [
+          {
+            "given": "M.A.",
+            "family": "Saif",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "R.",
+            "family": "Kumar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "M.",
+            "family": "Shanyoor",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "861",
+        "published-online": {
+          "date-parts": [
+            [
+              1987,
+              3
+            ]
+          ]
+        },
+        "event": {
+          "name": "Middle East Oil Show",
+          "acronym": "MEOS",
+          "start": {
+            "date-parts": [
+              [
+                1987,
+                3,
+                7
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                1987,
+                3,
+                10
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "Proceedings of Middle East Oil Show"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2015,
+              4,
+              10
+            ]
+          ],
+          "date-time": "2015-04-10T00:13:03Z",
+          "timestamp": 1428624783000
+        },
+        "score": 37.94482,
+        "resource": {
+          "primary": {
+            "URL": "http://www.spe.org/elibrary/servlet/spepreview?id=00015759"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1987,
+              3
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.2523/15759-ms",
+        "published": {
+          "date-parts": [
+            [
+              1987,
+              3
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "source_record": {
+      "source_file_year": 2023,
+      "source_row_index": 2010,
+      "title": "Empowering smart cities: High-altitude platforms based Mobile Edge Computing and Wireless Power Transfer for efficient IoT data processing",
+      "authors": "Nauman, A; Alruwais, N; Alabdulkreem, E; Nemri, N; Aljehane, NO; Dutta, AK; Assiri, M; Khan, WU",
+      "journal": "INTERNET OF THINGS",
+      "existing_doi": null,
+      "missing_fields": [
+        "DOI"
+      ],
+      "status": "pending"
+    },
+    "request_url": "https://api.crossref.org/works?query.bibliographic=Empowering+smart+cities%3A+High-altitude+platforms+based+Mobile+Edge+Computing+and+Wireless+Power+Transfer+for+efficient+IoT+data+processing+Nauman%2C+A%3B+Alruwais%2C+N%3B+Alabdulkreem%2C+E%3B+Nemri%2C+N%3B+Aljehane%2C+NO%3B+Dutta%2C+AK%3B+Assiri%2C+M%3B+Khan%2C+WU+INTERNET+OF+THINGS&rows=3",
+    "status": "pending_manual_review",
+    "retrieved_at": "2026-09-10T13:53:56.814817+00:00",
+    "response_file": "data/raw/crossref/sample_20260910T135347540008Z_2.json",
+    "candidates": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              3
+            ]
+          ],
+          "date-time": "2026-09-03T15:26:38Z",
+          "timestamp": 1788449198439,
+          "version": "build-2803163510"
+        },
+        "reference-count": 39,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2023-12-01T00:00:00Z",
+              "timestamp": 1701388800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2023-12-01T00:00:00Z",
+              "timestamp": 1701388800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2023-12-01T00:00:00Z",
+              "timestamp": 1701388800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-017"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2023-12-01T00:00:00Z",
+              "timestamp": 1701388800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2023-12-01T00:00:00Z",
+              "timestamp": 1701388800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-012"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2023-12-01T00:00:00Z",
+              "timestamp": 1701388800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  12,
+                  1
+                ]
+              ],
+              "date-time": "2023-12-01T00:00:00Z",
+              "timestamp": 1701388800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-004"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/100009392",
+            "name": "Prince Sattam bin Abdulaziz University",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "PSAU/2023/R/1444"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "PSAU/2023/R/1444"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/100009392",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100002383",
+            "name": "King Saud University",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100002383",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100004242",
+            "name": "Princess Nourah Bint Abdulrahman University",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "RSPD2023R608"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "RSPD2023R608"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100004242",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100023674",
+            "name": "Deanship of Scientific Research, King Khalid University",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "RGP2/ 02/44"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "RGP2/ 02/44"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100023674",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Internet of Things"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.iot.2023.100986",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              31
+            ]
+          ],
+          "date-time": "2023-10-31T22:19:54Z",
+          "timestamp": 1698790794000
+        },
+        "page": "100986",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 15,
+        "special_numbering": "C",
+        "title": [
+          "Empowering smart cities: High-altitude platforms based Mobile Edge Computing and Wireless Power Transfer for efficient IoT data processing"
+        ],
+        "prefix": "10.1016",
+        "volume": "24",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2133-5286",
+            "authenticated-orcid": false,
+            "given": "Ali",
+            "family": "Nauman",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nuha",
+            "family": "Alruwais",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Eatedal",
+            "family": "Alabdulkreem",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nadhem",
+            "family": "Nemri",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nojood O.",
+            "family": "Aljehane",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ashit Kumar",
+            "family": "Dutta",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mohammed",
+            "family": "Assiri",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wali Ullah",
+            "family": "Khan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "issue": "12",
+            "key": "10.1016/j.iot.2023.100986_b1",
+            "doi-asserted-by": "crossref",
+            "first-page": "13294",
+            "DOI": "10.1109/TVT.2021.3121146",
+            "article-title": "Optimal resource allocation and task segmentation in iot enabled mobile edge cloud",
+            "volume": "70",
+            "author": "Mahmood",
+            "year": "2021",
+            "journal-title": "IEEE Trans. Veh. Technol."
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b2",
+            "doi-asserted-by": "crossref",
+            "first-page": "19024",
+            "DOI": "10.1109/ACCESS.2023.3246660",
+            "article-title": "Deep learning based anomaly detection for fog-assisted IoVs network",
+            "volume": "11",
+            "author": "Yaqoob",
+            "year": "2023",
+            "journal-title": "IEEE Access"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.iot.2023.100986_b3",
+            "first-page": "210",
+            "article-title": "A framework for statistical characterization of indoor data traffic for efficient dynamic spectrum access in the 2.4 ghz ism band",
+            "volume": "5",
+            "author": "Ehsan",
+            "year": "2015",
+            "journal-title": "Int. J. Digit. Inf. Wirel. Commun. (IJDIWC)"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.iot.2023.100986_b4",
+            "first-page": "2619",
+            "article-title": "Improved channel reciprocity for secure communication in next generation wireless systems",
+            "volume": "67",
+            "author": "Qadeer",
+            "year": "2021",
+            "journal-title": "Comput. Mater. Contin."
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.iot.2023.100986_b5",
+            "first-page": "127",
+            "article-title": "An efficient hybrid classifier model for anomaly intrusion detection system",
+            "volume": "18",
+            "author": "Shah",
+            "year": "2018",
+            "journal-title": "IJCSNS"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.iot.2023.100986_b6",
+            "doi-asserted-by": "crossref",
+            "first-page": "645",
+            "DOI": "10.1109/TCCN.2019.2945802",
+            "article-title": "Joint spectral and energy efficiency optimization for downlink NOMA networks",
+            "volume": "6",
+            "author": "Khan",
+            "year": "2019",
+            "journal-title": "IEEE Trans. Cogn. Commun. Netw."
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b7",
+            "doi-asserted-by": "crossref",
+            "first-page": "178",
+            "DOI": "10.1016/j.comcom.2022.04.017",
+            "article-title": "Weighted utility aware computational overhead minimization of wireless power mobile edge cloud",
+            "volume": "190",
+            "author": "Mahmood",
+            "year": "2022",
+            "journal-title": "Comput. Commun."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.iot.2023.100986_b8",
+            "doi-asserted-by": "crossref",
+            "first-page": "192",
+            "DOI": "10.1109/MWC.006.2100699",
+            "article-title": "Actions at the edge: Jointly optimizing the resources in multi-access edge computing",
+            "volume": "29",
+            "author": "Deng",
+            "year": "2022",
+            "journal-title": "IEEE Wirel. Commun."
+          },
+          {
+            "issue": "8",
+            "key": "10.1016/j.iot.2023.100986_b9",
+            "doi-asserted-by": "crossref",
+            "first-page": "8955",
+            "DOI": "10.1109/TVT.2022.3174906",
+            "article-title": "Multiobjective oriented task scheduling in heterogeneous mobile edge computing networks",
+            "volume": "71",
+            "author": "Li",
+            "year": "2022",
+            "journal-title": "IEEE Trans. Veh. Technol."
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b10",
+            "doi-asserted-by": "crossref",
+            "first-page": "36757",
+            "DOI": "10.1109/ACCESS.2020.2974809",
+            "article-title": "Partial offloading in energy harvested mobile edge computing: A direct search approach",
+            "volume": "8",
+            "author": "Mahmood",
+            "year": "2020",
+            "journal-title": "IEEE Access"
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b11",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1109/TNSM.2023.3246506",
+            "article-title": "A game-theoretic incentive mechanism for battery saving in full duplex mobile edge computing systems with wireless power transfer",
+            "author": "Cheng",
+            "year": "2023",
+            "journal-title": "IEEE Trans. Netw. Serv. Manag."
+          },
+          {
+            "issue": "12",
+            "key": "10.1016/j.iot.2023.100986_b12",
+            "doi-asserted-by": "crossref",
+            "first-page": "15284",
+            "DOI": "10.1109/TVT.2020.3038387",
+            "article-title": "Spectral efficiency optimization for next generation NOMA-enabled IoT networks",
+            "volume": "69",
+            "author": "Khan",
+            "year": "2020",
+            "journal-title": "IEEE Trans. Veh. Technol."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.iot.2023.100986_b13",
+            "doi-asserted-by": "crossref",
+            "first-page": "824",
+            "DOI": "10.3390/en16020824",
+            "article-title": "Energy-consumption pattern-detecting technique for household appliances for smart home platform",
+            "volume": "16",
+            "author": "Caldera",
+            "year": "2023",
+            "journal-title": "Energies"
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b14",
+            "series-title": "2022 IEEE Wireless Communications and Networking Conference (WCNC)",
+            "first-page": "2244",
+            "article-title": "Caching in the air: High altitude platform stations for urban environments",
+            "author": "Vallero",
+            "year": "2022"
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b15",
+            "doi-asserted-by": "crossref",
+            "first-page": "1963",
+            "DOI": "10.1109/OJCOMS.2022.3217447",
+            "article-title": "An accurate model for computation offloading in 6G networks and a HAPS-based case study",
+            "volume": "3",
+            "author": "Ovatman",
+            "year": "2022",
+            "journal-title": "IEEE Open J. Commun. Soc."
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b16",
+            "series-title": "2015 Third International Conference on Digital Information, Networking, and Wireless Communications (DINWC)",
+            "first-page": "88",
+            "article-title": "Statistical modeling of ism data traffic in indoor environments for cognitive radio systems",
+            "author": "Ehsan",
+            "year": "2015"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.iot.2023.100986_b17",
+            "article-title": "Adaptive filter algorithms for noise & echo cancellation",
+            "volume": "1",
+            "author": "Ghauri",
+            "year": "2013",
+            "journal-title": "Int. J. Comput. Commun. Eng. Res. (IJCCER)"
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b18",
+            "series-title": "2023 International Conference on Artificial Intelligence in Information and Communication (ICAIIC)",
+            "first-page": "718",
+            "article-title": "A review on AI-driven aerial access networks: Challenges and open research issues",
+            "author": "Lakew",
+            "year": "2023"
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b19",
+            "series-title": "2022 IEEE Globecom Workshops (GC Wkshps)",
+            "first-page": "974",
+            "article-title": "Optimizing computational and communication resources for MEC network empowered UAV-RIS communication",
+            "author": "Mahmood",
+            "year": "2022"
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b20",
+            "series-title": "Opportunities for intelligent reflecting surfaces in 6G-empowered V2X communications",
+            "author": "Khan",
+            "year": "2022"
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b21",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1109/TVT.2023.3274107",
+            "article-title": "Mobile edge computing (MEC)-enabled UAV placement and computation efficiency maximization in disaster scenario",
+            "author": "Shah",
+            "year": "2023",
+            "journal-title": "IEEE Trans. Veh. Technol."
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.iot.2023.100986_b22",
+            "doi-asserted-by": "crossref",
+            "first-page": "8315",
+            "DOI": "10.1109/JIOT.2022.3155667",
+            "article-title": "RL/DRL meets vehicular task offloading using edge and vehicular cloudlet: A survey",
+            "volume": "9",
+            "author": "Liu",
+            "year": "2022",
+            "journal-title": "IEEE Internet Things J."
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b23",
+            "article-title": "Utilization of mobile edge computing on the Internet of Medical Things: A survey",
+            "author": "Awad",
+            "year": "2022",
+            "journal-title": "ICT Express"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.iot.2023.100986_b24",
+            "doi-asserted-by": "crossref",
+            "first-page": "258",
+            "DOI": "10.23919/JCC.2022.03.019",
+            "article-title": "Multi-UAV network assisted intelligent edge computing: Challenges and opportunities",
+            "volume": "19",
+            "author": "Liu",
+            "year": "2022",
+            "journal-title": "China Commun."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.iot.2023.100986_b25",
+            "doi-asserted-by": "crossref",
+            "first-page": "806",
+            "DOI": "10.1109/LWC.2022.3146207",
+            "article-title": "Digital twin-aided intelligent offloading with edge selection in mobile edge computing",
+            "volume": "11",
+            "author": "Do-Duy",
+            "year": "2022",
+            "journal-title": "IEEE Wirel. Commun. Lett."
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b26",
+            "doi-asserted-by": "crossref",
+            "first-page": "15",
+            "DOI": "10.1016/j.jpdc.2022.03.001",
+            "article-title": "Energy-latency tradeoffs for edge caching and dynamic service migration based on DQN in mobile edge computing",
+            "volume": "166",
+            "author": "Li",
+            "year": "2022",
+            "journal-title": "J. Parallel Distrib. Comput."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.iot.2023.100986_b27",
+            "doi-asserted-by": "crossref",
+            "first-page": "95",
+            "DOI": "10.1109/IOTM.0001.2000055",
+            "article-title": "NOMA-enabled backscatter communications: Toward battery-free IoT networks",
+            "volume": "3",
+            "author": "Jameel",
+            "year": "2020",
+            "journal-title": "IEEE Internet Things Mag."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.iot.2023.100986_b28",
+            "doi-asserted-by": "crossref",
+            "first-page": "2073",
+            "DOI": "10.1109/TGCN.2022.3164967",
+            "article-title": "Decentralized energy management for wireless power transfer assisted platoon autonomous driving: A leader-to-follower approach",
+            "volume": "6",
+            "author": "Zhong",
+            "year": "2022",
+            "journal-title": "IEEE Trans. Green Commun. Netw."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.iot.2023.100986_b29",
+            "doi-asserted-by": "crossref",
+            "first-page": "4010",
+            "DOI": "10.1109/TVT.2022.3147567",
+            "article-title": "Dynamic aerial wireless power transfer optimization",
+            "volume": "71",
+            "author": "Ali",
+            "year": "2022",
+            "journal-title": "IEEE Trans. Veh. Technol."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.iot.2023.100986_b30",
+            "doi-asserted-by": "crossref",
+            "first-page": "2429",
+            "DOI": "10.1007/s10586-021-03376-3",
+            "article-title": "Joint wireless power transfer and task offloading in mobile edge computing: a survey",
+            "volume": "25",
+            "author": "Mustafa",
+            "year": "2022",
+            "journal-title": "Cluster Comput."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.iot.2023.100986_b31",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1145/3571291",
+            "article-title": "Resource allocation for heterogeneous computing tasks in wirelessly powered MEC-enabled IIOT systems",
+            "volume": "14",
+            "author": "Hu",
+            "year": "2023",
+            "journal-title": "ACM Trans. Manag. Inf. Syst."
+          },
+          {
+            "issue": "7",
+            "key": "10.1016/j.iot.2023.100986_b32",
+            "doi-asserted-by": "crossref",
+            "first-page": "5629",
+            "DOI": "10.1109/TWC.2022.3142365",
+            "article-title": "Online trajectory and resource optimization for stochastic UAV-enabled MEC systems",
+            "volume": "21",
+            "author": "Yang",
+            "year": "2022",
+            "journal-title": "IEEE Trans. Wireless Commun."
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b33",
+            "doi-asserted-by": "crossref",
+            "first-page": "52398",
+            "DOI": "10.1109/ACCESS.2022.3173125",
+            "article-title": "HAMEC-RSMA: Enhanced aerial computing systems with rate splitting multiple access",
+            "volume": "10",
+            "author": "Truong",
+            "year": "2022",
+            "journal-title": "IEEE Access"
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b34",
+            "first-page": "1",
+            "article-title": "Joint power allocation and deployment optimization for HAP-assisted NOMA–MEC system",
+            "author": "Zhang",
+            "year": "2022",
+            "journal-title": "Wirel. Netw."
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.iot.2023.100986_b35",
+            "doi-asserted-by": "crossref",
+            "first-page": "21478",
+            "DOI": "10.1109/TITS.2022.3179987",
+            "article-title": "Computation offloading and resource allocation in MEC-enabled integrated aerial-terrestrial vehicular networks: A reinforcement learning approach",
+            "volume": "23",
+            "author": "Waqar",
+            "year": "2022",
+            "journal-title": "IEEE Trans. Intell. Transp. Syst."
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.iot.2023.100986_b36",
+            "doi-asserted-by": "crossref",
+            "first-page": "9010",
+            "DOI": "10.1109/TWC.2022.3171824",
+            "article-title": "Caching and computation offloading in high altitude platform station (HAPS) assisted intelligent transportation systems",
+            "volume": "21",
+            "author": "Ren",
+            "year": "2022",
+            "journal-title": "IEEE Trans. Wireless Commun."
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b37",
+            "series-title": "2022 13th International Conference on Information and Communication Technology Convergence (ICTC)",
+            "first-page": "1341",
+            "article-title": "Deep reinforcement learning-based partial task offloading in high altitude platform-aided vehicular networks",
+            "author": "Nguyen",
+            "year": "2022"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.iot.2023.100986_b38",
+            "first-page": "2411",
+            "article-title": "Machine learning based psychotic behaviors prediction from Facebook status updates",
+            "volume": "72",
+            "author": "Ali",
+            "year": "2022",
+            "journal-title": "Comput. Mater. Contin."
+          },
+          {
+            "key": "10.1016/j.iot.2023.100986_b39",
+            "article-title": "Hierarchical aerial computing for internet of things via cooperation of HAPs and UAVs",
+            "author": "Jia",
+            "year": "2022",
+            "journal-title": "IEEE Internet Things J."
+          }
+        ],
+        "container-title": [
+          "Internet of Things"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2542660523003098?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2542660523003098?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              11
+            ]
+          ],
+          "date-time": "2025-11-11T15:03:08Z",
+          "timestamp": 1762873388000
+        },
+        "score": 171.61566,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2542660523003098"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "references-count": 39,
+        "alternative-id": [
+          "S2542660523003098"
+        ],
+        "URL": "https://doi.org/10.1016/j.iot.2023.100986",
+        "ISSN": [
+          "2542-6605"
+        ],
+        "issn-type": [
+          {
+            "value": "2542-6605",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Empowering smart cities: High-altitude platforms based Mobile Edge Computing and Wireless Power Transfer for efficient IoT data processing",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Internet of Things",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.iot.2023.100986",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2023 Elsevier B.V. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "100986"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              2
+            ]
+          ],
+          "date-time": "2026-01-02T01:05:26Z",
+          "timestamp": 1767315926102,
+          "version": "3.48.0"
+        },
+        "publisher-location": "Singapore",
+        "reference-count": 15,
+        "publisher": "Springer Nature Singapore",
+        "isbn-type": [
+          {
+            "value": "9789819694549",
+            "type": "print"
+          },
+          {
+            "value": "9789819694556",
+            "type": "electronic"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2026-01-01T00:00:00Z",
+              "timestamp": 1767225600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2026-01-01T00:00:00Z",
+              "timestamp": 1767225600000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-981-96-9455-6_10",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              2
+            ]
+          ],
+          "date-time": "2026-01-02T01:01:59Z",
+          "timestamp": 1767315719000
+        },
+        "page": "105-114",
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Active Fitness-Based Al-Biruni Earth Radius Optimization Algorithm to Secure Edge Computing for Internet of Things-Based Smart Cities"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Siva Surya Narayana",
+            "family": "Chintapalli",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Satya Prakash",
+            "family": "Singh",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Vijaya Lakshmi",
+            "family": "Sarraju",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              2
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "issue": "9",
+            "key": "10_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "6493",
+            "DOI": "10.1002/int.22852",
+            "volume": "37",
+            "author": "I Ahmed",
+            "year": "2022",
+            "unstructured": "Ahmed I, Zhang Y, Jeon G, Lin W, Khosravi MR, Qi L (2022a) A blockchain-and artificial intelligence-enabled smart IoT framework for sustainable city. Int J Intell Syst 37(9):6493–6507",
+            "journal-title": "Int J Intell Syst"
+          },
+          {
+            "key": "10_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "11404",
+            "DOI": "10.1109/ACCESS.2022.3146295",
+            "volume": "10",
+            "author": "A Ahmed",
+            "year": "2022",
+            "unstructured": "Ahmed A, Abdullah S, Bukhsh M, Ahmad I, Mushtaq Z (2022b) An energy-efficient data aggregation mechanism for IoT secured by blockchain. IEEE Access 10:11404–11419",
+            "journal-title": "IEEE Access"
+          },
+          {
+            "key": "10_CR3",
+            "volume": "18",
+            "author": "LA Ajao",
+            "year": "2023",
+            "unstructured": "Ajao LA, Apeh ST (2023) Secure edge computing vulnerabilities in smart cities sustainability using petri net and genetic algorithm-based reinforcement learning. Intell Syst Appl 18:200216",
+            "journal-title": "Intell Syst Appl"
+          },
+          {
+            "issue": "8",
+            "key": "10_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "6916",
+            "DOI": "10.3390/su15086916",
+            "volume": "15",
+            "author": "J Ali",
+            "year": "2023",
+            "unstructured": "Ali J, Khan MF (2023) A trust-based secure parking allocation for IoT-enabled sustainable smart cities. Sustainability 15(8):6916",
+            "journal-title": "Sustainability"
+          },
+          {
+            "issue": "1",
+            "key": "10_CR5",
+            "first-page": "3178760",
+            "volume": "2022",
+            "author": "B Ali",
+            "year": "2022",
+            "unstructured": "Ali B, Hijjawi S, Campbell LH, Gregory MA, Li S (2022) A maturity framework for zero-trust security in multiaccess edge computing. Secur Commun Netw 2022(1):3178760",
+            "journal-title": "Secur Commun Netw"
+          },
+          {
+            "issue": "4",
+            "key": "10_CR6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.heliyon.2024.e26620",
+            "volume": "10",
+            "author": "Y Huang",
+            "year": "2024",
+            "unstructured": "Huang Y (2024) Smart home system using blockchain technology in green lighting environment in rural areas. Heliyon 10(4):e26620",
+            "journal-title": "Heliyon"
+          },
+          {
+            "key": "10_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "69282",
+            "DOI": "10.1109/ACCESS.2023.3288815",
+            "volume": "11",
+            "author": "RR Irshad",
+            "year": "2023",
+            "unstructured": "Irshad RR, Hussain S, Hussain I, Ahmad I, Yousif A, Alwayle IM, Alattab AA, Alalayah KM, Breslin JG, Badr MM, Rodrigues JJ (2023) An intelligent buffalo-based secure edge-enabled computing platform for heterogeneous IoT network in smart cities. IEEE Access 11:69282–69294",
+            "journal-title": "IEEE Access"
+          },
+          {
+            "key": "10_CR8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.adhoc.2024.103540",
+            "volume": "162",
+            "author": "D Javeed",
+            "year": "2024",
+            "unstructured": "Javeed D, Saeed MS, Adil M, Kumar P, Jolfaei A (2024) A federated learning-based zero trust intrusion detection system for Internet of Things. Ad Hoc Netw 162:103540",
+            "journal-title": "Ad Hoc Netw"
+          },
+          {
+            "issue": "1",
+            "key": "10_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "4",
+            "DOI": "10.1007/s43926-024-00056-7",
+            "volume": "4",
+            "author": "M Khan",
+            "year": "2024",
+            "unstructured": "Khan M, Hatami M, Zhao W, Chen Y (2024) A novel trusted hardware-based scalable security framework for IoT edge devices. Discov Internet Things 4(1):4",
+            "journal-title": "Discov Internet Things"
+          },
+          {
+            "key": "10_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "3747",
+            "DOI": "10.1007/s40747-021-00518-3",
+            "volume": "8",
+            "author": "R Latif",
+            "year": "2022",
+            "unstructured": "Latif R, Ahmed MU, Tahir S, Latif S, Iqbal W, Ahmad A (2022) A novel trust management model for edge computing. Complex Intell Syst 8:3747–3763",
+            "journal-title": "Complex Intell Syst"
+          },
+          {
+            "key": "10_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "441",
+            "DOI": "10.1007/s11277-021-08272-y",
+            "volume": "127",
+            "author": "Y Liu",
+            "year": "2022",
+            "unstructured": "Liu Y, Sun Q, Sharma A, Sharma A, Dhiman G (2022) Line monitoring and identification based on roadmap towards edge computing. Wireless Pers Commun 127:441–464",
+            "journal-title": "Wireless Pers Commun"
+          },
+          {
+            "issue": "1",
+            "key": "10_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "72",
+            "DOI": "10.1186/s13677-022-00345-y",
+            "volume": "11",
+            "author": "T Qayyum",
+            "year": "2022",
+            "unstructured": "Qayyum T, Trabelsi Z, Waqar Malik A, Hayawi K (2022) Mobility-aware hierarchical fog computing framework for Industrial Internet of Things (IIoT). J Cloud Comput 11(1):72",
+            "journal-title": "J Cloud Comput"
+          },
+          {
+            "issue": "5",
+            "key": "10_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "2921",
+            "DOI": "10.1007/s10586-022-03916-5",
+            "volume": "26",
+            "author": "T Saba",
+            "year": "2023",
+            "unstructured": "Saba T, Rehman A, Haseeb K, Alam T, Jeon G (2023) Cloud-edge load balancing distributed protocol for IoE services using swarm intelligence. Clust Comput 26(5):2921–2931",
+            "journal-title": "Clust Comput"
+          },
+          {
+            "issue": "1",
+            "key": "10_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "4",
+            "DOI": "10.1186/s13677-023-00557-w",
+            "volume": "13",
+            "author": "C Shu",
+            "year": "2024",
+            "unstructured": "Shu C, Chen Y, Tan C, Luo Y, Dou H (2024) Enhancing trust transfer in supply chain finance: a blockchain-based transitive trust model. J Cloud Comput 13(1):4",
+            "journal-title": "J Cloud Comput"
+          },
+          {
+            "issue": "1",
+            "key": "10_CR15",
+            "first-page": "6731277",
+            "volume": "2022",
+            "author": "Y Zhou",
+            "year": "2022",
+            "unstructured": "Zhou Y, Zhao B, An Y (2022) A novel trusted software base for commercial android devices using secure TF card. Secur Commun Netw 2022(1):6731277",
+            "journal-title": "Secur Commun Netw"
+          }
+        ],
+        "container-title": [
+          "IoT and Wireless Communication Networks",
+          "Empowering IoT with Distributed Edge Computing"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/978-981-96-9455-6_10",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              2
+            ]
+          ],
+          "date-time": "2026-01-02T01:02:00Z",
+          "timestamp": 1767315720000
+        },
+        "score": 59.891754,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/978-981-96-9455-6_10"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "ISBN": [
+          "9789819694549",
+          "9789819694556"
+        ],
+        "references-count": 15,
+        "URL": "https://doi.org/10.1007/978-981-96-9455-6_10",
+        "ISSN": [
+          "3004-9458"
+        ],
+        "issn-type": [
+          {
+            "value": "3004-9458",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2 January 2026",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              20
+            ]
+          ],
+          "date-time": "2026-08-20T16:27:01Z",
+          "timestamp": 1787243221910,
+          "version": "build-2736575974"
+        },
+        "reference-count": 56,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2024-02-01T00:00:00Z",
+              "timestamp": 1706745600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2024-02-01T00:00:00Z",
+              "timestamp": 1706745600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2024-02-01T00:00:00Z",
+              "timestamp": 1706745600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-017"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2024-02-01T00:00:00Z",
+              "timestamp": 1706745600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2024-02-01T00:00:00Z",
+              "timestamp": 1706745600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-012"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2024-02-01T00:00:00Z",
+              "timestamp": 1706745600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2024-02-01T00:00:00Z",
+              "timestamp": 1706745600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-004"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100002383",
+            "name": "King Saud University",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100002383",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100004242",
+            "name": "Princess Nora bint Abdulrahman University",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100004242",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100007446",
+            "name": "King Khalid University",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100007446",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Computer Communications"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.comcom.2024.01.021",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              23
+            ]
+          ],
+          "date-time": "2024-01-23T11:51:28Z",
+          "timestamp": 1706010688000
+        },
+        "page": "374-386",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 15,
+        "special_numbering": "C",
+        "title": [
+          "Efficient resource allocation and user association in NOMA-enabled vehicular-aided HetNets with high altitude platforms"
+        ],
+        "prefix": "10.1016",
+        "volume": "216",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2133-5286",
+            "authenticated-orcid": false,
+            "given": "Ali",
+            "family": "Nauman",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mashael",
+            "family": "Maashi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hend K.",
+            "family": "Alkahtani",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fahd N.",
+            "family": "Al-Wesabi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nojood O.",
+            "family": "Aljehane",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mohammed",
+            "family": "Assiri",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sara Saadeldeen",
+            "family": "Ibrahim",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wali Ullah",
+            "family": "Khan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b1",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1109/TWC.2023.3263116",
+            "article-title": "Rate splitting multiple access for next generation cognitive radio enabled LEO satellite networks",
+            "author": "Khan",
+            "year": "2023",
+            "journal-title": "IEEE Trans. Wireless Commun."
+          },
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b2",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1109/TWC.2023.3266344",
+            "article-title": "Handoff-aware distributed computing in high altitude platform station (HAPS)–assisted vehicular networks",
+            "author": "Ren",
+            "year": "2023",
+            "journal-title": "IEEE Trans. Wireless Commun."
+          },
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b3",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1109/JIOT.2023.3279357",
+            "article-title": "A survey on STAR-RIS: Use cases, recent advances, and future research challenges",
+            "author": "Ahmed",
+            "year": "2023",
+            "journal-title": "IEEE Internet Things J."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.comcom.2024.01.021_b4",
+            "doi-asserted-by": "crossref",
+            "first-page": "18",
+            "DOI": "10.1109/MCOM.001.2100802",
+            "article-title": "Next generation mega satellite networks for access equality: Opportunities, challenges, and performance",
+            "volume": "60",
+            "author": "Al Homssi",
+            "year": "2022",
+            "journal-title": "IEEE Commun. Mag."
+          },
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b5",
+            "article-title": "Intelligent reflecting surface-aided integrated terrestrial-satellite networks",
+            "author": "Dong",
+            "year": "2022",
+            "journal-title": "IEEE Trans. Wireless Commun."
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.comcom.2024.01.021_b6",
+            "doi-asserted-by": "crossref",
+            "first-page": "22",
+            "DOI": "10.1109/MWC.001.2200125",
+            "article-title": "Opportunities for physical layer security in UAV communication enhanced with intelligent reflective surfaces",
+            "volume": "29",
+            "author": "Khan",
+            "year": "2022",
+            "journal-title": "IEEE Wirel. Commun."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.comcom.2024.01.021_b7",
+            "doi-asserted-by": "crossref",
+            "first-page": "729",
+            "DOI": "10.1109/COMST.2021.3066905",
+            "article-title": "A vision and framework for the high altitude platform station (HAPS) networks of the future",
+            "volume": "23",
+            "author": "Kurt",
+            "year": "2021",
+            "journal-title": "IEEE Commun. Surv. Tutor."
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.comcom.2024.01.021_b8",
+            "doi-asserted-by": "crossref",
+            "first-page": "75",
+            "DOI": "10.1109/MCOM.002.2101048",
+            "article-title": "Can high altitude platform stations make 6G sustainable?",
+            "volume": "60",
+            "author": "Renga",
+            "year": "2022",
+            "journal-title": "IEEE Commun. Mag."
+          },
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b9",
+            "series-title": "2022 IEEE 95th Vehicular Technology Conference",
+            "first-page": "1",
+            "article-title": "Interference coordination method for integrated HAPS-terrestrial networks",
+            "author": "Liu",
+            "year": "2022"
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.comcom.2024.01.021_b10",
+            "doi-asserted-by": "crossref",
+            "first-page": "94",
+            "DOI": "10.1109/MNET.2019.1800426",
+            "article-title": "Enabling efficient service function chains at terrestrial-satellite hybrid cloud networks",
+            "volume": "33",
+            "author": "Feng",
+            "year": "2019",
+            "journal-title": "IEEE Netw."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.comcom.2024.01.021_b11",
+            "doi-asserted-by": "crossref",
+            "first-page": "73",
+            "DOI": "10.1109/MNET.011.2100070",
+            "article-title": "Flexible and distributed mobility management for integrated terrestrial-satellite networks: challenges, architectures, and approaches",
+            "volume": "35",
+            "author": "Ji",
+            "year": "2021",
+            "journal-title": "IEEE Netw."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.comcom.2024.01.021_b12",
+            "doi-asserted-by": "crossref",
+            "first-page": "1065",
+            "DOI": "10.1109/TWC.2020.3030704",
+            "article-title": "Resource allocation for NOMA based space-terrestrial satellite networks",
+            "volume": "20",
+            "author": "Wang",
+            "year": "2020",
+            "journal-title": "IEEE Trans. Wireless Commun."
+          },
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b13",
+            "article-title": "Energy efficiency optimization for backscatter enhanced NOMA cooperative V2X communications under imperfect CSI",
+            "author": "Khan",
+            "year": "2022",
+            "journal-title": "IEEE Trans. Intell. Transp. Syst."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.comcom.2024.01.021_b14",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1002/itl2.265",
+            "article-title": "Joint optimization of NOMA-enabled backscatter communications for beyond 5G IoT networks",
+            "volume": "4",
+            "author": "Khan",
+            "year": "2021",
+            "journal-title": "Internet Technol. Lett."
+          },
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b15",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1109/TITS.2023.3240159",
+            "article-title": "Energy-efficient backscatter aided uplink NOMA roadside sensor communications under channel estimation errors",
+            "author": "Ihsan",
+            "year": "2023",
+            "journal-title": "IEEE Trans. Intell. Transp. Syst."
+          },
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b16",
+            "article-title": "Energy-efficient backscatter-assisted coded cooperative-NOMA for B5G wireless communications",
+            "author": "Asif",
+            "year": "2022",
+            "journal-title": "IEEE Trans. Green Commun. Netw."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.comcom.2024.01.021_b17",
+            "doi-asserted-by": "crossref",
+            "first-page": "5270",
+            "DOI": "10.1109/JSYST.2022.3144457",
+            "article-title": "Integrated satellite-terrestrial networks with coordinated C-NOMA and relay transmission",
+            "volume": "16",
+            "author": "Zhao",
+            "year": "2022",
+            "journal-title": "IEEE Syst. J."
+          },
+          {
+            "issue": "8",
+            "key": "10.1016/j.comcom.2024.01.021_b18",
+            "doi-asserted-by": "crossref",
+            "first-page": "5056",
+            "DOI": "10.1109/TCOMM.2020.2988564",
+            "article-title": "Interference management in NOMA-based fog-radio access networks via scheduling and power allocation",
+            "volume": "68",
+            "author": "Randrianantenaina",
+            "year": "2020",
+            "journal-title": "IEEE Trans. Commun."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.comcom.2024.01.021_b19",
+            "doi-asserted-by": "crossref",
+            "first-page": "3109",
+            "DOI": "10.1109/JSYST.2020.2997731",
+            "article-title": "Cross-layer interference management scheme for D2D mobile users using NOMA",
+            "volume": "15",
+            "author": "Budhiraja",
+            "year": "2020",
+            "journal-title": "IEEE Syst. J."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.comcom.2024.01.021_b20",
+            "doi-asserted-by": "crossref",
+            "first-page": "1677",
+            "DOI": "10.1109/TCOMM.2018.2879508",
+            "article-title": "Distributed cluster formation and power-bandwidth allocation for imperfect NOMA in DL-HetNets",
+            "volume": "67",
+            "author": "Celik",
+            "year": "2018",
+            "journal-title": "IEEE Trans. Commun."
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.comcom.2024.01.021_b21",
+            "doi-asserted-by": "crossref",
+            "first-page": "3766",
+            "DOI": "10.1109/TCOMM.2020.2979971",
+            "article-title": "Energy-efficient resource allocation for NOMA based small cell networks with wireless backhauls",
+            "volume": "68",
+            "author": "Muhammed",
+            "year": "2020",
+            "journal-title": "IEEE Trans. Commun."
+          },
+          {
+            "issue": "10",
+            "key": "10.1016/j.comcom.2024.01.021_b22",
+            "doi-asserted-by": "crossref",
+            "first-page": "7940",
+            "DOI": "10.1016/j.jksuci.2022.07.011",
+            "article-title": "Cooperative backscatter NOMA with imperfect SIC: towards energy efficient sum rate maximization in sustainable 6G networks",
+            "volume": "34",
+            "author": "Ahmed",
+            "year": "2022",
+            "journal-title": "J. King Saud Univ. Comput. Inf. Sci."
+          },
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b23",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.dcan.2022.10.028",
+            "article-title": "Ambient backcom in beyond 5G NOMA networks: A multi-cell resource allocation framework",
+            "author": "Khan",
+            "year": "2022",
+            "journal-title": "Digit. Commun. Netw."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.comcom.2024.01.021_b24",
+            "doi-asserted-by": "crossref",
+            "first-page": "1945",
+            "DOI": "10.1109/TGCN.2022.3209617",
+            "article-title": "Energy-efficient IRS-aided NOMA beamforming for 6G wireless communications",
+            "volume": "6",
+            "author": "Ihsan",
+            "year": "2022",
+            "journal-title": "IEEE Trans. Green Commun. Netw."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.comcom.2024.01.021_b25",
+            "doi-asserted-by": "crossref",
+            "first-page": "3230",
+            "DOI": "10.1109/JIOT.2020.2966503",
+            "article-title": "Network utility maximization resource allocation for NOMA in satellite-based Internet of Things",
+            "volume": "7",
+            "author": "Jiao",
+            "year": "2020",
+            "journal-title": "IEEE Internet Things J."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.comcom.2024.01.021_b26",
+            "doi-asserted-by": "crossref",
+            "first-page": "1959",
+            "DOI": "10.1109/JIOT.2020.3015995",
+            "article-title": "Robust design for NOMA-based multibeam LEO satellite Internet of Things",
+            "volume": "8",
+            "author": "Chu",
+            "year": "2020",
+            "journal-title": "IEEE Internet Things J."
+          },
+          {
+            "issue": "10",
+            "key": "10.1016/j.comcom.2024.01.021_b27",
+            "doi-asserted-by": "crossref",
+            "first-page": "2253",
+            "DOI": "10.1109/JSAC.2017.2724478",
+            "article-title": "Non-orthogonal multiple access based integrated terrestrial-satellite networks",
+            "volume": "35",
+            "author": "Zhu",
+            "year": "2017",
+            "journal-title": "IEEE J. Sel. Areas Commun."
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.comcom.2024.01.021_b28",
+            "doi-asserted-by": "crossref",
+            "first-page": "5284",
+            "DOI": "10.1109/TWC.2019.2935433",
+            "article-title": "User association and power allocation for multi-cell non-orthogonal multiple access networks",
+            "volume": "18",
+            "author": "Wang",
+            "year": "2019",
+            "journal-title": "IEEE Trans. Wireless Commun."
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.comcom.2024.01.021_b29",
+            "doi-asserted-by": "crossref",
+            "first-page": "2074",
+            "DOI": "10.1109/JSAC.2020.3000888",
+            "article-title": "Energy efficient user clustering, hybrid precoding and power optimization in terahertz MIMO-NOMA systems",
+            "volume": "38",
+            "author": "Zhang",
+            "year": "2020",
+            "journal-title": "IEEE J. Sel. Areas Commun."
+          },
+          {
+            "issue": "12",
+            "key": "10.1016/j.comcom.2024.01.021_b30",
+            "doi-asserted-by": "crossref",
+            "first-page": "8408",
+            "DOI": "10.1109/TCOMM.2019.2939316",
+            "article-title": "Advanced user association in non-orthogonal multiple access-based fog radio access networks",
+            "volume": "67",
+            "author": "Qi",
+            "year": "2019",
+            "journal-title": "IEEE Trans. Commun."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.comcom.2024.01.021_b31",
+            "doi-asserted-by": "crossref",
+            "first-page": "131",
+            "DOI": "10.1109/MCOM.2014.6736753",
+            "article-title": "Cache in the air: Exploiting content caching and delivery techniques for 5G systems",
+            "volume": "52",
+            "author": "Wang",
+            "year": "2014",
+            "journal-title": "IEEE Commun. Mag."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.comcom.2024.01.021_b32",
+            "doi-asserted-by": "crossref",
+            "first-page": "1710",
+            "DOI": "10.1109/COMST.2018.2820021",
+            "article-title": "A survey of caching techniques in cellular networks: Research issues and challenges in content placement and delivery strategies",
+            "volume": "20",
+            "author": "Li",
+            "year": "2018",
+            "journal-title": "IEEE Commun. Surv. Tutor."
+          },
+          {
+            "issue": "18",
+            "key": "10.1016/j.comcom.2024.01.021_b33",
+            "doi-asserted-by": "crossref",
+            "first-page": "14202",
+            "DOI": "10.1109/JIOT.2021.3068141",
+            "article-title": "Energy-efficient multiaccess edge computing for terrestrial-satellite Internet of Things",
+            "volume": "8",
+            "author": "Song",
+            "year": "2021",
+            "journal-title": "IEEE Internet Things J."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.comcom.2024.01.021_b34",
+            "doi-asserted-by": "crossref",
+            "first-page": "2367",
+            "DOI": "10.1109/TWC.2020.2964236",
+            "article-title": "Energy efficiency and traffic offloading optimization in integrated satellite/terrestrial radio access networks",
+            "volume": "19",
+            "author": "Li",
+            "year": "2020",
+            "journal-title": "IEEE Trans. Wireless Commun."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.comcom.2024.01.021_b35",
+            "doi-asserted-by": "crossref",
+            "first-page": "1485",
+            "DOI": "10.1109/LWC.2019.2923410",
+            "article-title": "Dynamic power control for NOMA transmissions in wireless caching networks",
+            "volume": "8",
+            "author": "Fu",
+            "year": "2019",
+            "journal-title": "IEEE Wireless Commun. Lett."
+          },
+          {
+            "issue": "10",
+            "key": "10.1016/j.comcom.2024.01.021_b36",
+            "doi-asserted-by": "crossref",
+            "first-page": "6899",
+            "DOI": "10.1109/TWC.2020.3006922",
+            "article-title": "Cache-aided NOMA mobile edge computing: A reinforcement learning approach",
+            "volume": "19",
+            "author": "Yang",
+            "year": "2020",
+            "journal-title": "IEEE Trans. Wireless Commun."
+          },
+          {
+            "issue": "10",
+            "key": "10.1016/j.comcom.2024.01.021_b37",
+            "doi-asserted-by": "crossref",
+            "first-page": "4854",
+            "DOI": "10.1109/TCOMM.2018.2841929",
+            "article-title": "NOMA assisted wireless caching: Strategies and performance analysis",
+            "volume": "66",
+            "author": "Ding",
+            "year": "2018",
+            "journal-title": "IEEE Trans. Commun."
+          },
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b38",
+            "series-title": "Joint beamforming and user association design for integrated HAPS-terrestrial networks",
+            "author": "Shamsabadi",
+            "year": "2023"
+          },
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b39",
+            "series-title": "HAPS-enabled sustainability provision in cellular networks through cell-switching",
+            "author": "Koç",
+            "year": "2023"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.comcom.2024.01.021_b40",
+            "doi-asserted-by": "crossref",
+            "first-page": "679",
+            "DOI": "10.1109/LWC.2023.3239210",
+            "article-title": "Resource-efficient HAPS-RIS enabled beyond-cell communications",
+            "volume": "12",
+            "author": "Alfattani",
+            "year": "2023",
+            "journal-title": "IEEE Wireless Commun. Lett."
+          },
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b41",
+            "doi-asserted-by": "crossref",
+            "first-page": "226",
+            "DOI": "10.1109/OJCOMS.2023.3234193",
+            "article-title": "Analysis of a HAPS-aided GNSS in urban areas using a RAIM algorithm",
+            "volume": "4",
+            "author": "Zheng",
+            "year": "2023",
+            "journal-title": "IEEE Open J. Commun. Soc."
+          },
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b42",
+            "doi-asserted-by": "crossref",
+            "first-page": "208",
+            "DOI": "10.1109/OJVT.2022.3232272",
+            "article-title": "Optical HAPS eavesdropping in vertical heterogeneous networks",
+            "volume": "4",
+            "author": "Erdogan",
+            "year": "2023",
+            "journal-title": "IEEE Open J. Veh. Technol."
+          },
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b43",
+            "series-title": "2022 IEEE Globecom Workshops",
+            "first-page": "1377",
+            "article-title": "Power allocation for a HAPS-enabled MIMO NOMA system with spatially correlated channels",
+            "author": "Shafie",
+            "year": "2022"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.comcom.2024.01.021_b44",
+            "doi-asserted-by": "crossref",
+            "first-page": "3636",
+            "DOI": "10.1109/TVT.2022.3220647",
+            "article-title": "User selection and codebook design for NOMA-based high altitude platform station (HAPS) communications",
+            "volume": "72",
+            "author": "Cumalı",
+            "year": "2022",
+            "journal-title": "IEEE Trans. Veh. Technol."
+          },
+          {
+            "issue": "12",
+            "key": "10.1016/j.comcom.2024.01.021_b45",
+            "doi-asserted-by": "crossref",
+            "first-page": "2585",
+            "DOI": "10.1109/LWC.2022.3210435",
+            "article-title": "Handling interference in integrated HAPS-terrestrial networks through radio resource management",
+            "volume": "11",
+            "author": "Shamsabadi",
+            "year": "2022",
+            "journal-title": "IEEE Wireless Commun. Lett."
+          },
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b46",
+            "doi-asserted-by": "crossref",
+            "first-page": "1963",
+            "DOI": "10.1109/OJCOMS.2022.3217447",
+            "article-title": "An accurate model for computation offloading in 6G networks and a HAPS-based case study",
+            "volume": "3",
+            "author": "Ovatman",
+            "year": "2022",
+            "journal-title": "IEEE Open J. Commun. Soc."
+          },
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b47",
+            "series-title": "ICC 2022-IEEE International Conference on Communications",
+            "first-page": "249",
+            "article-title": "A cell-free scheme for UAV base stations with HAPS-assisted backhauling in terahertz band",
+            "author": "Abbasi",
+            "year": "2022"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.comcom.2024.01.021_b48",
+            "doi-asserted-by": "crossref",
+            "first-page": "147",
+            "DOI": "10.1109/MCOMSTD.011.2100038",
+            "article-title": "5G from space: An overview of 3GPP non-terrestrial networks",
+            "volume": "5",
+            "author": "Lin",
+            "year": "2021",
+            "journal-title": "IEEE Commun. Stand. Mag."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.comcom.2024.01.021_b49",
+            "doi-asserted-by": "crossref",
+            "first-page": "77",
+            "DOI": "10.1109/MCOMSTD.0001.2200001",
+            "article-title": "An overview of 5G advanced evolution in 3GPP release 18",
+            "volume": "6",
+            "author": "Lin",
+            "year": "2022",
+            "journal-title": "IEEE Commun. Stand. Mag."
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.comcom.2024.01.021_b50",
+            "doi-asserted-by": "crossref",
+            "first-page": "120",
+            "DOI": "10.1109/MWC.007.2100553",
+            "article-title": "Developing NOMA to next generation multiple access: Future vision and research opportunities",
+            "volume": "29",
+            "author": "Liu",
+            "year": "2022",
+            "journal-title": "IEEE Wirel. Commun."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.comcom.2024.01.021_b51",
+            "doi-asserted-by": "crossref",
+            "first-page": "1037",
+            "DOI": "10.1109/JSAC.2022.3145234",
+            "article-title": "Evolution of NOMA toward next generation multiple access (NGMA) for 6G",
+            "volume": "40",
+            "author": "Liu",
+            "year": "2022",
+            "journal-title": "IEEE J. Sel. Areas Commun."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.comcom.2024.01.021_b52",
+            "doi-asserted-by": "crossref",
+            "first-page": "3250",
+            "DOI": "10.1007/s12083-021-01176-5",
+            "article-title": "Energy efficiency maximization for beyond 5G NOMA-enabled heterogeneous networks",
+            "volume": "14",
+            "author": "Khan",
+            "year": "2021",
+            "journal-title": "Peer-to-Peer Netw. Appl."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.comcom.2024.01.021_b53",
+            "doi-asserted-by": "crossref",
+            "first-page": "2002",
+            "DOI": "10.1109/TCOMM.2018.2883744",
+            "article-title": "Flexible multi-group single-carrier modulation: Subcarrier mapping and power allocation optimization",
+            "volume": "67",
+            "author": "Yang",
+            "year": "2018",
+            "journal-title": "IEEE Trans. Commun."
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.comcom.2024.01.021_b54",
+            "doi-asserted-by": "crossref",
+            "first-page": "7862",
+            "DOI": "10.1109/TII.2022.3161029",
+            "article-title": "NOMA-enabled backscatter communications for green transportation in automotive-industry 5.0",
+            "volume": "18",
+            "author": "Khan",
+            "year": "2022",
+            "journal-title": "IEEE Trans. Ind. Inform."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.comcom.2024.01.021_b55",
+            "doi-asserted-by": "crossref",
+            "first-page": "3531",
+            "DOI": "10.1109/TWC.2016.2522958",
+            "article-title": "Joint power and admission control for spectral and energy efficiency maximization in heterogeneous OFDMA networks",
+            "volume": "15",
+            "author": "Lai",
+            "year": "2016",
+            "journal-title": "IEEE Trans. Wireless Commun."
+          },
+          {
+            "key": "10.1016/j.comcom.2024.01.021_b56",
+            "series-title": "Convex Optimization",
+            "author": "Boyd",
+            "year": "2004"
+          }
+        ],
+        "container-title": [
+          "Computer Communications"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0140366424000215?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0140366424000215?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2025-09-25T23:47:34Z",
+          "timestamp": 1758844054000
+        },
+        "score": 57.116955,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0140366424000215"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "references-count": 56,
+        "alternative-id": [
+          "S0140366424000215"
+        ],
+        "URL": "https://doi.org/10.1016/j.comcom.2024.01.021",
+        "ISSN": [
+          "0140-3664"
+        ],
+        "issn-type": [
+          {
+            "value": "0140-3664",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Efficient resource allocation and user association in NOMA-enabled vehicular-aided HetNets with high altitude platforms",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Computer Communications",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.comcom.2024.01.021",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2024 Elsevier B.V. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source_record": {
+      "source_file_year": 2024,
+      "source_row_index": 85,
+      "title": "6G-Enabled Consumer Electronics Device Intrusion Detection With Federated Meta-Learning and Digital Twins in a Meta-Verse Environment",
+      "authors": "He, SL; Du, CW; Hossain, MS",
+      "journal": "IEEE TRANSACTIONS ON CONSUMER ELECTRONICS",
+      "existing_doi": null,
+      "missing_fields": [
+        "DOI",
+        "Abstract"
+      ],
+      "status": "pending"
+    },
+    "request_url": "https://api.crossref.org/works?query.bibliographic=6G-Enabled+Consumer+Electronics+Device+Intrusion+Detection+With+Federated+Meta-Learning+and+Digital+Twins+in+a+Meta-Verse+Environment+He%2C+SL%3B+Du%2C+CW%3B+Hossain%2C+MS+IEEE+TRANSACTIONS+ON+CONSUMER+ELECTRONICS&rows=3",
+    "status": "pending_manual_review",
+    "retrieved_at": "2026-09-10T13:54:05.354048+00:00",
+    "response_file": "data/raw/crossref/sample_20260910T135347540008Z_3.json",
+    "candidates": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              29
+            ]
+          ],
+          "date-time": "2026-08-29T15:34:23Z",
+          "timestamp": 1788017663825,
+          "version": "build-2784847793"
+        },
+        "reference-count": 50,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2024-02-01T00:00:00Z",
+              "timestamp": 1706745600000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2024-02-01T00:00:00Z",
+              "timestamp": 1706745600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2024-02-01T00:00:00Z",
+              "timestamp": 1706745600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Trans. Consumer Electron."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1109/tce.2023.3321846",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              3
+            ]
+          ],
+          "date-time": "2023-10-03T17:47:39Z",
+          "timestamp": 1696355259000
+        },
+        "page": "3111-3119",
+        "source": "Crossref",
+        "is-referenced-by-count": 48,
+        "title": [
+          "6G-Enabled Consumer Electronics Device Intrusion Detection With Federated Meta-Learning and Digital Twins in a Meta-Verse Environment"
+        ],
+        "prefix": "10.1109",
+        "volume": "70",
+        "author": [
+          {
+            "given": "Suli",
+            "family": "He",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Electronics, Software Engineering Institute of Guangzhou, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chengwen",
+            "family": "Du",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Electronics, Software Engineering Institute of Guangzhou, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5906-9422",
+            "authenticated-orcid": false,
+            "given": "M. Shamim",
+            "family": "Hossain",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Software Engineering, College of Computer and Information Sciences, King Saud University, Riyadh, Saudi Arabia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "first-page": "1",
+            "article-title": "The future of metaverse: Security issues, requirements, and solutions",
+            "volume": "12",
+            "author": "Choi",
+            "year": "2022",
+            "journal-title": "Human-Centric Comput. Inf. Sci."
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/APWCS55727.2022.9906483"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCE.2022.3214568"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tce.2023.3318727"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.23919/JCC.2020.09.009"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MCOM.001.21143"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MCE.2018.2851723"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JPROC.2020.2998530"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.future.2022.11.002"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ACCESS.2017.2657006"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MCOM.001.2000343"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0167-4048(01)00806-9"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.future.2017.01.029"
+          },
+          {
+            "key": "ref14",
+            "volume-title": "MetaCIDS: A metaverse collaborative intrusion detection system based on blockchain and federated learning",
+            "author": "Truong",
+            "year": "2023"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TII.2022.3149902"
+          },
+          {
+            "key": "ref16",
+            "first-page": "1",
+            "article-title": "Detection of adversarial attacks in AI-based intrusion detection systems using explainable AI",
+            "volume": "11",
+            "author": "Tcydenova",
+            "year": "2021",
+            "journal-title": "Human-Centric Comput. Inform. Sci."
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/COMST.2022.3171465"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cose.2008.08.003"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TITS.2022.3209903"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.comnet.2021.108693"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/GCCE53005.2021.9621784"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/app9204396"
+          },
+          {
+            "key": "ref23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TETCI.2017.2772792"
+          },
+          {
+            "key": "ref24",
+            "first-page": "1273",
+            "article-title": "Communication-efficient learning of deep networks from decentralized data",
+            "volume-title": "Proc. AISTATS",
+            "author": "McMahan"
+          },
+          {
+            "key": "ref25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.comcom.2022.09.012"
+          },
+          {
+            "key": "ref26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TDSC.2022.3146448"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MNET.011.2000286"
+          },
+          {
+            "key": "ref28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1609/aaai.v35i11.17219"
+          },
+          {
+            "key": "ref29",
+            "article-title": "Federated learning with non-IID data",
+            "author": "Zhao",
+            "year": "2018",
+            "journal-title": "arXiv:1806.00582"
+          },
+          {
+            "key": "ref30",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TPDS.2020.3009406"
+          },
+          {
+            "key": "ref31",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IJCNN.2008.4633969"
+          },
+          {
+            "key": "ref32",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TKDE.2014.2345380"
+          },
+          {
+            "key": "ref33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/BigData52589.2021.9671807"
+          },
+          {
+            "key": "ref34",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/9781118646106.ch8"
+          },
+          {
+            "key": "ref35",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.eswa.2021.115011"
+          },
+          {
+            "key": "ref36",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/SISY.2017.8080566"
+          },
+          {
+            "key": "ref37",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/PST.2018.8514157"
+          },
+          {
+            "key": "ref38",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TVT.2021.3076780"
+          },
+          {
+            "key": "ref39",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TII.2020.3023430"
+          },
+          {
+            "key": "ref40",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.14722/diss.2020.23003"
+          },
+          {
+            "key": "ref41",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TITS.2021.3119968"
+          },
+          {
+            "key": "ref42",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TKDE.2008.239"
+          },
+          {
+            "key": "ref43",
+            "first-page": "1",
+            "article-title": "Data resampling for federated learning with non-IID labels",
+            "volume-title": "Proc. IJCAI",
+            "author": "Tang"
+          },
+          {
+            "key": "ref44",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JIOT.2020.3011726"
+          },
+          {
+            "key": "ref45",
+            "first-page": "1",
+            "article-title": "An agnostic approach to federated learning with class imbalance",
+            "volume-title": "Proc. ICLR",
+            "author": "Shen"
+          },
+          {
+            "key": "ref46",
+            "first-page": "19586",
+            "article-title": "An efficient framework for clustered federated learning",
+            "volume-title": "Proc. NeurIPS",
+            "author": "Ghosh"
+          },
+          {
+            "key": "ref47",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/s20205936"
+          },
+          {
+            "key": "ref48",
+            "first-page": "1917",
+            "article-title": "Meta-weight-net: Learning an explicit mapping for sample weighting",
+            "volume-title": "Proc. NeurIPS",
+            "author": "Shu"
+          },
+          {
+            "key": "ref49",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JIOT.2020.2991401"
+          },
+          {
+            "key": "ref50",
+            "first-page": "1856",
+            "article-title": "Soft actor-critic: Off-policy maximum entropy deep reinforcement learning with a stochastic actor",
+            "volume-title": "Proc. ICML",
+            "author": "Haarnoja"
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Consumer Electronics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/30/10510045/10271257.pdf?arnumber=10271257",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              3
+            ]
+          ],
+          "date-time": "2024-05-03T18:50:56Z",
+          "timestamp": 1714762256000
+        },
+        "score": 137.46936,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/10271257/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "references-count": 50,
+        "journal-issue": {
+          "issue": "1"
+        },
+        "URL": "https://doi.org/10.1109/tce.2023.3321846",
+        "ISSN": [
+          "0098-3063",
+          "1558-4127"
+        ],
+        "issn-type": [
+          {
+            "value": "0098-3063",
+            "type": "print"
+          },
+          {
+            "value": "1558-4127",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              28
+            ]
+          ],
+          "date-time": "2026-08-28T09:54:15Z",
+          "timestamp": 1787910855745,
+          "version": "build-2784847793"
+        },
+        "reference-count": 12,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "2",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2026-05-01T00:00:00Z",
+              "timestamp": 1777593600000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2026-05-01T00:00:00Z",
+              "timestamp": 1777593600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2026-05-01T00:00:00Z",
+              "timestamp": 1777593600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100004686",
+            "name": "Deanship of Scientific Research, Vice Presidency for Graduate Studies and Scientific Research, King Faisal University, Saudi Arabia",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "KFU254126"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "KFU254126"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100004686",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Trans. Consumer Electron."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1109/tce.2025.3634581",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              19
+            ]
+          ],
+          "date-time": "2025-11-19T18:45:40Z",
+          "timestamp": 1763577940000
+        },
+        "page": "4183-4190",
+        "source": "Crossref",
+        "is-referenced-by-count": 3,
+        "title": [
+          "Federated Learning-Enabled Digital Twins for Privacy-Preserving Cardiovascular Disease Detection in Consumer Electronics"
+        ],
+        "prefix": "10.1109",
+        "volume": "72",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0004-9427-8296",
+            "authenticated-orcid": false,
+            "given": "Soufiane Ben",
+            "family": "Othman",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Applied College, King Faisal University, Al Ahsa, Saudi Arabia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4385-0975",
+            "authenticated-orcid": false,
+            "given": "Chinmay",
+            "family": "Chakraborty",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Centre of Innovation and Research (COIR) in Medical Technology, Kalinga Institute of Industrial Technology (KIIT) Deemed to be University, Bhubaneswar, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1458-7071",
+            "authenticated-orcid": false,
+            "given": "Saranjit",
+            "family": "Singh",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Kalinga Institute of Industrial Technology (KIIT) Deemed to be University, Bhubaneswar, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6737-1370",
+            "authenticated-orcid": false,
+            "given": "Mohamed Amine",
+            "family": "frikha",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Applied College, King Faisal University, Al Ahsa, Saudi Arabia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tce.2024.3367929"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-031-73679-7_5"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tce.2025.3603592"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/diagnostics14242891"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10115-024-02273-6"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tce.2024.3351154"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tce.2025.3535753"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.compeleceng.2025.110561"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tce.2025.3598355"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tce.2025.3526801"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tits.2024.3461679"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tce.2024.3499959"
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Consumer Electronics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/30/11553428/11259495.pdf?arnumber=11259495",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              9
+            ]
+          ],
+          "date-time": "2026-06-09T06:13:22Z",
+          "timestamp": 1780985602000
+        },
+        "score": 75.81305,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/11259495/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "references-count": 12,
+        "journal-issue": {
+          "issue": "2"
+        },
+        "URL": "https://doi.org/10.1109/tce.2025.3634581",
+        "ISSN": [
+          "0098-3063",
+          "1558-4127"
+        ],
+        "issn-type": [
+          {
+            "value": "0098-3063",
+            "type": "print"
+          },
+          {
+            "value": "1558-4127",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              2
+            ]
+          ],
+          "date-time": "2026-09-02T14:01:24Z",
+          "timestamp": 1788357684513,
+          "version": "build-2803163510"
+        },
+        "reference-count": 33,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  11,
+                  1
+                ]
+              ],
+              "date-time": "2025-11-01T00:00:00Z",
+              "timestamp": 1761955200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Trans. Consumer Electron."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              11
+            ]
+          ]
+        },
+        "DOI": "10.1109/tce.2025.3625081",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              23
+            ]
+          ],
+          "date-time": "2025-10-23T17:51:24Z",
+          "timestamp": 1761241884000
+        },
+        "page": "12037-12046",
+        "source": "Crossref",
+        "is-referenced-by-count": 9,
+        "title": [
+          "ZTID-IoV: Zero-Trust Intrusion Detection in IoV Using Neurosymbolic AI Approach With Federated Meta-Learning"
+        ],
+        "prefix": "10.1109",
+        "volume": "71",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1030-1275",
+            "authenticated-orcid": false,
+            "given": "Farhan",
+            "family": "Ullah",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Cybersecurity Center, Prince Mohammad Bin Fahd University, Al Khobar, Saudi Arabia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9851-4103",
+            "authenticated-orcid": false,
+            "given": "Gautam",
+            "family": "Srivastava",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Math and Computer Science, Brandon University, Brandon, MB, Canada"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8852-8317",
+            "authenticated-orcid": false,
+            "given": "Leonardo",
+            "family": "Mostarda",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Mathematics and Computer Science, University of Perugia, Perugia, Italy"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9810-1285",
+            "authenticated-orcid": false,
+            "given": "Umar",
+            "family": "Raza",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Engineering, Faculty of Science and Engineering, Manchester Metropolitan University, Manchester, U.K."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCE.2023.3328020"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCE.2023.3324081"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.procs.2020.04.133"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MVT.2017.2670859"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/INFOCOMWKSHPS57453.2023.10225917"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TITS.2025.3558849"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11036-019-01353-0"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JIOT.2023.3283408"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.knosys.2021.107086"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/SDS.2018.8370435"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/GLOBECOM52923.2024.10901423"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TITS.2021.3102613"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TNSE.2023.3304556"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JIOT.2021.3077803"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cose.2024.104067"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIFS.2023.3297369"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JIOT.2025.3526379"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3727643"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIFS.2024.3516548"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JIOT.2024.3522863"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.5220/0006639801080116"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.iot.2024.101209"
+          },
+          {
+            "key": "ref23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3416013.3426446"
+          },
+          {
+            "key": "ref24",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cose.2011.05.008"
+          },
+          {
+            "key": "ref25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.comnet.2023.110072"
+          },
+          {
+            "key": "ref26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MNET.011.1900317"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tbdata.2022.3190835"
+          },
+          {
+            "key": "ref28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.dcan.2022.03.007"
+          },
+          {
+            "key": "ref29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.18637/jss.v087.i07"
+          },
+          {
+            "key": "ref30",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.inffus.2019.01.002"
+          },
+          {
+            "key": "ref31",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCE.2024.3511615"
+          },
+          {
+            "key": "ref32",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s12083-025-02014-8"
+          },
+          {
+            "key": "ref33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCE.2023.3321846"
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Consumer Electronics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/30/11306167/11215719.pdf?arnumber=11215719",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              22
+            ]
+          ],
+          "date-time": "2025-12-22T18:43:20Z",
+          "timestamp": 1766429000000
+        },
+        "score": 68.393555,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/11215719/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              11
+            ]
+          ]
+        },
+        "references-count": 33,
+        "journal-issue": {
+          "issue": "4"
+        },
+        "URL": "https://doi.org/10.1109/tce.2025.3625081",
+        "ISSN": [
+          "0098-3063",
+          "1558-4127"
+        ],
+        "issn-type": [
+          {
+            "value": "0098-3063",
+            "type": "print"
+          },
+          {
+            "value": "1558-4127",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              11
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "source_record": {
+      "source_file_year": 2024,
+      "source_row_index": 86,
+      "title": "6GTelMED: Resources Recommendation Framework on 6G-Enabled Distributed Telemedicine Using Edge-AI",
+      "authors": "Ahmed, ST; Patil, KK; Kumar, SS; Dhanaraj, RK; Khan, SB; Alzahrani, S; Rani, S",
+      "journal": "IEEE TRANSACTIONS ON CONSUMER ELECTRONICS",
+      "existing_doi": null,
+      "missing_fields": [
+        "DOI",
+        "Abstract"
+      ],
+      "status": "pending"
+    },
+    "request_url": "https://api.crossref.org/works?query.bibliographic=6GTelMED%3A+Resources+Recommendation+Framework+on+6G-Enabled+Distributed+Telemedicine+Using+Edge-AI+Ahmed%2C+ST%3B+Patil%2C+KK%3B+Kumar%2C+SS%3B+Dhanaraj%2C+RK%3B+Khan%2C+SB%3B+Alzahrani%2C+S%3B+Rani%2C+S+IEEE+TRANSACTIONS+ON+CONSUMER+ELECTRONICS&rows=3",
+    "status": "pending_manual_review",
+    "retrieved_at": "2026-09-10T13:54:08.910275+00:00",
+    "response_file": "data/raw/crossref/sample_20260910T135347540008Z_4.json",
+    "candidates": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              12
+            ]
+          ],
+          "date-time": "2026-06-12T16:24:30Z",
+          "timestamp": 1781281470918,
+          "version": "3.54.1"
+        },
+        "reference-count": 21,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2024-08-01T00:00:00Z",
+              "timestamp": 1722470400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2024-08-01T00:00:00Z",
+              "timestamp": 1722470400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2024-08-01T00:00:00Z",
+              "timestamp": 1722470400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "funder": [
+          {
+            "name": "Researchers Supporting Program at King Saud University, Riyadh, Saudi Arabia",
+            "award": [
+              "RSPD2024R867"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "RSPD2024R867"
+                ]
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Trans. Consumer Electron."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1109/tce.2024.3473291",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              7
+            ]
+          ],
+          "date-time": "2024-10-07T17:44:13Z",
+          "timestamp": 1728323053000
+        },
+        "page": "5524-5532",
+        "source": "Crossref",
+        "is-referenced-by-count": 9,
+        "title": [
+          "6GTelMED: Resources Recommendation Framework on 6G-Enabled Distributed Telemedicine Using Edge-AI"
+        ],
+        "prefix": "10.1109",
+        "volume": "70",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2884-899X",
+            "authenticated-orcid": false,
+            "given": "Syed",
+            "family": "Thouheed Ahmed",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computing and Information Technology, REVA University, Bengaluru, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kiran",
+            "family": "Kumari Patil",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University Industry Interaction Center and the School of Computer Science and Engineering, REVA University, Bengaluru, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-5625-4688",
+            "authenticated-orcid": false,
+            "given": "Sreedhar Kumar",
+            "family": "S.",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Engineering and Technology, CMR University, Bengaluru, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Rajesh",
+            "family": "Kumar Dhanaraj",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Symbiosis Institute of Computer Studies and Research, Symbiosis International (Deemed University), Pune, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3097-6568",
+            "authenticated-orcid": false,
+            "given": "Surbhi",
+            "family": "Bhatia Khan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Science, Engineering and Environment, University of Salford, Salford, U.K."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Saeed",
+            "family": "Alzahrani",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Management Information System Department, College of Business Administration, King Saud University, Riyadh, Saudi Arabia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8474-9435",
+            "authenticated-orcid": false,
+            "given": "Shalli",
+            "family": "Rani",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Chitkara University Institute of Engineering and Technology, Chitkara University, Rajpura, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1371/journal.pmed.1003833"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.datak.2023.102233"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCE.2023.3305003"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JAS.2021.1003919"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JIOT.2023.3243784"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2217/cer.15.67"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TASE.2019.2950724"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tce.2023.3237715"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tce.2022.3213872"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.comnet.2021.108508"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.compeleceng.2022.108210"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCE.2023.3293993"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JIOT.2021.3068056"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JIOT.2021.3063686"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.seta.2023.103047"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ACCESS.2020.3015289"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/app11178117"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11277-020-07091-x"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.32604/csse.2023.032024"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/su15075930"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/AISC56616.2023.10085651"
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Consumer Electronics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/30/10798997/10706098.pdf?arnumber=10706098",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              14
+            ]
+          ],
+          "date-time": "2024-12-14T06:54:15Z",
+          "timestamp": 1734159255000
+        },
+        "score": 133.64821,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/10706098/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              8
+            ]
+          ]
+        },
+        "references-count": 21,
+        "journal-issue": {
+          "issue": "3"
+        },
+        "URL": "https://doi.org/10.1109/tce.2024.3473291",
+        "ISSN": [
+          "0098-3063",
+          "1558-4127"
+        ],
+        "issn-type": [
+          {
+            "value": "0098-3063",
+            "type": "print"
+          },
+          {
+            "value": "1558-4127",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              5
+            ]
+          ],
+          "date-time": "2026-09-05T16:53:47Z",
+          "timestamp": 1788627227006,
+          "version": "build-2803163510"
+        },
+        "reference-count": 27,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2025-02-01T00:00:00Z",
+              "timestamp": 1738368000000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2025-02-01T00:00:00Z",
+              "timestamp": 1738368000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  2,
+                  1
+                ]
+              ],
+              "date-time": "2025-02-01T00:00:00Z",
+              "timestamp": 1738368000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100004242",
+            "name": "Princess Nourah bint Abdulrahman University, Riyadh, Saudi Arabia,",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "PNURSP2024R432"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "PNURSP2024R432"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100004242",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Trans. Consumer Electron."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1109/tce.2024.3508090",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              11
+            ]
+          ],
+          "date-time": "2024-12-11T22:32:33Z",
+          "timestamp": 1733956353000
+        },
+        "page": "252-259",
+        "source": "Crossref",
+        "is-referenced-by-count": 19,
+        "title": [
+          "Federated Learning Framework for Consumer IoMT-Edge Resource Recommendation Under Telemedicine Services"
+        ],
+        "prefix": "10.1109",
+        "volume": "71",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2884-899X",
+            "authenticated-orcid": false,
+            "given": "Syed",
+            "family": "Thouheed Ahmed",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computing and Information Technology, REVA University, Bengaluru, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5198-2150",
+            "authenticated-orcid": false,
+            "given": "R.",
+            "family": "Sivakami",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Engineering, Sona College of Technology, Salem, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3756-864X",
+            "authenticated-orcid": false,
+            "given": "Debajyoty",
+            "family": "Banik",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of CS &#x0026; AI, Anurag University, Hyderabad, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3097-6568",
+            "authenticated-orcid": false,
+            "given": "Surbhi",
+            "family": "Bhatia Khan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Data Science, University of Salford, Manchester, U.K."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2038-7359",
+            "authenticated-orcid": false,
+            "given": "Rajesh",
+            "family": "Kumar Dhanaraj",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Symbiosis Institute of Computer Studies and Research, Symbiosis International (Deemed University), Pune, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1070-3212",
+            "authenticated-orcid": false,
+            "given": "V.",
+            "family": "Vinoth Kumar",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science Engineering and Information Systems, Vellore Institute of Technology, Vellore, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5589-8992",
+            "authenticated-orcid": false,
+            "given": "T. R.",
+            "family": "Mahesh",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Engineering, JAIN (Deemed-to-be University), Bengaluru, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ahlam",
+            "family": "Almusharraf",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Management, College of Business Administration, Princess Nourah Bint Abdulrahman University, P.O. Box 84428, Riyadh, Saudi Arabia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.techfore.2017.06.014"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.20517/ch.2021.03"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3402/gha.v4i0.7214"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jnca.2020.102663"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/app10217748"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jpdc.2020.03.006"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCE.2022.3213872"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3389/fphys.2023.1125952"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.aej.2023.11.041"
+          },
+          {
+            "key": "ref10",
+            "volume-title": "Optimal resource allocation and task scheduling in fog computing for Internet of Medical Things applications",
+            "author": "Khan",
+            "year": "2023"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCE.2023.3323206"
+          },
+          {
+            "issue": "1",
+            "key": "ref12",
+            "first-page": "1",
+            "article-title": "Biosensors in intelligent healthcare and integration of Internet of Medical Things (IoMT) for treatment and diagnosis",
+            "volume": "7",
+            "author": "Singh",
+            "year": "2024",
+            "journal-title": "Indian J. Health Med. Law"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.micpro.2023.104794"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JIOT.2023.3315372"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11277-022-10163-9"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCE.2023.3329151"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCE.2023.3242375"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/diagnostics13172746"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JIOT.2021.3066604"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCE.2023.3319000"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11277-020-07091-x"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-319-16546-2_3"
+          },
+          {
+            "key": "ref23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCE.2024.3357530"
+          },
+          {
+            "key": "ref24",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCE.2023.3305003"
+          },
+          {
+            "key": "ref25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3233/JIFS-233649"
+          },
+          {
+            "key": "ref26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11042-024-19545-6"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1053/j.akdh.2022.11.007"
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Consumer Electronics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/30/11038962/10793078.pdf?arnumber=10793078",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              18
+            ]
+          ],
+          "date-time": "2025-06-18T05:02:34Z",
+          "timestamp": 1750222954000
+        },
+        "score": 70.571976,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/10793078/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              2
+            ]
+          ]
+        },
+        "references-count": 27,
+        "journal-issue": {
+          "issue": "1"
+        },
+        "URL": "https://doi.org/10.1109/tce.2024.3508090",
+        "ISSN": [
+          "0098-3063",
+          "1558-4127"
+        ],
+        "issn-type": [
+          {
+            "value": "0098-3063",
+            "type": "print"
+          },
+          {
+            "value": "1558-4127",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              29
+            ]
+          ],
+          "date-time": "2026-08-29T15:32:20Z",
+          "timestamp": 1788017540196,
+          "version": "build-2784847793"
+        },
+        "reference-count": 20,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2025-08-01T00:00:00Z",
+              "timestamp": 1754006400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2025-08-01T00:00:00Z",
+              "timestamp": 1754006400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2025-08-01T00:00:00Z",
+              "timestamp": 1754006400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100004242",
+            "name": "Princess Nourah bint Abdulrahman University, Riyadh, Saudi Arabia, Researchers Supporting Project",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "PNURSP2025R195"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "PNURSP2025R195"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100004242",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100004686",
+            "name": "Deanship of Scientific Research, Vice Presidency for Graduate Studies and Scientific Research, King Faisal University, Saudi Arabia",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "KFU251963"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "KFU251963"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100004686",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Trans. Consumer Electron."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1109/tce.2025.3572720",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              22
+            ]
+          ],
+          "date-time": "2025-05-22T13:58:29Z",
+          "timestamp": 1747922309000
+        },
+        "page": "8492-8499",
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "Telemedicine via Edge-Cloud Healthcare: A Federated Semi Supervised Learning Resource Recommendation Approach Towards Building Sustainable Framework"
+        ],
+        "prefix": "10.1109",
+        "volume": "71",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-3097-6568",
+            "authenticated-orcid": false,
+            "given": "Surbhi",
+            "family": "Bhatia Khan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Science, Engineering and Environment, University of Salford, Salford, U.K."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ahelam",
+            "family": "Tikotikar",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computing and IT, Karnataka State Akkamahadevi Women&#x2019;s University, Vijayapura, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7593-4519",
+            "authenticated-orcid": false,
+            "given": "D. R.",
+            "family": "Kumar Raja",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, REVA University, Bengaluru, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2884-899X",
+            "authenticated-orcid": false,
+            "given": "Syed",
+            "family": "Thouheed Ahmed",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, REVA University, Bengaluru, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4872-4932",
+            "authenticated-orcid": false,
+            "given": "Eid",
+            "family": "Albalawi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, College of Computer Science and Information Technology, King Faisal University, Al Hofuf, Saudi Arabia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mohammad",
+            "family": "Tabrez Quasim",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Artificial Intelligence, College of Computing and Information Technology, University of Bisha, Bisha, Saudi Arabia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9032-9560",
+            "authenticated-orcid": false,
+            "given": "Shakila",
+            "family": "Basheer",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Information Systems, College of Computer and Information Science, Princess Nourah bint Abdulrahman University, Riyadh, Saudi Arabia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0140-6736(12)60685-0"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/00139157.2005.10524444"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1089/tmj.2019.0158"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1186/s12960-020-0448-3"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.ijmedinf.2020.104232"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jpainsymman.2020.03.019"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1089/tmj.2020.29040.rb"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jaip.2020.03.008"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/app112210537"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/1460458219892162"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11277-020-07091-x"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10723-015-9359-2"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.future.2024.06.024"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/COMST.2024.3393230"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.20998/2522-9052.2024.2.08"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCE.2024.3374462"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TCE.2024.3385440"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tce.2024.3508090"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s12063-024-00526-9"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/technologies13020044"
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Consumer Electronics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/30/11241057/11010161.pdf?arnumber=11010161",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              12
+            ]
+          ],
+          "date-time": "2025-11-12T18:41:50Z",
+          "timestamp": 1762972910000
+        },
+        "score": 55.15636,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/11010161/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              8
+            ]
+          ]
+        },
+        "references-count": 20,
+        "journal-issue": {
+          "issue": "3"
+        },
+        "URL": "https://doi.org/10.1109/tce.2025.3572720",
+        "ISSN": [
+          "0098-3063",
+          "1558-4127"
+        ],
+        "issn-type": [
+          {
+            "value": "0098-3063",
+            "type": "print"
+          },
+          {
+            "value": "1558-4127",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              8
+            ]
+          ]
+        }
+      }
+    ]
+  }
+]

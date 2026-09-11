@@ -1,0 +1,20 @@
+{
+  "source_record": {
+    "source_file_year": 2023,
+    "source_row_index": 992,
+    "title": "Non-Linear Financial Intelligence Mixed-Integer Framework for Strategic Planning in Cost Management",
+    "authors": "Alkhanifer, A; Alamri, AM",
+    "journal": "PACIFIC BUSINESS REVIEW INTERNATIONAL",
+    "existing_doi": null,
+    "missing_fields": [
+      "DOI"
+    ],
+    "status": "pending"
+  },
+  "request_url": "https://api.openalex.org/works?search=Non-Linear+Financial+Intelligence+Mixed-Integer+Framework+for+Strategic+Planning+in+Cost+Management&per_page=3",
+  "response_file": "data/raw/openalex/paper1_search_20260911T161132222150Z.json",
+  "status": "unresolved",
+  "confirmed_doi": null,
+  "review_reason": "None of the three Crossref candidates or three OpenAlex candidates inspected matched the KSU title, authors and journal.",
+  "next_action": "Optional later review of the publisher website or a refined search."
+}

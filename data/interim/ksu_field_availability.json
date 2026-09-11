@@ -1,0 +1,50 @@
+[
+  {
+    "source_file_year": 2023,
+    "field": "DOI",
+    "total_records": 12346,
+    "absent": 0,
+    "empty": 9360,
+    "populated": 2986
+  },
+  {
+    "source_file_year": 2023,
+    "field": "Abstract",
+    "total_records": 12346,
+    "absent": 0,
+    "empty": 7,
+    "populated": 12339
+  },
+  {
+    "source_file_year": 2024,
+    "field": "DOI",
+    "total_records": 16134,
+    "absent": 16134,
+    "empty": 0,
+    "populated": 0
+  },
+  {
+    "source_file_year": 2024,
+    "field": "Abstract",
+    "total_records": 16134,
+    "absent": 16134,
+    "empty": 0,
+    "populated": 0
+  },
+  {
+    "source_file_year": 2025,
+    "field": "DOI",
+    "total_records": 12703,
+    "absent": 0,
+    "empty": 0,
+    "populated": 12703
+  },
+  {
+    "source_file_year": 2025,
+    "field": "Abstract",
+    "total_records": 12703,
+    "absent": 0,
+    "empty": 0,
+    "populated": 12703
+  }
+]

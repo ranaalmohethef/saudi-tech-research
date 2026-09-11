@@ -1,0 +1,52 @@
+[
+  {
+    "source_file_year": 2023,
+    "source_row_index": 992,
+    "title": "Non-Linear Financial Intelligence Mixed-Integer Framework for Strategic Planning in Cost Management",
+    "authors": "Alkhanifer, A; Alamri, AM",
+    "journal": "PACIFIC BUSINESS REVIEW INTERNATIONAL",
+    "existing_doi": null,
+    "missing_fields": [
+      "DOI"
+    ],
+    "status": "pending"
+  },
+  {
+    "source_file_year": 2023,
+    "source_row_index": 2010,
+    "title": "Empowering smart cities: High-altitude platforms based Mobile Edge Computing and Wireless Power Transfer for efficient IoT data processing",
+    "authors": "Nauman, A; Alruwais, N; Alabdulkreem, E; Nemri, N; Aljehane, NO; Dutta, AK; Assiri, M; Khan, WU",
+    "journal": "INTERNET OF THINGS",
+    "existing_doi": null,
+    "missing_fields": [
+      "DOI"
+    ],
+    "status": "pending"
+  },
+  {
+    "source_file_year": 2024,
+    "source_row_index": 85,
+    "title": "6G-Enabled Consumer Electronics Device Intrusion Detection With Federated Meta-Learning and Digital Twins in a Meta-Verse Environment",
+    "authors": "He, SL; Du, CW; Hossain, MS",
+    "journal": "IEEE TRANSACTIONS ON CONSUMER ELECTRONICS",
+    "existing_doi": null,
+    "missing_fields": [
+      "DOI",
+      "Abstract"
+    ],
+    "status": "pending"
+  },
+  {
+    "source_file_year": 2024,
+    "source_row_index": 86,
+    "title": "6GTelMED: Resources Recommendation Framework on 6G-Enabled Distributed Telemedicine Using Edge-AI",
+    "authors": "Ahmed, ST; Patil, KK; Kumar, SS; Dhanaraj, RK; Khan, SB; Alzahrani, S; Rani, S",
+    "journal": "IEEE TRANSACTIONS ON CONSUMER ELECTRONICS",
+    "existing_doi": null,
+    "missing_fields": [
+      "DOI",
+      "Abstract"
+    ],
+    "status": "pending"
+  }
+]

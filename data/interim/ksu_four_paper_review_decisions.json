@@ -1,0 +1,107 @@
+[
+  {
+    "source_record": {
+      "source_file_year": 2023,
+      "source_row_index": 992,
+      "title": "Non-Linear Financial Intelligence Mixed-Integer Framework for Strategic Planning in Cost Management",
+      "authors": "Alkhanifer, A; Alamri, AM",
+      "journal": "PACIFIC BUSINESS REVIEW INTERNATIONAL",
+      "existing_doi": null,
+      "missing_fields": [
+        "DOI"
+      ],
+      "status": "pending"
+    },
+    "crossref_response_file": "data/raw/crossref/sample_20260910T135347540008Z_1.json",
+    "match_status": "unresolved",
+    "confirmed_doi": null,
+    "reason": "None of the three returned titles match.",
+    "next_action": "Search OpenAlex by title and verify authors."
+  },
+  {
+    "source_record": {
+      "source_file_year": 2023,
+      "source_row_index": 2010,
+      "title": "Empowering smart cities: High-altitude platforms based Mobile Edge Computing and Wireless Power Transfer for efficient IoT data processing",
+      "authors": "Nauman, A; Alruwais, N; Alabdulkreem, E; Nemri, N; Aljehane, NO; Dutta, AK; Assiri, M; Khan, WU",
+      "journal": "INTERNET OF THINGS",
+      "existing_doi": null,
+      "missing_fields": [
+        "DOI"
+      ],
+      "status": "pending"
+    },
+    "crossref_response_file": "data/raw/crossref/sample_20260910T135347540008Z_2.json",
+    "match_status": "reviewed_match",
+    "confirmed_doi": "10.1016/j.iot.2023.100986",
+    "reason": "Title, authors and journal align.",
+    "crossref_published": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "abstract_available": false,
+    "next_action": "Requested DOI found; retain existing KSU abstract."
+  },
+  {
+    "source_record": {
+      "source_file_year": 2024,
+      "source_row_index": 85,
+      "title": "6G-Enabled Consumer Electronics Device Intrusion Detection With Federated Meta-Learning and Digital Twins in a Meta-Verse Environment",
+      "authors": "He, SL; Du, CW; Hossain, MS",
+      "journal": "IEEE TRANSACTIONS ON CONSUMER ELECTRONICS",
+      "existing_doi": null,
+      "missing_fields": [
+        "DOI",
+        "Abstract"
+      ],
+      "status": "pending"
+    },
+    "crossref_response_file": "data/raw/crossref/sample_20260910T135347540008Z_3.json",
+    "match_status": "reviewed_match",
+    "confirmed_doi": "10.1109/tce.2023.3321846",
+    "reason": "Title, authors and journal align.",
+    "crossref_published": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    },
+    "abstract_available": false,
+    "next_action": "Look up abstract in OpenAlex using confirmed DOI."
+  },
+  {
+    "source_record": {
+      "source_file_year": 2024,
+      "source_row_index": 86,
+      "title": "6GTelMED: Resources Recommendation Framework on 6G-Enabled Distributed Telemedicine Using Edge-AI",
+      "authors": "Ahmed, ST; Patil, KK; Kumar, SS; Dhanaraj, RK; Khan, SB; Alzahrani, S; Rani, S",
+      "journal": "IEEE TRANSACTIONS ON CONSUMER ELECTRONICS",
+      "existing_doi": null,
+      "missing_fields": [
+        "DOI",
+        "Abstract"
+      ],
+      "status": "pending"
+    },
+    "crossref_response_file": "data/raw/crossref/sample_20260910T135347540008Z_4.json",
+    "match_status": "reviewed_match",
+    "confirmed_doi": "10.1109/tce.2024.3473291",
+    "reason": "Title, authors and journal align.",
+    "crossref_published": {
+      "date-parts": [
+        [
+          2024,
+          8
+        ]
+      ]
+    },
+    "abstract_available": false,
+    "next_action": "Look up abstract in OpenAlex using confirmed DOI."
+  }
+]
