@@ -1,0 +1,59 @@
+[
+  {
+    "research_id": "KSU_2024_69",
+    "fields_added": [
+      "doi",
+      "abstract"
+    ],
+    "confirmed_doi": "10.1109/tce.2023.3325131",
+    "doi_source": "Crossref",
+    "abstract_source": "OpenAlex",
+    "evidence_file": "ksu_sample_enrichment.json",
+    "quality_flags": [
+      "publication_date_difference_needs_review"
+    ],
+    "year_rule": "Retained KSU annual dataset year"
+  },
+  {
+    "research_id": "KSU_2023_2010",
+    "fields_added": [
+      "doi"
+    ],
+    "confirmed_doi": "10.1016/j.iot.2023.100986",
+    "doi_source": "Crossref",
+    "abstract_source": null,
+    "evidence_file": "ksu_four_paper_review_decisions.json",
+    "quality_flags": [],
+    "year_rule": "Retained KSU annual dataset year"
+  },
+  {
+    "research_id": "KSU_2024_85",
+    "fields_added": [
+      "doi",
+      "abstract"
+    ],
+    "confirmed_doi": "10.1109/tce.2023.3321846",
+    "doi_source": "Crossref",
+    "abstract_source": "OpenAlex",
+    "evidence_file": "ksu_paper3_openalex_review.json",
+    "quality_flags": [
+      "publication_date_difference_needs_review"
+    ],
+    "year_rule": "Retained KSU annual dataset year"
+  },
+  {
+    "research_id": "KSU_2024_86",
+    "fields_added": [
+      "doi",
+      "abstract"
+    ],
+    "confirmed_doi": "10.1109/tce.2024.3473291",
+    "doi_source": "Crossref",
+    "abstract_source": "OpenAlex",
+    "evidence_file": "ksu_paper4_openalex_review.json",
+    "quality_flags": [
+      "publication_date_precision_differs"
+    ],
+    "year_rule": "Retained KSU annual dataset year"
+  }
+]

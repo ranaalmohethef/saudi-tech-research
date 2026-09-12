@@ -1,0 +1,39 @@
+{
+  "required_fields": [
+    "research_id",
+    "university",
+    "title",
+    "publication_year",
+    "source",
+    "doi",
+    "url",
+    "authors"
+  ],
+  "optional_fields": [
+    "abstract",
+    "publication_date",
+    "research_field",
+    "tech_category",
+    "journal"
+  ],
+  "missing_markers": [
+    "",
+    "n/a",
+    "nan",
+    "none",
+    "null"
+  ],
+  "publication_year_range": [
+    2023,
+    2026
+  ],
+  "ksu_year_basis": "KSU annual dataset year",
+  "doi_check": "Syntax check; does not prove DOI resolution",
+  "enrichment_status": "Previously reviewed matches not yet applied",
+  "sources_validated": [
+    "KAUST",
+    "KFUPM",
+    "KSU"
+  ],
+  "tests_passed": 43
+}

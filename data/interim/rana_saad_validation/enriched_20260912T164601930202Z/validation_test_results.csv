@@ -1,0 +1,44 @@
+test,status
+Optional fields may be blank,passed
+Optional null placeholders accepted,passed
+research_id: blank rejected,passed
+research_id: null placeholder rejected,passed
+research_id: missing value rejected,passed
+university: blank rejected,passed
+university: null placeholder rejected,passed
+university: missing value rejected,passed
+title: blank rejected,passed
+title: null placeholder rejected,passed
+title: missing value rejected,passed
+publication_year: blank rejected,passed
+publication_year: null placeholder rejected,passed
+publication_year: missing value rejected,passed
+source: blank rejected,passed
+source: null placeholder rejected,passed
+source: missing value rejected,passed
+doi: blank rejected,passed
+doi: null placeholder rejected,passed
+doi: missing value rejected,passed
+url: blank rejected,passed
+url: null placeholder rejected,passed
+url: missing value rejected,passed
+authors: blank rejected,passed
+authors: null placeholder rejected,passed
+authors: missing value rejected,passed
+Year 2023 accepted,passed
+Year 2026 accepted,passed
+Year 2022 rejected,passed
+Year 2027 rejected,passed
+Malformed year rejected,passed
+Leap day accepted,passed
+Impossible date rejected,passed
+Partial date rejected,passed
+Malformed DOI rejected,passed
+Invalid URL rejected,passed
+Unexpected university rejected,passed
+All failed fields reported,passed
+Duplicate IDs rejected,passed
+Cross-file duplicate rejected,passed
+Missing title column detected,passed
+Missing abstract column detected,passed
+Empty input handled,passed
