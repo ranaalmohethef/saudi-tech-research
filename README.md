@@ -322,8 +322,11 @@ If the abstract is missing, the word count is:
 
 ## Rana Saad validation results
 
-The current validation run covers KAUST, KFUPM and KSU.
-PNU has not yet been included in this validation run.
+The current validation run covers KAUST, KFUPM, KSU and PNU.
+All 10,473 PNU records were validated and rejected because authors,
+DOI and URL are missing under the agreed mandatory-field rules.
+The rejected records are preserved for possible enrichment.
+
 OpenAlex is used for enrichment only.
 
 The notebook is `notebooks/03_schema_validate_hasaniah.ipynb`.
@@ -333,10 +336,12 @@ All 43 validator tests passed.
 
 | Source | Input rows | Accepted | Rejected |
 |---|---:|---:|---:|
-| KAUST | 114 | 114 | 0 |
+| KAUST | 1042 | 928 | 114 |
 | KFUPM | 48 | 0 | 48 |
 | KSU | 3535 | 1477 | 2058 |
-| Total | 3697 | 1591 | 2106 |
+| PNU | 10473 | 0 | 10473 |
+| Total | 15098 | 2405 | 12693 |
+
 
 Four reviewed KSU DOIs and three abstracts were added before this run.
 All 48 KFUPM records remain rejected because DOI is mandatory and missing.
@@ -350,7 +355,7 @@ through verified enrichment followed by revalidation.
 
 The reviewed-enrichment validation outputs are stored in:
 
-`data/interim/rana_saad_validation/enriched_20260912T164601930202Z/`
+`data/interim/rana_saad_validation/four_sources_20260913T112108887260Z/`
 
 - `validated.csv`: accepted records for the next pipeline stage.
 - `rejected.csv`: rejected records with failure reasons.
@@ -361,7 +366,13 @@ The reviewed-enrichment validation outputs are stored in:
 - `enrichment_log.json`: fields added and references to supporting evidence.
 - `ksu_provenance.json`: source references and KSU mapping decisions.
 
+- `kaust_date_changes.csv`: original and standardized KAUST 2023 dates.
+- `orcid_trial_review.json`: ORCID trial findings; no DOI was recovered.
+
+
 These are validation outputs, not the final transformed dataset.
+
+
 
 ### Coverage and limitations
 
@@ -372,8 +383,9 @@ These are validation outputs, not the final transformed dataset.
   or include irrelevant records.
 - DOI validation checks syntax; it does not verify that every DOI resolves.
 - Only the small reviewed enrichment trial has been applied.
-- PNU validation and team review remain pending.
 
+- Validation covers all four university sources. Team review and the
+  final transformation stage remain pending.
 
 ## Transformation Tests
 

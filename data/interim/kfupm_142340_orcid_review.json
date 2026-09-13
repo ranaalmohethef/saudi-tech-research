@@ -1,0 +1,13 @@
+{
+  "research_id": "KFUPM-142340",
+  "title": "On the Optimal Deployment of Deep Learning Neural Networks on Field Programmable Gate Arrays",
+  "profiles_checked": [
+    "0000-0003-3024-8798",
+    "0009-0000-4204-312X"
+  ],
+  "profile_identity_status": "Name matches; identity not independently verified",
+  "match_status": "no_matching_work_found_in_inspected_public_profiles",
+  "confirmed_doi": null,
+  "note": "The first profile listed related publications but no matching thesis title. The second had no public work groups. DOIs from related articles were not assigned to the thesis.",
+  "evidence_directory": "data/raw/orcid"
+}

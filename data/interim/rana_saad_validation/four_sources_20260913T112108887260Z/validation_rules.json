@@ -1,0 +1,43 @@
+{
+  "required_fields": [
+    "research_id",
+    "university",
+    "title",
+    "publication_year",
+    "source",
+    "doi",
+    "url",
+    "authors"
+  ],
+  "optional_fields": [
+    "abstract",
+    "publication_date",
+    "research_field",
+    "tech_category",
+    "journal"
+  ],
+  "missing_markers": [
+    "",
+    "n/a",
+    "nan",
+    "none",
+    "null"
+  ],
+  "publication_year_range": [
+    2023,
+    2026
+  ],
+  "sources": [
+    "KAUST",
+    "KFUPM",
+    "KSU",
+    "PNU"
+  ],
+  "ksu_year_basis": "KSU annual dataset year",
+  "doi_check": "Required; syntax checked, online resolution not guaranteed",
+  "enrichment": "Four verified KSU DOIs and three abstracts applied",
+  "orcid_trial": "No matching thesis found; no metadata added",
+  "accepted_records": 2405,
+  "rejected_records": 12693,
+  "status": "Validation outputs; team review and transformation pending"
+}
