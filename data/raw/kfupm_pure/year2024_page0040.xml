@@ -1,0 +1,2417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://www.openaire.eu/cerif-profile/1.2/ https://www.openaire.eu/schema/cris/1.2/openaire-cerif-profile.xsd">
+  <responseDate>2026-09-16T14:27:36Z</responseDate>
+  <request resumptionToken="mods/4015/110857949/4000/0/107455281/publications:year2024/x/x" verb="ListRecords">https://pure.kfupm.edu.sa/ws/oai</request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>oai:pure.atira.dk:publications/02a7c71e-5c81-4e2e-8163-47e41812bad4</identifier>
+        <datestamp>2026-09-12T03:49:32Z</datestamp>
+        <setSpec>publications:all</setSpec>
+        <setSpec>publications:year2024</setSpec>
+      </header>
+      <metadata>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd ">
+          <mods:recordInfo>
+            <mods:recordContentSource>local</mods:recordContentSource>
+          </mods:recordInfo>
+          <mods:identifier type="pure/id">107455382</mods:identifier>
+          <mods:identifier type="pure/uuid">02a7c71e-5c81-4e2e-8163-47e41812bad4</mods:identifier>
+          <mods:identifier type="scopus">85198953439</mods:identifier>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:part>
+              <mods:text xlink:type="simple">Malik, M M, Fayyaz, A M, Yasmin, M, Abdulkadir, S J, Al-Selwi, S M, Raza, M &amp; Waheed, S 2024, 'A novel deep CNN model with entropy coded sine cosine for corn disease classification', Journal of King Saud University - Computer and Information Sciences, vol. 36, no. 7, 102126. https://doi.org/10.1016/j.jksuci.2024.102126</mods:text>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note xlink:type="simple">Publisher Copyright: © 2024 The Author(s)</mods:note>
+          <mods:titleInfo xlink:type="simple" lang="eng">
+            <mods:title>A novel deep CNN model with entropy coded sine cosine for corn disease classification</mods:title>
+          </mods:titleInfo>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Mehak Mushtaq</mods:namePart>
+            <mods:namePart type="family">Malik</mods:namePart>
+            <mods:affiliation>COMSATS University Islamabad</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Abdul Muiz</mods:namePart>
+            <mods:namePart type="family">Fayyaz</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Mussarat</mods:namePart>
+            <mods:namePart type="family">Yasmin</mods:namePart>
+            <mods:affiliation>COMSATS University Islamabad</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Said Jadid</mods:namePart>
+            <mods:namePart type="family">Abdulkadir</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">086d74a3-720b-44e1-a3a2-92d0553f74c2</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/employeeId">3246437</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="orcid" typeURI="http://id.loc.gov/vocabulary/identifiers/orcid">0009-0000-2742-213X</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">safwan.selwi@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">safwan.selwi@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Safwan Mahmood</mods:namePart>
+            <mods:namePart type="family">Al-Selwi</mods:namePart>
+            <mods:affiliation>SDAIA-KFUPM Joint Research Center for Artificial Intelligence</mods:affiliation>
+            <mods:affiliation>Department of Computer and information Sciences</mods:affiliation>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Mudassar</mods:namePart>
+            <mods:namePart type="family">Raza</mods:namePart>
+            <mods:affiliation>HITEC University</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Sadia</mods:namePart>
+            <mods:namePart type="family">Waheed</mods:namePart>
+            <mods:affiliation>University of Wah</mods:affiliation>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/center</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">1e57270b-803a-4689-8b7b-5b3c5fcf77fb</mods:nameIdentifier>
+            <mods:namePart>SDAIA-KFUPM Joint Research Center for Artificial Intelligence</mods:namePart>
+          </mods:name>
+          <mods:genre type="publicationType" authority="dct">Article</mods:genre>
+          <mods:note type="peerreview status" xlink:type="simple">Peer reviewed</mods:note>
+          <mods:note type="publication category" xlink:type="simple">Research</mods:note>
+          <mods:note type="publication workflow state" xlink:type="simple">approved</mods:note>
+          <mods:originInfo>
+            <mods:dateIssued encoding="w3cdtf">2024-09</mods:dateIssued>
+            <mods:dateOther type="published" encoding="w3cdtf">2024-09</mods:dateOther>
+          </mods:originInfo>
+          <mods:subject xlink:type="simple">
+            <mods:topic>SDG 2 - Zero Hunger</mods:topic>
+            <mods:topic>SDG 8 - Decent Work and Economic Growth</mods:topic>
+          </mods:subject>
+          <mods:classification displayLabel="SDG 2 - Zero Hunger" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/zero_hunger</mods:classification>
+          <mods:classification displayLabel="SDG 8 - Decent Work and Economic Growth" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/decent_work_and_economic_growth</mods:classification>
+          <mods:identifier type="uri">https://pure.kfupm.edu.sa/en/publications/02a7c71e-5c81-4e2e-8163-47e41812bad4</mods:identifier>
+          <mods:identifier type="doi" typeURI="http://id.loc.gov/vocabulary/identifiers/doi">10.1016/j.jksuci.2024.102126</mods:identifier>
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+          </mods:language>
+          <mods:abstract type="content" xlink:type="simple" lang="eng">Corn diseases significantly impact crop yields, posing a major challenge to agricultural productivity. Early and accurate detection of these diseases is crucial for effective management and mitigation. Existing methods, mostly relying on analyzing corn leaves, often lack the precision to identify and classify a wide range of diseases under varying conditions. This study introduces a novel approach to detecting corn diseases using image processing and deep learning techniques, aiming to enhance detection accuracy through pre-processing, improved feature extraction and selection, and classification algorithms. A new deep Convolutional Neural Network (CNN) model named TreeNet, with 35 layers and 38 connections, is proposed. TreeNet is pre-trained using the Plant Village imaging dataset. For image pre-processing, the YCbCr color space is utilized to improve color representation and contrast. Feature extraction is performed using TreeNet and two pre-trained models, Darknet-53, and DenseNet-201, with features fused using a serial-based fusion method. The Entropy-coded Sine Cosine Algorithm is applied for feature selection, optimizing the feature set for classification. The selected features are used to train Support Vector Machine (SVM) and K-Nearest Neighbor (KNN) classifiers, with extensive experiments conducted using both 5-fold and 10-fold cross-validation, and feature sizes ranging from 200 to 1150. The proposed method achieves classification accuracy, precision, recall, and F1-score of 99.8%, 99%, 100%, and 99%, respectively, surpassing existing benchmarks. The integration of TreeNet with Darknet-53 and DenseNet-201, along with robust pre-processing and feature selection, significantly improves corn disease detection, highlighting the potential of advanced CNN architectures in agriculture.</mods:abstract>
+          <mods:accessCondition xlink:type="simple" type="info:eu-repo/semantics/openAccess"></mods:accessCondition>
+          <mods:location>
+            <mods:url note="Scopus publication">https://www.scopus.com/pages/publications/85198953439</mods:url>
+          </mods:location>
+          <mods:note type="metadata visibility" xlink:type="simple">FREE</mods:note>
+          <mods:note type="creatorCount" xlink:type="simple">7</mods:note>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>Journal of King Saud University - Computer and Information Sciences</mods:title>
+            </mods:titleInfo>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">1319-1578</mods:identifier>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">2213-1248</mods:identifier>
+            <mods:originInfo>
+              <mods:publisher>Springer International Publishing</mods:publisher>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>36</mods:number>
+                <mods:caption>vol.</mods:caption>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>7</mods:number>
+                <mods:caption>no.</mods:caption>
+              </mods:detail>
+              <mods:detail type="articleNumber">
+                <mods:number>102126</mods:number>
+              </mods:detail>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note type="publicationStatus" xlink:type="simple">published</mods:note>
+        </mods:mods>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:pure.atira.dk:publications/88430cd6-f8d9-403a-8ab0-9a39e1d31508</identifier>
+        <datestamp>2026-09-12T03:49:32Z</datestamp>
+        <setSpec>publications:all</setSpec>
+        <setSpec>publications:year2024</setSpec>
+      </header>
+      <metadata>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd ">
+          <mods:recordInfo>
+            <mods:recordContentSource>local</mods:recordContentSource>
+          </mods:recordInfo>
+          <mods:identifier type="pure/id">107455480</mods:identifier>
+          <mods:identifier type="pure/uuid">88430cd6-f8d9-403a-8ab0-9a39e1d31508</mods:identifier>
+          <mods:identifier type="scopus">85206441541</mods:identifier>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:part>
+              <mods:text xlink:type="simple">Hassan, S U, Abdulkadir, S J, Mohd Zahid, M S, Fayyaz, A M, Al-Selwi, S M &amp; Sumiea, E H 2024, An Optimized CNN-LSTM Model for Detecting Cardiac Arrhythmias. in 2024 IEEE 8th International Conference on Signal and Image Processing Applications, ICSIPA 2024. 2024 IEEE 8th International Conference on Signal and Image Processing Applications, ICSIPA 2024, Institute of Electrical and Electronics Engineers Inc., 8th IEEE International Conference on Signal and Image Processing Applications, ICSIPA 2024, Kuala Lumpur, Malaysia, 3/09/24. https://doi.org/10.1109/ICSIPA62061.2024.10686688</mods:text>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note xlink:type="simple">Publisher Copyright: © 2024 IEEE.</mods:note>
+          <mods:titleInfo xlink:type="simple" lang="eng">
+            <mods:title>An Optimized CNN-LSTM Model for Detecting Cardiac Arrhythmias</mods:title>
+          </mods:titleInfo>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Shahab Ul</mods:namePart>
+            <mods:namePart type="family">Hassan</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Said Jadid</mods:namePart>
+            <mods:namePart type="family">Abdulkadir</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Mohd Soper</mods:namePart>
+            <mods:namePart type="family">Mohd Zahid</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Abdul Muiz</mods:namePart>
+            <mods:namePart type="family">Fayyaz</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">086d74a3-720b-44e1-a3a2-92d0553f74c2</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/employeeId">3246437</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="orcid" typeURI="http://id.loc.gov/vocabulary/identifiers/orcid">0009-0000-2742-213X</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">safwan.selwi@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">safwan.selwi@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Safwan Mahmood</mods:namePart>
+            <mods:namePart type="family">Al-Selwi</mods:namePart>
+            <mods:affiliation>SDAIA-KFUPM Joint Research Center for Artificial Intelligence</mods:affiliation>
+            <mods:affiliation>Department of Computer and information Sciences</mods:affiliation>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Ebrahim Hamid</mods:namePart>
+            <mods:namePart type="family">Sumiea</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/center</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">1e57270b-803a-4689-8b7b-5b3c5fcf77fb</mods:nameIdentifier>
+            <mods:namePart>SDAIA-KFUPM Joint Research Center for Artificial Intelligence</mods:namePart>
+          </mods:name>
+          <mods:genre type="publicationType" authority="dct">Conference contribution</mods:genre>
+          <mods:note type="peerreview status" xlink:type="simple">Peer reviewed</mods:note>
+          <mods:note type="publication category" xlink:type="simple">Research</mods:note>
+          <mods:note type="publication workflow state" xlink:type="simple">approved</mods:note>
+          <mods:originInfo>
+            <mods:dateIssued encoding="w3cdtf">2024</mods:dateIssued>
+            <mods:dateOther type="published" encoding="w3cdtf">2024</mods:dateOther>
+            <mods:publisher>Institute of Electrical and Electronics Engineers Inc.</mods:publisher>
+          </mods:originInfo>
+          <mods:subject xlink:type="simple">
+            <mods:topic>SDG 3 - Good Health and Well-being</mods:topic>
+          </mods:subject>
+          <mods:classification displayLabel="SDG 3 - Good Health and Well-being" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/good_health_and_well_being</mods:classification>
+          <mods:identifier type="uri">https://pure.kfupm.edu.sa/en/publications/88430cd6-f8d9-403a-8ab0-9a39e1d31508</mods:identifier>
+          <mods:identifier type="doi" typeURI="http://id.loc.gov/vocabulary/identifiers/doi">10.1109/ICSIPA62061.2024.10686688</mods:identifier>
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+          </mods:language>
+          <mods:abstract type="content" xlink:type="simple" lang="eng">Cardiac arrhythmia is one of the most critical cardiovascular diseases that cause millions of fatalities every year. Early detection of the disease by analyzing the electrocardiogram signals of patients has the potential to save many lives. Deep learning prediction models have gained a lot of attention for arrhythmia prediction. Among them, convolutional neural network (CNN) and long short-term memory (LSTM) techniques are widely used. These models have been recently combined into the CNN-LSTM model to achieve high accuracy and efficiency in arrhythmia prediction. However, there is a lack of studies analyzing the performance of CNN and CNN-LSTM techniques to find the optimal values for key parameters such as the number of filters, kernel size, and layers. This article determines optimized CNN (OCNN) and optimized CNN-LSTM (OCNN-LSTM) models for MIT-BIH arrhythmia datasets by analyzing the models' performance by varying several key parameters. Performance is measured in terms of accuracy, AUC, recall, precision, and specificity. Hence, the aim is to find the optimum values for the key parameters required to develop deep learning models for the MIT-BIH arrhythmia dataset. The finest outcomes attained for the OCNN and OCNN-LSTM models were 99.9% and 98.1% AUC, 99.0%, 96.1% accuracy, 98.5% and 93.3% recall, 98.1%, and 93.5% precision, and 99.2% and 97.2% specificity, respectively.</mods:abstract>
+          <mods:accessCondition xlink:type="simple" type="info:eu-repo/semantics/restrictedAccess"></mods:accessCondition>
+          <mods:location>
+            <mods:url note="Scopus publication">https://www.scopus.com/pages/publications/85206441541</mods:url>
+          </mods:location>
+          <mods:note type="metadata visibility" xlink:type="simple">FREE</mods:note>
+          <mods:note type="creatorCount" xlink:type="simple">6</mods:note>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>2024 IEEE 8th International Conference on Signal and Image Processing Applications, ICSIPA 2024</mods:title>
+              <mods:subTitle></mods:subTitle>
+            </mods:titleInfo>
+            <mods:part></mods:part>
+          </mods:relatedItem>
+          <mods:identifier type="isbn" typeURI="http://id.loc.gov/vocabulary/identifiers/isbn">9798350352368</mods:identifier>
+          <mods:relatedItem type="series" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>2024 IEEE 8th International Conference on Signal and Image Processing Applications, ICSIPA 2024</mods:title>
+            </mods:titleInfo>
+          </mods:relatedItem>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="conference">
+            <mods:titleInfo xlink:type="simple" lang="eng">
+              <mods:title>8th IEEE International Conference on Signal and Image Processing Applications, ICSIPA 2024</mods:title>
+            </mods:titleInfo>
+            <mods:part>
+              <mods:text xlink:type="simple" xlink:role="pure/conferencetype">conference</mods:text>
+              <mods:date encoding="iso8601" point="start">2024-09-03</mods:date>
+              <mods:date encoding="iso8601" point="end">2024-09-05</mods:date>
+            </mods:part>
+            <mods:location></mods:location>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Kuala Lumpur</mods:placeTerm>
+              </mods:place>
+              <mods:place>
+                <mods:placeTerm type="text">Malaysia</mods:placeTerm>
+              </mods:place>
+              <mods:place>
+                <mods:placeTerm type="text" authority="iso3166">MYS</mods:placeTerm>
+              </mods:place>
+            </mods:originInfo>
+          </mods:relatedItem>
+          <mods:note type="publicationStatus" xlink:type="simple">published</mods:note>
+        </mods:mods>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:pure.atira.dk:publications/49781535-743c-4e77-bf36-99164078c62c</identifier>
+        <datestamp>2026-09-12T03:49:32Z</datestamp>
+        <setSpec>publications:all</setSpec>
+        <setSpec>publications:year2024</setSpec>
+      </header>
+      <metadata>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd ">
+          <mods:recordInfo>
+            <mods:recordContentSource>local</mods:recordContentSource>
+          </mods:recordInfo>
+          <mods:identifier type="pure/id">107455803</mods:identifier>
+          <mods:identifier type="pure/uuid">49781535-743c-4e77-bf36-99164078c62c</mods:identifier>
+          <mods:identifier type="scopus">85193496347</mods:identifier>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:part>
+              <mods:text xlink:type="simple">Alqushaibi, A, Hilmi Hasan, M, Jadid Abdulkadir, S, Usman Danyaro, K, Gamal Ragab, M, Mahmood Al-Selwi, S, Hamid Sumiea, E &amp; Alhussian, H 2024, 'Enhanced Colon Cancer Segmentation and Image Synthesis Through Advanced Generative Adversarial Networks Based-Sine Cosine Algorithm', IEEE Access, vol. 12, pp. 105354-105369. https://doi.org/10.1109/ACCESS.2024.3402262</mods:text>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:physicalDescription>
+            <mods:extent unit="pages">16</mods:extent>
+          </mods:physicalDescription>
+          <mods:note xlink:type="simple">Publisher Copyright: © 2013 IEEE.</mods:note>
+          <mods:titleInfo xlink:type="simple" lang="eng">
+            <mods:title>Enhanced Colon Cancer Segmentation and Image Synthesis Through Advanced Generative Adversarial Networks Based-Sine Cosine Algorithm</mods:title>
+          </mods:titleInfo>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Alawi</mods:namePart>
+            <mods:namePart type="family">Alqushaibi</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Mohd</mods:namePart>
+            <mods:namePart type="family">Hilmi Hasan</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Said</mods:namePart>
+            <mods:namePart type="family">Jadid Abdulkadir</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Kamaluddeen</mods:namePart>
+            <mods:namePart type="family">Usman Danyaro</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Mohammed</mods:namePart>
+            <mods:namePart type="family">Gamal Ragab</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">086d74a3-720b-44e1-a3a2-92d0553f74c2</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/employeeId">3246437</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="orcid" typeURI="http://id.loc.gov/vocabulary/identifiers/orcid">0009-0000-2742-213X</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">safwan.selwi@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">safwan.selwi@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Safwan</mods:namePart>
+            <mods:namePart type="family">Mahmood Al-Selwi</mods:namePart>
+            <mods:affiliation>SDAIA-KFUPM Joint Research Center for Artificial Intelligence</mods:affiliation>
+            <mods:affiliation>Department of Computer and information Sciences</mods:affiliation>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Ebrahim</mods:namePart>
+            <mods:namePart type="family">Hamid Sumiea</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Hitham</mods:namePart>
+            <mods:namePart type="family">Alhussian</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/center</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">1e57270b-803a-4689-8b7b-5b3c5fcf77fb</mods:nameIdentifier>
+            <mods:namePart>SDAIA-KFUPM Joint Research Center for Artificial Intelligence</mods:namePart>
+          </mods:name>
+          <mods:genre type="publicationType" authority="dct">Article</mods:genre>
+          <mods:note type="peerreview status" xlink:type="simple">Peer reviewed</mods:note>
+          <mods:note type="publication category" xlink:type="simple">Research</mods:note>
+          <mods:note type="publication workflow state" xlink:type="simple">approved</mods:note>
+          <mods:originInfo>
+            <mods:dateIssued encoding="w3cdtf">2024</mods:dateIssued>
+            <mods:dateOther type="published" encoding="w3cdtf">2024</mods:dateOther>
+          </mods:originInfo>
+          <mods:subject xlink:type="simple">
+            <mods:topic>SDG 3 - Good Health and Well-being</mods:topic>
+          </mods:subject>
+          <mods:classification displayLabel="SDG 3 - Good Health and Well-being" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/good_health_and_well_being</mods:classification>
+          <mods:identifier type="uri">https://pure.kfupm.edu.sa/en/publications/49781535-743c-4e77-bf36-99164078c62c</mods:identifier>
+          <mods:identifier type="doi" typeURI="http://id.loc.gov/vocabulary/identifiers/doi">10.1109/ACCESS.2024.3402262</mods:identifier>
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+          </mods:language>
+          <mods:abstract type="content" xlink:type="simple" lang="eng">Colorectal cancer (CRC) is a prevalent and life-threatening malignancy, demanding early diagnosis and effective treatment for improved patient outcomes. Accurate segmentation of colon cancer in medical images is a challenging task due to the complexity of its morphology and limited annotated data availability. This paper presents an efficient approach for colon cancer segmentation and image synthesis, combining an Attention U-Net and Pix2Pix Generative Adversarial Network (Pix2Pix-GAN) guided by Sine Cosine Algorithm (SCA) for hyperparameter tuning within the GAN framework. The utilization of SCA plays a pivotal role in optimizing the delicate balance between generator and discriminator dynamics, resulting in enhanced convergence and stability. Our method achieved state-of-the-art results with a mean Dice score of 0.9514, mean Intersection over Union of 0.9123, F beta score of 0.9636, and similarity index of 0.9430 outperforming existing methods. Moreover, the Mean Absolute Error reached a minimal value of 0.01583. This proposed approach shows promise in enhancing the accuracy and robustness of colon cancer diagnosis and treatment which could lead to better diagnosis and treatment of colon cancer.</mods:abstract>
+          <mods:accessCondition xlink:type="simple" type="info:eu-repo/semantics/openAccess"></mods:accessCondition>
+          <mods:location>
+            <mods:url note="Scopus publication">https://www.scopus.com/pages/publications/85193496347</mods:url>
+          </mods:location>
+          <mods:note type="metadata visibility" xlink:type="simple">FREE</mods:note>
+          <mods:note type="creatorCount" xlink:type="simple">8</mods:note>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>IEEE Access</mods:title>
+            </mods:titleInfo>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">2169-3536</mods:identifier>
+            <mods:originInfo>
+              <mods:publisher>Institute of Electrical and Electronics Engineers Inc.</mods:publisher>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>12</mods:number>
+                <mods:caption>vol.</mods:caption>
+              </mods:detail>
+              <mods:detail type="citation">
+                <mods:caption>105354-105369</mods:caption>
+              </mods:detail>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note type="publicationStatus" xlink:type="simple">published</mods:note>
+        </mods:mods>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:pure.atira.dk:publications/7ba628ed-f71f-445c-bf4f-7c70a56f99bc</identifier>
+        <datestamp>2026-09-12T03:49:33Z</datestamp>
+        <setSpec>publications:all</setSpec>
+        <setSpec>publications:year2024</setSpec>
+      </header>
+      <metadata>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd ">
+          <mods:recordInfo>
+            <mods:recordContentSource>local</mods:recordContentSource>
+          </mods:recordInfo>
+          <mods:identifier type="pure/id">107456030</mods:identifier>
+          <mods:identifier type="pure/uuid">7ba628ed-f71f-445c-bf4f-7c70a56f99bc</mods:identifier>
+          <mods:identifier type="scopus">85219750952</mods:identifier>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:part>
+              <mods:text xlink:type="simple">Ragab, M G, Danyaro, K U, Abdulkadir, S J, Al-Selwi, S M, Sumiea, E H &amp; Alqushaibi, A 2024, Brain Tumor Detection Instance Segmentation Using YOLOv8 in Medical Imaging. in 2024 IEEE Asia-Pacific Conference on Applied Electromagnetics, APACE 2024. 2024 IEEE Asia-Pacific Conference on Applied Electromagnetics, APACE 2024, Institute of Electrical and Electronics Engineers Inc., pp. 55-58, 10th IEEE Asia-Pacific Conference on Applied Electromagnetics, APACE 2024, Langkawi, Malaysia, 21/12/24. https://doi.org/10.1109/APACE62360.2024.10877358</mods:text>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:physicalDescription>
+            <mods:extent unit="pages">4</mods:extent>
+          </mods:physicalDescription>
+          <mods:note xlink:type="simple">Publisher Copyright: © 2024 IEEE.</mods:note>
+          <mods:titleInfo xlink:type="simple" lang="eng">
+            <mods:title>Brain Tumor Detection Instance Segmentation Using YOLOv8 in Medical Imaging</mods:title>
+          </mods:titleInfo>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Mohammed Gamal</mods:namePart>
+            <mods:namePart type="family">Ragab</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Kamaluddeen Usman</mods:namePart>
+            <mods:namePart type="family">Danyaro</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Said Jadid</mods:namePart>
+            <mods:namePart type="family">Abdulkadir</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">086d74a3-720b-44e1-a3a2-92d0553f74c2</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/employeeId">3246437</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="orcid" typeURI="http://id.loc.gov/vocabulary/identifiers/orcid">0009-0000-2742-213X</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">safwan.selwi@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">safwan.selwi@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Safwan Mahmood</mods:namePart>
+            <mods:namePart type="family">Al-Selwi</mods:namePart>
+            <mods:affiliation>SDAIA-KFUPM Joint Research Center for Artificial Intelligence</mods:affiliation>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Ebrahim Hamid</mods:namePart>
+            <mods:namePart type="family">Sumiea</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Alawi</mods:namePart>
+            <mods:namePart type="family">Alqushaibi</mods:namePart>
+            <mods:affiliation>Universiti Teknologi Petronas</mods:affiliation>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/center</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">1e57270b-803a-4689-8b7b-5b3c5fcf77fb</mods:nameIdentifier>
+            <mods:namePart>SDAIA-KFUPM Joint Research Center for Artificial Intelligence</mods:namePart>
+          </mods:name>
+          <mods:genre type="publicationType" authority="dct">Conference contribution</mods:genre>
+          <mods:note type="peerreview status" xlink:type="simple">Peer reviewed</mods:note>
+          <mods:note type="publication category" xlink:type="simple">Research</mods:note>
+          <mods:note type="publication workflow state" xlink:type="simple">approved</mods:note>
+          <mods:originInfo>
+            <mods:dateIssued encoding="w3cdtf">2024</mods:dateIssued>
+            <mods:dateOther type="published" encoding="w3cdtf">2024</mods:dateOther>
+            <mods:publisher>Institute of Electrical and Electronics Engineers Inc.</mods:publisher>
+          </mods:originInfo>
+          <mods:identifier type="uri">https://pure.kfupm.edu.sa/en/publications/7ba628ed-f71f-445c-bf4f-7c70a56f99bc</mods:identifier>
+          <mods:identifier type="doi" typeURI="http://id.loc.gov/vocabulary/identifiers/doi">10.1109/APACE62360.2024.10877358</mods:identifier>
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+          </mods:language>
+          <mods:abstract type="content" xlink:type="simple" lang="eng">Brain tumors present a significant challenge in medical diagnostics due to their complex nature and the critical need for precise detection. This paper introduces a novel approach to brain tumor detection using instance segmentation with the advanced YOLOv8 model in medical imaging. We first outline the limitations of current imaging techniques in accurately identifying brain tumors. Then, we detail our methodology, which includes a comprehensive data preprocessing strategy tailored for medical imaging, followed by an in-depth explanation of the customized YOLOv8 architecture used for this study. Our training and validation process is thoroughly explained, emphasizing the adaptations made for handling medical datasets. The results section demonstrates the model's efficacy through various metrics, including precision with 0.99%, recall 0.90%, and mAP Analysis 0.95%, showcasing significant improvements over existing methods. The paper concludes by emphasizing the potential impact of applying YOLOv8 in medical imaging for brain tumor detection, suggesting a substantial step forward in oncological diagnostics and patient care.</mods:abstract>
+          <mods:accessCondition xlink:type="simple" type="info:eu-repo/semantics/restrictedAccess"></mods:accessCondition>
+          <mods:location>
+            <mods:url note="Scopus publication">https://www.scopus.com/pages/publications/85219750952</mods:url>
+          </mods:location>
+          <mods:note type="metadata visibility" xlink:type="simple">FREE</mods:note>
+          <mods:note type="creatorCount" xlink:type="simple">6</mods:note>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>2024 IEEE Asia-Pacific Conference on Applied Electromagnetics, APACE 2024</mods:title>
+              <mods:subTitle></mods:subTitle>
+            </mods:titleInfo>
+            <mods:part>
+              <mods:detail type="citation">
+                <mods:caption>55-58</mods:caption>
+              </mods:detail>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:identifier type="isbn" typeURI="http://id.loc.gov/vocabulary/identifiers/isbn">9798350364163</mods:identifier>
+          <mods:relatedItem type="series" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>2024 IEEE Asia-Pacific Conference on Applied Electromagnetics, APACE 2024</mods:title>
+            </mods:titleInfo>
+          </mods:relatedItem>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="conference">
+            <mods:titleInfo xlink:type="simple" lang="eng">
+              <mods:title>10th IEEE Asia-Pacific Conference on Applied Electromagnetics, APACE 2024</mods:title>
+            </mods:titleInfo>
+            <mods:part>
+              <mods:text xlink:type="simple" xlink:role="pure/conferencetype">conference</mods:text>
+              <mods:date encoding="iso8601" point="start">2024-12-21</mods:date>
+              <mods:date encoding="iso8601" point="end">2024-12-23</mods:date>
+            </mods:part>
+            <mods:location></mods:location>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Langkawi</mods:placeTerm>
+              </mods:place>
+              <mods:place>
+                <mods:placeTerm type="text">Malaysia</mods:placeTerm>
+              </mods:place>
+              <mods:place>
+                <mods:placeTerm type="text" authority="iso3166">MYS</mods:placeTerm>
+              </mods:place>
+            </mods:originInfo>
+          </mods:relatedItem>
+          <mods:note type="publicationStatus" xlink:type="simple">published</mods:note>
+        </mods:mods>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:pure.atira.dk:publications/b0a9c562-ef2c-40a8-9798-3763c850f1a0</identifier>
+        <datestamp>2026-09-13T05:05:39Z</datestamp>
+        <setSpec>publications:all</setSpec>
+        <setSpec>publications:year2024</setSpec>
+      </header>
+      <metadata>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd ">
+          <mods:recordInfo>
+            <mods:recordContentSource>local</mods:recordContentSource>
+          </mods:recordInfo>
+          <mods:identifier type="pure/id">107513059</mods:identifier>
+          <mods:identifier type="pure/uuid">b0a9c562-ef2c-40a8-9798-3763c850f1a0</mods:identifier>
+          <mods:identifier type="scopus">85189489398</mods:identifier>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:part>
+              <mods:text xlink:type="simple">I. Said, A, Gamal Mohamed, M, Madhu, M, Nagendr Singh, P, V Chaganti, S, Hammad Elsayed, M, Lung Tseng, W, M. Raymo, F &amp; Kuo, S W 2024, 'Bifunctional luminescent conjugated microporous polymers containing BODIPY and tetraphenylethene units for highly efficient energy storage and enhanced sensing of Cu 2+ ions', Polymer, vol. 300, 126988. https://doi.org/10.1016/j.polymer.2024.126988</mods:text>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note xlink:type="simple">Publisher Copyright: © 2024 Elsevier Ltd</mods:note>
+          <mods:titleInfo xlink:type="simple" lang="eng">
+            <mods:title>Bifunctional luminescent conjugated microporous polymers containing BODIPY and tetraphenylethene units for highly efficient energy storage and enhanced sensing of Cu2+ ions</mods:title>
+          </mods:titleInfo>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Awad</mods:namePart>
+            <mods:namePart type="family">I. Said</mods:namePart>
+            <mods:affiliation>Faculty of Science</mods:affiliation>
+            <mods:affiliation>University of Miami</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Mohamed</mods:namePart>
+            <mods:namePart type="family">Gamal Mohamed</mods:namePart>
+            <mods:affiliation>Faculty of Science</mods:affiliation>
+            <mods:affiliation>National Sun Yat-Sen University</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Manivannan</mods:namePart>
+            <mods:namePart type="family">Madhu</mods:namePart>
+            <mods:affiliation>National Sun Yat-Sen University</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Poonam</mods:namePart>
+            <mods:namePart type="family">Nagendr Singh</mods:namePart>
+            <mods:affiliation>National Sun Yat-Sen University</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Swetha</mods:namePart>
+            <mods:namePart type="family">V Chaganti</mods:namePart>
+            <mods:affiliation>National Sun Yat-Sen University</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">7d526c81-d154-4b4c-849c-a4f640332ae9</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/employeeId">3240518</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="orcid" typeURI="http://id.loc.gov/vocabulary/identifiers/orcid">0000-0001-7462-0294</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">mohamed.ahmed.2</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">mohamed.ahmed.2@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Mohamed</mods:namePart>
+            <mods:namePart type="family">Hammad Elsayed</mods:namePart>
+            <mods:affiliation>Department of Chemistry</mods:affiliation>
+            <mods:affiliation>Interdisciplinary Research Center for Hydrogen Technologies and Carbon Management</mods:affiliation>
+            <mods:affiliation>Faculty of Science</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Wei</mods:namePart>
+            <mods:namePart type="family">Lung Tseng</mods:namePart>
+            <mods:affiliation>National Sun Yat-Sen University</mods:affiliation>
+            <mods:affiliation>Kaohsiung Medical University</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Françisco</mods:namePart>
+            <mods:namePart type="family">M. Raymo</mods:namePart>
+            <mods:affiliation>University of Miami</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Shiao Wei</mods:namePart>
+            <mods:namePart type="family">Kuo</mods:namePart>
+            <mods:affiliation>National Sun Yat-Sen University</mods:affiliation>
+            <mods:affiliation>Kaohsiung Medical University</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/department</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">78ea6785-5481-42a2-b842-4877f8ce1a25</mods:nameIdentifier>
+            <mods:namePart>Department of Chemistry</mods:namePart>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/center</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">cf6e8ae1-200f-465c-9492-8a44ba084d16</mods:nameIdentifier>
+            <mods:namePart>Interdisciplinary Research Center for Hydrogen Technologies and Carbon Management</mods:namePart>
+          </mods:name>
+          <mods:genre type="publicationType" authority="dct">Article</mods:genre>
+          <mods:note type="peerreview status" xlink:type="simple">Peer reviewed</mods:note>
+          <mods:note type="publication category" xlink:type="simple">Research</mods:note>
+          <mods:note type="publication workflow state" xlink:type="simple">approved</mods:note>
+          <mods:originInfo>
+            <mods:dateIssued encoding="w3cdtf">2024-04-25</mods:dateIssued>
+            <mods:dateOther type="published" encoding="w3cdtf">2024-04-25</mods:dateOther>
+          </mods:originInfo>
+          <mods:identifier type="uri">https://pure.kfupm.edu.sa/en/publications/b0a9c562-ef2c-40a8-9798-3763c850f1a0</mods:identifier>
+          <mods:identifier type="doi" typeURI="http://id.loc.gov/vocabulary/identifiers/doi">10.1016/j.polymer.2024.126988</mods:identifier>
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+          </mods:language>
+          <mods:abstract type="content" xlink:type="simple" lang="eng">Here, using the Sonogashira coupling technique, a new fluorescent tetraphenylethene (TPE) and borondipyrromethene (BODIPY)-based CMP (TPE-BODIPY-CMP) was built and developed for usage in supercapacitors and Cu2+ ion detection. XPS, ssNMR, and FTIR techniques were used to validate the presence of the functional groups, aromatic carbons, and atoms [Si, B, C, N, O, and F] in the TPE-BODIPY-CMP framework. In the TPE-BODIPY-CMP, the calculated pore size, SBET, and carbon residue were 1.52–2.82 nm, 300 m2 g−1, and 67%, respectively. as per our electrochemical test, the capacitance stability [83.23% after 5000 cycles], and specific capacity of 176 F g−1 (0.5 A g−1) for TPE-BODIPY-CMP. We performed photoluminescence (PL) experiments on TPE-BODIPY-CMP to evaluate its capacity in cation detection [Cu2+, Pb2+, Al3+, Cr3+, Ni2+, Ce3+, Mg2+, Hg2+, Fe3+, Fe2+, Zn2+, and Ag+] and a limit of detection (LOD) of TPE-BODIPY-CMP toward Cu2+ ions was 2.5 × 10−7 M.</mods:abstract>
+          <mods:accessCondition xlink:type="simple" type="info:eu-repo/semantics/restrictedAccess"></mods:accessCondition>
+          <mods:location>
+            <mods:url note="Scopus publication">https://www.scopus.com/pages/publications/85189489398</mods:url>
+          </mods:location>
+          <mods:note type="metadata visibility" xlink:type="simple">FREE</mods:note>
+          <mods:note type="creatorCount" xlink:type="simple">9</mods:note>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>Polymer</mods:title>
+            </mods:titleInfo>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">0032-3861</mods:identifier>
+            <mods:originInfo>
+              <mods:publisher>Elsevier BV</mods:publisher>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>300</mods:number>
+                <mods:caption>vol.</mods:caption>
+              </mods:detail>
+              <mods:detail type="articleNumber">
+                <mods:number>126988</mods:number>
+              </mods:detail>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note type="publicationStatus" xlink:type="simple">published</mods:note>
+        </mods:mods>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:pure.atira.dk:publications/bdac744f-3555-46e7-8e4d-afd7da33527c</identifier>
+        <datestamp>2026-09-16T05:41:10Z</datestamp>
+        <setSpec>publications:all</setSpec>
+        <setSpec>publications:year2024</setSpec>
+      </header>
+      <metadata>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd ">
+          <mods:recordInfo>
+            <mods:recordContentSource>local</mods:recordContentSource>
+          </mods:recordInfo>
+          <mods:identifier type="pure/id">108043168</mods:identifier>
+          <mods:identifier type="pure/uuid">bdac744f-3555-46e7-8e4d-afd7da33527c</mods:identifier>
+          <mods:identifier type="scopus">85202838055</mods:identifier>
+          <mods:identifier type="pmid">39226749</mods:identifier>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:part>
+              <mods:text xlink:type="simple">Muhammad, N, Hussain, I, Ali, A, Noureen, L, He, Q, Subhani, Q, Khan, N A, Cui, H &amp; Zhu, Y 2024, 'Ion chromatography : A comprehensive review of sample preparation methods for analysis of halogens and allied nonmetals in critically challenging inorganic matrices', Journal of Chromatography A, vol. 1734, 465311. https://doi.org/10.1016/j.chroma.2024.465311</mods:text>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note xlink:type="simple">Publisher Copyright: © 2024 Elsevier B.V.</mods:note>
+          <mods:titleInfo xlink:type="simple" lang="eng">
+            <mods:title>Ion chromatography</mods:title>
+            <mods:subTitle>A comprehensive review of sample preparation methods for analysis of halogens and allied nonmetals in critically challenging inorganic matrices</mods:subTitle>
+          </mods:titleInfo>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Nadeem</mods:namePart>
+            <mods:namePart type="family">Muhammad</mods:namePart>
+            <mods:affiliation>Wuchang University of Technology</mods:affiliation>
+            <mods:affiliation>Zhejiang University</mods:affiliation>
+            <mods:affiliation>Ghent University</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Irshad</mods:namePart>
+            <mods:namePart type="family">Hussain</mods:namePart>
+            <mods:affiliation>Zhejiang University</mods:affiliation>
+            <mods:affiliation>University of Veterinary and Animal Sciences, Lahore</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Amjad</mods:namePart>
+            <mods:namePart type="family">Ali</mods:namePart>
+            <mods:affiliation>Zhejiang University</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Laila</mods:namePart>
+            <mods:namePart type="family">Noureen</mods:namePart>
+            <mods:affiliation>University of Szeged</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Qing</mods:namePart>
+            <mods:namePart type="family">He</mods:namePart>
+            <mods:affiliation>Ghent University</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Qamar</mods:namePart>
+            <mods:namePart type="family">Subhani</mods:namePart>
+            <mods:affiliation>Zhejiang University</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">1b51b925-e68b-4b16-a866-245e0f0f5194</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/employeeId">7232664</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="orcid" typeURI="http://id.loc.gov/vocabulary/identifiers/orcid">0000-0001-7076-3001</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">niaz.khan</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">niaz.khan@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Niaz Ali</mods:namePart>
+            <mods:namePart type="family">Khan</mods:namePart>
+            <mods:affiliation>Department of Materials Science and Engineering</mods:affiliation>
+            <mods:affiliation>Interdisciplinary Research Center for Membranes and Water Security</mods:affiliation>
+            <mods:affiliation>King Fahd University of Petroleum &amp; Minerals</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Hairong</mods:namePart>
+            <mods:namePart type="family">Cui</mods:namePart>
+            <mods:affiliation>Wuchang University of Technology</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Yan</mods:namePart>
+            <mods:namePart type="family">Zhu</mods:namePart>
+            <mods:affiliation>Zhejiang University</mods:affiliation>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/department</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">a8036c17-fb59-4ce9-9b0d-690b601b7b1e</mods:nameIdentifier>
+            <mods:namePart>Department of Materials Science and Engineering</mods:namePart>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/center</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">bb06d6df-6569-47ef-b2ce-563f83a6d17d</mods:nameIdentifier>
+            <mods:namePart>Interdisciplinary Research Center for Membranes and Water Security</mods:namePart>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/university</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">ac94b96a-6955-4882-91f6-1a11b22c9f7e</mods:nameIdentifier>
+            <mods:namePart>King Fahd University of Petroleum &amp; Minerals</mods:namePart>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">60009506</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">122667920</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">60091167</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">128145790</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">60212277</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">126521517</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">126798389</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">126751402</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">126644413</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">127146754</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">128043203</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">127148489</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">127022346</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">127404837</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">126530248</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">126499902</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">127402666</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">127875210</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">127933110</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/linkidentifier/scopus_affiliation_id">126521505</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:genre type="publicationType" authority="dct">Review article</mods:genre>
+          <mods:note type="peerreview status" xlink:type="simple">Peer reviewed</mods:note>
+          <mods:note type="publication category" xlink:type="simple">Research</mods:note>
+          <mods:note type="publication workflow state" xlink:type="simple">approved</mods:note>
+          <mods:originInfo>
+            <mods:dateIssued encoding="w3cdtf">2024-10-11</mods:dateIssued>
+            <mods:dateOther type="published" encoding="w3cdtf">2024-10-11</mods:dateOther>
+          </mods:originInfo>
+          <mods:identifier type="uri">https://pure.kfupm.edu.sa/en/publications/bdac744f-3555-46e7-8e4d-afd7da33527c</mods:identifier>
+          <mods:identifier type="doi" typeURI="http://id.loc.gov/vocabulary/identifiers/doi">10.1016/j.chroma.2024.465311</mods:identifier>
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+          </mods:language>
+          <mods:abstract type="content" xlink:type="simple" lang="eng">The inorganic matrices such as metal concentrates, steel, cement, glass, clay, coal, graphite, rocks and sediments, ores etc. play a pivotal role in infrastructure development, transportation, and energy. The presence of non-metallic elements particularly halogens influence their quality, processing cost, and environment dynamics. The analysis of non-metals in such matrices is critically challenging due to their hardness, rigidity, and non-digestibility. This comprehensive review provides a critical comparison of various sample preparation methods in conjunction with pros and cons of advanced techniques for the detection of non-metals in complex matrices, particularly focusing on ion chromatography. Moreover, the review also addresses the challenges related to the enrichment and automation of non-metals analysis. In addition, the previous literature on non-metals determination in diverse range of inorganic matrices has been tabulated for the first time. These insights are intended to guide researchers, quality control analysts, environmental scientists, and policymakers in enhancing pollution monitoring and control strategies.</mods:abstract>
+          <mods:accessCondition xlink:type="simple" type="info:eu-repo/semantics/restrictedAccess"></mods:accessCondition>
+          <mods:location>
+            <mods:url note="Scopus publication">https://www.scopus.com/pages/publications/85202838055</mods:url>
+          </mods:location>
+          <mods:note type="metadata visibility" xlink:type="simple">FREE</mods:note>
+          <mods:note type="creatorCount" xlink:type="simple">9</mods:note>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>Journal of Chromatography A</mods:title>
+            </mods:titleInfo>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">0021-9673</mods:identifier>
+            <mods:originInfo>
+              <mods:publisher>Elsevier B.V.</mods:publisher>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>1734</mods:number>
+                <mods:caption>vol.</mods:caption>
+              </mods:detail>
+              <mods:detail type="articleNumber">
+                <mods:number>465311</mods:number>
+              </mods:detail>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note type="publicationStatus" xlink:type="simple">published</mods:note>
+        </mods:mods>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:pure.atira.dk:publications/91743b82-961d-4062-8acf-0484cf59f8a4</identifier>
+        <datestamp>2026-09-08T01:30:34Z</datestamp>
+        <setSpec>publications:all</setSpec>
+        <setSpec>publications:year2024</setSpec>
+      </header>
+      <metadata>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd ">
+          <mods:recordInfo>
+            <mods:recordContentSource>local</mods:recordContentSource>
+          </mods:recordInfo>
+          <mods:identifier type="pure/id">108096516</mods:identifier>
+          <mods:identifier type="pure/uuid">91743b82-961d-4062-8acf-0484cf59f8a4</mods:identifier>
+          <mods:identifier type="scopus">85190993671</mods:identifier>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:part>
+              <mods:text xlink:type="simple">Yahaya, J, Kumam, P &amp; Abubakar, J 2024, 'Efficient nonlinear conjugate gradient techniques for vector optimization problems', Carpathian Journal of Mathematics, vol. 40, no. 2, pp. 515-533. https://doi.org/10.37193/CJM.2024.02.18</mods:text>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:physicalDescription>
+            <mods:extent unit="pages">19</mods:extent>
+          </mods:physicalDescription>
+          <mods:note xlink:type="simple">Publisher Copyright: © 2024, SINUS Association. All rights reserved.</mods:note>
+          <mods:titleInfo xlink:type="simple" lang="eng">
+            <mods:title>Efficient nonlinear conjugate gradient techniques for vector optimization problems</mods:title>
+          </mods:titleInfo>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">f0c472ce-c338-43f4-9476-2db52fb4ccfe</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/employeeId">3246446</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="orcid" typeURI="http://id.loc.gov/vocabulary/identifiers/orcid">0000-0002-1587-9172</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">jamilu.yahaya@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">jamilu.yahaya@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Jamilu</mods:namePart>
+            <mods:namePart type="family">Yahaya</mods:namePart>
+            <mods:affiliation>Department of Mathematics</mods:affiliation>
+            <mods:affiliation>Interdisciplinary Research Center for Smart Mobility and Logistics</mods:affiliation>
+            <mods:affiliation>Department of Mathematics</mods:affiliation>
+            <mods:affiliation>King Mongkuts University of Technology Thonburi (KMUTT)</mods:affiliation>
+            <mods:affiliation>Ahmadu Bello University</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Poom</mods:namePart>
+            <mods:namePart type="family">Kumam</mods:namePart>
+            <mods:affiliation>King Mongkuts University of Technology Thonburi (KMUTT)</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Jamilu</mods:namePart>
+            <mods:namePart type="family">Abubakar</mods:namePart>
+            <mods:affiliation>Usmanu Danfodiyo University</mods:affiliation>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/department</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">af75a616-ae7f-4c09-8711-a74fe64c795b</mods:nameIdentifier>
+            <mods:namePart>Department of Mathematics</mods:namePart>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/center</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">3bf74f78-6b6e-4277-85f2-a4fd59034299</mods:nameIdentifier>
+            <mods:namePart>Interdisciplinary Research Center for Smart Mobility and Logistics</mods:namePart>
+          </mods:name>
+          <mods:genre type="publicationType" authority="dct">Article</mods:genre>
+          <mods:note type="peerreview status" xlink:type="simple">Peer reviewed</mods:note>
+          <mods:note type="publication category" xlink:type="simple">Research</mods:note>
+          <mods:note type="publication workflow state" xlink:type="simple">forApproval</mods:note>
+          <mods:originInfo>
+            <mods:dateIssued encoding="w3cdtf">2024</mods:dateIssued>
+            <mods:dateOther type="published" encoding="w3cdtf">2024</mods:dateOther>
+          </mods:originInfo>
+          <mods:identifier type="uri">https://pure.kfupm.edu.sa/en/publications/91743b82-961d-4062-8acf-0484cf59f8a4</mods:identifier>
+          <mods:identifier type="doi" typeURI="http://id.loc.gov/vocabulary/identifiers/doi">10.37193/CJM.2024.02.18</mods:identifier>
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+          </mods:language>
+          <mods:abstract type="content" xlink:type="simple" lang="eng">Conjugate gradient techniques are known for their simplicity and minimal memory usage. How-ever, it is known that in the vector optimization context, the Polak-Ribiére-Polyak (PRP), Liu-Storey (LS), and Hestenes-Stiefel (HS) conjugate gradient (CG) techniques fail to satisfy the sufficient descent property using Wolfe line searches. In this work, we propose a variation of the PRP, LS, and HS CG techniques that we termed YPR, YLS, and YHS, respectively. These techniques exhibit the desirable property of sufficient descent without line search, except for the YHS which uses Wolfe line search for its sufficient descent property. Under certain standard assumptions and employing strong Wolfe conditions, we investigate the global convergence properties of the proposed techniques. The global convergence analysis extends beyond convexity assumption on the objective functions. Additionally, we present numerical experiments and comparisons to demonstrate the implementation, efficiency, and robustness of the proposed techniques.</mods:abstract>
+          <mods:accessCondition xlink:type="simple" type="info:eu-repo/semantics/openAccess"></mods:accessCondition>
+          <mods:location>
+            <mods:url note="Scopus publication">https://www.scopus.com/pages/publications/85190993671</mods:url>
+          </mods:location>
+          <mods:note type="metadata visibility" xlink:type="simple">FREE</mods:note>
+          <mods:note type="creatorCount" xlink:type="simple">3</mods:note>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>Carpathian Journal of Mathematics</mods:title>
+            </mods:titleInfo>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">1584-2851</mods:identifier>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">1843-4401</mods:identifier>
+            <mods:originInfo>
+              <mods:publisher>SINUS Association</mods:publisher>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>40</mods:number>
+                <mods:caption>vol.</mods:caption>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>2</mods:number>
+                <mods:caption>no.</mods:caption>
+              </mods:detail>
+              <mods:detail type="citation">
+                <mods:caption>515-533</mods:caption>
+              </mods:detail>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note type="publicationStatus" xlink:type="simple">published</mods:note>
+        </mods:mods>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:pure.atira.dk:publications/e1bf81cf-a126-4641-b67a-0735a039bda5</identifier>
+        <datestamp>2026-09-09T17:11:28Z</datestamp>
+        <setSpec>publications:all</setSpec>
+        <setSpec>publications:year2024</setSpec>
+      </header>
+      <metadata>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd ">
+          <mods:recordInfo>
+            <mods:recordContentSource>local</mods:recordContentSource>
+          </mods:recordInfo>
+          <mods:identifier type="pure/id">108118203</mods:identifier>
+          <mods:identifier type="pure/uuid">e1bf81cf-a126-4641-b67a-0735a039bda5</mods:identifier>
+          <mods:identifier type="scopus">85192996741</mods:identifier>
+          <mods:identifier type="pmid">38654594</mods:identifier>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:part>
+              <mods:text xlink:type="simple">Islam, F, Ahsan, M, Islam, N, Hossain, M I, Bahadur, N M, Aziz, A, Al-Humaidi, J Y, Rahman, M M, Maiyalagan, T &amp; Hasnat, M A 2024, 'Recent Advancements in Ascribing Several Platinum Free Electrocatalysts Pertinent to Hydrogen Evolution from Water Reduction', Chemistry - An Asian Journal, vol. 19, no. 16, e202400220. https://doi.org/10.1002/asia.202400220</mods:text>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note xlink:type="simple">Publisher Copyright: © 2024 Wiley-VCH GmbH.</mods:note>
+          <mods:titleInfo xlink:type="simple" lang="eng">
+            <mods:title>Recent Advancements in Ascribing Several Platinum Free Electrocatalysts Pertinent to Hydrogen Evolution from Water Reduction</mods:title>
+          </mods:titleInfo>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Fahamidul</mods:namePart>
+            <mods:namePart type="family">Islam</mods:namePart>
+            <mods:affiliation>Shahjalal University of Science and Technology</mods:affiliation>
+            <mods:affiliation>Noakhali Science and Technology University</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Mohebul</mods:namePart>
+            <mods:namePart type="family">Ahsan</mods:namePart>
+            <mods:affiliation>Shahjalal University of Science and Technology</mods:affiliation>
+            <mods:affiliation>Military Institute of Science and Technology</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Nurnobi</mods:namePart>
+            <mods:namePart type="family">Islam</mods:namePart>
+            <mods:affiliation>Shahjalal University of Science and Technology</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Mohammad Imran</mods:namePart>
+            <mods:namePart type="family">Hossain</mods:namePart>
+            <mods:affiliation>Electrochemistry &amp; Catalysis Research Laboratory (ECRL)</mods:affiliation>
+            <mods:affiliation>Shahjalal University of Science and Technology</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Newaz Mohammed</mods:namePart>
+            <mods:namePart type="family">Bahadur</mods:namePart>
+            <mods:affiliation>Noakhali Science and Technology University</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">d66292ba-b060-4e44-8230-078eff6f1efe</mods:nameIdentifier>
+            <mods:nameIdentifier type="orcid" typeURI="http://id.loc.gov/vocabulary/identifiers/orcid">0000-0002-1537-2785</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">maziz</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">maziz@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Abdul</mods:namePart>
+            <mods:namePart type="family">Aziz</mods:namePart>
+            <mods:affiliation>Department of Civil and Environmental Engineering</mods:affiliation>
+            <mods:affiliation>Interdisciplinary Research Center for Hydrogen Technologies and Carbon Management</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Jehan Y.</mods:namePart>
+            <mods:namePart type="family">Al-Humaidi</mods:namePart>
+            <mods:affiliation>Princess Nourah bint Abdulrahman University</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Mohammed M.</mods:namePart>
+            <mods:namePart type="family">Rahman</mods:namePart>
+            <mods:affiliation>King Abdulaziz University</mods:affiliation>
+            <mods:affiliation>Center of Excellence for Advanced Materials Research</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">T.</mods:namePart>
+            <mods:namePart type="family">Maiyalagan</mods:namePart>
+            <mods:affiliation>SRM University-AP</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Mohammad A.</mods:namePart>
+            <mods:namePart type="family">Hasnat</mods:namePart>
+            <mods:affiliation>Shahjalal University of Science and Technology</mods:affiliation>
+            <mods:affiliation>Kumamoto University</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/department</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">b40d98d1-4477-498c-a735-53e0ca9a0fe0</mods:nameIdentifier>
+            <mods:namePart>Department of Civil and Environmental Engineering</mods:namePart>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/center</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">cf6e8ae1-200f-465c-9492-8a44ba084d16</mods:nameIdentifier>
+            <mods:namePart>Interdisciplinary Research Center for Hydrogen Technologies and Carbon Management</mods:namePart>
+          </mods:name>
+          <mods:genre type="publicationType" authority="dct">Review article</mods:genre>
+          <mods:note type="peerreview status" xlink:type="simple">Peer reviewed</mods:note>
+          <mods:note type="publication category" xlink:type="simple">Research</mods:note>
+          <mods:note type="publication workflow state" xlink:type="simple">approved</mods:note>
+          <mods:originInfo>
+            <mods:dateIssued encoding="w3cdtf">2024-08-19</mods:dateIssued>
+            <mods:dateOther type="published" encoding="w3cdtf">2024-08-19</mods:dateOther>
+          </mods:originInfo>
+          <mods:subject xlink:type="simple">
+            <mods:topic>SDG 7 - Affordable and Clean Energy</mods:topic>
+          </mods:subject>
+          <mods:classification displayLabel="SDG 7 - Affordable and Clean Energy" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/affordable_and_clean_energy</mods:classification>
+          <mods:identifier type="uri">https://pure.kfupm.edu.sa/en/publications/e1bf81cf-a126-4641-b67a-0735a039bda5</mods:identifier>
+          <mods:identifier type="doi" typeURI="http://id.loc.gov/vocabulary/identifiers/doi">10.1002/asia.202400220</mods:identifier>
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+          </mods:language>
+          <mods:abstract type="content" xlink:type="simple" lang="eng">The advancement of a sustainable and scalable catalyst for hydrogen production is crucial for the future of the hydrogen economy. Electrochemical water splitting stands out as a promising pathway for sustainable hydrogen production. However, the development of Pt-free electrocatalysts that match the energy efficiency of Pt while remaining economical poses a significant challenge. This review addresses this challenge by highlighting latest breakthroughs in Pt-free catalysts for the hydrogen evolution reaction (HER). Specifically, we delve into the catalytic performance of various transition metal phosphides, metal carbides, metal sulphides, and metal nitrides toward HER. Our discussion emphasizes strategies for enhancing catalytic performance and explores the relationship between structural composition and the performance of different electrocatalysts. Through this comprehensive review, we aim to provide insights into the ongoing efforts to overcome barriers to scalable hydrogen production and pave the way for a sustainable hydrogen economy.</mods:abstract>
+          <mods:accessCondition xlink:type="simple" type="info:eu-repo/semantics/openAccess"></mods:accessCondition>
+          <mods:location>
+            <mods:url note="Scopus publication">https://www.scopus.com/pages/publications/85192996741</mods:url>
+          </mods:location>
+          <mods:note type="metadata visibility" xlink:type="simple">FREE</mods:note>
+          <mods:note type="creatorCount" xlink:type="simple">10</mods:note>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>Chemistry - An Asian Journal</mods:title>
+            </mods:titleInfo>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">1861-4728</mods:identifier>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">1861-471X</mods:identifier>
+            <mods:originInfo>
+              <mods:publisher>John Wiley and Sons Ltd</mods:publisher>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>19</mods:number>
+                <mods:caption>vol.</mods:caption>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>16</mods:number>
+                <mods:caption>no.</mods:caption>
+              </mods:detail>
+              <mods:detail type="articleNumber">
+                <mods:number>e202400220</mods:number>
+              </mods:detail>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note type="publicationStatus" xlink:type="simple">published</mods:note>
+        </mods:mods>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:pure.atira.dk:publications/d4a2e33f-1c7b-4803-bb59-70e9f133a520</identifier>
+        <datestamp>2026-09-08T04:44:18Z</datestamp>
+        <setSpec>publications:all</setSpec>
+        <setSpec>publications:year2024</setSpec>
+      </header>
+      <metadata>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd ">
+          <mods:recordInfo>
+            <mods:recordContentSource>local</mods:recordContentSource>
+          </mods:recordInfo>
+          <mods:identifier type="pure/id">108118986</mods:identifier>
+          <mods:identifier type="pure/uuid">d4a2e33f-1c7b-4803-bb59-70e9f133a520</mods:identifier>
+          <mods:identifier type="scopus">85180673932</mods:identifier>
+          <mods:identifier type="pmid">38150653</mods:identifier>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:part>
+              <mods:text xlink:type="simple">Aziz, A, Ahammad, A J S &amp; Rahman, M 2024, 'Preface to the Special Issue on Recent Advances in Electrochemical Energy Storage', Chemical Record, vol. 24, no. 1, e202300358. https://doi.org/10.1002/tcr.202300358</mods:text>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:titleInfo xlink:type="simple" lang="eng">
+            <mods:title>Preface to the Special Issue on Recent Advances in Electrochemical Energy Storage</mods:title>
+          </mods:titleInfo>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">d66292ba-b060-4e44-8230-078eff6f1efe</mods:nameIdentifier>
+            <mods:nameIdentifier type="orcid" typeURI="http://id.loc.gov/vocabulary/identifiers/orcid">0000-0002-1537-2785</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">maziz</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">maziz@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Abdul</mods:namePart>
+            <mods:namePart type="family">Aziz</mods:namePart>
+            <mods:affiliation>Department of Civil and Environmental Engineering</mods:affiliation>
+            <mods:affiliation>Interdisciplinary Research Center for Hydrogen Technologies and Carbon Management</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">A. J.Saleh</mods:namePart>
+            <mods:namePart type="family">Ahammad</mods:namePart>
+            <mods:affiliation>Jagannath University</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Mahbubur</mods:namePart>
+            <mods:namePart type="family">Rahman</mods:namePart>
+            <mods:affiliation>Konkuk University</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/department</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">b40d98d1-4477-498c-a735-53e0ca9a0fe0</mods:nameIdentifier>
+            <mods:namePart>Department of Civil and Environmental Engineering</mods:namePart>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/center</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">cf6e8ae1-200f-465c-9492-8a44ba084d16</mods:nameIdentifier>
+            <mods:namePart>Interdisciplinary Research Center for Hydrogen Technologies and Carbon Management</mods:namePart>
+          </mods:name>
+          <mods:genre type="publicationType" authority="dct">Editorial</mods:genre>
+          <mods:note type="publication category" xlink:type="simple">Research</mods:note>
+          <mods:note type="publication workflow state" xlink:type="simple">approved</mods:note>
+          <mods:originInfo>
+            <mods:dateIssued encoding="w3cdtf">2024-01</mods:dateIssued>
+            <mods:dateOther type="published" encoding="w3cdtf">2024-01</mods:dateOther>
+          </mods:originInfo>
+          <mods:identifier type="uri">https://pure.kfupm.edu.sa/en/publications/d4a2e33f-1c7b-4803-bb59-70e9f133a520</mods:identifier>
+          <mods:identifier type="doi" typeURI="http://id.loc.gov/vocabulary/identifiers/doi">10.1002/tcr.202300358</mods:identifier>
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+          </mods:language>
+          <mods:accessCondition xlink:type="simple" type="info:eu-repo/semantics/openAccess"></mods:accessCondition>
+          <mods:location>
+            <mods:url note="Scopus publication">https://www.scopus.com/pages/publications/85180673932</mods:url>
+          </mods:location>
+          <mods:note type="metadata visibility" xlink:type="simple">FREE</mods:note>
+          <mods:note type="creatorCount" xlink:type="simple">3</mods:note>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>Chemical Record</mods:title>
+            </mods:titleInfo>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">1527-8999</mods:identifier>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">1528-0691</mods:identifier>
+            <mods:originInfo>
+              <mods:publisher>John Wiley &amp; Sons Inc.</mods:publisher>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>24</mods:number>
+                <mods:caption>vol.</mods:caption>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+                <mods:caption>no.</mods:caption>
+              </mods:detail>
+              <mods:detail type="articleNumber">
+                <mods:number>e202300358</mods:number>
+              </mods:detail>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note type="publicationStatus" xlink:type="simple">published</mods:note>
+        </mods:mods>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:pure.atira.dk:publications/daac5ed6-1c32-47e1-ad82-f180a3ea892d</identifier>
+        <datestamp>2026-09-14T00:46:59Z</datestamp>
+        <setSpec>publications:all</setSpec>
+        <setSpec>publications:year2024</setSpec>
+      </header>
+      <metadata>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd ">
+          <mods:recordInfo>
+            <mods:recordContentSource>local</mods:recordContentSource>
+          </mods:recordInfo>
+          <mods:identifier type="pure/id">108581481</mods:identifier>
+          <mods:identifier type="pure/uuid">daac5ed6-1c32-47e1-ad82-f180a3ea892d</mods:identifier>
+          <mods:identifier type="scopus">85190496310</mods:identifier>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:part>
+              <mods:text xlink:type="simple">Ul Haq, E, Yong, Q, Yuan, Z, Jianjun, H, Ul Haq, R &amp; Qin, X 2024, 'Accurate multiclassification and segmentation of gastric cancer based on a hybrid cascaded deep learning model with a vision transformer from endoscopic images', Information Sciences, vol. 670, 120568. https://doi.org/10.1016/j.ins.2024.120568</mods:text>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note xlink:type="simple">Publisher Copyright: © 2024 Elsevier Inc.</mods:note>
+          <mods:titleInfo xlink:type="simple" lang="eng">
+            <mods:title>Accurate multiclassification and segmentation of gastric cancer based on a hybrid cascaded deep learning model with a vision transformer from endoscopic images</mods:title>
+          </mods:titleInfo>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">1723616b-a959-41fb-9043-836348f7ad38</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/employeeId">3244897</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">ejaz.ulhaq</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">ejaz.ulhaq@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Ejaz</mods:namePart>
+            <mods:namePart type="family">Ul Haq</mods:namePart>
+            <mods:affiliation>SDAIA-KFUPM Joint Research Center for Artificial Intelligence</mods:affiliation>
+            <mods:affiliation>School of Computer Science and Technology</mods:affiliation>
+            <mods:affiliation>Dongguan University of Technology</mods:affiliation>
+            <mods:affiliation>Tianjin University</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Qin</mods:namePart>
+            <mods:namePart type="family">Yong</mods:namePart>
+            <mods:affiliation>Dongguan University of Technology</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Zhou</mods:namePart>
+            <mods:namePart type="family">Yuan</mods:namePart>
+            <mods:affiliation>Tianjin University</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Huang</mods:namePart>
+            <mods:namePart type="family">Jianjun</mods:namePart>
+            <mods:affiliation>Shenzhen University</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Rizwan</mods:namePart>
+            <mods:namePart type="family">Ul Haq</mods:namePart>
+            <mods:affiliation>Khushal Khan Khattak University Karak</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Xuwen</mods:namePart>
+            <mods:namePart type="family">Qin</mods:namePart>
+            <mods:affiliation>Shenzhen International Exchange College</mods:affiliation>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/center</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">1e57270b-803a-4689-8b7b-5b3c5fcf77fb</mods:nameIdentifier>
+            <mods:namePart>SDAIA-KFUPM Joint Research Center for Artificial Intelligence</mods:namePart>
+          </mods:name>
+          <mods:genre type="publicationType" authority="dct">Article</mods:genre>
+          <mods:note type="peerreview status" xlink:type="simple">Peer reviewed</mods:note>
+          <mods:note type="publication category" xlink:type="simple">Research</mods:note>
+          <mods:note type="publication workflow state" xlink:type="simple">approved</mods:note>
+          <mods:originInfo>
+            <mods:dateIssued encoding="w3cdtf">2024-06</mods:dateIssued>
+            <mods:dateOther type="published" encoding="w3cdtf">2024-06</mods:dateOther>
+          </mods:originInfo>
+          <mods:subject xlink:type="simple">
+            <mods:topic>SDG 3 - Good Health and Well-being</mods:topic>
+          </mods:subject>
+          <mods:classification displayLabel="SDG 3 - Good Health and Well-being" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/good_health_and_well_being</mods:classification>
+          <mods:identifier type="uri">https://pure.kfupm.edu.sa/en/publications/daac5ed6-1c32-47e1-ad82-f180a3ea892d</mods:identifier>
+          <mods:identifier type="doi" typeURI="http://id.loc.gov/vocabulary/identifiers/doi">10.1016/j.ins.2024.120568</mods:identifier>
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+          </mods:language>
+          <mods:abstract type="content" xlink:type="simple" lang="eng">Compared with other forms of cancer, gastric cancer has high mortality and incidence rates, making it a major cause of death worldwide. Accurate diagnosis is crucial in the treatment of stomach cancer. Researchers have used deep learning techniques facilitated by developments in artificial intelligence to classify and segment endoscopic images of stomach cancer. Most recent research examining endoscopic images of stomach cancer has used a binary classification system, which is insufficient for practical use. False-positives and computational costs become problematic when segmentation is applied to all the images of healthy patients obtained throughout the evaluation. Hence, the expected level of performance has not been attained in the real-time multiclassification and segmentation of stomach cancer. In this study, we present a deep learning-based technique for multiclassification of endoscopic images by combining modified GoogLeNet and vision transformer (ViT) models and identifying invasive areas based on Faster R-CNN. The classification of endoscopic images into three categories, namely, normal, early gastric cancer, and advanced gastric cancer, is accomplished by using a hybrid approach including modified GoogLeNet and vision transformer (ViT) models. Gastric cancer regions are then identified and segmented in the endoscopic images using the Faster R-CNN method. The Faster R-CNN algorithm is used with an endoscopic image as input, resulting in the generation of a bounding box and label image that accurately represents the gastric cancerous area. The proposed model achieved an accuracy, sensitivity and F1-score of 97.4%, 97.5% and 95.9%, respectively, for the classification of noncancerous, early gastric cancer and advanced gastric cancer. Furthermore, the performance of the segmentation method was also validated based on evaluation metrics and achieved 96.7%, 96.6% and 95.5% accuracy, sensitivity and F1-score, respectively, for the segmentation of noncancerous, early gastric cancer and advanced gastric cancer tissues. In conclusion, the method proposed in this study demonstrates enhanced global classification and detection performance compared to existing state-of-the-art algorithms. This finding underscores the significant potential of the proposed method in the domain of gastric endoscopic image classification and segmentation.</mods:abstract>
+          <mods:accessCondition xlink:type="simple" type="info:eu-repo/semantics/restrictedAccess"></mods:accessCondition>
+          <mods:location>
+            <mods:url note="Scopus publication">https://www.scopus.com/pages/publications/85190496310</mods:url>
+          </mods:location>
+          <mods:note type="metadata visibility" xlink:type="simple">FREE</mods:note>
+          <mods:note type="creatorCount" xlink:type="simple">6</mods:note>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>Information Sciences</mods:title>
+            </mods:titleInfo>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">0020-0255</mods:identifier>
+            <mods:originInfo>
+              <mods:publisher>Elsevier Inc.</mods:publisher>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>670</mods:number>
+                <mods:caption>vol.</mods:caption>
+              </mods:detail>
+              <mods:detail type="articleNumber">
+                <mods:number>120568</mods:number>
+              </mods:detail>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note type="publicationStatus" xlink:type="simple">published</mods:note>
+        </mods:mods>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:pure.atira.dk:publications/4d5e8b8a-ab5c-4837-b559-9c9f08b675f9</identifier>
+        <datestamp>2026-09-14T19:01:26Z</datestamp>
+        <setSpec>publications:all</setSpec>
+        <setSpec>publications:year2024</setSpec>
+      </header>
+      <metadata>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd ">
+          <mods:recordInfo>
+            <mods:recordContentSource>local</mods:recordContentSource>
+          </mods:recordInfo>
+          <mods:identifier type="pure/id">108581752</mods:identifier>
+          <mods:identifier type="pure/uuid">4d5e8b8a-ab5c-4837-b559-9c9f08b675f9</mods:identifier>
+          <mods:identifier type="scopus">85152388351</mods:identifier>
+          <mods:identifier type="pmid">37039259</mods:identifier>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:part>
+              <mods:text xlink:type="simple">Li, K, Ao, B, Wu, X, Wen, Q, Ul Haq, E &amp; Yin, J 2024, 'Parkinson’s disease detection and classification using EEG based on deep CNN-LSTM model', Biotechnology and Genetic Engineering Reviews, vol. 40, no. 3, pp. 2577-2596. https://doi.org/10.1080/02648725.2023.2200333</mods:text>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:physicalDescription>
+            <mods:extent unit="pages">20</mods:extent>
+          </mods:physicalDescription>
+          <mods:note xlink:type="simple">Publisher Copyright: © 2023 Informa UK Limited, trading as Taylor &amp; Francis Group.</mods:note>
+          <mods:titleInfo xlink:type="simple" lang="eng">
+            <mods:title>Parkinson’s disease detection and classification using EEG based on deep CNN-LSTM model</mods:title>
+          </mods:titleInfo>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Kuan</mods:namePart>
+            <mods:namePart type="family">Li</mods:namePart>
+            <mods:affiliation>Dongguan University of Technology</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Bin</mods:namePart>
+            <mods:namePart type="family">Ao</mods:namePart>
+            <mods:affiliation>Dongguan University of Technology</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Xin</mods:namePart>
+            <mods:namePart type="family">Wu</mods:namePart>
+            <mods:affiliation>Dongguan University of Technology</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Qing</mods:namePart>
+            <mods:namePart type="family">Wen</mods:namePart>
+            <mods:affiliation>Dongguan University of Technology</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">1723616b-a959-41fb-9043-836348f7ad38</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/employeeId">3244897</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">ejaz.ulhaq</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">ejaz.ulhaq@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Ejaz</mods:namePart>
+            <mods:namePart type="family">Ul Haq</mods:namePart>
+            <mods:affiliation>SDAIA-KFUPM Joint Research Center for Artificial Intelligence</mods:affiliation>
+            <mods:affiliation>School of Cyberspace Science</mods:affiliation>
+            <mods:affiliation>Dongguan University of Technology</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Jianping</mods:namePart>
+            <mods:namePart type="family">Yin</mods:namePart>
+            <mods:affiliation>Dongguan University of Technology</mods:affiliation>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/center</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">1e57270b-803a-4689-8b7b-5b3c5fcf77fb</mods:nameIdentifier>
+            <mods:namePart>SDAIA-KFUPM Joint Research Center for Artificial Intelligence</mods:namePart>
+          </mods:name>
+          <mods:genre type="publicationType" authority="dct">Article</mods:genre>
+          <mods:note type="peerreview status" xlink:type="simple">Peer reviewed</mods:note>
+          <mods:note type="publication category" xlink:type="simple">Research</mods:note>
+          <mods:note type="publication workflow state" xlink:type="simple">approved</mods:note>
+          <mods:originInfo>
+            <mods:dateIssued encoding="w3cdtf">2024</mods:dateIssued>
+            <mods:dateOther type="published" encoding="w3cdtf">2024</mods:dateOther>
+          </mods:originInfo>
+          <mods:identifier type="uri">https://pure.kfupm.edu.sa/en/publications/4d5e8b8a-ab5c-4837-b559-9c9f08b675f9</mods:identifier>
+          <mods:identifier type="doi" typeURI="http://id.loc.gov/vocabulary/identifiers/doi">10.1080/02648725.2023.2200333</mods:identifier>
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+          </mods:language>
+          <mods:abstract type="content" xlink:type="simple" lang="eng">The progressive loss of motor function in the brain is a hallmark of Parkinson’s disease (PD). Electroencephalogram (EEG) signals are commonly used for early diagnosis since they are associated with a brain disorder. This work aims to find a better way to represent electroencephalography (EEG) signals and enhance the classification accuracy of individuals with Parkinson’s disease using EEG signals. In this paper, we present two hybrid deep neural networks (DNN) that combine convolutional neural networks with long short-term memory to diagnose Parkinson’s disease using EEG signals, that is, through the establishment of parallel and series combined models. The deep CNN network is utilized to acquire the structural features of ECG signals and extract meaningful information from them, after which the signals are sent via a long short-term memory network to extract the features’ context dependency. The proposed architecture was able to achieve 97.6% specificity, 97.1% sensitivity, and 98.6% accuracy for a parallel model and 99.1% specificity, 98.5% sensitivity, and 99.7% accuracy for a series model, both in 3-class classification (PD patients with medication, PD patients without medication and healthy).</mods:abstract>
+          <mods:accessCondition xlink:type="simple" type="info:eu-repo/semantics/restrictedAccess"></mods:accessCondition>
+          <mods:location>
+            <mods:url note="Scopus publication">https://www.scopus.com/pages/publications/85152388351</mods:url>
+          </mods:location>
+          <mods:note type="metadata visibility" xlink:type="simple">FREE</mods:note>
+          <mods:note type="creatorCount" xlink:type="simple">6</mods:note>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>Biotechnology and Genetic Engineering Reviews</mods:title>
+            </mods:titleInfo>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">0264-8725</mods:identifier>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">2046-5556</mods:identifier>
+            <mods:originInfo>
+              <mods:publisher>Taylor and Francis Ltd.</mods:publisher>
+            </mods:originInfo>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>40</mods:number>
+                <mods:caption>vol.</mods:caption>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>3</mods:number>
+                <mods:caption>no.</mods:caption>
+              </mods:detail>
+              <mods:detail type="citation">
+                <mods:caption>2577-2596</mods:caption>
+              </mods:detail>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note type="publicationStatus" xlink:type="simple">published</mods:note>
+        </mods:mods>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:pure.atira.dk:publications/8742c76f-feec-4655-8fb2-1047b257ee8e</identifier>
+        <datestamp>2026-09-14T23:36:32Z</datestamp>
+        <setSpec>publications:all</setSpec>
+        <setSpec>publications:year2024</setSpec>
+      </header>
+      <metadata>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd ">
+          <mods:recordInfo>
+            <mods:recordContentSource>local</mods:recordContentSource>
+          </mods:recordInfo>
+          <mods:identifier type="pure/id">108624350</mods:identifier>
+          <mods:identifier type="pure/uuid">8742c76f-feec-4655-8fb2-1047b257ee8e</mods:identifier>
+          <mods:identifier type="scopus">85214565722</mods:identifier>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:part>
+              <mods:text xlink:type="simple">Ahmed, M E 2024, Maximizing CO2 Sequestration and Utilization Using Viscoelastic Surfactants Alternating Gas : Optimizing Efficiency and Environmental Impact. in Society of Petroleum Engineers - Mediterranean Offshore Conference, MOCE 2024. Society of Petroleum Engineers - Mediterranean Offshore Conference, MOCE 2024, Society of Petroleum Engineers, 2024 Mediterranean Offshore Conference, MOCE 2024, Alexandria, Egypt, 20/10/24. https://doi.org/10.2118/223164-MS</mods:text>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note xlink:type="simple">Publisher Copyright: Copyright 2024, Society of Petroleum Engineers.</mods:note>
+          <mods:titleInfo xlink:type="simple" lang="eng">
+            <mods:title>Maximizing CO2 Sequestration and Utilization Using Viscoelastic Surfactants Alternating Gas</mods:title>
+            <mods:subTitle>Optimizing Efficiency and Environmental Impact</mods:subTitle>
+          </mods:titleInfo>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">148f374d-d5e7-4d77-a899-cdb566bbdf2b</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/employeeId">3240047</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">mohammed.ahmed2@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">mohammed.ahmed2@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">M. Elmuzafar</mods:namePart>
+            <mods:namePart type="family">Ahmed</mods:namePart>
+            <mods:affiliation>Department of Petroleum Engineering</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/department</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">a0ed0484-19ef-4719-bdf3-d42031cd3ce1</mods:nameIdentifier>
+            <mods:namePart>Department of Petroleum Engineering</mods:namePart>
+          </mods:name>
+          <mods:genre type="publicationType" authority="dct">Conference contribution</mods:genre>
+          <mods:note type="peerreview status" xlink:type="simple">Peer reviewed</mods:note>
+          <mods:note type="publication category" xlink:type="simple">Research</mods:note>
+          <mods:note type="publication workflow state" xlink:type="simple">approved</mods:note>
+          <mods:originInfo>
+            <mods:dateIssued encoding="w3cdtf">2024</mods:dateIssued>
+            <mods:dateOther type="published" encoding="w3cdtf">2024</mods:dateOther>
+            <mods:publisher>Society of Petroleum Engineers</mods:publisher>
+          </mods:originInfo>
+          <mods:subject xlink:type="simple">
+            <mods:topic>SDG 7 - Affordable and Clean Energy</mods:topic>
+            <mods:topic>SDG 13 - Climate Action</mods:topic>
+          </mods:subject>
+          <mods:classification displayLabel="SDG 7 - Affordable and Clean Energy" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/affordable_and_clean_energy</mods:classification>
+          <mods:classification displayLabel="SDG 13 - Climate Action" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/climate_action</mods:classification>
+          <mods:identifier type="uri">https://pure.kfupm.edu.sa/en/publications/8742c76f-feec-4655-8fb2-1047b257ee8e</mods:identifier>
+          <mods:identifier type="doi" typeURI="http://id.loc.gov/vocabulary/identifiers/doi">10.2118/223164-MS</mods:identifier>
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+          </mods:language>
+          <mods:abstract type="content" xlink:type="simple" lang="eng">Greenhouse gases, particularly CO2, are driving significant environmental challenges, necessitating urgent measures to mitigate their impact. CO2 Enhanced Oil Recovery (EOR) presents a viable strategy for contributing to net-zero emissions by capturing and injecting CO2 underground to boost oil recovery, while promoting sustainable energy production. Despite its promise, the high mobility of CO2 poses risks such as viscous fingering, which limits recovery efficiency. Our study addresses this challenge by integrating viscoelastic surfactants (VES) into the CO2 injection process to maximize recovery and CO2 storage. The dual functionality of VES plays a critical role: CO2 reduces heavy oil viscosity, while VES increases the viscosity of the displacing phase and reduces interfacial tension (IFT), improving capillary action and enhancing both oil recovery and CO2 trapping. A calibrated simulation model was employed, using data from a core flooding experiments conducted at 90°C and 1500 psi combined with micro-CT imaging, to optimize recovery and CO2 sequestration. The model was history-matched to experimental data to define the critical capillary number for desaturation and to refine the curvature of the relative permeability curves across various flooding schemes. Several scenarios were tested, examining the influence of injection rates, slug sizes, and the sequence of CO2 and VES injections. Results from these simulations confirmed the effectiveness of VES in controlling CO2 mobility. When VES is injected before CO2, it diverts gas flow into smaller pores, increasing capillary trapping and minimizing gas breakthrough. This leads to improved oil recovery and enhanced CO2 storage, with CO2 dissolution in brine and mineral trapping contributing to long-term sequestration. The optimal injection sequence achieved a recovery factor of 59%, surpassing the recovery of other tested sequences. Additionally, the best-performing scenario resulted in a CO2 storage volume of 4,071 cc under standard conditions (SC). These findings demonstrate that incorporating VES into the CO2 EOR process significantly improves both recovery efficiency and CO2 trapping. By optimizing the injection sequence and ensuring that critical capillary numbers for desaturation are exceeded, this approach not only maximizes oil recovery but also provides a viable solution for large-scale CO2 storage in depleted reservoirs. The application of VES combined with CO2 offers a promising pathway to more sustainable oil production while contributing to global carbon sequestration efforts. This method enables more efficient use of potential storage reservoirs, advancing efforts toward environmental sustainability and helping to mitigate the effects of greenhouse gas emissions.</mods:abstract>
+          <mods:accessCondition xlink:type="simple" type="info:eu-repo/semantics/restrictedAccess"></mods:accessCondition>
+          <mods:location>
+            <mods:url note="Scopus publication">https://www.scopus.com/pages/publications/85214565722</mods:url>
+          </mods:location>
+          <mods:note type="metadata visibility" xlink:type="simple">FREE</mods:note>
+          <mods:note type="creatorCount" xlink:type="simple">1</mods:note>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>Society of Petroleum Engineers - Mediterranean Offshore Conference, MOCE 2024</mods:title>
+              <mods:subTitle></mods:subTitle>
+            </mods:titleInfo>
+            <mods:part></mods:part>
+          </mods:relatedItem>
+          <mods:identifier type="isbn" typeURI="http://id.loc.gov/vocabulary/identifiers/isbn">9781959025702</mods:identifier>
+          <mods:relatedItem type="series" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>Society of Petroleum Engineers - Mediterranean Offshore Conference, MOCE 2024</mods:title>
+            </mods:titleInfo>
+          </mods:relatedItem>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="conference">
+            <mods:titleInfo xlink:type="simple" lang="eng">
+              <mods:title>2024 Mediterranean Offshore Conference, MOCE 2024</mods:title>
+            </mods:titleInfo>
+            <mods:part>
+              <mods:text xlink:type="simple" xlink:role="pure/conferencetype">conference</mods:text>
+              <mods:date encoding="iso8601" point="start">2024-10-20</mods:date>
+              <mods:date encoding="iso8601" point="end">2024-10-22</mods:date>
+            </mods:part>
+            <mods:location></mods:location>
+            <mods:originInfo>
+              <mods:place>
+                <mods:placeTerm type="text">Alexandria</mods:placeTerm>
+              </mods:place>
+              <mods:place>
+                <mods:placeTerm type="text">Egypt</mods:placeTerm>
+              </mods:place>
+              <mods:place>
+                <mods:placeTerm type="text" authority="iso3166">EGY</mods:placeTerm>
+              </mods:place>
+            </mods:originInfo>
+          </mods:relatedItem>
+          <mods:note type="publicationStatus" xlink:type="simple">published</mods:note>
+        </mods:mods>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:pure.atira.dk:publications/6776dc22-4ac3-4af8-9e38-a157af63baac</identifier>
+        <datestamp>2026-08-27T05:07:49Z</datestamp>
+        <setSpec>publications:all</setSpec>
+        <setSpec>publications:year2024</setSpec>
+      </header>
+      <metadata>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd ">
+          <mods:recordInfo>
+            <mods:recordContentSource>local</mods:recordContentSource>
+          </mods:recordInfo>
+          <mods:identifier type="pure/id">108703101</mods:identifier>
+          <mods:identifier type="pure/uuid">6776dc22-4ac3-4af8-9e38-a157af63baac</mods:identifier>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:part>
+              <mods:text xlink:type="simple">Alansari, A N H 2024, 'جهود إبراهيم التركي في البلاغة الإدراكية.', مجلة الآداب للدراسات اللغوية والأدبية .</mods:text>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:titleInfo xlink:type="simple" lang="eng">
+            <mods:title>جهود إبراهيم التركي في البلاغة الإدراكية.</mods:title>
+          </mods:titleInfo>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">c80f6a16-b356-468e-89e6-0ff3993aa321</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">ADEEM.ANSARI</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">ADEEM.ANSARI@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Adeem Nasser  Hussain</mods:namePart>
+            <mods:namePart type="family">Alansari</mods:namePart>
+            <mods:affiliation>Department of Islamic and Arabic Studies</mods:affiliation>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/department</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">a8631ea1-90f0-4a04-8667-4eecd34b1f17</mods:nameIdentifier>
+            <mods:namePart>Department of Islamic and Arabic Studies</mods:namePart>
+          </mods:name>
+          <mods:genre type="publicationType" authority="dct">Article</mods:genre>
+          <mods:note type="peerreview status" xlink:type="simple">Non peer reviewed</mods:note>
+          <mods:note type="publication category" xlink:type="simple">Research</mods:note>
+          <mods:note type="publication workflow state" xlink:type="simple">approved</mods:note>
+          <mods:originInfo>
+            <mods:dateIssued encoding="w3cdtf">2024</mods:dateIssued>
+            <mods:dateOther type="published" encoding="w3cdtf">2024</mods:dateOther>
+          </mods:originInfo>
+          <mods:identifier type="uri">https://pure.kfupm.edu.sa/en/publications/6776dc22-4ac3-4af8-9e38-a157af63baac</mods:identifier>
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+          </mods:language>
+          <mods:accessCondition xlink:type="simple" type="info:eu-repo/semantics/restrictedAccess"></mods:accessCondition>
+          <mods:location>
+            <mods:url>https://journal.tu.edu.ye/index.php/arts/article/view/2063</mods:url>
+          </mods:location>
+          <mods:note type="metadata visibility" xlink:type="simple">FREE</mods:note>
+          <mods:note type="creatorCount" xlink:type="simple">1</mods:note>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>مجلة الآداب للدراسات اللغوية والأدبية</mods:title>
+            </mods:titleInfo>
+            <mods:part></mods:part>
+          </mods:relatedItem>
+          <mods:note type="publicationStatus" xlink:type="simple">published</mods:note>
+        </mods:mods>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:pure.atira.dk:publications/7a191987-e39d-44a1-b1fe-83786980c6e0</identifier>
+        <datestamp>2026-09-08T03:08:14Z</datestamp>
+        <setSpec>publications:all</setSpec>
+        <setSpec>publications:year2024</setSpec>
+      </header>
+      <metadata>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd ">
+          <mods:recordInfo>
+            <mods:recordContentSource>local</mods:recordContentSource>
+          </mods:recordInfo>
+          <mods:identifier type="pure/id">108792226</mods:identifier>
+          <mods:identifier type="pure/uuid">7a191987-e39d-44a1-b1fe-83786980c6e0</mods:identifier>
+          <mods:identifier type="scopus">105045554172</mods:identifier>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:part>
+              <mods:text xlink:type="simple">Shifa, C T, Rubeena, K A, Abbas, A, Jobiraj, T, Thejass, P, Nefla, A, Muzaffar, S B &amp; Aarif, K M 2024, Kingfisher in Mangroves : Unveiling Ecological Insights, Values, and Conservation Concerns. in Mangroves in a Changing World : Adaptation and Resilience. Wetlands: Ecology, Conservation and Management, vol. 13, Springer International Publishing, pp. 111-123. https://doi.org/10.1007/978-3-031-67691-8_7</mods:text>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:physicalDescription>
+            <mods:extent unit="pages">13</mods:extent>
+          </mods:physicalDescription>
+          <mods:note xlink:type="simple">Publisher Copyright: © The Author(s), under exclusive license to Springer Nature Switzerland AG 2024.</mods:note>
+          <mods:titleInfo xlink:type="simple" lang="eng">
+            <mods:title>Kingfisher in Mangroves</mods:title>
+            <mods:subTitle>Unveiling Ecological Insights, Values, and Conservation Concerns</mods:subTitle>
+          </mods:titleInfo>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">C. T.</mods:namePart>
+            <mods:namePart type="family">Shifa</mods:namePart>
+            <mods:affiliation>University of Calicut</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">66d8581e-cf4d-4cd0-8f9b-8e698290bf40</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/employeeId">7240857</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="orcid" typeURI="http://id.loc.gov/vocabulary/identifiers/orcid">0000-0003-1966-6737</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">rubeena.abdulsalam</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">rubeena.abdulsalam@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">K. A.</mods:namePart>
+            <mods:namePart type="family">Rubeena</mods:namePart>
+            <mods:affiliation>Applied Research Center for Environment and Marine Studies</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Ashna</mods:namePart>
+            <mods:namePart type="family">Abbas</mods:namePart>
+            <mods:affiliation>MES College Marampally</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">T.</mods:namePart>
+            <mods:namePart type="family">Jobiraj</mods:namePart>
+            <mods:affiliation>University of Calicut</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">P.</mods:namePart>
+            <mods:namePart type="family">Thejass</mods:namePart>
+            <mods:affiliation>University of Calicut</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Aymen</mods:namePart>
+            <mods:namePart type="family">Nefla</mods:namePart>
+            <mods:affiliation>Université de Tunis El Manar</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Sabir Bin</mods:namePart>
+            <mods:namePart type="family">Muzaffar</mods:namePart>
+            <mods:affiliation>United Arab Emirates University</mods:affiliation>
+            <mods:affiliation>The Natural History Museum, London</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">6986d2cf-8e65-4af8-9061-c2c52f944663</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/employeeId">7193121</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">aarif.muhammed</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">aarif.muhammed@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">K. M.</mods:namePart>
+            <mods:namePart type="family">Aarif</mods:namePart>
+            <mods:affiliation>Applied Research Center for Environment and Marine Studies</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/center</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">4d10bc09-27ec-4bb8-8f68-f94e649b61c8</mods:nameIdentifier>
+            <mods:namePart>Applied Research Center for Environment and Marine Studies</mods:namePart>
+          </mods:name>
+          <mods:genre type="publicationType" authority="dct">Chapter</mods:genre>
+          <mods:note type="peerreview status" xlink:type="simple">Peer reviewed</mods:note>
+          <mods:note type="publication category" xlink:type="simple">Research</mods:note>
+          <mods:note type="publication workflow state" xlink:type="simple">approved</mods:note>
+          <mods:originInfo>
+            <mods:dateIssued encoding="w3cdtf">2024</mods:dateIssued>
+            <mods:dateOther type="published" encoding="w3cdtf">2024</mods:dateOther>
+            <mods:publisher>Springer International Publishing</mods:publisher>
+          </mods:originInfo>
+          <mods:subject xlink:type="simple">
+            <mods:topic>SDG 3 - Good Health and Well-being</mods:topic>
+            <mods:topic>SDG 6 - Clean Water and Sanitation</mods:topic>
+            <mods:topic>SDG 14 - Life Below Water</mods:topic>
+            <mods:topic>SDG 15 - Life on Land</mods:topic>
+            <mods:topic>SDG 16 - Peace, Justice and Strong Institutions</mods:topic>
+          </mods:subject>
+          <mods:classification displayLabel="SDG 3 - Good Health and Well-being" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/good_health_and_well_being</mods:classification>
+          <mods:classification displayLabel="SDG 6 - Clean Water and Sanitation" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/clean_water_and_sanitation</mods:classification>
+          <mods:classification displayLabel="SDG 14 - Life Below Water" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/life_below_water</mods:classification>
+          <mods:classification displayLabel="SDG 15 - Life on Land" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/life_on_land</mods:classification>
+          <mods:classification displayLabel="SDG 16 - Peace, Justice and Strong Institutions" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/peace_justice_and_strong_institutions</mods:classification>
+          <mods:identifier type="uri">https://pure.kfupm.edu.sa/en/publications/7a191987-e39d-44a1-b1fe-83786980c6e0</mods:identifier>
+          <mods:identifier type="doi" typeURI="http://id.loc.gov/vocabulary/identifiers/doi">10.1007/978-3-031-67691-8_7</mods:identifier>
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+          </mods:language>
+          <mods:abstract type="content" xlink:type="simple" lang="eng">This chapter outlines the significance of mangrove habitats in sustaining kingfisher populations, focusing on Kadalundi-Vallikkunnu Community Reserve (KVCR) and adjacent Kallampara mangroves, which serve as an important nutrient resource for them in the area. Mangroves are vital ecosystems for kingfishers, providing essential shelter and sufficient food resources. The intricate root systems of mangroves offer potential perch sites, while the nutrient-rich waters attract an array of prey, crucial for the survival of kingfishers. However, the kingfisher populations at KVCR face imminent threats. Habitat degradation stemming from pollution, habitat destruction, and unsustainable human activities poses a significant risk to the kingfishers’ community. Altered environmental variables and modified habitats can affect foraging success and hence steer the decline of the kingfishers, disrupting the delicate ecological balance within mangrove habitats. Recognizing the distinct and complex link between mangroves and kingfishers is imperative for formulating effective conservation plans. Comprehensive initiatives and strategies addressing habitat preservation, water management, and community engagement are recommended to ensure the sustained health of both mangrove ecosystems and the kingfishers.</mods:abstract>
+          <mods:accessCondition xlink:type="simple" type="info:eu-repo/semantics/restrictedAccess"></mods:accessCondition>
+          <mods:location>
+            <mods:url note="Scopus publication">https://www.scopus.com/pages/publications/105045554172</mods:url>
+          </mods:location>
+          <mods:note type="metadata visibility" xlink:type="simple">FREE</mods:note>
+          <mods:note type="creatorCount" xlink:type="simple">8</mods:note>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>Mangroves in a Changing World</mods:title>
+              <mods:subTitle>Adaptation and Resilience</mods:subTitle>
+            </mods:titleInfo>
+            <mods:part>
+              <mods:detail type="citation">
+                <mods:caption>111-123</mods:caption>
+              </mods:detail>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:relatedItem type="series" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>Wetlands: Ecology, Conservation and Management</mods:title>
+            </mods:titleInfo>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">1875-1261</mods:identifier>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">1875-127X</mods:identifier>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>13</mods:number>
+                <mods:caption>vol.</mods:caption>
+              </mods:detail>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note type="publicationStatus" xlink:type="simple">published</mods:note>
+        </mods:mods>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:pure.atira.dk:publications/ec7d8f88-2d29-43a1-b8f4-ae6bb4ddd7f3</identifier>
+        <datestamp>2026-09-08T03:41:48Z</datestamp>
+        <setSpec>publications:all</setSpec>
+        <setSpec>publications:year2024</setSpec>
+      </header>
+      <metadata>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd ">
+          <mods:recordInfo>
+            <mods:recordContentSource>local</mods:recordContentSource>
+          </mods:recordInfo>
+          <mods:identifier type="pure/id">108795075</mods:identifier>
+          <mods:identifier type="pure/uuid">ec7d8f88-2d29-43a1-b8f4-ae6bb4ddd7f3</mods:identifier>
+          <mods:identifier type="scopus">105045486887</mods:identifier>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:part>
+              <mods:text xlink:type="simple">Athira, T R, Jishnu, K, Rubeena, K A, Abbas, A, Muzaffar, S B, Nefla, A, Jobiraj, T, Thejass, P &amp; Aarif, K M 2024, Mangrove Ecosystem : Navigating the Crossroads of Traditional Fishing, Misguided Conservation, and Large Wading Birds Decline. in Mangroves in a Changing World : Adaptation and Resilience. Wetlands: Ecology, Conservation and Management, vol. 13, Springer International Publishing, pp. 125-144. https://doi.org/10.1007/978-3-031-67691-8_8</mods:text>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:physicalDescription>
+            <mods:extent unit="pages">20</mods:extent>
+          </mods:physicalDescription>
+          <mods:note xlink:type="simple">Publisher Copyright: © The Author(s), under exclusive license to Springer Nature Switzerland AG 2024.</mods:note>
+          <mods:titleInfo xlink:type="simple" lang="eng">
+            <mods:title>Mangrove Ecosystem</mods:title>
+            <mods:subTitle>Navigating the Crossroads of Traditional Fishing, Misguided Conservation, and Large Wading Birds Decline</mods:subTitle>
+          </mods:titleInfo>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">T. R.</mods:namePart>
+            <mods:namePart type="family">Athira</mods:namePart>
+            <mods:affiliation>University of Calicut</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">K.</mods:namePart>
+            <mods:namePart type="family">Jishnu</mods:namePart>
+            <mods:affiliation>University of Calicut</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">66d8581e-cf4d-4cd0-8f9b-8e698290bf40</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/employeeId">7240857</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="orcid" typeURI="http://id.loc.gov/vocabulary/identifiers/orcid">0000-0003-1966-6737</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">rubeena.abdulsalam</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">rubeena.abdulsalam@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">K. A.</mods:namePart>
+            <mods:namePart type="family">Rubeena</mods:namePart>
+            <mods:affiliation>Applied Research Center for Environment and Marine Studies</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Ashna</mods:namePart>
+            <mods:namePart type="family">Abbas</mods:namePart>
+            <mods:affiliation>MES College Marampally</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Sabir Bin</mods:namePart>
+            <mods:namePart type="family">Muzaffar</mods:namePart>
+            <mods:affiliation>United Arab Emirates University</mods:affiliation>
+            <mods:affiliation>The Natural History Museum, London</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">Aymen</mods:namePart>
+            <mods:namePart type="family">Nefla</mods:namePart>
+            <mods:affiliation>Université de Tunis El Manar</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">T.</mods:namePart>
+            <mods:namePart type="family">Jobiraj</mods:namePart>
+            <mods:affiliation>University of Calicut</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">P.</mods:namePart>
+            <mods:namePart type="family">Thejass</mods:namePart>
+            <mods:affiliation>University of Calicut</mods:affiliation>
+          </mods:name>
+          <mods:name type="personal" xlink:type="simple" authority="local">
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">6986d2cf-8e65-4af8-9061-c2c52f944663</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/employeeId">7193121</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/username">aarif.muhammed</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/useremail">aarif.muhammed@kfupm.edu.sa</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="given">K. M.</mods:namePart>
+            <mods:namePart type="family">Aarif</mods:namePart>
+            <mods:affiliation>Applied Research Center for Environment and Marine Studies</mods:affiliation>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/role">correspondingAuthor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="corporate" xlink:type="simple" authority="local" lang="eng">
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">pbl</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm type="text" authority="pure/organisationType">/dk/atira/pure/organisation/organisationtypes/organisation/center</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="pure/uuid">4d10bc09-27ec-4bb8-8f68-f94e649b61c8</mods:nameIdentifier>
+            <mods:namePart>Applied Research Center for Environment and Marine Studies</mods:namePart>
+          </mods:name>
+          <mods:genre type="publicationType" authority="dct">Chapter</mods:genre>
+          <mods:note type="peerreview status" xlink:type="simple">Peer reviewed</mods:note>
+          <mods:note type="publication category" xlink:type="simple">Research</mods:note>
+          <mods:note type="publication workflow state" xlink:type="simple">approved</mods:note>
+          <mods:originInfo>
+            <mods:dateIssued encoding="w3cdtf">2024</mods:dateIssued>
+            <mods:dateOther type="published" encoding="w3cdtf">2024</mods:dateOther>
+            <mods:publisher>Springer International Publishing</mods:publisher>
+          </mods:originInfo>
+          <mods:subject xlink:type="simple">
+            <mods:topic>SDG 6 - Clean Water and Sanitation</mods:topic>
+            <mods:topic>SDG 13 - Climate Action</mods:topic>
+            <mods:topic>SDG 14 - Life Below Water</mods:topic>
+            <mods:topic>SDG 15 - Life on Land</mods:topic>
+          </mods:subject>
+          <mods:classification displayLabel="SDG 6 - Clean Water and Sanitation" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/clean_water_and_sanitation</mods:classification>
+          <mods:classification displayLabel="SDG 13 - Climate Action" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/climate_action</mods:classification>
+          <mods:classification displayLabel="SDG 14 - Life Below Water" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/life_below_water</mods:classification>
+          <mods:classification displayLabel="SDG 15 - Life on Land" authority="pure/sustainabledevelopmentgoals">/dk/atira/pure/sustainabledevelopmentgoals/life_on_land</mods:classification>
+          <mods:identifier type="uri">https://pure.kfupm.edu.sa/en/publications/ec7d8f88-2d29-43a1-b8f4-ae6bb4ddd7f3</mods:identifier>
+          <mods:identifier type="doi" typeURI="http://id.loc.gov/vocabulary/identifiers/doi">10.1007/978-3-031-67691-8_8</mods:identifier>
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+          </mods:language>
+          <mods:abstract type="content" xlink:type="simple" lang="eng">Mangrove ecosystems play a vital role in supporting the health of coastal communities and the environment by offering a wide range of ecosystem services, such as supplying food, purifying water, and contributing to climate change mitigation. However, biodiversity loss and habitat degradation hinder mangroves’ ability to deliver these services. This chapter investigates the relationship between biodiversity and ecosystem services within mangrove ecosystems. A crucial aspect of conservation involves adopting an interconnected coastal ecosystem mosaic approach, which is essential for safeguarding the diverse web of life in which the mangroves sustain. This approach acknowledges the indispensable contributions of various habitats to the survival and resilience of species. By advocating for sustainable practices and cultivating a deeper understanding of the complex relationships within these vital ecosystems, we can preserve the long-term well-being and resilience of mangroves and the communities that depend on them.</mods:abstract>
+          <mods:accessCondition xlink:type="simple" type="info:eu-repo/semantics/restrictedAccess"></mods:accessCondition>
+          <mods:location>
+            <mods:url note="Scopus publication">https://www.scopus.com/pages/publications/105045486887</mods:url>
+          </mods:location>
+          <mods:note type="metadata visibility" xlink:type="simple">FREE</mods:note>
+          <mods:note type="creatorCount" xlink:type="simple">9</mods:note>
+          <mods:relatedItem type="host" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>Mangroves in a Changing World</mods:title>
+              <mods:subTitle>Adaptation and Resilience</mods:subTitle>
+            </mods:titleInfo>
+            <mods:part>
+              <mods:detail type="citation">
+                <mods:caption>125-144</mods:caption>
+              </mods:detail>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:relatedItem type="series" xlink:type="simple" xlink:role="">
+            <mods:titleInfo xlink:type="simple">
+              <mods:title>Wetlands: Ecology, Conservation and Management</mods:title>
+            </mods:titleInfo>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">1875-1261</mods:identifier>
+            <mods:identifier type="issn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">1875-127X</mods:identifier>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>13</mods:number>
+                <mods:caption>vol.</mods:caption>
+              </mods:detail>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:note type="publicationStatus" xlink:type="simple">published</mods:note>
+        </mods:mods>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>
