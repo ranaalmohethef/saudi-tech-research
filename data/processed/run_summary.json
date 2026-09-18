@@ -15,12 +15,12 @@
     {
       "source": "KSU",
       "cleaned": 3556,
-      "validated": 1479,
-      "rejected": 2077
+      "validated": 1483,
+      "rejected": 2073
     }
   ],
-  "joined": 2832,
-  "final_rows": 1813,
+  "joined": 2836,
+  "final_rows": 1817,
   "year_range": [
     2023,
     2026
