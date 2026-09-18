@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "source": "KAUST",
+      "cleaned": 1052,
+      "validated": 938,
+      "rejected": 114
+    },
+    {
+      "source": "KFUPM",
+      "cleaned": 415,
+      "validated": 415,
+      "rejected": 0
+    },
+    {
+      "source": "KSU",
+      "cleaned": 3556,
+      "validated": 1479,
+      "rejected": 2077
+    }
+  ],
+  "joined": 2832,
+  "final_rows": 1813,
+  "year_range": [
+    2023,
+    2026
+  ],
+  "technology_filter": true
+}
