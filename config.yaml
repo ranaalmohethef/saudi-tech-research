@@ -1,0 +1,84 @@
+# Saudi Technology Research Data Hub - pipeline configuration
+# Every path is relative to the project root (the folder that contains data/).
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+
+years:
+  min: 2023
+  max: 2026
+
+sources:
+  kaust_repository:
+    file: KAUST_2023_raw.csv
+    year: 2023
+    university: KAUST
+    source_label: KAUST Repository
+    cleaned: KAUST_2023_cleaned.csv
+  kaust_crossref:
+    pattern: KAUST_Crossref_2024_2025_page_*.json
+    university: KAUST
+    source_label: Crossref
+    cleaned: KAUST_2024_2025_cleaned.csv
+  kfupm_pure:
+    directory: kfupm_pure
+    department: Department of Computer Engineering
+    university: King Fahd University of Petroleum and Minerals
+    source_label: KFUPM Pure (OAI-PMH)
+    excluded_genres: [Editorial, Comment/debate]
+    require_doi: true
+    cleaned: KFUPM_cleaned.csv
+  ksu:
+    files:
+      2023: ksu_publications_2023_original.json
+      2024: ksu_publications_2024_original.json
+      2025: ksu_publications_2025_repaired.json   # 2025 lives in interim (repaired JSON)
+    university: KSU
+    source_label: KSU
+    dataset_url: https://data.ksu.edu.sa/sites/data.ksu.edu.sa/files/users/user976/KSU-DMO-OD-DATASET-SciResarch-Publications-{year}.json
+    manual_enrichment: ksu_manual_enrichment.json
+    cleaned: KSU_cleaned.csv
+
+# PNU was dropped from the project scope (team decision).
+excluded_universities: [PNU]
+
+technology_filter:
+  fields: [title, abstract]           # KAUST/KFUPM records carry abstracts
+  ksu_fields: [Article Title, Author Keywords]
+  excluded_phrases: [computer vision syndrome]
+  terms:
+    - artificial intelligence
+    - machine learning
+    - deep learning
+    - neural network
+    - neural networks
+    - multilayer perceptron
+    - random forest
+    - computer vision
+    - natural language processing
+    - large language model
+    - large language models
+    - generative ai
+    - cybersecurity
+    - cyber security
+    - information security
+    - intrusion detection
+    - cryptography
+    - blockchain
+    - software engineering
+    - internet of things
+    - iot
+    - cloud computing
+    - edge computing
+    - wireless network
+    - wireless networks
+    - robotics
+    - robot
+    - robots
+    - data mining
+    - big data
+    - computer science
+    - ann modeling
+    - ann modelling
