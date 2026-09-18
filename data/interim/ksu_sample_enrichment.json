@@ -1,0 +1,25 @@
+{
+  "source_file_year": 2024,
+  "source_row_index": 69,
+  "source_title": "3-D Trajectory Optimization and Communication Resources Allocation in UAV-Assisted IoT Networks for Sustainable Industry 5.0",
+  "confirmed_doi": "10.1109/tce.2023.3325131",
+  "doi_source": "Crossref",
+  "doi_match_reason": "Exact title; all six authors align by surname and initials; journal matches.",
+  "abstract": "Unmanned aerial vehicle (UAV) has been utilized as an efficient data collector for Internet of Things (IoT) networks in sustainable industry 5.0. Whereas, how to sustain a stable power for the energy-constrained IoT devices (IoTDs) and to enhance the data gathering throughput of UAV-aided IoT networks via the wireless power transfer (WPT) or non-orthogonal multiple access (NOMA) is a twofold challenge. Thus, we propose to maximize the minimum UAV data collection throughput from the IoTDs via jointly optimizing the three-dimensional (3D) trajectories of two UAVs, scheduling and transmitting power of the IoTDs subject to the maximum flight velocity and minimum safe distance for the UAVs, as well as the harvested energy causality constraint for each IoTD during a finite UAV flight mission period. To tackle this non-convex problem with the strong interdependence of optimization parameters, we develop a 3D Trajectory Optimization and communication Resources Allocation Algorithm, named as TORAA, via employing the alternating optimization and successive convex approximation approaches, which alternately optimizes the UAVs’ 3D trajectories, the IoTDs’ scheduling and transmitting power sub-problems until the convergence criterion is met by the target function value. Moreover, we analyze the complexity and convergence characteristic of the TORAA. Numerous simulations have been performed to validate that the TORAA is capable of noteworthily enhancing the maximum minimum data collection throughput compared to the benchmark schemes with two-dimensional (2D) trajectories of the UAVs or constant transmitting power of the IoTDs.",
+  "abstract_source": "OpenAlex",
+  "openalex_id": "https://openalex.org/W4387885598",
+  "crossref_published": {
+    "date-parts": [
+      [
+        2024,
+        2
+      ]
+    ]
+  },
+  "openalex_publication_date": "2023-10-23",
+  "quality_flags": [
+    "publication_date_difference_needs_review"
+  ],
+  "crossref_response_file": "data/raw/crossref/lookup_sample_20260910T133836882449Z.json",
+  "openalex_response_file": "data/raw/openalex/sample_lookup_20260910T134546359604Z.json"
+}

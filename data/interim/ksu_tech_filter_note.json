@@ -1,0 +1,57 @@
+{
+  "status": "Initial candidates; manual review pending",
+  "scope": "Technology research, including applications in other fields",
+  "fields_searched": [
+    "Article Title",
+    "Author Keywords"
+  ],
+  "matching_method": "Case-insensitive phrases with word boundaries",
+  "terms": [
+    "artificial intelligence",
+    "machine learning",
+    "deep learning",
+    "neural network",
+    "neural networks",
+    "multilayer perceptron",
+    "random forest",
+    "computer vision",
+    "natural language processing",
+    "large language model",
+    "large language models",
+    "generative ai",
+    "cybersecurity",
+    "cyber security",
+    "information security",
+    "intrusion detection",
+    "cryptography",
+    "blockchain",
+    "software engineering",
+    "internet of things",
+    "iot",
+    "cloud computing",
+    "edge computing",
+    "wireless network",
+    "wireless networks",
+    "robotics",
+    "robot",
+    "robots",
+    "data mining",
+    "big data",
+    "computer science",
+    "ann modeling",
+    "ann modelling"
+  ],
+  "counts_by_source_file_year": {
+    "2023": 940,
+    "2024": 1306,
+    "2025": 1289
+  },
+  "limitations": [
+    "Keyword matching may include irrelevant or miss relevant papers.",
+    "Source file year is not a verified publication year.",
+    "Records have not yet been deduplicated."
+  ],
+  "enrichment_reminder": "All 2024 source records lack DOI and Abstract fields. 2023 also has missing values. Recheck missing fields among selected candidates before API enrichment.",
+  "excluded_phrase_before_matching": "computer vision syndrome",
+  "review_finding": "The 2023 record at row index 439 was missed. Its abstract confirms artificial neural networks, and its keywords contain ANN modeling. Added ANN modeling and ANN modelling to the vocabulary."
+}

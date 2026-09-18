@@ -1,0 +1,35 @@
+{
+  "source_record": {
+    "source_file_year": 2024,
+    "source_row_index": 85,
+    "title": "6G-Enabled Consumer Electronics Device Intrusion Detection With Federated Meta-Learning and Digital Twins in a Meta-Verse Environment",
+    "authors": "He, SL; Du, CW; Hossain, MS",
+    "journal": "IEEE TRANSACTIONS ON CONSUMER ELECTRONICS",
+    "existing_doi": null,
+    "missing_fields": [
+      "DOI",
+      "Abstract"
+    ],
+    "status": "pending"
+  },
+  "confirmed_doi": "10.1109/tce.2023.3321846",
+  "openalex_id": "https://openalex.org/W4387319219",
+  "openalex_title": "6G-Enabled Consumer Electronics Device Intrusion Detection With Federated Meta-Learning and Digital Twins in a Meta-Verse Environment",
+  "abstract": "The widespread adoption of consumer electronics devices coupled with the emergence of 6G technology has led to the establishment of an extensive network of interconnected devices, forming the underlying infrastructure of the Internet of Things (IoT). Nevertheless, this interconnectivity introduces a myriad of security concerns, given that these devices become susceptible to malicious activities and unauthorized breaches. Moreover, conventional intrusion detection systems encounter difficulties in managing imbalanced data scenarios, wherein the count of normal instances vastly exceeds that of intrusion instances. To address this issue, we propose a novel framework for 6G-enabled consumer electronics device intrusion detection, leveraging the power of federated meta-learning and digital twins within a Meta-Verse environment. By leveraging the distributed intelligence of meta-learning across a network of devices, our framework enables efficient and accurate detection of intrusions while mitigating the impact of imbalanced data. Furthermore, by utilizing digital twins within a Meta-Verse environment, we create a scalable and controlled setting for experimentation, enabling the development and evaluation of intrusion detection algorithms in a realistic yet controlled manner. Our experimental results demonstrate the effectiveness of the proposed framework in detecting intrusions on 6G-enabled consumer electronics devices. The federated meta-learning approach achieves superior performance compared to traditional intrusion detection methods, especially in imbalanced data scenarios.",
+  "abstract_source": "OpenAlex",
+  "crossref_published": {
+    "date-parts": [
+      [
+        2024,
+        2
+      ]
+    ]
+  },
+  "openalex_publication_date": "2023-10-03",
+  "response_file": "data/raw/openalex/paper3_20260911T091847830108Z.json",
+  "status": "reviewed_match",
+  "match_reason": "OpenAlex title matches the KSU title, and its DOI matches the reviewed Crossref DOI.",
+  "quality_flags": [
+    "publication_date_difference_needs_review"
+  ]
+}

@@ -1,0 +1,4 @@
+source,input_rows,accepted_rows,rejected_rows
+KAUST,114,114,0
+KFUPM,48,0,48
+KSU,3535,1477,2058

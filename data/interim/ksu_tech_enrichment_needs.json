@@ -1,0 +1,38 @@
+[
+  {
+    "source_file_year": 2023,
+    "field": "DOI",
+    "candidate_count": 940,
+    "missing_count": 748
+  },
+  {
+    "source_file_year": 2023,
+    "field": "Abstract",
+    "candidate_count": 940,
+    "missing_count": 0
+  },
+  {
+    "source_file_year": 2024,
+    "field": "DOI",
+    "candidate_count": 1306,
+    "missing_count": 1306
+  },
+  {
+    "source_file_year": 2024,
+    "field": "Abstract",
+    "candidate_count": 1306,
+    "missing_count": 1306
+  },
+  {
+    "source_file_year": 2025,
+    "field": "DOI",
+    "candidate_count": 1289,
+    "missing_count": 0
+  },
+  {
+    "source_file_year": 2025,
+    "field": "Abstract",
+    "candidate_count": 1289,
+    "missing_count": 0
+  }
+]

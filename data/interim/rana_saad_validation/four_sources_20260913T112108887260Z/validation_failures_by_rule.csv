@@ -1,0 +1,8 @@
+source,failure_reason,failed_rows
+KAUST,authors: required value missing,1
+KAUST,doi: required value missing,113
+KFUPM,doi: required value missing,48
+KSU,doi: required value missing,2058
+PNU,doi: required value missing,10473
+PNU,url: required value missing,10473
+PNU,authors: required value missing,10473

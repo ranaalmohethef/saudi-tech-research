@@ -1,0 +1,19 @@
+{
+  "source_file_year": 2024,
+  "source_row_index": 69,
+  "source_title": "3-D Trajectory Optimization and Communication Resources Allocation in UAV-Assisted IoT Networks for Sustainable Industry 5.0",
+  "confirmed_doi": "10.1109/tce.2023.3325131",
+  "metadata_source": "Crossref",
+  "match_status": "reviewed_match",
+  "match_reason": "Exact title; all six authors align by surname and initials; journal matches.",
+  "crossref_published": {
+    "date-parts": [
+      [
+        2024,
+        2
+      ]
+    ]
+  },
+  "crossref_response_file": "data/raw/crossref/lookup_sample_20260910T133836882449Z.json",
+  "abstract_status": "missing; OpenAlex lookup pending"
+}

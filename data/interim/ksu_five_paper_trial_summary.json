@@ -1,0 +1,58 @@
+[
+  {
+    "source_file_year": 2024,
+    "source_row_index": 69,
+    "title": "3-D Trajectory Optimization and Communication Resources Allocation in UAV-Assisted IoT Networks for Sustainable Industry 5.0",
+    "match_status": "reviewed_match",
+    "confirmed_doi": "10.1109/tce.2023.3325131",
+    "abstract_retrieved": true,
+    "evidence_file": "ksu_sample_enrichment.json",
+    "quality_flags": [
+      "publication_date_difference_needs_review"
+    ]
+  },
+  {
+    "source_file_year": 2023,
+    "source_row_index": 992,
+    "title": "Non-Linear Financial Intelligence Mixed-Integer Framework for Strategic Planning in Cost Management",
+    "match_status": "unresolved",
+    "confirmed_doi": null,
+    "abstract_retrieved": false,
+    "evidence_file": "ksu_paper1_openalex_search.json",
+    "quality_flags": []
+  },
+  {
+    "source_file_year": 2023,
+    "source_row_index": 2010,
+    "title": "Empowering smart cities: High-altitude platforms based Mobile Edge Computing and Wireless Power Transfer for efficient IoT data processing",
+    "match_status": "reviewed_match",
+    "confirmed_doi": "10.1016/j.iot.2023.100986",
+    "abstract_retrieved": false,
+    "evidence_file": "ksu_four_paper_review_decisions.json",
+    "quality_flags": []
+  },
+  {
+    "source_file_year": 2024,
+    "source_row_index": 85,
+    "title": "6G-Enabled Consumer Electronics Device Intrusion Detection With Federated Meta-Learning and Digital Twins in a Meta-Verse Environment",
+    "match_status": "reviewed_match",
+    "confirmed_doi": "10.1109/tce.2023.3321846",
+    "abstract_retrieved": true,
+    "evidence_file": "ksu_paper3_openalex_review.json",
+    "quality_flags": [
+      "publication_date_difference_needs_review"
+    ]
+  },
+  {
+    "source_file_year": 2024,
+    "source_row_index": 86,
+    "title": "6GTelMED: Resources Recommendation Framework on 6G-Enabled Distributed Telemedicine Using Edge-AI",
+    "match_status": "reviewed_match",
+    "confirmed_doi": "10.1109/tce.2024.3473291",
+    "abstract_retrieved": true,
+    "evidence_file": "ksu_paper4_openalex_review.json",
+    "quality_flags": [
+      "publication_date_precision_differs"
+    ]
+  }
+]

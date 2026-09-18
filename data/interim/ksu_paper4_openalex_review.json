@@ -1,0 +1,36 @@
+{
+  "source_record": {
+    "source_file_year": 2024,
+    "source_row_index": 86,
+    "title": "6GTelMED: Resources Recommendation Framework on 6G-Enabled Distributed Telemedicine Using Edge-AI",
+    "authors": "Ahmed, ST; Patil, KK; Kumar, SS; Dhanaraj, RK; Khan, SB; Alzahrani, S; Rani, S",
+    "journal": "IEEE TRANSACTIONS ON CONSUMER ELECTRONICS",
+    "existing_doi": null,
+    "missing_fields": [
+      "DOI",
+      "Abstract"
+    ],
+    "status": "pending"
+  },
+  "confirmed_doi": "10.1109/tce.2024.3473291",
+  "openalex_id": "https://openalex.org/W4403183025",
+  "openalex_title": "6GTelMED: Resources Recommendation Framework on 6G-Enabled Distributed Telemedicine Using Edge-AI",
+  "abstract": "Telemedicine infrastructure is enhanced in recent times and applications developed have adopted base-line networking standards according to 4G/5G and LTE. The major challenge in exiting infrastructural setups is higher-latency and exposed privacy of resources and sensitive information. In this manuscript, we have proposed a 6G enabled resource recommendation framework for telemedicine. The framework is developed on the Edge-AI computational principles to cater the needs and demands of medical devices associated in telemedicine. The approach is to customize the network via Distributed Telemedicine Network (DTN) protocol for edge-devices such IoT/IoMT and medical consumers’ calibration on an existing TelMED protocol of dynamic resource allocation. The DTN aims to generate a resource recommendation stack for incoming user demand via 6G spectrum. The edge-AI framework supports resources allocation with minimal latency and delay and improved privacy of data under the operations. The framework further interfaces the Industry 5.0 applications and consumer demands for effective resources allocation, scheduling and monitoring.",
+  "abstract_source": "OpenAlex",
+  "crossref_published": {
+    "date-parts": [
+      [
+        2024,
+        8
+      ]
+    ]
+  },
+  "openalex_publication_date": "2024-08-01",
+  "response_file": "data/raw/openalex/paper4_20260911T092742961022Z.json",
+  "status": "reviewed_match",
+  "match_reason": "OpenAlex title matches the KSU title, and its DOI matches the reviewed Crossref DOI.",
+  "date_review": "Both sources indicate August 2024. Crossref supplies year and month only; OpenAlex supplies 2024-08-01. The exact day has not been independently verified.",
+  "quality_flags": [
+    "publication_date_precision_differs"
+  ]
+}

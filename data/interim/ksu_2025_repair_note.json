@@ -1,0 +1,9 @@
+{
+  "source_url": "https://data.ksu.edu.sa/sites/data.ksu.edu.sa/files/users/user976/KSU-DMO-OD-DATASET-SciResarch-Publications-2025.json",
+  "source_file_year": 2025,
+  "record_count": 12703,
+  "original_file": "data/raw/ksu_publications_2025_original.json",
+  "working_file": "data/interim/ksu_publications_2025_repaired.json",
+  "repair_position": 696496,
+  "repair": "Escaped a backslash followed by a literal tab to make valid JSON. Preserved both character values; did not reconstruct LaTeX."
+}
