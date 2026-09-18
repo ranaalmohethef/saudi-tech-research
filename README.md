@@ -2,225 +2,183 @@
 
 A data engineering project that collects, cleans, validates, and filters research metadata from Saudi universities to support exploration of technology-related research.
 
-The repository preserves team contributions, intermediate datasets, validation results, and filtering reports. Only selected datasets are included in the consolidated output.
+The repository keeps the full trail: raw source files, intermediate datasets, validation results, rejection reports, and filtering evidence. The whole pipeline can be re-run from the raw files with a single command.
 
 ## 1. Project Scope
 
 The project covers research metadata within the 2023–2026 scope, subject to source availability.
 
-The workflow includes:
+The workflow is:
 
-1. Extracting research metadata from university repositories, APIs, and institutional datasets.
-2. Cleaning values and mapping source fields to a shared schema.
-3. Validating required fields and recording rejected records.
-4. Selecting technology-related research using keyword matching.
-5. Combining eligible datasets into a shared final file.
-6. Preserving excluded contributions and documenting their limitations.
+1. Extract research metadata from university repositories, APIs, and institutional datasets.
+2. Clean values and map source fields to a shared 13-column schema.
+3. Validate required fields and keep every rejected record with its reason.
+4. Select technology-related research using keyword matching.
+5. Join the validated datasets into a shared final file.
+6. Document every excluded contribution and its limitations.
 
-Coverage is not complete for every university or year. Missing coverage must not be interpreted as an absence of research activity.
+Coverage is not complete for every university or year. Missing coverage must not be read as an absence of research activity.
 
-## 2. Team Contributions
+## 2. Current Results
+
+Produced by `python main.py` from the raw files:
+
+| Stage | KAUST | KFUPM | KSU |
+|---|---:|---:|---:|
+| Cleaned | 1,052 | 415 | 3,556 |
+| Validated | 938 | 415 | 1,483 |
+| Rejected | 114 | 0 | 2,073 |
+
+| Output | Value |
+|---|---:|
+| Joined validated records | 2,836 |
+| Technology candidates (final dataset) | **1,817** |
+| No keyword match | 1,019 |
+| DOIs shared between two universities | 2 |
+| Automated tests passing | 90 |
+
+Final dataset by university: KSU 1,483 · KFUPM 211 · KAUST 123.
+Final dataset by year: 2023 → 339 · 2024 → 39 · 2025 → 1,372 · 2026 → 63.
+
+These counts describe the current execution. Any regenerated output must be checked against a fresh run rather than against this table.
+
+## 3. Team Contributions
 
 | Contributor | University scope | Contribution |
 |---|---|---|
-| Rana Ayman | KAUST and KFUPM | Extraction, cleaning, validation, technology filtering, and integration |
-| Rana Saad | KSU | Source inspection, cleaning, validation, and technology-related research selection |
-| Aryam Alotaibi | PNU | Extraction, metadata enrichment, cleaning, validation, and filtering workflow |
+| Rana Ayman | KAUST and KFUPM | Extraction, cleaning, validation, technology filtering, integration |
+| Rana Saad | KSU | Source inspection, cleaning, validation, reviewed enrichment, technology selection |
+| Aryam Alotaibi | PNU | Extraction, metadata enrichment, cleaning, validation, filtering workflow |
 
-All contributions are retained for documentation and review.
+Merging a contributor's Git branch into `main` does not automatically include that contributor's records in `data/processed/final.csv`. Inclusion is an explicit decision recorded below.
 
-Merging a contributor's Git branch into `main` does not automatically include that contributor's records in `data/processed/final.csv`.
-
-## 3. Dataset Inclusion Status
+## 4. Dataset Inclusion Status
 
 | Dataset | Status | Explanation |
 |---|---|---|
-| KAUST | Included | Selected records from Rana Ayman's final dataset |
-| KSU | Included | KSU records selected from Rana Saad's validated output |
-| KFUPM | Pending integration | The newer Pure collection requires validation and integration with the shared workflow |
-| PNU | Excluded from the consolidated final dataset | The reviewed output contains enrichment and matching issues described below |
+| KAUST | Included | Repository export plus Crossref records |
+| KFUPM | Included | KFUPM Pure (OAI-PMH); replaced the older ePrints collection |
+| KSU | Included | Annual institutional datasets with reviewed enrichment |
+| PNU | Excluded | Enrichment could not be reliably linked to the original records (section 9) |
 
-The team merge workflow uses explicit input files. It must not combine every CSV found under `data/processed`.
-
-### Consolidation snapshot
-
-The input snapshot reviewed for the team merge contained:
-
-| University | Rows |
-|---|---:|
-| KAUST | 123 |
-| KSU | 1,477 |
-| Total | 1,600 |
-
-These inputs contained 1,599 distinct DOI values. One DOI appeared under both universities.
-
-These counts describe the reviewed snapshot. Regenerated outputs may differ and must be checked against the latest execution results.
-
-## 4. Data Sources
+## 5. Data Sources
 
 ### KAUST
 
-KAUST metadata is collected from repository records and Crossref.
+Two inputs, each mapped to the shared schema:
 
-Repository records and Crossref records may use different publication-year conventions. These differences require review rather than automatic replacement of one year with another.
+- **Repository export** (`KAUST_2023_raw.csv`) for 2023. Partial dates in this export are completed to the first month or day; the original value is kept in the raw file, and the rule is documented in `src/clean.py`.
+- **Crossref** (`KAUST_Crossref_2024_2025_page_*.json`) for 2024–2025, filtered by the KAUST ROR affiliation.
 
-### KSU
+Repository and Crossref records use different publication-year conventions. These differences are reviewed, not silently overwritten.
 
-KSU metadata is obtained from institutional annual research datasets.
-
-In the reviewed KSU output, the `url` field refers to the annual source dataset rather than an individual publication page. This is a documented source-traceability limitation.
+Crossref returns versioned DOIs for some preprint platforms, so a small number of records share a title with a different DOI. They are kept and flagged for review.
 
 ### KFUPM
 
-The repository contains work based on:
+The original KFUPM ePrints data (48 thesis records) was removed at the source and could not be rebuilt. It was replaced by **KFUPM Pure**, harvested through OAI-PMH.
 
-- Historical KFUPM ePrints records.
-- A newer KFUPM Pure extraction workflow.
+| Item | Value |
+|---|---|
+| Endpoint | `https://pure.kfupm.edu.sa/ws/oai` (no authentication) |
+| Format | MODS 3.8 |
+| Raw harvest | 16,256 records across 165 XML pages (2023–2026) |
+| Department filter | `Department of Computer Engineering` (Pure organisational unit, exact match) |
+| After filters | 449 → 423 with DOI → **415** after removing `Editorial` and `Comment/debate` |
 
-These collections must be distinguished when validating and reporting results.
+The free-text `affiliation` field is not used for the department filter: it is author-typed and contains departments of other universities.
 
-The reviewed snapshot contained a newer Pure cleaned dataset alongside validation outputs from the older ePrints collection. Those validation outputs do not establish the quality of the newer Pure dataset.
+`publication_date` is about 80% empty because Pure supplies only a year or year-month for most records. No month or day is invented.
 
-### PNU
+### KSU
 
-The PNU contribution includes source collection and Crossref metadata enrichment.
+KSU metadata comes from the institutional annual research datasets for 2023, 2024, and 2025.
 
-Its reviewed final output is retained for audit and reproducibility but is excluded from the consolidated dataset.
+Documented source limitations:
 
-## 5. Shared Schema
+- `publication_year` is the year of the annual dataset file; the records carry no publication date.
+- `url` is the annual dataset download link, not a per-publication page. KSU does not publish one.
+- The 2024 file contains no DOI or abstract fields, so those records cannot pass the required-field policy.
+- The 2025 file needed a documented JSON repair before it could be parsed (`data/interim/ksu_2025_repair_note.json`).
 
-The consolidated dataset uses the following 13 columns in this order:
+Four records received reviewed enrichment (DOI from Crossref, abstracts from OpenAlex) after manual verification of title, authors, and journal. The decisions are in `data/interim/ksu_manual_enrichment.json` and are applied automatically; an existing value is never overwritten, and a conflicting DOI raises an error.
+
+## 6. Shared Schema
+
+The consolidated dataset uses these 13 columns in this order:
 
 | Column | Type | Required | Rule |
 |---|---|---|---|
 | `research_id` | String | Yes | Non-empty and unique |
-| `university` | String | Yes | Standard university code |
+| `university` | String | Yes | Matches the source's university |
 | `title` | String | Yes | Non-empty research title |
 | `authors` | String | Yes | Non-empty author information |
 | `publication_year` | Integer | Yes | Whole year within 2023–2026 |
-| `publication_date` | Date | No | Valid `YYYY-MM-DD` date when available |
+| `publication_date` | Date | No | Valid `YYYY-MM-DD` when available |
 | `abstract` | String | No | Abstract text when available |
 | `research_field` | String | No | Research field when available |
 | `tech_category` | String | No | Technology category when assigned |
-| `journal` | String | No | Journal or publication venue when available |
-| `doi` | String | Yes | DOI in the expected format |
+| `journal` | String | No | Journal or venue when available |
+| `doi` | String | Yes | Bare DOI, `10.xxxx/...`, lowercase |
 | `url` | String | Yes | Valid HTTP or HTTPS URL |
 | `source` | String | Yes | Non-empty source identifier |
 
-Standard university codes are:
+`data/processed/final.csv` carries two derived columns after these 13: `has_doi` and `abstract_word_count`.
 
-- `KAUST`
-- `KFUPM`
-- `KSU`
-- `PNU`
+A record with a missing required value is excluded from the accepted dataset and kept in the rejection report with its reason. This policy can exclude legitimate research that has no DOI; that reflects the project's schema requirement, not the quality of the research.
 
-### Required-field policy
+Missing optional values are allowed and are never invented.
 
-The required fields are:
+`university` holds the standard codes `KAUST`, `KFUPM`, and `KSU`. The KFUPM records are stored in Pure under the full university name; the code is normalized during cleaning, and the source system is still identifiable through `source`.
 
-```text
-research_id
-university
-title
-authors
-publication_year
-doi
-url
-source
-```
+## 7. Cleaning and Validation
 
-A record with a missing required value is excluded from the accepted dataset and retained in a rejection report where supported by the workflow.
+Cleaning is implemented once, in `src/clean.py`:
 
-This policy can exclude legitimate research that has no DOI. Such exclusion reflects the project's schema requirement and does not mean the research itself is invalid.
+- Trim whitespace and convert empty strings to missing values.
+- Treat `n/a`, `none`, `null`, and `nan` as missing.
+- Normalize DOIs to the bare lowercase form before comparison.
+- Parse partial dates per the documented rule for each source.
+- Remove duplicates by keeping the most complete record, then the most recently modified one.
+- Strip HTML and JATS markup from Crossref titles and abstracts.
 
-### Optional-field policy
+Validation is implemented once, in `src/schema.py`, and every source is judged by the same rules: required fields, university match, year range, DOI syntax, URL structure, real calendar dates, and unique identifiers. Every failed rule is listed for the record, and rejected records keep all their original values.
 
-Missing optional values are allowed.
+### What validation does not prove
 
-Unavailable dates, abstracts, journals, research fields, or technology categories must not be invented.
+Passing schema validation confirms structure only. It does not prove that a DOI belongs to the supplied title, that the authors belong to the record, that the affiliation is correct, that the year uses the intended convention, that a publication is genuinely technology-related, or that it carries no retraction notice.
 
-A word-count field such as `abstract_word_count` is a derived value and does not replace the original `abstract` text.
+## 8. Technology Filtering
 
-## 6. Cleaning and Validation
+One keyword list and one matching implementation, in `src/transform.py`.
 
-The shared workflow should:
+Matching rules:
 
-- Trim surrounding whitespace.
-- Normalize recognized missing-value markers.
-- Standardize university names to the agreed codes.
-- Normalize DOI representations before comparison.
-- Verify required values.
-- Check research identifier uniqueness.
-- Validate whole-number publication years.
-- Validate optional full dates.
-- Check DOI syntax.
-- Check URL structure.
-- Preserve rejected records with reasons.
+1. Case-insensitive.
+2. Whitespace and hyphen variations normalized, so `deep-learning` matches `deep learning`.
+3. Whole-word boundaries, so `iot` does not match "riot" and `ai` does not match "Saudi".
+4. `computer vision syndrome` is removed before matching; it is an eye condition, not computer vision research.
+5. Matched terms are kept for review; records with no match are preserved in a separate file.
 
-Validation results must correspond to the current cleaned inputs.
+Searchable fields differ by source, because the sources differ:
 
-A file named `validated.csv` is not sufficient evidence of current validation if its input dataset has subsequently changed.
+- KAUST and KFUPM: `title` and `abstract`.
+- KSU: `Article Title` and `Author Keywords` on the raw records, since KSU publishes keywords instead of a usable abstract in every year. The matched terms are written to `data/interim/ksu_provenance.json` rather than stored as a verified classification.
 
-### Structural and semantic quality
+A keyword match marks a candidate, not a confirmed classification. A record without a match is not necessarily non-technical.
 
-Passing schema validation confirms structural requirements.
-
-It does not prove that:
-
-- A DOI belongs to the supplied title.
-- Authors belong to the supplied research record.
-- The source university affiliation is correct.
-- The publication year uses the intended date convention.
-- A publication is genuinely technology-related.
-- A publication has no retraction or other status notice.
-
-These checks require additional evidence.
-
-## 7. Technology Filtering
-
-Technology filtering identifies candidate records using a shared keyword approach.
-
-Depending on source availability, searchable fields include:
-
-- Title.
-- Abstract.
-- Author keywords.
-
-Keyword matching should:
-
-1. Be case-insensitive.
-2. Normalize whitespace and common hyphen variations.
-3. Use word boundaries for short terms and abbreviations.
-4. Retain matched terms for review.
-5. Preserve records with no keyword match in a separate output.
-
-Short terms such as `ai` must not be matched as unrestricted substrings inside unrelated words.
-
-A keyword match indicates a candidate record, not a confirmed technology classification. Similarly, a record without a keyword match is not necessarily non-technical.
-
-Filtering evidence may include:
+Evidence files:
 
 ```text
-filter_review.csv
-no_keyword_match.csv
-technology_selected.csv
+data/processed/technology_filter/filter_review.csv
+data/processed/technology_filter/no_keyword_match.csv
 ```
 
-These files must be regenerated from the same input snapshot as the corresponding final output.
+## 9. PNU Contribution: Exclusion Decision
 
-## 8. PNU Contribution: Issues and Exclusion Decision
+Aryam's work is preserved in the repository for audit and reproducibility, but the reviewed PNU output is excluded from `data/processed/final.csv`.
 
-Aryam's contribution is preserved in this repository.
-
-However, the PNU output reviewed during the quality assessment is excluded from `data/processed/final.csv` because its enriched metadata could not be reliably associated with the original research records.
-
-The findings below apply to the reviewed 1,544-row PNU output. They are not quality measurements of every PNU publication or of a future corrected extraction.
-
-### 8.1 Enrichment index misalignment
-
-The reviewed workflow filtered source records while retaining their original DataFrame indices.
-
-Crossref results were then stored in a new DataFrame with a sequential index and assigned directly:
+**Primary reason — enrichment index misalignment.** The workflow filtered source records while keeping their original DataFrame indices, then assigned Crossref results held in a new DataFrame with a sequential index:
 
 ```python
 pnu_enriched[
@@ -228,282 +186,113 @@ pnu_enriched[
 ] = crossref_df
 ```
 
-Pandas aligns this assignment by index labels.
+Pandas aligns this assignment by index label. Because the two frames no longer represented the same records at the same labels, enriched values were attached to the wrong research records: 1,540 of 1,544 final rows, about 99.74%, are affected. Populated fields that pass format checks are therefore still unreliable.
 
-Because the two DataFrames no longer represented the same records at the same index labels, enrichment values could be attached to the wrong research records.
+Supporting findings in the same reviewed output:
 
-Affected fields included:
+- Crossref candidates were accepted by first-result position, with no verification against title, authors, or year.
+- 92 rows, about 5.96%, fell into duplicate DOI groups, some with different titles.
+- 383 rows, about 24.81%, had a publication-date year different from `publication_year`.
+- The technology filter used unrestricted substring matching, so terms such as `ai` matched inside unrelated words; with word boundaries, 731 of 1,544 rows would not pass.
 
-- Authors.
-- DOI.
-- URL.
-- Publication date.
-- Abstract.
-- Journal.
+These groups overlap, so their percentages must not be added into a single error rate.
 
-The review identified 1,540 of 1,544 final records, approximately 99.74%, as affected by unreliable metadata association.
+**Requirements for future inclusion:** return to the original source records, keep a stable identifier per record, rebuild enrichment as a join on that identifier, verify each Crossref candidate, investigate duplicate DOIs and year inconsistencies, apply the agreed filter rules, and rerun validation. Resetting the index alone does not repair metadata that was already misassigned.
 
-This issue prevents acceptance even when the affected fields are populated and pass format checks.
-
-### 8.2 Crossref candidate verification
-
-The reviewed workflow also relied on a first-result matching approach without sufficient verification.
-
-A Crossref search result is a candidate match. Its position in the results does not establish that it is the correct publication.
-
-Before accepting enrichment, the workflow must compare the candidate against the original record using:
-
-- Title.
-- Available author information.
-- Publication year and date context.
-- Other available identifiers or publication details.
-
-Low-confidence matches must remain unresolved.
-
-### 8.3 Duplicate DOI assignments
-
-The reviewed PNU final output contained 92 records in duplicate DOI groups, approximately 5.96% of the dataset.
-
-Some DOI values were associated with different titles.
-
-These cases require identity checks. Simply dropping duplicate DOI rows does not repair metadata that was assigned to the wrong record.
-
-### 8.4 Publication-year inconsistencies
-
-The review found 383 records, approximately 24.81%, whose publication-date year differed from `publication_year`.
-
-Some year differences can occur legitimately between online publication, issue publication, and source reporting dates. However, the enrichment misalignment makes these differences unreliable until the underlying record matching is corrected.
-
-The reviewed final output also contained only 2023 records despite the source collection containing records from 2023, 2024, and 2025.
-
-The loss of later-year coverage requires investigation.
-
-### 8.5 Technology-filter over-selection
-
-The reviewed filter used unrestricted substring matching for terms such as `ai`.
-
-This can match unrelated words and admit records without the intended keyword evidence.
-
-In a comparison using the same terms with word boundaries, 731 of 1,544 records, approximately 47.34%, would not pass.
-
-This is evidence of potential over-selection. It does not prove that all 731 records are non-technical.
-
-### 8.6 Interpreting the percentages
-
-These issue groups overlap.
-
-Their percentages must not be added together to calculate a total error rate.
-
-The enrichment association issue is the primary reason for excluding the reviewed PNU output.
-
-### 8.7 Requirements for future inclusion
-
-PNU can be reconsidered after:
-
-1. Returning to the original source records.
-2. Preserving a stable identifier for every source record.
-3. Rebuilding enrichment with an explicit link to that identifier.
-4. Checking Crossref candidates before accepting metadata.
-5. Investigating duplicate DOI assignments.
-6. Reviewing publication-year inconsistencies and year coverage.
-7. Applying the agreed technology-filter rules.
-8. Rerunning validation and generating fresh quality reports.
-
-Resetting the index alone is not sufficient unless enrichment results preserve the exact same record order, including failed or unmatched requests.
-
-Joining enrichment results through a stable source identifier is preferable.
-
-Existing misassigned metadata must not be treated as corrected merely because the final DataFrame index has been reset.
-
-## 9. Preserving Aryam's Work
-
-The contribution is retained using separate filenames where notebook names overlap with the existing team workflow:
-
-```text
-README_aryam.md
-notebooks/pnu_aryam.ipynb
-notebooks/02_profile_clean_aryam.ipynb
-notebooks/03_schema_validate_aryam.ipynb
-notebooks/04_join_transform_aryam.ipynb
-```
-
-The preserved notebooks document the submitted work. Renaming them does not itself fix their logic or isolate their output paths.
-
-Review their input and output paths before execution.
-
-`data/processed/final_pnu.csv` is retained as an excluded contribution artifact. Its filename does not mean it is approved for the shared final dataset.
-
-Contributor-specific README files are historical documentation. This main README defines the current team-level inclusion decision.
-
-## 10. Team Merge
-
-The team merge workflow is maintained in:
-
-```text
-notebooks/05_team_merge.ipynb
-```
-
-The reviewed consolidation uses:
-
-- Rana Ayman's selected KAUST records.
-- The KSU subset of Rana Saad's validated output.
-
-It excludes:
-
-- PNU records pending correction.
-- KFUPM records pending integration.
-- Rejected records.
-- Records excluded by the applicable technology filter.
-- Duplicate copies of KAUST records present in another contributor's combined validation output.
-
-The final dataset contains only the shared 13 columns.
-
-Contributor-specific helper columns, including `has_doi` and `abstract_word_count`, are not part of the consolidated schema.
-
-### Cross-university DOI handling
-
-A publication may be associated with more than one university.
-
-A DOI appearing under different universities should be reviewed rather than automatically removed.
-
-The current consolidation preserves university associations and writes shared DOI cases to:
-
-```text
-data/processed/shared_doi_review.csv
-```
-
-The reviewed input snapshot contained one DOI shared between KAUST and KSU:
-
-```text
-10.5194/hess-29-4983-2025
-```
-
-Therefore, the reviewed 1,600-row snapshot represents university-associated records and contains 1,599 distinct DOI values.
-
-## 11. Repository Structure
+## 10. Repository Structure
 
 ```text
 saudi-tech-research/
 ├── data/
-│   ├── raw/
-│   ├── interim/
+│   ├── raw/                     # unchanged source files (frozen snapshot)
+│   ├── interim/                 # cleaned, validated, rejected, provenance
 │   └── processed/
-│       ├── final.csv
-│       ├── final_rana.csv
-│       ├── final_pnu.csv
+│       ├── final.csv            # consolidated dataset
 │       ├── shared_doi_review.csv
+│       ├── run_summary.json
 │       └── technology_filter/
-├── notebooks/
+├── notebooks/                   # analysis, profiling, and the decisions behind the rules
 │   ├── 01_extract.ipynb
 │   ├── 02_profile_clean.ipynb
 │   ├── 03_schema_validate.ipynb
 │   ├── 04_join_transform.ipynb
 │   ├── 05_team_merge.ipynb
 │   ├── KFUPM_Pure_extract_clean.ipynb
-│   ├── hasaniah_ksu_inspect.ipynb
-│   ├── pnu_aryam.ipynb
-│   ├── 02_profile_clean_aryam.ipynb
-│   ├── 03_schema_validate_aryam.ipynb
-│   └── 04_join_transform_aryam.ipynb
-├── src/
-├── tests/
-├── config.yaml
-├── main.py
+│   └── hasaniah_ksu_inspect.ipynb
+├── src/                         # the pipeline implementation
+│   ├── config.py                # config.yaml and path resolution
+│   ├── extract.py               # reading raw CSV, JSON, and MODS XML
+│   ├── profile.py               # missing values, duplicates, year distribution
+│   ├── clean.py                 # cleaning and mapping to the shared schema
+│   ├── schema.py                # schema definition and validation rules
+│   └── transform.py             # technology filter, join, derived columns
+├── tests/                       # 90 tests over the rules above
+├── config.yaml                  # paths, year range, keyword list, source settings
+├── main.py                      # runs the whole pipeline
 ├── requirements.txt
-├── README.md
-├── README_rana_saad.md
-└── README_aryam.md
+└── README.md
 ```
 
-This structure highlights the principal files. Additional source and contributor artifacts may also be present.
+The notebooks show the analysis and justify the rules; `src/` holds the implementation they call. Keeping one implementation is deliberate: the team cannot end up with two different versions of the filter or the validator.
 
-## 12. Running the Workflow
+## 11. Running the Workflow
 
-Install the project dependencies:
+Install the dependencies:
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-Select the project Python environment as the Jupyter kernel.
+Run the pipeline:
 
-For the main notebook workflow, run the notebooks in order:
-
-```text
-01_extract.ipynb
-02_profile_clean.ipynb
-03_schema_validate.ipynb
-04_join_transform.ipynb
-05_team_merge.ipynb
+```bash
+python main.py                    # every source
+python main.py --sources kaust    # one or more sources
+python main.py --no-tech-filter   # skip the keyword filter
 ```
 
-Contributor workflows may have separate inputs and dependencies. They should not be treated as interchangeable replacements for the main notebooks.
+Run the tests:
 
-Before running the team merge:
+```bash
+python -m pytest tests -q
+```
 
-1. Confirm that the expected input files exist.
-2. Confirm that validation outputs were generated from the current cleaned inputs.
-3. Review accepted, rejected, and filtered record counts.
-4. Confirm that the merge reads only the intended datasets.
-5. Close CSV files open in Excel before overwriting them.
+The extraction step is not repeated by `main.py`: the files under `data/raw` are the frozen snapshot the project works from. Re-downloading them is done in `notebooks/01_extract.ipynb` and `notebooks/KFUPM_Pure_extract_clean.ipynb`, which is deliberate, since re-harvesting changes the record counts.
 
-After running the team merge, check:
+To use the same logic inside a notebook:
 
-- Row count and university distribution.
-- Exact column order.
-- Missing required values.
-- Duplicate research identifiers.
-- DOI duplication within each university.
-- Shared DOI cases across universities.
-- Publication-year range and date validity.
-- Absence of PNU records from the consolidated output.
+```python
+import sys
+from pathlib import Path
 
-Do not infer successful execution from old notebook outputs alone.
+ROOT = Path.cwd().parent if Path.cwd().name == "notebooks" else Path.cwd()
+sys.path.insert(0, str(ROOT))
 
-## 13. Known Limitations and Pending Work
+from src import clean, extract, profile, schema, transform
+```
 
-### Uneven coverage
+After a run, check the row count and university distribution, the column order, missing required values, duplicate identifiers, shared DOI cases, and the year range. `data/processed/run_summary.json` records the counts of the last run.
 
-The datasets differ in collection method, year coverage, and available metadata. Raw publication counts should not be used directly to rank university research activity.
+Close any CSV open in Excel before running, or the write will fail.
 
-### Optional metadata gaps
+## 12. Known Limitations and Pending Work
 
-Some accepted records lack optional metadata. This is permitted by the schema but limits downstream analysis.
+**Uneven coverage.** The sources differ in collection method, year coverage, and available metadata. Raw counts must not be used to rank university research activity. KSU dominates the final dataset because its annual files are institution-wide, while KFUPM is limited to one department.
 
-### Publication-year interpretation
+**`tech_category` is empty** for every record. The technology filter selects candidates; it does not assign a category.
 
-Repository deposit dates, online publication dates, issue dates, and annual reporting years may differ. A consistent analytical year policy remains important.
+**Publication-year interpretation.** Deposit dates, online publication dates, issue dates, and annual reporting years differ across sources. A single analytical year policy is still needed.
 
-### Publication status
+**Publication status.** Validation does not check retractions or expressions of concern. The KSU review found records carrying status notices; they need explicit treatment before analysis.
 
-Schema validation does not check whether a publication has been retracted or has an expression of concern.
+**Cross-university duplicates.** A co-authored paper legitimately appears under two universities. Those records are kept, and the cases are written to `data/processed/shared_doi_review.csv` for review rather than removed. The current run contains two such DOIs, one shared between KAUST and KSU and one between KSU and KFUPM.
 
-The earlier KSU review identified records with publication-status notices. These require review and explicit treatment before substantive research analysis.
+**Filter fields differ by source.** KSU is matched on author keywords and KAUST/KFUPM on abstracts, because of what each source publishes. This is documented rather than hidden, but it does mean the selection is not perfectly uniform.
 
-### KFUPM integration
+**PNU remediation.** The preserved PNU workflow needs correction and a fresh quality assessment before it can be included.
 
-The newer Pure dataset requires:
+## 13. Intended Use
 
-- University-code normalization.
-- Validation against the shared schema.
-- Technology filtering.
-- Fresh accepted and rejected outputs.
-- Separation from historical ePrints output paths.
+The dataset supports exploratory analysis and the development of data engineering workflows.
 
-Do not overwrite a newer cleaned collection with outputs from an older extraction workflow.
-
-### PNU remediation
-
-The preserved PNU workflow requires correction and a new quality assessment before inclusion.
-
-### Reproducibility
-
-Input versions, extraction dates, API parameters, matching decisions, and rejection reasons should be recorded so that outputs can be reproduced and audited.
-
-## 14. Intended Use
-
-The dataset supports exploratory analysis and development of data engineering workflows.
-
-It is not an exhaustive inventory of Saudi research, a university ranking, or a guarantee of publication quality.
-
-Users should account for source coverage, keyword-selection limitations, shared university affiliations, publication-year conventions, and publication-status notices when interpreting results.
+It is not an exhaustive inventory of Saudi research, a university ranking, or a guarantee of publication quality. Interpretation should account for source coverage, keyword-selection limits, shared affiliations, publication-year conventions, and publication-status notices.

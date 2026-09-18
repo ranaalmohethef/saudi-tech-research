@@ -25,7 +25,7 @@ sources:
   kfupm_pure:
     directory: kfupm_pure
     department: Department of Computer Engineering
-    university: King Fahd University of Petroleum and Minerals
+    university: KFUPM
     source_label: KFUPM Pure (OAI-PMH)
     excluded_genres: [Editorial, Comment/debate]
     require_doi: true
