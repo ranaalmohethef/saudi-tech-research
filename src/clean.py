@@ -1,10 +1,8 @@
-"""Cleaning: turn each raw source into the 13-column common schema.
+"""Cleaning functions that map raw sources to the shared 13-column schema.
 
-The generic helpers at the top are shared by every source. The ``clean_*``
-functions below apply the source-specific decisions that are documented in the
-notebooks (date handling, deduplication, KFUPM department filter, KSU year
-rule). No function invents a value: a missing month or day stays missing,
-except for the KAUST repository rule documented in ``parse_partial_date``.
+Cleaning standardizes values but does not silently remove records because a
+required field is missing. Required-field decisions belong to schema
+validation so rejected records remain auditable.
 """
 
 from __future__ import annotations
@@ -16,7 +14,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from src.schema import SCHEMA_COLUMNS
+from src.schema import MISSING_MARKERS, SCHEMA_COLUMNS
 
 DOI_PATTERN = re.compile(r"10\.\d{4,9}/\S+", re.IGNORECASE)
 DOI_PREFIX_PATTERN = re.compile(
@@ -24,11 +22,8 @@ DOI_PREFIX_PATTERN = re.compile(
 )
 
 
-# --------------------------------------------------------------------------
-# Generic helpers
-# --------------------------------------------------------------------------
 def snake_case_columns(frame: pd.DataFrame) -> pd.DataFrame:
-    """Rename columns to snake_case (``Publication Date`` -> ``publication_date``)."""
+    """Rename columns to snake_case."""
     result = frame.copy()
     result.columns = (
         result.columns.str.strip()
@@ -40,19 +35,21 @@ def snake_case_columns(frame: pd.DataFrame) -> pd.DataFrame:
 
 
 def strip_and_blank_to_na(frame: pd.DataFrame) -> pd.DataFrame:
-    """Trim every text column and turn empty strings into missing values."""
+    """Trim text and convert blank/textual missing markers to ``pd.NA``."""
     result = frame.copy()
 
     for column in result.columns:
         if pd.api.types.is_string_dtype(result[column]) or result[column].dtype == object:
             result[column] = result[column].astype("string").str.strip()
+            marker_mask = result[column].str.casefold().isin(MISSING_MARKERS)
+            result.loc[marker_mask, column] = pd.NA
 
-    return result.replace(r"^\s*$", pd.NA, regex=True)
+    return result
 
 
 def clean_markup(value) -> str | pd.NA:
-    """Remove HTML/JATS tags and collapse whitespace (Crossref abstracts)."""
-    if pd.isna(value):
+    """Remove HTML/JATS tags and collapse whitespace."""
+    if value is None or pd.isna(value):
         return pd.NA
 
     text = html.unescape(str(value))
@@ -63,11 +60,7 @@ def clean_markup(value) -> str | pd.NA:
 
 
 def normalize_doi(value) -> str | pd.NA:
-    """Return the bare lowercase DOI (``10.xxxx/...``) or missing.
-
-    Handles ``https://doi.org/...``, ``http://dx.doi.org/...`` and ``doi:``
-    prefixes, and drops a trailing full stop.
-    """
+    """Return a bare lowercase DOI or ``pd.NA`` when no DOI is present."""
     if value is None or pd.isna(value):
         return pd.NA
 
@@ -79,36 +72,37 @@ def normalize_doi(value) -> str | pd.NA:
     return match.group(0).rstrip(".").lower()
 
 
-def parse_partial_date(value, complete_only: bool = False):
-    """Parse a date that may be ``YYYY``, ``YYYY-MM`` or ``YYYY-MM-DD``.
+def parse_partial_date(value, complete_only: bool = True):
+    """Return a date only when year, month, and day are known.
 
-    ``complete_only=True`` (KFUPM rule) keeps only full calendar dates and
-    returns ``None`` for anything shorter. ``complete_only=False`` (KAUST
-    repository rule) completes a partial date with the first month/day, which
-    is what the original pandas cleaning did; the choice is documented in the
-    notebook so the reader knows the day was not in the source.
+    The project does not invent a month or day. ``YYYY`` and ``YYYY-MM``
+    therefore return ``None``. ISO timestamps are accepted because they still
+    contain a complete calendar date.
+
+    ``complete_only`` is retained for backward compatibility; partial dates
+    are intentionally never completed even if callers pass ``False``.
     """
     if value is None or pd.isna(value):
         return None
 
     text = str(value).strip()
 
-    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", text):
-        return _to_date(text, "%Y-%m-%d")
-
-    if complete_only:
-        return None
-
     if re.fullmatch(r"\d{4}-\d{1,2}-\d{1,2}", text):
         return _to_date(text, "%Y-%m-%d")
-    if re.fullmatch(r"\d{4}-\d{1,2}", text):
-        return _to_date(text, "%Y-%m")
-    if re.fullmatch(r"\d{4}", text):
-        return _to_date(text, "%Y")
+
     if re.match(r"^\d{4}-\d{2}-\d{2}T", text):
         return _to_date(text[:10], "%Y-%m-%d")
 
     return None
+
+
+def extract_year(value):
+    """Extract a leading four-digit year without inventing a full date."""
+    if value is None or pd.isna(value):
+        return pd.NA
+
+    match = re.match(r"^(\d{4})", str(value).strip())
+    return int(match.group(1)) if match else pd.NA
 
 
 def _to_date(text: str, fmt: str):
@@ -117,69 +111,64 @@ def _to_date(text: str, fmt: str):
 
 
 def format_date(value) -> str | pd.NA:
-    """Format a date object as ``YYYY-MM-DD`` text, or missing."""
+    """Format a complete date as ``YYYY-MM-DD`` text."""
     if value is None or (not isinstance(value, str) and pd.isna(value)):
         return pd.NA
     return pd.Timestamp(value).strftime("%Y-%m-%d")
 
 
 def completeness_score(frame: pd.DataFrame) -> pd.Series:
-    """Count the populated fields of each row (used to pick the best duplicate)."""
+    """Count populated fields per row."""
     return frame.notna().sum(axis=1)
 
 
-def deduplicate(frame: pd.DataFrame, subset: list[str],
-                prefer: list[str]) -> pd.DataFrame:
-    """Keep one row per ``subset`` group, preferring the rows sorted first.
-
-    ``prefer`` lists the columns to sort by in descending order (for example
-    completeness, then the most recently modified record).
-    """
+def deduplicate(frame: pd.DataFrame, subset: list[str], prefer: list[str]) -> pd.DataFrame:
+    """Keep one row per key, preferring more complete/newer rows."""
     ordered = frame.sort_values(prefer, ascending=[False] * len(prefer))
     return ordered.drop_duplicates(subset=subset, keep="first")
 
 
 def to_schema(frame: pd.DataFrame) -> pd.DataFrame:
-    """Return the frame with exactly the 13 schema columns, in order."""
+    """Return exactly the shared schema columns in the agreed order."""
     result = frame.copy()
-
     for column in SCHEMA_COLUMNS:
         if column not in result.columns:
             result[column] = pd.NA
-
     return result[SCHEMA_COLUMNS].reset_index(drop=True)
 
 
-# --------------------------------------------------------------------------
-# KAUST repository export
-# --------------------------------------------------------------------------
-def clean_kaust_repository(raw: pd.DataFrame, year: int,
-                           university: str = "KAUST",
-                           source_label: str = "KAUST Repository") -> pd.DataFrame:
-    """Clean the KAUST repository CSV and map it to the common schema."""
+def clean_kaust_repository(
+    raw: pd.DataFrame,
+    year: int,
+    university: str = "KAUST",
+    source_label: str = "KAUST Repository",
+) -> pd.DataFrame:
+    """Clean the KAUST repository export for one target year."""
     frame = strip_and_blank_to_na(snake_case_columns(raw))
 
+    frame["parsed_year"] = pd.array(frame["publication_date"].map(extract_year), dtype="Int64")
     frame["parsed_date"] = frame["publication_date"].map(parse_partial_date)
-    frame["parsed_year"] = frame["parsed_date"].map(
-        lambda value: value.year if value is not None else pd.NA
-    )
     frame = frame[frame["parsed_year"] == year].copy()
 
     frame["doi"] = frame["doi"].map(normalize_doi)
 
-    # A record without a DOI can only be matched by its repository handle.
     frame["dedup_key"] = [
         handle if pd.isna(doi) else f"{doi}|{title}|{kind}|{date}"
         for doi, handle, title, kind, date in zip(
-            frame["doi"], frame["handle"], frame["title"],
-            frame["type"], frame["parsed_date"]
+            frame["doi"],
+            frame["handle"],
+            frame["title"],
+            frame["type"],
+            frame["parsed_date"],
         )
     ]
     frame["completeness"] = completeness_score(
         frame.drop(columns=["parsed_date", "parsed_year", "dedup_key"])
     )
     frame = deduplicate(
-        frame, subset=["dedup_key"], prefer=["completeness", "metadata_last_modified"]
+        frame,
+        subset=["dedup_key"],
+        prefer=["completeness", "metadata_last_modified"],
     )
 
     frame["research_id"] = frame["handle"]
@@ -194,9 +183,6 @@ def clean_kaust_repository(raw: pd.DataFrame, year: int,
     return to_schema(frame)
 
 
-# --------------------------------------------------------------------------
-# Crossref
-# --------------------------------------------------------------------------
 def _crossref_authors(authors) -> str | pd.NA:
     if not isinstance(authors, list):
         return pd.NA
@@ -214,7 +200,7 @@ def _first_item(value):
 
 
 def _crossref_date(date_parts):
-    """Return ``(year, full_date)``; the date stays missing unless Y-M-D is given."""
+    """Return ``(year, full_date)`` without completing partial dates."""
     if not isinstance(date_parts, list) or not date_parts:
         return pd.NA, pd.NA
 
@@ -222,19 +208,27 @@ def _crossref_date(date_parts):
     year = parts[0] if len(parts) >= 1 else pd.NA
 
     if len(parts) >= 3:
-        return year, f"{parts[0]:04d}-{parts[1]:02d}-{parts[2]:02d}"
+        try:
+            date_value = pd.Timestamp(year=parts[0], month=parts[1], day=parts[2])
+        except (TypeError, ValueError):
+            return year, pd.NA
+        return year, date_value.strftime("%Y-%m-%d")
+
     return year, pd.NA
 
 
-def clean_kaust_crossref(raw: pd.DataFrame, university: str = "KAUST",
-                         source_label: str = "Crossref") -> pd.DataFrame:
-    """Clean the flattened Crossref records and map them to the common schema."""
+def clean_kaust_crossref(
+    raw: pd.DataFrame,
+    university: str = "KAUST",
+    source_label: str = "Crossref",
+    min_year: int | None = None,
+    max_year: int | None = None,
+) -> pd.DataFrame:
+    """Clean flattened Crossref records and map them to the common schema."""
     frame = pd.DataFrame(index=raw.index)
 
     dates = raw["published.date-parts"].map(_crossref_date)
-    frame["publication_year"] = pd.array(
-        [value[0] for value in dates], dtype="Int64"
-    )
+    frame["publication_year"] = pd.array([value[0] for value in dates], dtype="Int64")
     frame["publication_date"] = [value[1] for value in dates]
 
     frame["title"] = raw["title"].map(_first_item).map(clean_markup)
@@ -250,41 +244,44 @@ def clean_kaust_crossref(raw: pd.DataFrame, university: str = "KAUST",
     frame["tech_category"] = pd.NA
     frame["source"] = source_label
 
+    if min_year is not None:
+        frame = frame[frame["publication_year"] >= min_year]
+    if max_year is not None:
+        frame = frame[frame["publication_year"] <= max_year]
+
     return to_schema(frame)
 
 
-# --------------------------------------------------------------------------
-# KFUPM Pure
-# --------------------------------------------------------------------------
-def clean_kfupm_pure(raw: pd.DataFrame, department: str, university: str,
-                     source_label: str, min_year: int, max_year: int,
-                     excluded_genres: list[str] | None = None,
-                     require_doi: bool = True) -> pd.DataFrame:
-    """Keep one department's Pure records and map them to the common schema.
+def clean_kfupm_pure(
+    raw: pd.DataFrame,
+    department: str,
+    university: str,
+    source_label: str,
+    min_year: int,
+    max_year: int,
+    excluded_genres: list[str] | None = None,
+) -> pd.DataFrame:
+    """Filter KFUPM Pure to the target department and map to the schema.
 
-    The department is read from the Pure organisational unit
-    (``name type="corporate"``), never from the free-text affiliation, which
-    also contains departments of other universities.
+    Records missing DOI are kept here and are rejected later by schema
+    validation. This preserves the audit trail instead of silently dropping
+    required-field failures during cleaning.
     """
     excluded_genres = excluded_genres or []
 
     frame = raw[
-        raw["organisational_units"].map(lambda units: department in (units or []))
+        raw["organisational_units"].map(
+            lambda units: isinstance(units, list) and department in units
+        )
     ].copy()
 
     frame["research_id"] = "KFUPM_" + frame["uuid"].astype("string")
     frame = frame.drop_duplicates("research_id")
 
     frame["university"] = university
-    frame["publication_year"] = pd.array(
-        [
-            int(value[:4]) if isinstance(value, str) and value[:4].isdigit() else pd.NA
-            for value in frame["date_issued"]
-        ],
-        dtype="Int64",
-    )
+    frame["publication_year"] = pd.array(frame["date_issued"].map(extract_year), dtype="Int64")
     frame["publication_date"] = frame["date_issued"].map(
-        lambda value: format_date(parse_partial_date(value, complete_only=True))
+        lambda value: format_date(parse_partial_date(value))
     )
     frame["research_field"] = frame["topics"]
     frame["tech_category"] = pd.NA
@@ -292,38 +289,29 @@ def clean_kfupm_pure(raw: pd.DataFrame, department: str, university: str,
     frame["source"] = source_label
 
     frame = frame[frame["publication_year"].between(min_year, max_year)]
-    if require_doi:
-        frame = frame[frame["doi"].notna()]
     if excluded_genres:
         frame = frame[~frame["genre"].isin(excluded_genres)]
 
     return to_schema(frame)
 
 
-# --------------------------------------------------------------------------
-# KSU annual open data
-# --------------------------------------------------------------------------
-def clean_ksu(raw: pd.DataFrame, year: int, dataset_url: str,
-              university: str = "KSU", source_label: str = "KSU") -> pd.DataFrame:
-    """Map KSU records to the common schema.
-
-    Two documented KSU rules:
-
-    * ``publication_year`` is the year of the annual dataset file, because the
-      records themselves carry no date.
-    * ``url`` is the annual dataset download link, not a per-paper page. The
-      KSU files do not publish one.
-    """
+def clean_ksu(
+    raw: pd.DataFrame,
+    year: int,
+    dataset_url: str,
+    university: str = "KSU",
+    source_label: str = "KSU",
+) -> pd.DataFrame:
+    """Map one KSU annual file to the common schema."""
     frame = pd.DataFrame(index=raw.index)
 
     def text(column: str) -> pd.Series:
         if column not in raw.columns:
             return pd.Series(pd.NA, index=raw.index, dtype="string")
-        return raw[column].astype("string").str.strip().replace("", pd.NA)
+        values = raw[column].astype("string").str.strip()
+        return values.mask(values.str.casefold().isin(MISSING_MARKERS), pd.NA)
 
-    frame["research_id"] = [
-        f"KSU_{year}_{index}" for index in raw["source_row_index"]
-    ]
+    frame["research_id"] = [f"KSU_{year}_{index}" for index in raw["source_row_index"]]
     frame["university"] = university
     frame["title"] = text("Article Title")
     frame["authors"] = text("Authors")
@@ -340,13 +328,11 @@ def clean_ksu(raw: pd.DataFrame, year: int, dataset_url: str,
     return to_schema(frame)
 
 
-def apply_manual_enrichment(frame: pd.DataFrame, path: Path) -> tuple[pd.DataFrame, list[dict]]:
-    """Fill reviewed DOIs and abstracts from a curated enrichment file.
-
-    Only missing values are filled; an existing value is never overwritten and
-    a conflicting DOI raises an error. Returns the enriched frame and a log of
-    what was changed, so the enrichment stays auditable.
-    """
+def apply_manual_enrichment(
+    frame: pd.DataFrame,
+    path: Path,
+) -> tuple[pd.DataFrame, list[dict]]:
+    """Fill only reviewed missing DOI/abstract values from a curated file."""
     result = frame.copy()
     log: list[dict] = []
 
@@ -377,10 +363,12 @@ def apply_manual_enrichment(frame: pd.DataFrame, path: Path) -> tuple[pd.DataFra
             added.append("abstract")
 
         if added:
-            log.append({
-                "research_id": decision["research_id"],
-                "fields_added": added,
-                "evidence": decision.get("evidence"),
-            })
+            log.append(
+                {
+                    "research_id": decision["research_id"],
+                    "fields_added": added,
+                    "evidence": decision.get("evidence"),
+                }
+            )
 
     return result, log

@@ -8,22 +8,24 @@
     },
     {
       "source": "KFUPM",
-      "cleaned": 415,
+      "cleaned": 441,
       "validated": 415,
-      "rejected": 0
+      "rejected": 26
     },
     {
       "source": "KSU",
-      "cleaned": 3556,
-      "validated": 1483,
-      "rejected": 2073
+      "cleaned": 41183,
+      "validated": 15622,
+      "rejected": 25561
     }
   ],
-  "joined": 2836,
+  "joined_validated": 16975,
   "final_rows": 1817,
+  "excluded_by_technology_filter": 15158,
   "year_range": [
     2023,
     2026
   ],
-  "technology_filter": true
+  "technology_filter": true,
+  "output_file": "data\\processed\\final.csv"
 }

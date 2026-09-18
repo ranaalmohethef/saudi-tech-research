@@ -1,5 +1,5 @@
 # Saudi Technology Research Data Hub - pipeline configuration
-# Every path is relative to the project root (the folder that contains data/).
+# Paths are relative to the project root.
 
 paths:
   raw: data/raw
@@ -17,35 +17,41 @@ sources:
     university: KAUST
     source_label: KAUST Repository
     cleaned: KAUST_2023_cleaned.csv
+
   kaust_crossref:
     pattern: KAUST_Crossref_2024_2025_page_*.json
+    from_year: 2024
+    until_year: 2025
     university: KAUST
     source_label: Crossref
     cleaned: KAUST_2024_2025_cleaned.csv
+
   kfupm_pure:
     directory: kfupm_pure
     department: Department of Computer Engineering
     university: KFUPM
     source_label: KFUPM Pure (OAI-PMH)
     excluded_genres: [Editorial, Comment/debate]
-    require_doi: true
     cleaned: KFUPM_cleaned.csv
+
   ksu:
     files:
       2023: ksu_publications_2023_original.json
       2024: ksu_publications_2024_original.json
-      2025: ksu_publications_2025_repaired.json   # 2025 lives in interim (repaired JSON)
+      2025: ksu_publications_2025_original.json
+    repaired_files:
+      2025: ksu_publications_2025_repaired.json
     university: KSU
     source_label: KSU
     dataset_url: https://data.ksu.edu.sa/sites/data.ksu.edu.sa/files/users/user976/KSU-DMO-OD-DATASET-SciResarch-Publications-{year}.json
     manual_enrichment: ksu_manual_enrichment.json
     cleaned: KSU_cleaned.csv
+    technology_review: KSU_technology_review.csv
 
-# PNU was dropped from the project scope (team decision).
 excluded_universities: [PNU]
 
 technology_filter:
-  fields: [title, abstract]           # KAUST/KFUPM records carry abstracts
+  fields: [title, abstract]
   ksu_fields: [Article Title, Author Keywords]
   excluded_phrases: [computer vision syndrome]
   terms:
