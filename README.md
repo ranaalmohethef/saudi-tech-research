@@ -4,6 +4,12 @@ A data engineering project that collects, cleans, validates, and filters researc
 
 The repository keeps the full trail: raw source files, intermediate datasets, validation results, rejection reports, and filtering evidence. The whole pipeline can be re-run from the raw files with a single command.
 
+The question the dataset is built to support:
+
+> What technology-related research is being published by Saudi universities, and how is it changing over time?
+
+**Team:** Rana Ayman Almohethef · Rana Saad AlHasaniah · Aryam Saad Alotaibi
+
 ## 1. Project Scope
 
 The project covers research metadata within the 2023–2026 scope, subject to source availability.
@@ -62,6 +68,17 @@ Merging a contributor's Git branch into `main` does not automatically include th
 | PNU | Excluded | Enrichment could not be reliably linked to the original records (section 9) |
 
 ## 5. Data Sources
+
+| Source | Type | Format | Authentication | Project use |
+|---|---|---|---|---|
+| KAUST Research Repository | Institutional repository | CSV | None | KAUST records for 2023 |
+| Crossref REST API | Public scholarly API | JSON | None | KAUST records for 2024–2025 |
+| KFUPM Pure | Institutional research portal (OAI-PMH) | XML / MODS | None | Computer Engineering records, 2023–2026 |
+| King Saud University | University open data | JSON | None | Annual research datasets, 2023–2025 |
+| OpenAlex API | Public scholarly API | JSON | Anonymous; rate limits apply | Enrichment only; never creates new records |
+| Princess Nourah University | University open data | XLSX | None | Excluded from the final dataset (section 9) |
+
+URLs, file paths, licences, sizes, and known issues are recorded in the project requirements workbook.
 
 ### KAUST
 
@@ -123,7 +140,16 @@ The consolidated dataset uses these 13 columns in this order:
 | `url` | String | Yes | Valid HTTP or HTTPS URL |
 | `source` | String | Yes | Non-empty source identifier |
 
-`data/processed/final.csv` carries two derived columns after these 13: `has_doi` and `abstract_word_count`.
+`data/processed/final.csv` carries two derived columns after these 13:
+
+| Rule | Description | Input | Output |
+|---|---|---|---|
+| R1 | Publication year as a nullable integer | `publication_year` | `publication_year` |
+| R2 | Flag whether a DOI is available | `doi` | `has_doi` |
+| R3 | Word count of the abstract | `abstract` | `abstract_word_count` |
+| R4 | Keep records matching a technology keyword | `title`, `abstract`, author keywords | filtered rows |
+
+A derived word count never replaces the original `abstract` text.
 
 A record with a missing required value is excluded from the accepted dataset and kept in the rejection report with its reason. This policy can exclude legitimate research that has no DOI; that reflects the project's schema requirement, not the quality of the research.
 
@@ -132,6 +158,21 @@ Missing optional values are allowed and are never invented.
 `university` holds the standard codes `KAUST`, `KFUPM`, and `KSU`. The KFUPM records are stored in Pure under the full university name; the code is normalized during cleaning, and the source system is still identifiable through `source`.
 
 ## 7. Cleaning and Validation
+
+```text
+Extract  →  Profile & Clean  →  Schema Validation  →  Join & Transform  →  Processed Dataset
+```
+
+Each stage reads its input from `data/` and writes its output back to the matching folder, so any stage can be re-run and checked on its own.
+
+### Data quality principles
+
+- Raw source files stay unchanged.
+- Missing dates are never invented; if only a year is available, `publication_date` stays empty.
+- Duplicate records are reviewed before removal.
+- Stable source identifiers are preferred for `research_id`.
+- Missing optional metadata does not by itself reject a record.
+- Different source structures are converted into one shared schema rather than kept side by side.
 
 Cleaning is implemented once, in `src/clean.py`:
 
@@ -291,7 +332,11 @@ Close any CSV open in Excel before running, or the write will fail.
 
 **PNU remediation.** The preserved PNU workflow needs correction and a fresh quality assessment before it can be included.
 
-## 13. Intended Use
+## 13. Technologies Used
+
+Python · pandas · PyYAML · pytest · Jupyter Notebook · VS Code · Git and GitHub · REST APIs (Crossref, OpenAlex) · OAI-PMH · CSV, JSON, XML, XLSX.
+
+## 14. Intended Use
 
 The dataset supports exploratory analysis and the development of data engineering workflows.
 
