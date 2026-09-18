@@ -221,16 +221,20 @@ saudi-tech-research/
 ├── data/
 │   ├── raw/
 │   ├── interim/
+│   │   └── excluded_pnu/
 │   └── processed/
+│       └── technology_filter/
 ├── notebooks/
 │   ├── 01_extract.ipynb
 │   ├── 02_profile_clean.ipynb
 │   ├── 03_schema_validate.ipynb
 │   ├── 04_join_transform.ipynb
 │   ├── 05_team_merge.ipynb
-│   ├── excluded_pnu/
-│   └── source_work/
+│   ├── excluded_kfupm/
+│   ├── excluded_ksu/
+│   └── excluded_pnu/
 ├── src/
+│   ├── __init__.py
 │   ├── clean.py
 │   ├── config.py
 │   ├── extract.py
@@ -238,6 +242,9 @@ saudi-tech-research/
 │   ├── schema.py
 │   └── transform.py
 ├── tests/
+│   ├── test_clean.py
+│   ├── test_schema.py
+│   └── test_transform.py
 ├── config.yaml
 ├── main.py
 ├── pytest.ini
@@ -245,7 +252,7 @@ saudi-tech-research/
 └── README.md
 ```
 
-`source_work/` contains contributor/source-specific investigation notebooks. The numbered notebooks are the active project flow.
+The numbered notebooks are the canonical team pipeline. Source-specific or superseded investigation notebooks are preserved in the `excluded_*` folders for audit/history and are not part of the active final pipeline.
 
 ## 12. Run the Project
 
@@ -310,13 +317,16 @@ data/processed/technology_filter/no_keyword_match.csv
 
 ## 14. Known Limitations
 
-- Source coverage is uneven across universities and years, so record counts must not be interpreted as a university ranking.
+- Source coverage and metadata completeness are uneven across universities and years. Counts in `final.csv` represent records that were available, validated, and selected by this pipeline; they must not be interpreted as university rankings or direct publication-volume/time-trend measurements.
 - KSU is institution-wide while KFUPM is limited to one department.
 - `tech_category` is not yet populated; the current technology filter only selects candidates.
 - Publication-year meaning differs by source (repository date, Crossref publication date, or annual reporting file).
 - DOI is mandatory by team schema, so legitimate research without a DOI is rejected.
 - Cross-university DOI duplicates may be legitimate co-authored papers and are kept for review rather than automatically removed.
 - Publication/retraction status is not fully validated by the structural schema.
+- Year-to-year record counts in this project must not be interpreted as actual publication trends. Source coverage and metadata completeness differ by university and year. This is especially important for KSU 2024: the source contained 16,134 cleaned records, but only 3 passed the final schema validation because 16,131 records did not provide the mandatory DOI field. Therefore, the low 2024 count in `final.csv` reflects source metadata availability and the team validation rules, not a real decline in KSU research output. The same caution applies when comparing universities because the sources have different scopes and collection methods.
+
+
 
 ## 15. Technologies
 

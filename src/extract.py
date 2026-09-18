@@ -64,10 +64,11 @@ def fetch_crossref(
         payload = response.json()
 
         if output_dir is not None:
-            output_dir.mkdir(parents=True, exist_ok=True)
-            (output_dir / f"crossref_page_{page}.json").write_text(
-                json.dumps(payload, ensure_ascii=False), encoding="utf-8"
-            )
+         output_dir.mkdir(parents=True, exist_ok=True)
+         filename = f"KAUST_Crossref_{from_year}_{until_year}_page_{page}.json"
+         (output_dir / filename).write_text(
+         json.dumps(payload, ensure_ascii=False), encoding="utf-8"
+    )
 
         batch = payload["message"]["items"]
         items.extend(batch)
