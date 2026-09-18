@@ -1,440 +1,209 @@
 # Saudi Technology Research Data Hub
 
-## Project Overview
+A data engineering project that collects, profiles, cleans, validates and combines research metadata from Saudi universities into a common dataset for technology research analysis.
 
-The Saudi Technology Research Data Hub is a data engineering project that collects, cleans, standardizes, validates, and combines research metadata from selected Saudi universities and trusted scholarly data sources.
+## Scope and current status
 
-Research information is distributed across university repositories, Excel and CSV files, and external APIs. These sources have different formats, structures, naming conventions, and levels of completeness.
+The project covers research dated 2023–2026. Source coverage varies by university and does not represent every publication produced by that institution.
 
-The purpose of this project is to create a consistent and analysis-ready dataset that can support the analysis of technology-related research across Saudi universities.
+The Rana Ayman and Rana Saad branches have been merged into `main`. Branch integration brings project files together; it does not itself create a combined research dataset.
 
----
+### Latest inspected input snapshots
 
-## Project Objective
+| Dataset | Records | Status |
+|---|---:|---|
+| `data/processed/final_rana.csv` | 123 | Technology candidates from KAUST; 119 dated 2023, 2 dated 2024 and 2 dated 2025 |
+| KSU subset of Rana Saad's accepted validation output | 1,477 | Accepted KSU technology candidates |
+| `data/interim/KFUPM_cleaned.csv` | 415 | New KFUPM Pure records awaiting consistent downstream integration |
+| PNU | Not included | No PNU dataset approved for this combined output |
 
-The project aims to build a repeatable data pipeline that:
+The proposed KAUST + KSU merge produces **1,600 university-associated records with 1,599 distinct DOI values** from these snapshots. Execution and saving of the team merge must be confirmed before treating these as generated output counts.
 
-1. Collects research metadata from multiple Saudi university sources.
-2. Profiles the raw datasets and identifies data-quality issues.
-3. Cleans and standardizes data from different formats.
-4. Converts source-specific structures into a common schema.
-5. Validates records using defined schema and quality rules.
-6. Combines validated datasets.
-7. Applies transformation rules.
-8. Produces an analysis-ready dataset for future analysis.
+The shared DOI `10.5194/hess-29-4983-2025` appears in both KAUST and KSU with matching research titles. Both university associations are retained. A row is a source research record associated with a university, not necessarily a globally unique publication.
 
----
+## Sources
 
-## Data Sources
+| Source | Format | Role |
+|---|---|---|
+| KAUST Research Repository | CSV | Repository metadata used for the KAUST 2023 collection |
+| Crossref | JSON / REST API | KAUST 2024–2025 collection using institutional ROR filtering |
+| KSU Open Data | Annual JSON datasets | Research records reported in 2023–2025 annual datasets |
+| KFUPM Pure | XML / OAI-PMH / MODS | New Computer Engineering research collection for 2023–2026 |
+| KFUPM ePrints | JSON | Historical collection of 48 theses; excluded from its validation run because DOI was missing |
+| PNU Open Data | Excel | Source retained for separate preparation and review |
+| OpenAlex and ORCID | Enrichment trials | Supporting matching and metadata review; not independent publications added to the final dataset |
 
-The project uses a combination of university datasets, institutional repositories, and public scholarly APIs.
+Relevant service addresses:
 
-| Source | Source Type | Format | Authentication | Project Use |
-|---|---|---|---|---|
-| Princess Nourah University (PNU) | University Open Data | Excel | None | Research publications for 2023–2025 |
-| King Saud University (KSU) | University Open Data | CSV / Excel | None | Research publication metadata |
-| KAUST Research Repository | Institutional Research Repository | CSV | None | KAUST research records |
-| KFUPM ePrints | Institutional Research Repository | JSON | None | Computer Engineering research records for 2023–2026 |
-| Crossref REST API | Public Scholarly API | JSON | None | Research metadata and KAUST 2024–2025 records |
-| OpenAlex API | Public Scholarly API | JSON | Public API access | Research metadata and potential enrichment |
+- [KAUST Repository](https://repository.kaust.edu.sa/)
+- [Crossref API](https://api.crossref.org/works)
+- [KFUPM Pure](https://pure.kfupm.edu.sa/)
+- [KFUPM OAI-PMH endpoint](https://pure.kfupm.edu.sa/ws/oai)
 
-Detailed information about each source, including URLs, file paths, licences, sizes, and known issues, is documented in the project requirements workbook.
+Preserve source responses and provenance alongside cleaned records. A DOI obtained through enrichment must identify the same work. A related journal article cannot supply the DOI for a thesis.
 
----
+## Common schema
 
-## Pipeline Overview
+The combined dataset uses these 13 columns in this order:
 
-The current project pipeline follows these stages:
-
-```text
-Extract
-   ↓
-Profile & Clean
-   ↓
-Schema Validation
-   ↓
-Join & Transform
-   ↓
-Processed Dataset
-```
-
-Each stage reads its input from the `data/` directory and writes its output back to the appropriate folder.
-
----
-
-# Task 1 — Data Extraction
-
-The first stage collects raw research data from university datasets, repositories, and APIs.
-
-The original source data is preserved without applying cleaning or transformation.
-
-Raw files are stored in:
-
-```text
-data/raw/
-```
-
-The extraction stage includes:
-
-- Reading CSV and Excel source files
-- Reading JSON repository records
-- Retrieving data from APIs
-- Preserving original source data
-- Recording source information and provenance
-
-Main extraction notebook:
-
-```text
-notebooks/01_extract.ipynb
-```
-
-Additional source-specific notebooks may also be used where necessary.
-
----
-
-# Task 2 — Data Profiling and Cleaning
-
-The second stage profiles the raw data and identifies data-quality issues.
-
-Profiling includes:
-
-- Column names
-- Row and column counts
-- Data types
-- Missing values
-- Percentage of missing values
-- Unique values
-- Sample values
-- Duplicate records
-- Nested fields
-- Inconsistent text
-- Date-format differences
-
-Cleaning activities include:
-
-- Flattening nested structures
-- Standardizing column names
-- Cleaning whitespace
-- Removing unwanted markup
-- Standardizing DOI values
-- Parsing dates
-- Handling missing values
-- Reviewing duplicate records
-- Standardizing source-specific fields
-
-Cleaned datasets are stored in:
-
-```text
-data/interim/
-```
-
-Main cleaning notebook:
-
-```text
-notebooks/02_profile_clean.ipynb
-```
-
----
-
-## Data Quality Rules
-
-The project follows several general data-quality principles:
-
-- Raw source files must remain unchanged.
-- Missing dates must not be invented.
-- If only the publication year is available, the full publication date remains empty.
-- Duplicate records must be reviewed before removal.
-- Stable source identifiers are preferred for `research_id`.
-- Missing optional metadata does not automatically cause a record to be rejected.
-- Text formatting is standardized where needed.
-- Different source structures are converted into a shared schema.
-
----
-
-# Task 3 — Schema Definition and Validation
-
-After cleaning, the datasets are validated against a common schema.
-
-The validation process checks:
-
-- Required fields
-- Missing values
-- Publication-year ranges
-- URL format
-- DOI format
-- Publication-date validity
-- University values
-- Duplicate `research_id` values
-
-Rows that pass validation are saved as validated records.
-
-Rows that fail validation are routed to rejected datasets together with the reason for rejection.
-
-Main validation notebook:
-
-```text
-notebooks/03_schema_validate.ipynb
-```
-
----
-
-## Common Schema
-
-All university datasets are standardized into the following common schema:
-
-| Column | Data Type | Nullable | Validation Rule |
+| Column | Type | Required | Rule |
 |---|---|---|---|
-| research_id | String | No | Must be non-empty and unique |
-| university | String | No | Must contain the standardized university name |
-| title | String | No | Must be non-empty |
-| authors | String | Yes | Author names when available |
-| publication_year | Integer | No | Must be within the valid project year range |
-| publication_date | Date | Yes | Valid YYYY-MM-DD only when a complete date is known |
-| abstract | String | Yes | Research abstract when available |
-| research_field | String | Yes | Research field when available |
-| tech_category | String | Yes | Technology category when assigned |
-| journal | String | Yes | Journal or source title when available |
-| doi | String | Yes | Must follow DOI format when available |
-| url | String | No | Must begin with http:// or https:// |
-| source | String | No | Identifies the original data source |
+| `research_id` | String | Yes | Non-empty stable identifier; unique in the combined inputs |
+| `university` | String | Yes | Standardized university label: KAUST, KFUPM, KSU or PNU |
+| `title` | String | Yes | Non-empty research title |
+| `authors` | String | Yes | Non-empty author information |
+| `publication_year` | Integer | Yes | Whole year from 2023 through 2026 |
+| `publication_date` | Date string | No | Real calendar date written as YYYY-MM-DD when complete |
+| `abstract` | String | No | Available abstract text |
+| `research_field` | String | No | Available subject or field |
+| `tech_category` | String | No | Assigned technology category, when available |
+| `journal` | String | No | Journal, proceedings or source title |
+| `doi` | String | Yes | Bare DOI, trimmed and normalized to lowercase |
+| `url` | String | Yes | HTTP(S) URL with a hostname and no whitespace |
+| `source` | String | Yes | Source label identifying the record's provenance |
 
-### Publication Date Rule
+Blank values and placeholders such as `none`, `null`, `nan`, `n/a`, `na`, `<na>` and `NaT` are treated as missing, ignoring case and surrounding whitespace.
 
-A full publication date is only stored when the complete year, month, and day are available.
+These are the shared data contract requirements. Individual notebooks must be checked against this contract; documenting a rule does not establish that every notebook currently enforces it.
 
-For example:
+### Dates and publication years
 
-```text
-2024-05-12
+- Never invent a month or day when only a publication year is known.
+- Missing optional dates remain empty.
+- Date formatting changes must not silently change the reported publication year.
+- KSU uses the annual source dataset's reported year. API year differences are preserved for review rather than automatically replacing that year.
+- Repository, online publication, conference and print dates can differ. Resolve the publication-year basis before using disputed records in year-based comparisons.
+
+## Pipeline and files
+
+The workflow is extraction, profiling and cleaning, schema validation, technology screening, transformation, then team combination.
+
+| File or folder | Purpose |
+|---|---|
+| `data/raw/` | Original source files and saved API responses |
+| `data/interim/` | Cleaned data, validation results and rejected records |
+| `data/processed/` | Transformed datasets and filter review outputs |
+| `notebooks/01_extract.ipynb` | Inspect the merged extraction code before running; source refresh can change inputs |
+| `notebooks/02_profile_clean.ipynb` | KAUST and historical KFUPM cleaning |
+| `notebooks/03_schema_validate.ipynb` | KAUST / KFUPM validation |
+| `notebooks/04_join_transform.ipynb` | Technology screening and generation of `final_rana.csv` |
+| `notebooks/hasaniah_ksu_inspect.ipynb` | KSU inspection and preparation |
+| `notebooks/03_schema_validate_hasaniah.ipynb` | Rana Saad's validation workflow |
+| `notebooks/KFUPM_Pure_extract_clean.ipynb` | Separate preparation of the new KFUPM Pure collection |
+| `notebooks/05_team_merge.ipynb` | Team merge notebook to add/run using the agreed merge code |
+| `README_rana_saad.md` | Historical validation documentation preserved during branch integration |
+| `src/`, `main.py`, `tests/` | Integration scaffolding; not documented as a completed automated pipeline |
+
+## Running the current team merge
+
+### Environment
+
+From the project root on Windows PowerShell:
+
+```powershell
+# Create the environment only if it does not already exist.
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
 ```
 
-is stored as a valid publication date.
+Open the project in VS Code and select its `.venv` Python environment for the notebook kernel. Run notebook cells in order. Source notebooks generally use paths relative to `notebooks/`; confirm the working directory before running them.
 
-If the source provides only:
+### Combine existing accepted snapshots
 
-```text
-2024
-```
+Use these inputs:
 
-the value is stored in `publication_year`, while `publication_date` remains empty.
+1. `data/processed/final_rana.csv`
+2. `data/interim/rana_saad_validation/four_sources_20260913T112108887260Z/validated.csv`
 
-No missing month or day values are inferred.
+The second file contains **2,405 records: 1,477 KSU and 928 KAUST**. Select **KSU only** from this file. Appending its entire contents would reintroduce another KAUST collection and bypass the selected KAUST final output.
 
----
+The team merge should:
 
-# Task 4 — Join and Transformation
+1. Check that both inputs exist and contain the common schema.
+2. Select the 13 shared columns, excluding local helper columns.
+3. Select KSU from Rana Saad's accepted output.
+4. Concatenate the selected inputs vertically using `pd.concat`.
+5. Normalize missing values and DOI casing.
+6. Check mandatory values, whole publication years, DOI syntax, URL structure and full dates.
+7. Reject duplicate research identifiers and duplicate university/DOI pairs for review.
+8. Preserve cross-university DOI matches in a review file.
+9. Save outputs only after these checks pass.
 
-Validated datasets that follow the same common schema are combined into one dataset.
+Expected outputs after successful execution:
 
-Because the university datasets contain the same standardized columns, they are combined vertically using:
+| Output | Purpose |
+|---|---|
+| `data/processed/final.csv` | Combined 13-column dataset |
+| `data/processed/shared_doi_review.csv` | Records whose DOI appears more than once across universities |
 
-```python
-pd.concat()
-```
+Do not rerun extraction simply to combine already accepted files. Refreshing a source is a separate operation and requires revalidation of all affected downstream outputs.
 
-rather than using a relational database-style join.
+## Technology screening
 
-The combined dataset preserves one row per research record.
+Technology filtering selects candidates using documented keyword rules. It does not prove relevance or completeness.
 
----
+- KAUST screening searches the title and abstract separately.
+- Text is normalized for capitalization, Unicode and hyphens.
+- Terms use word boundaries, avoiding broad substring matches such as `ai` inside unrelated words.
+- The phrase `computer vision syndrome` is excluded from matching by itself; another relevant term can still select the record.
+- KSU candidate selection also uses source author keywords. Results therefore need not match a title-and-abstract-only filter.
 
-## Transformation Rules
+Examples of terms include artificial intelligence, machine learning, neural networks, cybersecurity, robotics, internet of things, cloud computing and software engineering. The executable notebook holds the full list.
 
-The current transformation stage applies the following rules:
+Preserve review outputs such as `filter_review.csv` and `no_keyword_match.csv`. A record with no keyword match is not automatically proven nontechnical.
 
-| Rule ID | Input | Output | Description |
-|---|---|---|---|
-| R1 | publication_year | publication_year | Convert publication year to nullable integer |
-| R2 | doi | has_doi | Create a Boolean flag showing whether a DOI is available |
-| R3 | abstract | abstract_word_count | Calculate the number of words in the abstract |
+## Transformations
 
-### R1 — Publication Year
+Local processing may derive:
 
-The publication year is converted into a consistent nullable integer type.
+| Column | Meaning |
+|---|---|
+| `has_doi` | Whether DOI is present; expected to be true for accepted records |
+| `abstract_word_count` | Whitespace-separated word count; zero for missing abstracts |
 
-```python
-pd.to_numeric(
-    publication_year,
-    errors="coerce"
-).astype("Int64")
-```
+These helper columns belong to local outputs such as `final_rana.csv`. The proposed team output contains the 13 shared columns. Additional derived fields can be added consistently later.
 
-### R2 — DOI Availability Flag
+## KFUPM Pure integration: remaining work
 
-A new column called:
+The supplied Pure cleaned file has **415 records**, but the supplied KFUPM validation outputs still describe the historical **48 ePrints theses**: zero accepted and 48 rejected for missing DOI. These are different datasets and must not be reported as one validation run.
 
-```text
-has_doi
-```
+Before integrating Pure:
 
-is created.
+1. Separate or version Pure and ePrints outputs. Both preparation workflows currently target `data/interim/KFUPM_cleaned.csv`, so rerunning one can overwrite the other's input.
+2. Normalize the Pure university label from `King Fahd University of Petroleum and Minerals` to `KFUPM` in the preparation code. The current validator expects `KFUPM`.
+3. Validate the Pure records against the common contract, then regenerate its accepted and rejected files.
+4. Apply the agreed technology selection and transformation steps.
+5. Rebuild the team merge and update verified counts.
 
-The value is:
+The current 123-row `final_rana.csv` contains KAUST only. The 415 Pure records are not part of the expected 1,600-row KAUST + KSU merge.
 
-```text
-True
-```
+## Quality limitations and review items
 
-when a DOI exists and:
+- Missing optional abstracts, journals, research fields or technology categories are allowed; report their completeness when analyzing them.
+- DOI syntax checks do not prove that a DOI resolves or belongs to the stated title. Enrichment requires identity checks against title, year and authors where available.
+- KSU URLs point to annual source datasets, not necessarily to individual articles.
+- Prior quality review identified publication-year differences that require an explicit source-date policy, plus publication-status flags in KSU. Consult the review evidence before presenting records as current, unretracted scientific evidence.
+- The inspected KAUST/KFUPM validator still needs stronger whole-year, URL-hostname and placeholder checks. Its KAUST invocation currently caps the year at 2025, although the shared project range ends in 2026.
+- Historic validation counts remain useful evidence but are not current team output counts.
+- PNU must undergo separate verification before entering the combined dataset.
+- A successful Git merge confirms file integration, not data validity or end-to-end pipeline execution.
 
-```text
-False
-```
+## Next integration work
 
-when the DOI is missing.
+- Confirm execution of the team merge and record its actual output counts.
+- Complete KFUPM Pure integration and PNU review.
+- Harmonize validators and publication-year policies across sources.
+- Consolidate source-specific notebooks into reusable modules.
+- Connect a repeatable pipeline through `main.py` and migrate meaningful checks into `tests/`.
+- Document source refresh versions and retain rejected records with reasons.
 
-### R3 — Abstract Word Count
+## Team
 
-A new column called:
+- Rana Ayman Almohethef — KAUST and KFUPM
+- Rana Saad AlHasaniah — KSU
+- Aryam Saad Alotaibi — PNU
 
-```text
-abstract_word_count
-```
+## Intended use
 
-stores the number of words in each research abstract.
-
-If the abstract is missing, the word count is:
-
-```text
-0
-```
-
----
-
-## Transformation Tests
-
-The transformation stage includes tests to verify that:
-
-- The number of records is preserved after transformation.
-- `research_id` remains unique.
-- `publication_year` contains valid values.
-- `has_doi` contains only Boolean values.
-- `abstract_word_count` is never negative.
-
-Assertion cells are used inside the notebook to verify these rules.
-
-Main transformation notebook:
-
-```text
-notebooks/04_join_transform.ipynb
-```
-
-Processed datasets are stored in:
-
-```text
-data/processed/
-```
-
----
-
-# Repository Structure
-
-```text
-saudi-tech-research/
-│
-├── data/
-│   ├── raw/
-│   │   └── Original source files and API responses
-│   │
-│   ├── interim/
-│   │   └── Cleaned, validated, and rejected datasets
-│   │
-│   └── processed/
-│       └── Final processed datasets
-│
-├── notebooks/
-│   ├── 01_extract.ipynb
-│   ├── 02_profile_clean.ipynb
-│   ├── 03_schema_validate.ipynb
-│   └── 04_join_transform.ipynb
-│
-├── src/
-│   └── Placeholder for integration-stage Python modules
-│
-├── tests/
-│   └── Placeholder for integration-stage automated tests
-│
-├── config.yaml
-├── main.py
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
----
-
-# Technologies Used
-
-The project currently uses:
-
-- Python
-- pandas
-- Jupyter Notebook
-- VS Code
-- Git
-- GitHub
-- REST APIs
-- CSV
-- Excel
-- JSON
-
----
-
-# Current Project Status
-
-The following stages are currently completed or being completed by the team:
-
-- Source identification
-- Data extraction
-- Data profiling
-- Data cleaning
-- Data standardization
-- Common schema definition
-- Schema validation
-- Join and transformation rules
-- Transformation testing
-- Processed CSV generation
-
-The project is currently being developed through Jupyter notebooks.
-
-Refactoring the notebook logic into the `src/` modules, connecting the entire pipeline through `main.py`, and migrating notebook tests into the `tests/` folder will be completed during the later Integration stage.
-
----
-
-# Future Integration
-
-During the integration stage, the team will:
-
-- Merge all members' completed datasets.
-- Refactor notebook code into reusable Python modules.
-- Connect the pipeline through `main.py`.
-- Move assertion tests into the `tests/` directory.
-- Verify the pipeline from extraction to final output.
-- Produce the final team-wide analysis-ready dataset.
-
----
-
-# Final Goal
-
-The final output of the project will be a unified dataset containing standardized research metadata from selected Saudi universities.
-
-The dataset will support questions such as:
-
-> What technology-related research is being published by Saudi universities, and how is it changing over time?
-
-The resulting data can later support:
-
-- Research trend analysis
-- University comparisons
-- Technology-category analysis
-- Dashboards
-- Research-gap identification
-- Further academic analysis
-
----
-
-# Team Members
-
-- Rana Ayman Almohethef
-- Aryam Saad Alotaibi
-- Rana Saad AlHasaniah
+The dataset supports exploration of technology research topics, university-associated publication activity and metadata coverage. Interpret university and year comparisons in light of source coverage, shared publications, missing optional metadata and unresolved review items.
