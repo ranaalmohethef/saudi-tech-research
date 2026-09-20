@@ -17,11 +17,29 @@
       "cleaned": 41183,
       "validated": 15622,
       "rejected": 25561
+    },
+    {
+      "source": "KAU",
+      "cleaned": 2428,
+      "validated": 2428,
+      "rejected": 0
+    },
+    {
+      "source": "KKU",
+      "cleaned": 1765,
+      "validated": 1765,
+      "rejected": 0
+    },
+    {
+      "source": "PSAU",
+      "cleaned": 1691,
+      "validated": 1691,
+      "rejected": 0
     }
   ],
-  "joined_validated": 16975,
-  "final_rows": 1817,
-  "excluded_by_technology_filter": 15158,
+  "joined_validated": 22859,
+  "final_rows": 5332,
+  "excluded_by_technology_filter": 17527,
   "year_range": [
     2023,
     2026

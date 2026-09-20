@@ -18,11 +18,17 @@ from pathlib import Path
 
 import pandas as pd
 
-from src import clean, extract, transform
+from src import clean, extract, openalex, storage, transform
 from src.config import get_paths, load_config, year_range
 from src.schema import SCHEMA_COLUMNS, failures_by_rule, validate_dataset
 
-SOURCES = ["kaust", "kfupm", "ksu"]
+SOURCES = ["kaust", "kfupm", "ksu", "openalex"]
+
+SINGLE_UNIVERSITY_SOURCES = {
+    "kaust": "kaust_repository",
+    "kfupm": "kfupm_pure",
+    "ksu": "ksu",
+}
 
 
 def build_kaust(config, paths, min_year, max_year) -> pd.DataFrame:
@@ -34,7 +40,7 @@ def build_kaust(config, paths, min_year, max_year) -> pd.DataFrame:
         university=repository_settings["university"],
         source_label=repository_settings["source_label"],
     )
-    repository.to_csv(paths.interim / repository_settings["cleaned"], index=False)
+    storage.write_csv(repository, paths.interim / repository_settings["cleaned"])
     print(f"  KAUST repository cleaned : {len(repository):>6}")
 
     crossref_settings = config["sources"]["kaust_crossref"]
@@ -51,7 +57,7 @@ def build_kaust(config, paths, min_year, max_year) -> pd.DataFrame:
         min_year=int(crossref_settings.get("from_year", min_year)),
         max_year=int(crossref_settings.get("until_year", max_year)),
     )
-    crossref.to_csv(paths.interim / crossref_settings["cleaned"], index=False)
+    storage.write_csv(crossref, paths.interim / crossref_settings["cleaned"])
     print(f"  KAUST Crossref cleaned   : {len(crossref):>6}")
 
     return pd.concat([repository, crossref], ignore_index=True)
@@ -71,7 +77,7 @@ def build_kfupm(config, paths, min_year, max_year) -> pd.DataFrame:
         max_year=max_year,
         excluded_genres=settings.get("excluded_genres"),
     )
-    cleaned.to_csv(paths.interim / settings["cleaned"], index=False)
+    storage.write_csv(cleaned, paths.interim / settings["cleaned"])
     print(f"  KFUPM Pure cleaned       : {len(cleaned):>6}")
     return cleaned
 
@@ -167,11 +173,11 @@ def build_ksu(config, paths, min_year, max_year) -> pd.DataFrame:
     cleaned = pd.concat(cleaned_frames, ignore_index=True)
 
     review_file = paths.interim / settings.get("technology_review", "KSU_technology_review.csv")
-    pd.concat(review_frames, ignore_index=True).to_csv(review_file, index=False)
+    storage.write_csv(pd.concat(review_frames, ignore_index=True), review_file)
 
-    (paths.interim / "ksu_provenance.json").write_text(
+    storage.write_text(
         json.dumps(selected_provenance, ensure_ascii=False, indent=2),
-        encoding="utf-8",
+        paths.interim / "ksu_provenance.json",
     )
 
     enrichment_file = paths.interim / settings.get("manual_enrichment", "")
@@ -180,15 +186,81 @@ def build_ksu(config, paths, min_year, max_year) -> pd.DataFrame:
         if log:
             print(f"  KSU reviewed enrichment  : {len(log):>6} records")
 
-    cleaned.to_csv(paths.interim / settings["cleaned"], index=False)
+    storage.write_csv(cleaned, paths.interim / settings["cleaned"])
     print(f"  KSU cleaned              : {len(cleaned):>6}")
     return cleaned
+
+
+def build_openalex(config, paths, min_year, max_year) -> pd.DataFrame:
+    """Clean the saved OpenAlex snapshots for every configured university.
+
+    One row is one university's participation in a paper, so a paper shared by
+    two configured universities is kept twice with different ``research_id``
+    values. Unique-paper totals use ``doi``.
+    """
+    settings = config["sources"]["openalex"]
+    frames: list[pd.DataFrame] = []
+
+    for entry in openalex.universities(config):
+        snapshot = paths.raw / settings["file_pattern"].format(ror=entry["ror"])
+        if not snapshot.is_file():
+            raise FileNotFoundError(
+                f"OpenAlex snapshot not found: {snapshot}. "
+                "Run the optional re-harvest in notebooks/01_extract.ipynb first."
+            )
+
+        cleaned = openalex.clean_openalex(
+            openalex.read_openalex(snapshot),
+            university=entry["code"],
+            ror=entry["ror"],
+            source_label=settings["source_label"],
+            min_year=min_year,
+            max_year=max_year,
+        )
+        storage.write_csv(cleaned, paths.interim / f"{entry['code']}_cleaned.csv")
+        print(f"  OpenAlex {entry['code']:<5} cleaned  : {len(cleaned):>6}")
+        frames.append(cleaned)
+
+    if not frames:
+        return pd.DataFrame(columns=SCHEMA_COLUMNS)
+
+    return pd.concat(frames, ignore_index=True)
+
+
+def source_universities(config: dict, name: str) -> list[str]:
+    """Return the university codes a source is allowed to produce."""
+    if name == "openalex":
+        return openalex.university_codes(config)
+    return [config["sources"][SINGLE_UNIVERSITY_SOURCES[name]]["university"]]
+
+
+def split_by_university(frame: pd.DataFrame, codes: list[str]) -> list[tuple[str, pd.DataFrame]]:
+    """Split one cleaned frame into per-university groups.
+
+    Rows whose ``university`` value is missing or unexpected are attached to
+    the first group so validation rejects them with a reason instead of
+    dropping them silently.
+    """
+    if len(codes) == 1:
+        return [(codes[0], frame)]
+
+    values = frame["university"].astype("string")
+    unexpected = ~values.isin(codes)
+
+    groups = []
+    for position, code in enumerate(codes):
+        mask = values.eq(code).fillna(False)
+        if position == 0:
+            mask = mask | unexpected
+        groups.append((code, frame[mask]))
+    return groups
 
 
 BUILDERS = {
     "kaust": build_kaust,
     "kfupm": build_kfupm,
     "ksu": build_ksu,
+    "openalex": build_openalex,
 }
 
 
@@ -287,38 +359,33 @@ def main() -> None:
     summary: list[dict] = []
 
     for name, frame in cleaned.items():
-        expected_university = config["sources"][
-            "kaust_repository" if name == "kaust" else (
-                "kfupm_pure" if name == "kfupm" else "ksu"
+        for university, group in split_by_university(frame, source_universities(config, name)):
+            validated, rejected = validate_dataset(
+                group,
+                university,
+                min_year,
+                max_year,
             )
-        ]["university"]
 
-        validated, rejected = validate_dataset(
-            frame,
-            expected_university,
-            min_year,
-            max_year,
-        )
+            storage.write_csv(
+                validated[SCHEMA_COLUMNS], paths.interim / f"{university}_validated.csv"
+            )
+            storage.write_csv(rejected, paths.interim / f"{university}_rejected.csv")
+            storage.write_csv(
+                failures_by_rule(rejected),
+                paths.interim / f"{university}_failures_by_rule.csv",
+            )
 
-        prefix = name.upper()
-        validated[SCHEMA_COLUMNS].to_csv(
-            paths.interim / f"{prefix}_validated.csv", index=False
-        )
-        rejected.to_csv(paths.interim / f"{prefix}_rejected.csv", index=False)
-        failures_by_rule(rejected).to_csv(
-            paths.interim / f"{prefix}_failures_by_rule.csv", index=False
-        )
-
-        validated_by_source[name] = validated[SCHEMA_COLUMNS]
-        summary.append(
-            {
-                "source": prefix,
-                "cleaned": len(frame),
-                "validated": len(validated),
-                "rejected": len(rejected),
-            }
-        )
-        print(f"  {prefix:<6} accepted {len(validated):>6} | rejected {len(rejected):>6}")
+            validated_by_source[university] = validated[SCHEMA_COLUMNS]
+            summary.append(
+                {
+                    "source": university,
+                    "cleaned": len(group),
+                    "validated": len(validated),
+                    "rejected": len(rejected),
+                }
+            )
+            print(f"  {university:<6} accepted {len(validated):>6} | rejected {len(rejected):>6}")
 
     print("\n3. Join and transform")
     combined = transform.combine_sources(list(validated_by_source.values()))
@@ -349,21 +416,21 @@ def main() -> None:
 
     shared = transform.shared_doi_report(selected)
     shared_path = paths.processed / f"shared_doi_review{suffix}.csv"
-    shared.to_csv(shared_path, index=False)
+    storage.write_csv(shared, shared_path)
     print(f"  DOIs shared across unis  : {shared['doi'].nunique():>6}")
 
     final = transform.apply_transformations(selected)
 
     final_path = paths.processed / f"final{suffix}.csv"
-    final.to_csv(final_path, index=False)
+    storage.write_csv(final, final_path)
 
     filter_dir = paths.processed / "technology_filter"
     filter_dir.mkdir(parents=True, exist_ok=True)
-    review.to_csv(filter_dir / f"filter_review{suffix}.csv", index=False)
-    excluded.to_csv(filter_dir / f"no_keyword_match{suffix}.csv", index=False)
+    storage.write_csv(review, filter_dir / f"filter_review{suffix}.csv")
+    storage.write_csv(excluded, filter_dir / f"no_keyword_match{suffix}.csv")
 
-    pd.DataFrame(summary).to_csv(
-        paths.interim / f"validation_summary{suffix}.csv", index=False
+    storage.write_csv(
+        pd.DataFrame(summary), paths.interim / f"validation_summary{suffix}.csv"
     )
 
     print("\n4. Result")
@@ -380,9 +447,9 @@ def main() -> None:
         "technology_filter": not args.no_tech_filter,
         "output_file": str(final_path.relative_to(paths.root)),
     }
-    (paths.processed / f"run_summary{suffix}.json").write_text(
+    storage.write_text(
         json.dumps(run_summary, indent=2),
-        encoding="utf-8",
+        paths.processed / f"run_summary{suffix}.json",
     )
 
 

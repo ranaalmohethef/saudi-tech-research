@@ -1,5 +1,678 @@
 doi,university,research_id,title,publication_year
+10.1002/aisy.202501311,KKU,OA_W7155634157_052kwzs30,An Intelligent Feature Engineering‐Driven Hybrid Framework for Adversarial Domain Name System Tunneling Detection,2026
+10.1002/aisy.202501311,PSAU,OA_W7155634157_04jt46d36,An Intelligent Feature Engineering‐Driven Hybrid Framework for Adversarial Domain Name System Tunneling Detection,2026
+10.1002/cav.70110,KAU,OA_W7155092499_02ma4wv74,Artificial Intelligence‐Driven Ensemble Models for Virtual Reality Immersive User Experience Analysis in Human‐Computer Interaction Systems,2026
+10.1002/cav.70110,KKU,OA_W7155092499_052kwzs30,Artificial Intelligence‐Driven Ensemble Models for Virtual Reality Immersive User Experience Analysis in Human‐Computer Interaction Systems,2026
+10.1002/ddr.70281,KKU,OA_W7154942783_052kwzs30,Artificial Intelligence in Drug Discovery and Development: Transforming Pharmaceutical Innovation,2026
+10.1002/ddr.70281,PSAU,OA_W7154942783_04jt46d36,Artificial Intelligence in Drug Discovery and Development: Transforming Pharmaceutical Innovation,2026
+10.1002/ett.4846,KKU,OA_W4386051224_052kwzs30,Textual emotion analysis using improved metaheuristics with deep learning model for intelligent systems,2023
+10.1002/ett.4846,PSAU,OA_W4386051224_04jt46d36,Textual emotion analysis using improved metaheuristics with deep learning model for intelligent systems,2023
+10.1002/smr.2758,KAU,OA_W4406452067_02ma4wv74,A Fuzzy‐AHP Decision‐Making Framework for Optimizing Software Maintenance and Deployment in Information Security Systems,2025
+10.1002/smr.2758,KSU,KSU_2025_8460,A Fuzzy-AHP Decision-Making Framework for Optimizing Software Maintenance and Deployment in Information Security Systems,2025
+10.1007/978-3-031-63701-8_14,KAU,OA_W4408891486_02ma4wv74,Healthcare Transformation Through Disruptive Technologies: The Role of Telepresence Robots,2025
+10.1007/978-3-031-63701-8_14,PSAU,OA_W4408891486_04jt46d36,Healthcare Transformation Through Disruptive Technologies: The Role of Telepresence Robots,2025
+10.1007/978-3-031-92625-9_8,KKU,OA_W4412466109_052kwzs30,"A Survey of Natural Language Processing for Classification of Saudi Arabic Dialect: Advancements, Opportunities, and Challenges",2025
+10.1007/978-3-031-92625-9_8,PSAU,OA_W4412466109_04jt46d36,"A Survey of Natural Language Processing for Classification of Saudi Arabic Dialect: Advancements, Opportunities, and Challenges",2025
+10.1007/s00500-023-07971-x,KSU,KSU_2023_9711,Toward trustworthy human suspicious activity detection from surveillance videos using deep learning,2023
+10.1007/s00500-023-07971-x,PSAU,OA_W4323864209_04jt46d36,RETRACTED ARTICLE: Toward trustworthy human suspicious activity detection from surveillance videos using deep learning,2023
+10.1007/s00607-025-01571-3,KKU,OA_W4416787029_052kwzs30,An AI and 6G-IoT enabled computational framework for intelligent medical resource allocation and adaptive personalized healthcare,2025
+10.1007/s00607-025-01571-3,PSAU,OA_W4416787029_04jt46d36,An AI and 6G-IoT enabled computational framework for intelligent medical resource allocation and adaptive personalized healthcare,2025
+10.1007/s10207-025-01162-5,KAU,OA_W7117235793_02ma4wv74,Bi-GRU framework with entropy-augmented Mac for IoT security in SDN,2025
+10.1007/s10207-025-01162-5,KKU,OA_W7117235793_052kwzs30,Bi-GRU framework with entropy-augmented Mac for IoT security in SDN,2025
+10.1007/s10207-025-01162-5,KSU,KSU_2025_8795,Bi-GRU framework with entropy-augmented Mac for IoT security in SDN,2025
+10.1007/s10586-025-05518-3,KKU,OA_W4414347930_052kwzs30,A blockchain-enabled edge computing framework leveraging artificial neural network and aquila optimization to enhance security and scalability of cloud-based IoT platforms,2025
+10.1007/s10586-025-05518-3,PSAU,OA_W4414347930_04jt46d36,A blockchain-enabled edge computing framework leveraging artificial neural network and aquila optimization to enhance security and scalability of cloud-based IoT platforms,2025
+10.1007/s11030-024-10966-x,KAU,OA_W4401660735_02ma4wv74,Chemical analogue based drug design for cancer treatment targeting PI3K: integrating machine learning and molecular modeling,2024
+10.1007/s11030-024-10966-x,PSAU,OA_W4401660735_04jt46d36,Chemical analogue based drug design for cancer treatment targeting PI3K: integrating machine learning and molecular modeling,2024
+10.1007/s11227-024-05993-2,KKU,OA_W4392619921_052kwzs30,An efficient deep recurrent neural network for detection of cyberattacks in realistic IoT environment,2024
+10.1007/s11227-024-05993-2,PSAU,OA_W4392619921_04jt46d36,An efficient deep recurrent neural network for detection of cyberattacks in realistic IoT environment,2024
+10.1007/s11227-025-08010-2,KKU,OA_W4416488640_052kwzs30,Securing IoMT-based healthcare systems with meta-heuristic quantum cryptography and honeybee optimization,2025
+10.1007/s11227-025-08010-2,PSAU,OA_W4416488640_04jt46d36,Securing IoMT-based healthcare systems with meta-heuristic quantum cryptography and honeybee optimization,2025
+10.1007/s11760-025-05054-y,KKU,OA_W7127310346_052kwzs30,Adaptive motion assisted human activity recognition for people with disabilities via osprey optimisation-based dimensionality reduction with recurrent neural network,2026
+10.1007/s11760-025-05054-y,PSAU,OA_W7127310346_04jt46d36,Adaptive motion assisted human activity recognition for people with disabilities via osprey optimisation-based dimensionality reduction with recurrent neural network,2026
+10.1007/s12083-025-02130-5,KAU,OA_W7118140340_02ma4wv74,Adaptive cyber threat detection in internet of things environment using deep learning and metaheuristic optimization,2026
+10.1007/s12083-025-02130-5,PSAU,OA_W7118140340_04jt46d36,Adaptive cyber threat detection in internet of things environment using deep learning and metaheuristic optimization,2026
+10.1007/s12223-026-01420-6,KAU,OA_W7125549833_02ma4wv74,Structure-based and machine learning-assisted identification of natural phytochemicals targeting Mycobacterium leprae InhA for anti-mycobacterial therapeutics,2026
+10.1007/s12223-026-01420-6,PSAU,OA_W7125549833_04jt46d36,Structure-based and machine learning-assisted identification of natural phytochemicals targeting Mycobacterium leprae InhA for anti-mycobacterial therapeutics,2026
+10.1007/s12559-024-10318-9,KAU,OA_W4400241946_02ma4wv74,Unmasking GAN-Generated Faces with Optimal Deep Learning and Cognitive Computing-Based Cutting-Edge Detection System,2024
+10.1007/s12559-024-10318-9,KKU,OA_W4400241946_052kwzs30,Unmasking GAN-Generated Faces with Optimal Deep Learning and Cognitive Computing-Based Cutting-Edge Detection System,2024
+10.1007/s12559-024-10318-9,PSAU,OA_W4400241946_04jt46d36,Unmasking GAN-Generated Faces with Optimal Deep Learning and Cognitive Computing-Based Cutting-Edge Detection System,2024
+10.1007/s41870-024-02168-3,KAU,OA_W4402711743_02ma4wv74,SwinGALE: fusion of swin transformer and attention mechanism for GAN-augmented liver tumor classification with enhanced deep learning,2024
+10.1007/s41870-024-02168-3,PSAU,OA_W4402711743_04jt46d36,SwinGALE: fusion of swin transformer and attention mechanism for GAN-augmented liver tumor classification with enhanced deep learning,2024
+10.1007/s44196-026-01271-6,KAU,OA_W7152691510_02ma4wv74,ProstAI-Net: A Federated Privacy-Preserving Deep Learning Framework for Sustainable Prostate Cancer Image Classification in Digital Pathology,2026
+10.1007/s44196-026-01271-6,PSAU,OA_W7152691510_04jt46d36,ProstAI-Net: A Federated Privacy-Preserving Deep Learning Framework for Sustainable Prostate Cancer Image Classification in Digital Pathology,2026
+10.1007/s44196-026-01503-9,KKU,OA_W7210274927_052kwzs30,Binclean: Sanitizing Disassemblies to Improve Malware Recognition,2026
+10.1007/s44196-026-01503-9,PSAU,OA_W7210274927_04jt46d36,Binclean: Sanitizing Disassemblies to Improve Malware Recognition,2026
+10.1007/s44443-025-00093-4,KSU,KSU_2025_5754,Secure big data sharing with hybrid encryption and deep learning,2025
+10.1007/s44443-025-00093-4,PSAU,OA_W4414475806_04jt46d36,Secure big data sharing with hybrid encryption and deep learning,2025
+10.1007/s44443-026-00476-1,KAU,OA_W7130642984_02ma4wv74,Artificial intelligence driven context-aware biomedical information extraction model for multi-class disease condition classification using NLP with GPT-3,2026
+10.1007/s44443-026-00476-1,KKU,OA_W7130642984_052kwzs30,Artificial intelligence driven context-aware biomedical information extraction model for multi-class disease condition classification using NLP with GPT-3,2026
+10.1016/j.aej.2023.10.061,KKU,OA_W4388688611_052kwzs30,Chaotic tumbleweed optimization algorithm with stacked deep learning based cyberattack detection in industrial CPS environment,2023
+10.1016/j.aej.2023.10.061,KSU,KSU_2023_1681,Chaotic tumbleweed optimization algorithm with stacked deep learning based cyberattack detection in industrial CPS environment,2023
+10.1016/j.aej.2023.11.078,KAU,OA_W4389469247_02ma4wv74,Golden jackal optimization algorithm with deep learning assisted intrusion detection system for network security,2023
+10.1016/j.aej.2023.11.078,KKU,OA_W4389469247_052kwzs30,Golden jackal optimization algorithm with deep learning assisted intrusion detection system for network security,2023
+10.1016/j.aej.2023.11.078,KSU,KSU_2023_738,Golden jackal optimization algorithm with deep learning assisted intrusion detection system for network security,2023
+10.1016/j.aej.2023.11.078,PSAU,OA_W4389469247_04jt46d36,Golden jackal optimization algorithm with deep learning assisted intrusion detection system for network security,2023
+10.1016/j.aej.2024.01.009,KKU,OA_W4391669393_052kwzs30,Lighting enhancement of underwater image using coronavirus herd immunity optimizer,2024
+10.1016/j.aej.2024.01.009,PSAU,OA_W4391669393_04jt46d36,Lighting enhancement of underwater image using coronavirus herd immunity optimizer,2024
+10.1016/j.aej.2024.01.073,KKU,OA_W4391589697_052kwzs30,Optimizing intrusion detection using intelligent feature selection with machine learning model,2024
+10.1016/j.aej.2024.01.073,PSAU,OA_W4391589697_04jt46d36,Optimizing intrusion detection using intelligent feature selection with machine learning model,2024
+10.1016/j.aej.2024.05.023,KAU,OA_W4396824734_02ma4wv74,Blockchain with optimal deep learning assisted secure data sharing and classification on future healthcare systems,2024
+10.1016/j.aej.2024.05.023,PSAU,OA_W4396824734_04jt46d36,Blockchain with optimal deep learning assisted secure data sharing and classification on future healthcare systems,2024
+10.1016/j.aej.2024.05.038,KKU,OA_W4398158896_052kwzs30,Bioinspired artificial intelligence based android malware detection and classification for cybersecurity applications,2024
+10.1016/j.aej.2024.05.038,PSAU,OA_W4398158896_04jt46d36,Bioinspired artificial intelligence based android malware detection and classification for cybersecurity applications,2024
+10.1016/j.aej.2024.05.051,KKU,OA_W4399428069_052kwzs30,Hybrid Sine-Cosine Chimp optimization based feature selection with deep learning model for threat detection in IoT sensor networks,2024
+10.1016/j.aej.2024.05.051,PSAU,OA_W4399428069_04jt46d36,Hybrid Sine-Cosine Chimp optimization based feature selection with deep learning model for threat detection in IoT sensor networks,2024
+10.1016/j.aej.2024.06.070,KAU,OA_W4400459041_02ma4wv74,Hybrid stacked autoencoder with dwarf mongoose optimization for Phishing attack detection in internet of things environment,2024
+10.1016/j.aej.2024.06.070,KKU,OA_W4400459041_052kwzs30,Hybrid stacked autoencoder with dwarf mongoose optimization for Phishing attack detection in internet of things environment,2024
+10.1016/j.aej.2024.06.070,PSAU,OA_W4400459041_04jt46d36,Hybrid stacked autoencoder with dwarf mongoose optimization for Phishing attack detection in internet of things environment,2024
+10.1016/j.aej.2024.08.061,KAU,OA_W4402026346_02ma4wv74,Class imbalanced data handling with cyberattack classification using Hybrid Salp Swarm Algorithm with deep learning approach,2024
+10.1016/j.aej.2024.08.061,KKU,OA_W4402026346_052kwzs30,Class imbalanced data handling with cyberattack classification using Hybrid Salp Swarm Algorithm with deep learning approach,2024
+10.1016/j.aej.2024.09.117,KAU,OA_W4403223412_02ma4wv74,Blockchain-assisted improved interval type-2 fuzzy deep learning-based attack detection on internet of things driven consumer electronics,2024
+10.1016/j.aej.2024.09.117,KKU,OA_W4403223412_052kwzs30,Blockchain-assisted improved interval type-2 fuzzy deep learning-based attack detection on internet of things driven consumer electronics,2024
+10.1016/j.aej.2024.10.032,KAU,OA_W4403965663_02ma4wv74,Sandpiper optimization with hybrid deep learning model for blockchain-assisted intrusion detection in iot environment,2024
+10.1016/j.aej.2024.10.032,KKU,OA_W4403965663_052kwzs30,Sandpiper optimization with hybrid deep learning model for blockchain-assisted intrusion detection in iot environment,2024
+10.1016/j.aej.2024.10.053,KAU,OA_W4403627112_02ma4wv74,Hybrid dung beetle optimization based dimensionality reduction with deep learning based cybersecurity solution on IoT environment,2024
+10.1016/j.aej.2024.10.053,KKU,OA_W4403627112_052kwzs30,Hybrid dung beetle optimization based dimensionality reduction with deep learning based cybersecurity solution on IoT environment,2024
+10.1016/j.aej.2024.10.102,KAU,OA_W4404416037_02ma4wv74,Chaos Game Optimization with stacked LSTM sequence to sequence autoencoder for malware detection in IoT cloud environment,2024
+10.1016/j.aej.2024.10.102,KKU,OA_W4404416037_052kwzs30,Chaos Game Optimization with stacked LSTM sequence to sequence autoencoder for malware detection in IoT cloud environment,2024
+10.1016/j.aej.2024.12.057,KAU,OA_W4405803496_02ma4wv74,Hybrid GWQBBA model for optimized classification of attacks in Intrusion Detection System,2024
+10.1016/j.aej.2024.12.057,KKU,OA_W4405803496_052kwzs30,Hybrid GWQBBA model for optimized classification of attacks in Intrusion Detection System,2024
+10.1016/j.aej.2025.02.069,KAU,OA_W4407961053_02ma4wv74,Design of advanced intrusion detection in cybersecurity using ensemble of deep learning models with an improved beluga whale optimization algorithm,2025
+10.1016/j.aej.2025.02.069,KKU,OA_W4407961053_052kwzs30,Design of advanced intrusion detection in cybersecurity using ensemble of deep learning models with an improved beluga whale optimization algorithm,2025
+10.1016/j.aej.2025.02.069,KSU,KSU_2025_7858,Design of advanced intrusion detection in cybersecurity using ensemble of deep learning models with an improved beluga whale optimization algorithm,2025
+10.1016/j.aej.2025.03.027,KKU,OA_W4408514167_052kwzs30,Federated learning and GWO-enabled consumer-centric healthcare internet of things for pancreatic tumour,2025
+10.1016/j.aej.2025.03.027,KSU,KSU_2025_10398,Federated learning and GWO-enabled consumer-centric healthcare internet of things for pancreatic tumour,2025
+10.1016/j.aej.2025.03.027,PSAU,OA_W4408514167_04jt46d36,Federated learning and GWO-enabled consumer-centric healthcare internet of things for pancreatic tumour,2025
+10.1016/j.aej.2025.03.046,KAU,OA_W4408896479_02ma4wv74,Robust speech perception and classification-driven deep convolutional neural network with natural language processing,2025
+10.1016/j.aej.2025.03.046,KSU,KSU_2025_6779,Robust speech perception and classification-driven deep convolutional neural network with natural language processing,2025
+10.1016/j.aej.2025.03.109,KAU,OA_W4409496378_02ma4wv74,Secure S-box construction with 1D chaotic maps and finite field theory for block cipher encryption,2025
+10.1016/j.aej.2025.03.109,KKU,OA_W4409496378_052kwzs30,Secure S-box construction with 1D chaotic maps and finite field theory for block cipher encryption,2025
+10.1016/j.aej.2025.03.125,KAU,OA_W4409527270_02ma4wv74,Artificial Intelligence-based Natural Language Processing for sarcasm detection and classification on Arabic Corpus,2025
+10.1016/j.aej.2025.03.125,KKU,OA_W4409527270_052kwzs30,Artificial Intelligence-based Natural Language Processing for sarcasm detection and classification on Arabic Corpus,2025
+10.1016/j.aej.2025.03.125,KSU,KSU_2025_7487,Artificial Intelligence-based Natural Language Processing for sarcasm detection and classification on Arabic Corpus,2025
+10.1016/j.aej.2025.04.069,KAU,OA_W4409909203_02ma4wv74,A decentralized and privacy-preserving framework for electronic health records using blockchain,2025
+10.1016/j.aej.2025.04.069,KKU,OA_W4409909203_052kwzs30,A decentralized and privacy-preserving framework for electronic health records using blockchain,2025
+10.1016/j.aej.2025.04.069,PSAU,OA_W4409909203_04jt46d36,A decentralized and privacy-preserving framework for electronic health records using blockchain,2025
+10.1016/j.aej.2025.04.095,KAU,OA_W4410104593_02ma4wv74,Guardian-AI: A novel deep learning based deepfake detection model in images,2025
+10.1016/j.aej.2025.04.095,KKU,OA_W4410104593_052kwzs30,Guardian-AI: A novel deep learning based deepfake detection model in images,2025
+10.1016/j.aej.2025.05.024,KAU,OA_W4410338481_02ma4wv74,Hybridization of deep learning models with crested porcupine optimizer algorithm-based cybersecurity detection on industrial IoT for smart city environments,2025
+10.1016/j.aej.2025.05.024,KKU,OA_W4410338481_052kwzs30,Hybridization of deep learning models with crested porcupine optimizer algorithm-based cybersecurity detection on industrial IoT for smart city environments,2025
+10.1016/j.aej.2025.05.024,KSU,KSU_2025_9914,Hybridization of deep learning models with crested porcupine optimizer algorithm-based cybersecurity detection on industrial IoT for smart city environments,2025
+10.1016/j.aej.2025.05.040,KAU,OA_W4410458146_02ma4wv74,An intelligent framework for sarcasm detection in Arabic tweets using deep learning with Al-Biruni earth radius optimization algorithm,2025
+10.1016/j.aej.2025.05.040,KKU,OA_W4410458146_052kwzs30,An intelligent framework for sarcasm detection in Arabic tweets using deep learning with Al-Biruni earth radius optimization algorithm,2025
+10.1016/j.aej.2025.05.040,KSU,KSU_2025_9913,An intelligent framework for sarcasm detection in Arabic tweets using deep learning with Al-Biruni earth radius optimization algorithm,2025
+10.1016/j.aej.2025.05.041,KKU,OA_W4410708200_052kwzs30,Applied intelligence with deep learning assisted automated sarcasm recognition in twitter data,2025
+10.1016/j.aej.2025.05.041,KSU,KSU_2025_8863,Applied intelligence with deep learning assisted automated sarcasm recognition in twitter data,2025
+10.1016/j.aej.2025.05.041,PSAU,OA_W4410708200_04jt46d36,Applied intelligence with deep learning assisted automated sarcasm recognition in twitter data,2025
+10.1016/j.aej.2025.05.054,KAU,OA_W4410831012_02ma4wv74,A hybrid blockchain and AI-based approach for attack protection to secure internet of medical things networks,2025
+10.1016/j.aej.2025.05.054,KKU,OA_W4410831012_052kwzs30,A hybrid blockchain and AI-based approach for attack protection to secure internet of medical things networks,2025
+10.1016/j.aej.2025.05.060,KAU,OA_W4410797644_02ma4wv74,Feature enhancement model with up sampling based cyber threat attack detection and classification on imbalanced dataset in Industrial Internet of Things,2025
+10.1016/j.aej.2025.05.060,KKU,OA_W4410797644_052kwzs30,Feature enhancement model with up sampling based cyber threat attack detection and classification on imbalanced dataset in Industrial Internet of Things,2025
+10.1016/j.aej.2025.05.060,PSAU,OA_W4410797644_04jt46d36,Feature enhancement model with up sampling based cyber threat attack detection and classification on imbalanced dataset in Industrial Internet of Things,2025
+10.1016/j.aej.2025.06.015,KKU,OA_W4411299506_052kwzs30,Leveraging ensemble learning with metaheuristic optimization algorithms for an intelligent cyberattack defense framework in an IoT environment,2025
+10.1016/j.aej.2025.06.015,PSAU,OA_W4411299506_04jt46d36,Leveraging ensemble learning with metaheuristic optimization algorithms for an intelligent cyberattack defense framework in an IoT environment,2025
+10.1016/j.aej.2025.07.032,KAU,OA_W4413033324_02ma4wv74,Machine learning-driven routing optimization for energy-efficient 6G-enabled wireless sensor networks,2025
+10.1016/j.aej.2025.07.032,KKU,OA_W4413033324_052kwzs30,Machine learning-driven routing optimization for energy-efficient 6G-enabled wireless sensor networks,2025
+10.1016/j.aej.2025.08.028,KKU,OA_W4413850506_052kwzs30,Voting-based ensemble classifiers model on ransomware detection for cybersecurity driven iiot in cloud computing infrastructure,2025
+10.1016/j.aej.2025.08.028,PSAU,OA_W4413850506_04jt46d36,Voting-based ensemble classifiers model on ransomware detection for cybersecurity driven iiot in cloud computing infrastructure,2025
+10.1016/j.aej.2026.02.007,KAU,OA_W7127450642_02ma4wv74,Corrigendum to “Guardian-AI: A novel deep learning based deepfake detection model in images” [Alex. Eng. J. 126 (2025) 507–514],2026
+10.1016/j.aej.2026.02.007,KKU,OA_W7127450642_052kwzs30,Corrigendum to “Guardian-AI: A novel deep learning based deepfake detection model in images” [Alex. Eng. J. 126 (2025) 507–514],2026
+10.1016/j.array.2025.100509,KAU,OA_W4414140412_02ma4wv74,Exploring the role of generative AI in enhancing cybersecurity in software development life cycle,2025
+10.1016/j.array.2025.100509,KSU,KSU_2025_8192,Exploring the role of generative AI in enhancing cybersecurity in software development life cycle,2025
+10.1016/j.array.2025.100630,KKU,OA_W4417067306_052kwzs30,From ideation to execution: Unleashing the power of generative AI in modern digital marketing and customer engagement- A systematic literature review and case study,2025
+10.1016/j.array.2025.100630,PSAU,OA_W4417067306_04jt46d36,From ideation to execution: Unleashing the power of generative AI in modern digital marketing and customer engagement- A systematic literature review and case study,2025
+10.1016/j.asej.2023.102547,KKU,OA_W4388140423_052kwzs30,Integrating IoT and honey badger algorithm based ensemble learning for accurate vehicle detection and classification,2023
+10.1016/j.asej.2023.102547,PSAU,OA_W4388140423_04jt46d36,Integrating IoT and honey badger algorithm based ensemble learning for accurate vehicle detection and classification,2023
+10.1016/j.asej.2024.102738,KKU,OA_W4392881236_052kwzs30,Farmland fertility algorithm based resource scheduling for makespan optimization in cloud computing environment,2024
+10.1016/j.asej.2024.102738,PSAU,OA_W4392881236_04jt46d36,Farmland fertility algorithm based resource scheduling for makespan optimization in cloud computing environment,2024
+10.1016/j.asej.2024.102943,KKU,OA_W4402923881_052kwzs30,Tasmanian devil optimization with deep autoencoder for intrusion detection in IoT assisted unmanned aerial vehicle networks,2024
+10.1016/j.asej.2024.102943,PSAU,OA_W4402923881_04jt46d36,Tasmanian devil optimization with deep autoencoder for intrusion detection in IoT assisted unmanned aerial vehicle networks,2024
+10.1016/j.asej.2024.103057,KKU,OA_W4402472780_052kwzs30,Artificial rabbits optimization with transfer learning based deepfake detection model for biometric applications,2024
+10.1016/j.asej.2024.103057,PSAU,OA_W4402472780_04jt46d36,Artificial rabbits optimization with transfer learning based deepfake detection model for biometric applications,2024
+10.1016/j.asej.2025.103612,KKU,OA_W4412435061_052kwzs30,Leveraging osprey optimization algorithm with deep ensemble learning for cybersecurity in CPS environment,2025
+10.1016/j.asej.2025.103612,KSU,KSU_2025_10042,Leveraging osprey optimization algorithm with deep ensemble learning for cybersecurity in CPS environment,2025
+10.1016/j.bspc.2023.105263,KAU,OA_W4383901288_02ma4wv74,Reviewing methods of deep learning for intelligent healthcare systems in genomics and biomedicine,2023
+10.1016/j.bspc.2023.105263,KKU,OA_W4383901288_052kwzs30,Reviewing methods of deep learning for intelligent healthcare systems in genomics and biomedicine,2023
+10.1016/j.bspc.2023.105263,PSAU,OA_W4383901288_04jt46d36,Reviewing methods of deep learning for intelligent healthcare systems in genomics and biomedicine,2023
+10.1016/j.compeleceng.2023.108676,KKU,OA_W4362737863_052kwzs30,Swarm intelligence for IoT attack detection in fog-enabled cyber-physical system,2023
+10.1016/j.compeleceng.2023.108676,PSAU,OA_W4362737863_04jt46d36,Swarm intelligence for IoT attack detection in fog-enabled cyber-physical system,2023
+10.1016/j.compeleceng.2024.109812,KKU,OA_W4404366382_052kwzs30,"The role of mobile edge computing in advancing federated learning algorithms and techniques: A systematic review of applications, challenges, and future directions",2024
+10.1016/j.compeleceng.2024.109812,PSAU,OA_W4404366382_04jt46d36,"The role of mobile edge computing in advancing federated learning algorithms and techniques: A systematic review of applications, challenges, and future directions",2024
+10.1016/j.compeleceng.2025.110319,KAU,OA_W4409588408_02ma4wv74,Federated learning with Blockchain on Denial-of-Service attacks detection and classification of edge IIoT networks using Deep Transfer Learning model,2025
+10.1016/j.compeleceng.2025.110319,KKU,OA_W4409588408_052kwzs30,Federated learning with Blockchain on Denial-of-Service attacks detection and classification of edge IIoT networks using Deep Transfer Learning model,2025
+10.1016/j.eij.2024.100443,KAU,OA_W4391738122_02ma4wv74,Fortifying home IoT security: A framework for comprehensive examination of vulnerabilities and intrusion detection strategies for smart cities,2024
+10.1016/j.eij.2024.100443,PSAU,OA_W4391738122_04jt46d36,Fortifying home IoT security: A framework for comprehensive examination of vulnerabilities and intrusion detection strategies for smart cities,2024
+10.1016/j.engappai.2025.113692,KAU,OA_W7118011937_02ma4wv74,Artificial intelligence with transformer neural network driven analysis of electronic health records for clinical insights on symptom based disease prediction,2026
+10.1016/j.engappai.2025.113692,KKU,OA_W7118011937_052kwzs30,Artificial intelligence with transformer neural network driven analysis of electronic health records for clinical insights on symptom based disease prediction,2026
+10.1016/j.engappai.2026.114806,KAU,OA_W7160095701_02ma4wv74,An incorporation of graph neural network with two-phase Convolutional feature representation model for indoor object detection and distance estimation in Internet of Things environment,2026
+10.1016/j.engappai.2026.114806,KKU,OA_W7160095701_052kwzs30,An incorporation of graph neural network with two-phase Convolutional feature representation model for indoor object detection and distance estimation in Internet of Things environment,2026
+10.1016/j.engappai.2026.114806,PSAU,OA_W7160095701_04jt46d36,An incorporation of graph neural network with two-phase Convolutional feature representation model for indoor object detection and distance estimation in Internet of Things environment,2026
+10.1016/j.engappai.2026.115194,KAU,OA_W7162869923_02ma4wv74,Secure drone-based scene classification and intrusion detection using multi-model deep learning,2026
+10.1016/j.engappai.2026.115194,KKU,OA_W7162869923_052kwzs30,Secure drone-based scene classification and intrusion detection using multi-model deep learning,2026
+10.1016/j.future.2023.05.029,KKU,OA_W4379931516_052kwzs30,Pelican Optimization Algorithm with Federated Learning Driven Attack Detection model in Internet of Things environment,2023
+10.1016/j.future.2023.05.029,PSAU,OA_W4379931516_04jt46d36,Pelican Optimization Algorithm with Federated Learning Driven Attack Detection model in Internet of Things environment,2023
+10.1016/j.future.2023.09.032,KAU,OA_W4387631239_02ma4wv74,A scalable and lightweight group authentication framework for Internet of Medical Things using integrated blockchain and fog computing,2023
+10.1016/j.future.2023.09.032,KKU,OA_W4387631239_052kwzs30,A scalable and lightweight group authentication framework for Internet of Medical Things using integrated blockchain and fog computing,2023
+10.1016/j.future.2024.107696,KSU,KSU_2025_7583,Enhancing performance of machine learning tasks on edge-cloud infrastructures: A cross-domain Internet of Things based framework,2025
+10.1016/j.future.2024.107696,PSAU,OA_W4405950787_04jt46d36,Enhancing performance of machine learning tasks on edge-cloud infrastructures: A cross-domain Internet of Things based framework,2024
+10.1016/j.heliyon.2023.e23252,KKU,OA_W4389461392_052kwzs30,Automated sign language detection and classification using reptile search algorithm with hybrid deep learning,2023
+10.1016/j.heliyon.2023.e23252,PSAU,OA_W4389461392_04jt46d36,Automated sign language detection and classification using reptile search algorithm with hybrid deep learning,2023
+10.1016/j.heliyon.2024.e29965,KKU,OA_W4394958566_052kwzs30,Software defined wireless sensor load balancing routing for internet of things applications: Review of approaches,2024
+10.1016/j.heliyon.2024.e29965,PSAU,OA_W4394958566_04jt46d36,Software defined wireless sensor load balancing routing for internet of things applications: Review of approaches,2024
+10.1016/j.heliyon.2024.e32628,KAU,OA_W4399421825_02ma4wv74,Integrating deep learning techniques for personalized learning pathways in higher education,2024
+10.1016/j.heliyon.2024.e32628,PSAU,OA_W4399421825_04jt46d36,Integrating deep learning techniques for personalized learning pathways in higher education,2024
+10.1016/j.heliyon.2024.e37446,KKU,OA_W4402328411_052kwzs30,Prairie Dog Optimization Algorithm with deep learning assisted based Aerial Image Classification on UAV imagery,2024
+10.1016/j.heliyon.2024.e37446,PSAU,OA_W4402328411_04jt46d36,Prairie Dog Optimization Algorithm with deep learning assisted based Aerial Image Classification on UAV imagery,2024
+10.1016/j.ijcip.2025.100782,KAU,OA_W4411196829_02ma4wv74,CyberSentry: Enhancing SCADA security through advanced deep learning and optimization strategies,2025
+10.1016/j.ijcip.2025.100782,KSU,KSU_2025_10471,CyberSentry: Enhancing SCADA security through advanced deep learning and optimization strategies,2025
+10.1016/j.imavis.2023.104657,KAU,OA_W4324364131_02ma4wv74,Face mask detection using deep convolutional neural network and multi-stage image processing,2023
+10.1016/j.imavis.2023.104657,PSAU,OA_W4324364131_04jt46d36,Face mask detection using deep convolutional neural network and multi-stage image processing,2023
+10.1016/j.jksuci.2023.101870,KKU,OA_W4389778612_052kwzs30,Communication and computational resource optimization for Industry 5.0 smart devices empowered by MEC,2023
+10.1016/j.jksuci.2023.101870,KSU,KSU_2023_339,Communication and computational resource optimization for Industry 5.0 smart devices empowered by MEC,2023
+10.1016/j.jksuci.2023.101870,PSAU,OA_W4389778612_04jt46d36,Communication and computational resource optimization for Industry 5.0 smart devices empowered by MEC,2023
+10.1016/j.jrras.2025.101464,KAU,OA_W4409155633_02ma4wv74,An ensemble of fuzzy soft expert set with deep learning on attack detection for secure industrial cyber-physical systems,2025
+10.1016/j.jrras.2025.101464,KKU,OA_W4409155633_052kwzs30,An ensemble of fuzzy soft expert set with deep learning on attack detection for secure industrial cyber-physical systems,2025
+10.1016/j.jrras.2025.101523,KAU,OA_W4409470962_02ma4wv74,Hybrid deep learning models with spotted hyena optimization for cloud computing enabled intrusion detection system,2025
+10.1016/j.jrras.2025.101523,KKU,OA_W4409470962_052kwzs30,Hybrid deep learning models with spotted hyena optimization for cloud computing enabled intrusion detection system,2025
+10.1016/j.phycom.2023.102047,KAU,OA_W4324257410_02ma4wv74,An efficient task allocation framework for scheduled data in edge based Internet of Things using hybrid optimization algorithm approach,2023
+10.1016/j.phycom.2023.102047,KKU,OA_W4324257410_052kwzs30,An efficient task allocation framework for scheduled data in edge based Internet of Things using hybrid optimization algorithm approach,2023
+10.1016/j.seta.2023.103114,KKU,OA_W4323307499_052kwzs30,Metaheuristics with deep learning driven phishing detection for sustainable and secure environment,2023
+10.1016/j.seta.2023.103114,KSU,KSU_2023_9771,Metaheuristics with deep learning driven phishing detection for sustainable and secure environment,2023
+10.1016/j.seta.2023.103114,PSAU,OA_W4323307499_04jt46d36,Metaheuristics with deep learning driven phishing detection for sustainable and secure environment,2023
+10.1016/j.seta.2023.103165,KAU,OA_W4362703796_02ma4wv74,Arithmetic optimization with hybrid deep learning algorithm based solar radiation prediction model,2023
+10.1016/j.seta.2023.103165,KKU,OA_W4362703796_052kwzs30,Arithmetic optimization with hybrid deep learning algorithm based solar radiation prediction model,2023
+10.1016/j.seta.2023.103397,KKU,OA_W4385773457_052kwzs30,Modified rat swarm optimization with deep learning model for robust recycling object detection and classification,2023
+10.1016/j.seta.2023.103397,PSAU,OA_W4385773457_04jt46d36,Modified rat swarm optimization with deep learning model for robust recycling object detection and classification,2023
+10.1016/j.uclim.2023.101483,KKU,OA_W4324027584_052kwzs30,Waste classification using vision transformer based on multilayer hybrid convolution neural network,2023
+10.1016/j.uclim.2023.101483,KSU,KSU_2023_9679,Waste classification using vision transformer based on multilayer hybrid convolution neural network,2023
+10.1016/j.uclim.2023.101483,PSAU,OA_W4324027584_04jt46d36,Waste classification using vision transformer based on multilayer hybrid convolution neural network,2023
+10.1016/j.uclim.2024.102095,KKU,OA_W4402928670_052kwzs30,Enhancing waste management and prediction of water quality in the sustainable urban environment using optimized algorithm of least square support vector machine and deep learning techniques,2024
+10.1016/j.uclim.2024.102095,PSAU,OA_W4402928670_04jt46d36,Enhancing waste management and prediction of water quality in the sustainable urban environment using optimized algorithm of least square support vector machine and deep learning techniques,2024
+10.1038/s41598-024-71302-9,KAU,OA_W4402203184_02ma4wv74,Exploiting histopathological imaging for early detection of lung and colon cancer via ensemble deep learning model,2024
+10.1038/s41598-024-71302-9,KKU,OA_W4402203184_052kwzs30,Exploiting histopathological imaging for early detection of lung and colon cancer via ensemble deep learning model,2024
+10.1038/s41598-024-74530-1,KKU,OA_W4403371986_052kwzs30,Integration of machine learning and CFD for modeling mass transfer in water treatment using membrane separation process,2024
+10.1038/s41598-024-74530-1,PSAU,OA_W4403371986_04jt46d36,Integration of machine learning and CFD for modeling mass transfer in water treatment using membrane separation process,2024
+10.1038/s41598-024-75904-1,KAU,OA_W4404114652_02ma4wv74,An efficient neural network LEACH protocol to extended lifetime of wireless sensor networks,2024
+10.1038/s41598-024-75904-1,PSAU,OA_W4404114652_04jt46d36,An efficient neural network LEACH protocol to extended lifetime of wireless sensor networks,2024
+10.1038/s41598-024-76016-6,KAU,OA_W4403503423_02ma4wv74,RETRACTED ARTICLE: Strengthening network DDOS attack detection in heterogeneous IoT environment with federated XAI learning approach,2024
+10.1038/s41598-024-76016-6,KKU,OA_W4403503423_052kwzs30,RETRACTED ARTICLE: Strengthening network DDOS attack detection in heterogeneous IoT environment with federated XAI learning approach,2024
+10.1038/s41598-024-76016-6,PSAU,OA_W4403503423_04jt46d36,RETRACTED ARTICLE: Strengthening network DDOS attack detection in heterogeneous IoT environment with federated XAI learning approach,2024
+10.1038/s41598-024-79749-6,KKU,OA_W4404494553_052kwzs30,Computational analysis of controlled drug release from porous polymeric carrier with the aid of Mass transfer and Artificial Intelligence modeling,2024
+10.1038/s41598-024-79749-6,PSAU,OA_W4404494553_04jt46d36,Computational analysis of controlled drug release from porous polymeric carrier with the aid of Mass transfer and Artificial Intelligence modeling,2024
+10.1038/s41598-024-80002-3,KKU,OA_W4405577507_052kwzs30,Transferable deep learning with coati optimization algorithm based mitotic nuclei segmentation and classification model,2024
+10.1038/s41598-024-80002-3,PSAU,OA_W4405577507_04jt46d36,Transferable deep learning with coati optimization algorithm based mitotic nuclei segmentation and classification model,2024
+10.1038/s41598-025-00269-y,KKU,OA_W4411977745_052kwzs30,Two stage malware detection model in internet of vehicles (IoV) using deep learning-based explainable artificial intelligence with optimization algorithms,2025
+10.1038/s41598-025-00269-y,KSU,KSU_2025_9780,Two stage malware detection model in internet of vehicles (IoV) using deep learning-based explainable artificial intelligence with optimization algorithms,2025
+10.1038/s41598-025-01178-w,KKU,OA_W4410819234_052kwzs30,Mitigating malicious denial of wallet attack using attribute reduction with deep learning approach for serverless computing on next generation applications,2025
+10.1038/s41598-025-01178-w,KSU,KSU_2025_9426,Mitigating malicious denial of wallet attack using attribute reduction with deep learning approach for serverless computing on next generation applications,2025
+10.1038/s41598-025-02773-7,KAU,OA_W4410817692_02ma4wv74,Drug repurposing targeting COVID-19 3CL protease using molecular docking and machine learning regression approaches,2025
+10.1038/s41598-025-02773-7,PSAU,OA_W4410817692_04jt46d36,Drug repurposing targeting COVID-19 3CL protease using molecular docking and machine learning regression approaches,2025
+10.1038/s41598-025-04570-8,KKU,OA_W4412015297_052kwzs30,Multi class aerial image classification in UAV networks employing Snake Optimization Algorithm with Deep Learning,2025
+10.1038/s41598-025-04570-8,KSU,KSU_2025_9484,Multi class aerial image classification in UAV networks employing Snake Optimization Algorithm with Deep Learning,2025
+10.1038/s41598-025-05940-y,KKU,OA_W4413429833_052kwzs30,Unveiling Arabic named entity recognition using natural language processing with artificial intelligence approach on Moroccan dialect,2025
+10.1038/s41598-025-05940-y,KSU,KSU_2025_10160,Unveiling Arabic named entity recognition using natural language processing with artificial intelligence approach on Moroccan dialect,2025
+10.1038/s41598-025-06761-9,KKU,OA_W4414658925_052kwzs30,Enhanced intrusion detection in cybersecurity through dimensionality reduction and explainable artificial intelligence,2025
+10.1038/s41598-025-06761-9,KSU,KSU_2025_10732,Enhanced intrusion detection in cybersecurity through dimensionality reduction and explainable artificial intelligence,2025
+10.1038/s41598-025-06761-9,PSAU,OA_W4414658925_04jt46d36,Enhanced intrusion detection in cybersecurity through dimensionality reduction and explainable artificial intelligence,2025
+10.1038/s41598-025-09091-y,KKU,OA_W4412429438_052kwzs30,Utilizing CBNet to effectively address and combat cyberbullying among university students on social media platforms,2025
+10.1038/s41598-025-09091-y,PSAU,OA_W4412429438_04jt46d36,Utilizing CBNet to effectively address and combat cyberbullying among university students on social media platforms,2025
+10.1038/s41598-025-10016-y,KKU,OA_W4414658086_052kwzs30,Improving internet of health things security through anomaly detection framework using artificial intelligence driven ensemble approaches,2025
+10.1038/s41598-025-10016-y,KSU,KSU_2025_10073,Improving internet of health things security through anomaly detection framework using artificial intelligence driven ensemble approaches,2025
+10.1038/s41598-025-10601-1,KKU,OA_W4415384941_052kwzs30,Privacy preserving blockchain integrated explainable artificial intelligence with two tier optimization for cyber threat detection and mitigation in the internet of things,2025
+10.1038/s41598-025-10601-1,KSU,KSU_2025_9303,Privacy preserving blockchain integrated explainable artificial intelligence with two tier optimization for cyber threat detection and mitigation in the internet of things,2025
+10.1038/s41598-025-10660-4,KAU,OA_W4414461533_02ma4wv74,Deep fusion based transfer learning with bald eagle search algorithm for sign language recognition to assist individuals with hearing and speech impairments,2025
+10.1038/s41598-025-10660-4,KKU,OA_W4414461533_052kwzs30,Deep fusion based transfer learning with bald eagle search algorithm for sign language recognition to assist individuals with hearing and speech impairments,2025
+10.1038/s41598-025-10660-4,PSAU,OA_W4414461533_04jt46d36,Deep fusion based transfer learning with bald eagle search algorithm for sign language recognition to assist individuals with hearing and speech impairments,2025
+10.1038/s41598-025-11608-4,KKU,OA_W4414554713_052kwzs30,Leveraging hybrid deep learning with starfish optimization algorithm based secure mechanism for intelligent edge computing in smart cities environment,2025
+10.1038/s41598-025-11608-4,KSU,KSU_2025_10026,Leveraging hybrid deep learning with starfish optimization algorithm based secure mechanism for intelligent edge computing in smart cities environment,2025
+10.1038/s41598-025-12404-w,KKU,OA_W4412629606_052kwzs30,Transfer learning with XAI for robust malware and IoT network security,2025
+10.1038/s41598-025-12404-w,PSAU,OA_W4412629606_04jt46d36,Transfer learning with XAI for robust malware and IoT network security,2025
+10.1038/s41598-025-13224-8,KKU,OA_W4413309677_052kwzs30,Internet of things driven object detection framework for consumer product monitoring using deep transfer learning and hippopotamus optimization,2025
+10.1038/s41598-025-13224-8,PSAU,OA_W4413309677_04jt46d36,Internet of things driven object detection framework for consumer product monitoring using deep transfer learning and hippopotamus optimization,2025
+10.1038/s41598-025-14515-w,KAU,OA_W4414555974_02ma4wv74,Enhancing indoor activity recognition for disabled persons using multi head self attention recurrent neural network with improved pelican algorithm,2025
+10.1038/s41598-025-14515-w,KKU,OA_W4414555974_052kwzs30,Enhancing indoor activity recognition for disabled persons using multi head self attention recurrent neural network with improved pelican algorithm,2025
+10.1038/s41598-025-14515-w,PSAU,OA_W4414555974_04jt46d36,Enhancing indoor activity recognition for disabled persons using multi head self attention recurrent neural network with improved pelican algorithm,2025
+10.1038/s41598-025-15146-x,KKU,OA_W4414555872_052kwzs30,Explainable artificial intelligence-based cyber resilience in internet of things networks using hybrid deep learning with improved chimp optimization algorithm,2025
+10.1038/s41598-025-15146-x,KSU,KSU_2025_9743,Explainable artificial intelligence-based cyber resilience in internet of things networks using hybrid deep learning with improved chimp optimization algorithm,2025
+10.1038/s41598-025-15629-x,KKU,OA_W4413270374_052kwzs30,Enhancing medical response efficiency in real-time large crowd environments via smart coverage and deep learning for stable ecological health monitoring,2025
+10.1038/s41598-025-15629-x,PSAU,OA_W4413270374_04jt46d36,Enhancing medical response efficiency in real-time large crowd environments via smart coverage and deep learning for stable ecological health monitoring,2025
+10.1038/s41598-025-17923-0,KKU,OA_W4414778722_052kwzs30,Exploiting deep transfer learning based precise classification and grading of renal cell carcinoma using histopathological images,2025
+10.1038/s41598-025-17923-0,PSAU,OA_W4414778722_04jt46d36,Exploiting deep transfer learning based precise classification and grading of renal cell carcinoma using histopathological images,2025
+10.1038/s41598-025-19733-w,KKU,OA_W4415166785_052kwzs30,An innovative multi-head attention mechanism-driven recurrent neural network model with feature representation fusion for enhanced image captioning to assist individuals with visual impairments,2025
+10.1038/s41598-025-19733-w,PSAU,OA_W4415166785_04jt46d36,An innovative multi-head attention mechanism-driven recurrent neural network model with feature representation fusion for enhanced image captioning to assist individuals with visual impairments,2025
+10.1038/s41598-025-21826-5,KKU,OA_W4415699519_052kwzs30,Evaluating large transformer models for anomaly detection of resource-constrained IoT devices for intrusion detection system,2025
+10.1038/s41598-025-21826-5,PSAU,OA_W4415699519_04jt46d36,Evaluating large transformer models for anomaly detection of resource-constrained IoT devices for intrusion detection system,2025
+10.1038/s41598-025-24171-9,KKU,OA_W4416334515_052kwzs30,Fusion of deep transfer learning models with Gannet optimisation algorithm for an advanced image captioning system for visual disabilities,2025
+10.1038/s41598-025-24171-9,PSAU,OA_W4416334515_04jt46d36,Fusion of deep transfer learning models with Gannet optimisation algorithm for an advanced image captioning system for visual disabilities,2025
+10.1038/s41598-025-27076-9,KKU,OA_W4416785237_052kwzs30,Designing a neuro-symbolic dual-model architecture for explainable and resilient intrusion detection in IoT networks,2025
+10.1038/s41598-025-27076-9,PSAU,OA_W4416785237_04jt46d36,Designing a neuro-symbolic dual-model architecture for explainable and resilient intrusion detection in IoT networks,2025
+10.1038/s41598-025-28929-z,KAU,OA_W4416764423_02ma4wv74,Integration of corpus linguistics and deep learning techniques for enhanced semantic-driven emotion detection on textual data,2025
+10.1038/s41598-025-28929-z,KKU,OA_W4416764423_052kwzs30,Integration of corpus linguistics and deep learning techniques for enhanced semantic-driven emotion detection on textual data,2025
+10.1038/s41598-025-28929-z,KSU,KSU_2025_10866,Integration of corpus linguistics and deep learning techniques for enhanced semantic-driven emotion detection on textual data,2025
+10.1038/s41598-025-30340-7,KSU,KSU_2025_7721,Artificial Intelligence-based fine-tuning model for fall activity recognition in disabled persons within an IoT environment,2025
+10.1038/s41598-025-30340-7,PSAU,OA_W4416870902_04jt46d36,Artificial Intelligence-based fine-tuning model for fall activity recognition in disabled persons within an IoT environment,2025
+10.1038/s41598-025-30558-5,KSU,KSU_2025_6878,Assistive communication system using deep sparse autoencoder with feature learning to assist people with hearing disabilities,2025
+10.1038/s41598-025-30558-5,PSAU,OA_W4416926054_04jt46d36,Assistive communication system using deep sparse autoencoder with feature learning to assist people with hearing disabilities,2025
+10.1038/s41598-025-31093-z,KAU,OA_W4417006283_02ma4wv74,Self-attention bidirectional long Short-Term memory assisted natural language processing on sarcasm detection and classification in social media platforms,2025
+10.1038/s41598-025-31093-z,KKU,OA_W4417006283_052kwzs30,Self-attention bidirectional long Short-Term memory assisted natural language processing on sarcasm detection and classification in social media platforms,2025
+10.1038/s41598-025-31093-z,KSU,KSU_2025_10155,Self-attention bidirectional long Short-Term memory assisted natural language processing on sarcasm detection and classification in social media platforms,2025
+10.1038/s41598-025-34283-x,KKU,OA_W7117449066_052kwzs30,Improving sign Language recognition system for assisting deaf and dumb people using pathfinder algorithm with representation learning model,2025
+10.1038/s41598-025-34283-x,PSAU,OA_W7117449066_04jt46d36,Improving sign Language recognition system for assisting deaf and dumb people using pathfinder algorithm with representation learning model,2025
+10.1038/s41598-025-88450-1,KKU,OA_W4407180175_052kwzs30,Artificial intelligence-driven ensemble deep learning models for smart monitoring of indoor activities in IoT environment for people with disabilities,2025
+10.1038/s41598-025-88450-1,PSAU,OA_W4407180175_04jt46d36,Artificial intelligence-driven ensemble deep learning models for smart monitoring of indoor activities in IoT environment for people with disabilities,2025
+10.1038/s41598-025-88592-2,KKU,OA_W4407265475_052kwzs30,A multi-model feature fusion based transfer learning with heuristic search for copy-move video forgery detection,2025
+10.1038/s41598-025-88592-2,KSU,KSU_2025_9934,A multi-model feature fusion based transfer learning with heuristic search for copy-move video forgery detection,2025
+10.1038/s41598-025-89971-5,KKU,OA_W4407876524_052kwzs30,Deep structured learning with vision intelligence for oral carcinoma lesion segmentation and classification using medical imaging,2025
+10.1038/s41598-025-89971-5,KSU,KSU_2025_9292,Deep structured learning with vision intelligence for oral carcinoma lesion segmentation and classification using medical imaging,2025
+10.1038/s41598-025-89975-1,KSU,KSU_2025_3728,IoT-driven smart assistive communication system for the hearing impaired with hybrid deep learning models for sign language recognition,2025
+10.1038/s41598-025-89975-1,PSAU,OA_W4407779586_04jt46d36,IoT-driven smart assistive communication system for the hearing impaired with hybrid deep learning models for sign language recognition,2025
+10.1038/s41598-025-90908-1,KKU,OA_W4408155776_052kwzs30,Opportunistic access control scheme for enhancing IoT-enabled healthcare security using blockchain and machine learning,2025
+10.1038/s41598-025-90908-1,PSAU,OA_W4408155776_04jt46d36,Opportunistic access control scheme for enhancing IoT-enabled healthcare security using blockchain and machine learning,2025
+10.1038/s41598-025-92120-7,KAU,OA_W4408152150_02ma4wv74,Regional computing approach for educational big data,2025
+10.1038/s41598-025-92120-7,KSU,KSU_2025_6869,Regional computing approach for educational big data,2025
+10.1038/s41598-025-92711-4,KKU,OA_W4408294630_052kwzs30,An intelligent ransomware based cyberthreat detection model using multi head attention-based recurrent neural networks with optimization algorithm in IoT environment,2025
+10.1038/s41598-025-92711-4,KSU,KSU_2025_9488,An intelligent ransomware based cyberthreat detection model using multi head attention-based recurrent neural networks with optimization algorithm in IoT environment,2025
+10.1038/s41598-025-93135-w,KKU,OA_W4408574758_052kwzs30,Transfer learning for securing electric vehicle charging infrastructure from cyber-physical attacks,2025
+10.1038/s41598-025-93135-w,PSAU,OA_W4408574758_04jt46d36,Transfer learning for securing electric vehicle charging infrastructure from cyber-physical attacks,2025
+10.1038/s41598-025-95381-4,KAU,OA_W4409033981_02ma4wv74,An adaptive search mechanism with convolutional learning networks for online social media text summarization and classification model,2025
+10.1038/s41598-025-95381-4,KKU,OA_W4409033981_052kwzs30,An adaptive search mechanism with convolutional learning networks for online social media text summarization and classification model,2025
+10.1038/s41598-025-97102-3,KKU,OA_W4410315902_052kwzs30,Leveraging explainable artificial intelligence with ensemble of deep learning model for dementia prediction to enhance clinical decision support systems,2025
+10.1038/s41598-025-97102-3,PSAU,OA_W4410315902_04jt46d36,Leveraging explainable artificial intelligence with ensemble of deep learning model for dementia prediction to enhance clinical decision support systems,2025
+10.1038/s41598-025-97204-y,KAU,OA_W4409566604_02ma4wv74,AI-driven cybersecurity framework for software development based on the ANN-ISM paradigm,2025
+10.1038/s41598-025-97204-y,KSU,KSU_2025_9035,AI-driven cybersecurity framework for software development based on the ANN-ISM paradigm,2025
+10.1038/s41598-025-99420-y,KKU,OA_W4411983738_052kwzs30,Artificial intelligence-driven cybersecurity: enhancing malicious domain detection using attention-based deep learning model with optimization algorithms,2025
+10.1038/s41598-025-99420-y,PSAU,OA_W4411983738_04jt46d36,Artificial intelligence-driven cybersecurity: enhancing malicious domain detection using attention-based deep learning model with optimization algorithms,2025
+10.1038/s41598-025-99452-4,KAU,OA_W4411983760_02ma4wv74,Leveraging self attention driven gated recurrent unit with crocodile optimization algorithm for cyberattack detection using federated learning framework,2025
+10.1038/s41598-025-99452-4,KKU,OA_W4411983760_052kwzs30,Leveraging self attention driven gated recurrent unit with crocodile optimization algorithm for cyberattack detection using federated learning framework,2025
+10.1038/s41598-025-99452-4,KSU,KSU_2025_10062,Leveraging self attention driven gated recurrent unit with crocodile optimization algorithm for cyberattack detection using federated learning framework,2025
+10.1038/s41598-025-99940-7,KKU,OA_W4410500069_052kwzs30,Harnessing optimization with deep learning approach on intelligent transportation system for anomaly detection in pedestrian walkways,2025
+10.1038/s41598-025-99940-7,KSU,KSU_2025_8885,Harnessing optimization with deep learning approach on intelligent transportation system for anomaly detection in pedestrian walkways,2025
+10.1038/s41598-026-40634-z,KKU,OA_W7131104448_052kwzs30,Quantum transfer learning for cross-domain cybersecurity threat detection and categorization,2026
+10.1038/s41598-026-40634-z,PSAU,OA_W7131104448_04jt46d36,Quantum transfer learning for cross-domain cybersecurity threat detection and categorization,2026
+10.1038/s41598-026-41642-9,KKU,OA_W7133563207_052kwzs30,Particle swarm optimized deep learning for jamming detection and throughput enhancement in cognitive radio networks,2026
+10.1038/s41598-026-41642-9,PSAU,OA_W7133563207_04jt46d36,Particle swarm optimized deep learning for jamming detection and throughput enhancement in cognitive radio networks,2026
+10.1038/s41598-026-45987-z,KAU,OA_W7160509067_02ma4wv74,Secure Elliptic Galois Cryptography Framework for robust real-time vehicle image classification using convolutional sparse autoencoder in intelligent transportation systems,2026
+10.1038/s41598-026-45987-z,KKU,OA_W7160509067_052kwzs30,Secure Elliptic Galois Cryptography Framework for robust real-time vehicle image classification using convolutional sparse autoencoder in intelligent transportation systems,2026
+10.1038/s41598-026-47157-7,KAU,OA_W7160715082_02ma4wv74,Explainable artificial intelligence with pyramid vision transformer model for multi-class malignant cell classification on cytology slides,2026
+10.1038/s41598-026-47157-7,KKU,OA_W7160715082_052kwzs30,Explainable artificial intelligence with pyramid vision transformer model for multi-class malignant cell classification on cytology slides,2026
+10.1038/s41598-026-49234-3,KAU,OA_W7155173431_02ma4wv74,Retraction Note: Strengthening network DDOS attack detection in heterogeneous IoT environment with federated XAI learning approach,2026
+10.1038/s41598-026-49234-3,KKU,OA_W7155173431_052kwzs30,Retraction Note: Strengthening network DDOS attack detection in heterogeneous IoT environment with federated XAI learning approach,2026
+10.1038/s41598-026-49234-3,PSAU,OA_W7155173431_04jt46d36,Retraction Note: Strengthening network DDOS attack detection in heterogeneous IoT environment with federated XAI learning approach,2026
+10.1038/s41598-026-68077-6,KAU,OA_W7204275986_02ma4wv74,Causal trust aware federated multi agent reinforcement learning for 6G edge networks,2026
+10.1038/s41598-026-68077-6,KKU,OA_W7204275986_052kwzs30,Causal trust aware federated multi agent reinforcement learning for 6G edge networks,2026
+10.1038/s41598-026-68317-9,KAU,OA_W7204991207_02ma4wv74,Secure network forensic investigation framework with elliptic curve cryptography-based encryption and enhanced message digest integrity verification,2026
+10.1038/s41598-026-68317-9,PSAU,OA_W7204991207_04jt46d36,Secure network forensic investigation framework with elliptic curve cryptography-based encryption and enhanced message digest integrity verification,2026
+10.1080/07391102.2024.2317980,KAU,OA_W4392048233_02ma4wv74,In silico assessment of a natural small molecule as an inhibitor of programmed death ligand 1 for cancer immunotherapy: a computational approach,2024
+10.1080/07391102.2024.2317980,PSAU,OA_W4392048233_04jt46d36,In silico assessment of a natural small molecule as an inhibitor of programmed death ligand 1 for cancer immunotherapy: a computational approach,2024
+10.1080/14796694.2025.2606642,KKU,OA_W7117128662_052kwzs30,"Artificial intelligence in breast cancer: clinical applications in diagnosis, prognosis, and therapeutics",2025
+10.1080/14796694.2025.2606642,PSAU,OA_W7117128662_04jt46d36,"Artificial intelligence in breast cancer: clinical applications in diagnosis, prognosis, and therapeutics",2025
+10.1080/17483107.2025.2562454,KSU,KSU_2025_5683,Enhancing communication for people with hearing disabilities through robust sign language recognition using deep learning and the internet of things,2025
+10.1080/17483107.2025.2562454,PSAU,OA_W4414472023_04jt46d36,RETRACTED ARTICLE: Enhancing communication for people with hearing disabilities through robust sign language recognition using deep learning and the internet of things,2025
+10.1109/access.2023.3256084,KKU,OA_W4323891929_052kwzs30,Modified Salp Swarm Algorithm With Deep Learning Based Gastrointestinal Tract Disease Classification on Endoscopic Images,2023
+10.1109/access.2023.3256084,PSAU,OA_W4323891929_04jt46d36,Modified Salp Swarm Algorithm With Deep Learning Based Gastrointestinal Tract Disease Classification on Endoscopic Images,2023
+10.1109/access.2023.3262160,KKU,OA_W4360995292_052kwzs30,Dispersal Foraging Strategy With Cuckoo Search Optimization Based Path Planning in Unmanned Aerial Vehicle Networks,2023
+10.1109/access.2023.3262160,PSAU,OA_W4360995292_04jt46d36,Dispersal Foraging Strategy With Cuckoo Search Optimization Based Path Planning in Unmanned Aerial Vehicle Networks,2023
+10.1109/access.2023.3285289,KKU,OA_W4380372993_052kwzs30,Gauss-Mapping Black Widow Optimization With Deep Extreme Learning Machine for Android Malware Classification Model,2023
+10.1109/access.2023.3285289,PSAU,OA_W4380372993_04jt46d36,Gauss-Mapping Black Widow Optimization With Deep Extreme Learning Machine for Android Malware Classification Model,2023
+10.1109/access.2023.3294263,KKU,OA_W4383899490_052kwzs30,Automated Android Malware Detection Using Optimal Ensemble Learning Approach for Cybersecurity,2023
+10.1109/access.2023.3294263,PSAU,OA_W4383899490_04jt46d36,Automated Android Malware Detection Using Optimal Ensemble Learning Approach for Cybersecurity,2023
+10.1109/access.2023.3299589,KKU,OA_W4385338791_052kwzs30,Modeling of Blockchain Assisted Intrusion Detection on IoT Healthcare System Using Ant Lion Optimizer With Hybrid Deep Learning,2023
+10.1109/access.2023.3299589,PSAU,OA_W4385338791_04jt46d36,Modeling of Blockchain Assisted Intrusion Detection on IoT Healthcare System Using Ant Lion Optimizer With Hybrid Deep Learning,2023
+10.1109/access.2023.3300221,KKU,OA_W4385413625_052kwzs30,Metaheuristics Algorithm-Based Minimization of Communication Costs in Federated Learning,2023
+10.1109/access.2023.3300221,PSAU,OA_W4385413625_04jt46d36,Metaheuristics Algorithm-Based Minimization of Communication Costs in Federated Learning,2023
+10.1109/access.2023.3303087,KKU,OA_W4385626879_052kwzs30,Blockchain-Assisted Secure Smart Home Network Using Gradient-Based Optimizer With Hybrid Deep Learning Model,2023
+10.1109/access.2023.3303087,PSAU,OA_W4385626879_04jt46d36,Blockchain-Assisted Secure Smart Home Network Using Gradient-Based Optimizer With Hybrid Deep Learning Model,2023
+10.1109/access.2023.3304237,KKU,OA_W4385731876_052kwzs30,Modeling of Reptile Search Algorithm With Deep Learning Approach for Copy Move Image Forgery Detection,2023
+10.1109/access.2023.3304237,PSAU,OA_W4385731876_04jt46d36,Modeling of Reptile Search Algorithm With Deep Learning Approach for Copy Move Image Forgery Detection,2023
+10.1109/access.2023.3304269,KKU,OA_W4385731945_052kwzs30,Blockchain Enabled Smart Healthcare System Using Jellyfish Search Optimization With Dual-Pathway Deep Convolutional Neural Network,2023
+10.1109/access.2023.3304269,PSAU,OA_W4385731945_04jt46d36,Blockchain Enabled Smart Healthcare System Using Jellyfish Search Optimization With Dual-Pathway Deep Convolutional Neural Network,2023
+10.1109/access.2023.3309711,KAU,OA_W4386261835_02ma4wv74,Biomedical Image Analysis for Colon and Lung Cancer Detection Using Tuna Swarm Algorithm With Deep Learning Model,2023
+10.1109/access.2023.3309711,KKU,OA_W4386261835_052kwzs30,Biomedical Image Analysis for Colon and Lung Cancer Detection Using Tuna Swarm Algorithm With Deep Learning Model,2023
+10.1109/access.2023.3309711,PSAU,OA_W4386261835_04jt46d36,Biomedical Image Analysis for Colon and Lung Cancer Detection Using Tuna Swarm Algorithm With Deep Learning Model,2023
+10.1109/access.2023.3310813,KKU,OA_W4386320374_052kwzs30,Active Learning for News Article’s Authorship Identification,2023
+10.1109/access.2023.3310813,PSAU,OA_W4386320374_04jt46d36,Active Learning for News Article’s Authorship Identification,2023
+10.1109/access.2023.3310885,KKU,OA_W4386322023_052kwzs30,Tuna Swarm Algorithm With Deep Learning Enabled Violence Detection in Smart Video Surveillance Systems,2023
+10.1109/access.2023.3310885,PSAU,OA_W4386322023_04jt46d36,Tuna Swarm Algorithm With Deep Learning Enabled Violence Detection in Smart Video Surveillance Systems,2023
+10.1109/access.2023.3315609,KKU,OA_W4386736893_052kwzs30,Moth Flame Optimization With Hybrid Deep Learning Based Sentiment Classification Toward ChatGPT on Twitter,2023
+10.1109/access.2023.3315609,PSAU,OA_W4386736893_04jt46d36,Moth Flame Optimization With Hybrid Deep Learning Based Sentiment Classification Toward ChatGPT on Twitter,2023
+10.1109/access.2023.3317276,KKU,OA_W4386903087_052kwzs30,Automated Image Captioning Using Sparrow Search Algorithm With Improved Deep Learning Model,2023
+10.1109/access.2023.3317276,PSAU,OA_W4386903087_04jt46d36,Automated Image Captioning Using Sparrow Search Algorithm With Improved Deep Learning Model,2023
+10.1109/access.2023.3318176,KKU,OA_W4386917647_052kwzs30,Modified Equilibrium Optimization Algorithm With Deep Learning-Based DDoS Attack Classification in 5G Networks,2023
+10.1109/access.2023.3318176,PSAU,OA_W4386917647_04jt46d36,Modified Equilibrium Optimization Algorithm With Deep Learning-Based DDoS Attack Classification in 5G Networks,2023
+10.1109/access.2023.3318316,KKU,OA_W4386952037_052kwzs30,Enhancing DDoS Attack Detection Using Snake Optimizer With Ensemble Learning on Internet of Things Environment,2023
+10.1109/access.2023.3318316,PSAU,OA_W4386952037_04jt46d36,Enhancing DDoS Attack Detection Using Snake Optimizer With Ensemble Learning on Internet of Things Environment,2023
+10.1109/access.2023.3319401,KKU,OA_W4387042378_052kwzs30,Blockchain-Assisted Vehicle and Cargo Matching Using Optimal Fuzzy Restricted Boltzmann Machine in Autonomous Transport System,2023
+10.1109/access.2023.3319401,PSAU,OA_W4387042378_04jt46d36,Blockchain-Assisted Vehicle and Cargo Matching Using Optimal Fuzzy Restricted Boltzmann Machine in Autonomous Transport System,2023
+10.1109/access.2023.3322369,KKU,OA_W4387385686_052kwzs30,Hybrid Metaheuristics With Machine Learning Based Botnet Detection in Cloud Assisted Internet of Things Environment,2023
+10.1109/access.2023.3322369,PSAU,OA_W4387385686_04jt46d36,Hybrid Metaheuristics With Machine Learning Based Botnet Detection in Cloud Assisted Internet of Things Environment,2023
+10.1109/access.2023.3324880,KKU,OA_W4387682284_052kwzs30,Laryngeal Cancer Detection and Classification Using Aquila Optimization Algorithm With Deep Learning on Throat Region Images,2023
+10.1109/access.2023.3324880,PSAU,OA_W4387682284_04jt46d36,Laryngeal Cancer Detection and Classification Using Aquila Optimization Algorithm With Deep Learning on Throat Region Images,2023
+10.1109/access.2023.3326369,KKU,OA_W4387831813_052kwzs30,Hybrid Metaheuristics With Deep Learning-Based Fusion Model for Biomedical Image Analysis,2023
+10.1109/access.2023.3326369,PSAU,OA_W4387831813_04jt46d36,Hybrid Metaheuristics With Deep Learning-Based Fusion Model for Biomedical Image Analysis,2023
+10.1109/access.2023.3331061,KKU,OA_W4388505260_052kwzs30,Applied Linguistics With Red-Tailed Hawk Optimizer-Based Ensemble Learning Strategy in Natural Language Processing,2023
+10.1109/access.2023.3331061,PSAU,OA_W4388505260_04jt46d36,Applied Linguistics With Red-Tailed Hawk Optimizer-Based Ensemble Learning Strategy in Natural Language Processing,2023
+10.1109/access.2023.3332213,KKU,OA_W4388642424_052kwzs30,Automated Threat Detection Using Flamingo Search Algorithm With Optimal Deep Learning on Cyber-Physical System Environment,2023
+10.1109/access.2023.3332213,PSAU,OA_W4388642424_04jt46d36,Automated Threat Detection Using Flamingo Search Algorithm With Optimal Deep Learning on Cyber-Physical System Environment,2023
+10.1109/access.2023.3332690,KKU,OA_W4388666581_052kwzs30,Modeling of Botnet Detection Using Chaotic Binary Pelican Optimization Algorithm With Deep Learning on Internet of Things Environment,2023
+10.1109/access.2023.3332690,PSAU,OA_W4388666581_04jt46d36,Modeling of Botnet Detection Using Chaotic Binary Pelican Optimization Algorithm With Deep Learning on Internet of Things Environment,2023
+10.1109/access.2023.3335124,KKU,OA_W4388820062_052kwzs30,Red Kite Optimization Algorithm With Average Ensemble Model for Intrusion Detection for Secure IoT,2023
+10.1109/access.2023.3335124,PSAU,OA_W4388820062_04jt46d36,Red Kite Optimization Algorithm With Average Ensemble Model for Intrusion Detection for Secure IoT,2023
+10.1109/access.2023.3338550,KAU,OA_W4389164391_02ma4wv74,Security Provision by Using Detection and Prevention Methods to Ensure Trust in Edge-Based Smart City Networks,2023
+10.1109/access.2023.3338550,PSAU,OA_W4389164391_04jt46d36,Security Provision by Using Detection and Prevention Methods to Ensure Trust in Edge-Based Smart City Networks,2023
+10.1109/access.2023.3339250,KAU,OA_W4389317841_02ma4wv74,"E-Learning-Based Cloud Computing Environment: A Systematic Review, Challenges, and Opportunities",2023
+10.1109/access.2023.3339250,KKU,OA_W4389317841_052kwzs30,"E-Learning-Based Cloud Computing Environment: A Systematic Review, Challenges, and Opportunities",2023
+10.1109/access.2023.3342698,KKU,OA_W4389665058_052kwzs30,Improved Radial Movement Optimization With Fuzzy Neural Network Enabled Anomaly Detection for IoT Assisted Smart Cities,2023
+10.1109/access.2023.3342698,PSAU,OA_W4389665058_04jt46d36,Improved Radial Movement Optimization With Fuzzy Neural Network Enabled Anomaly Detection for IoT Assisted Smart Cities,2023
+10.1109/access.2023.3345803,KKU,OA_W4390075110_052kwzs30,Chaotic Equilibrium Optimizer-Based Green Communication With Deep Learning Enabled Load Prediction in Internet of Things Environment,2023
+10.1109/access.2023.3345803,PSAU,OA_W4390075110_04jt46d36,Chaotic Equilibrium Optimizer-Based Green Communication With Deep Learning Enabled Load Prediction in Internet of Things Environment,2023
+10.1109/access.2023.3347619,KAU,OA_W4390241508_02ma4wv74,Enhanced Intrusion Detection in In-Vehicle Networks Using Advanced Feature Fusion and Stacking-Enriched Learning,2023
+10.1109/access.2023.3347619,PSAU,OA_W4390241508_04jt46d36,Enhanced Intrusion Detection in In-Vehicle Networks Using Advanced Feature Fusion and Stacking-Enriched Learning,2023
+10.1109/access.2024.3357944,KKU,OA_W4391164072_052kwzs30,Intelligent Pattern Recognition Using Equilibrium Optimizer With Deep Learning Model for Android Malware Detection,2024
+10.1109/access.2024.3357944,PSAU,OA_W4391164072_04jt46d36,Intelligent Pattern Recognition Using Equilibrium Optimizer With Deep Learning Model for Android Malware Detection,2024
+10.1109/access.2024.3367430,KKU,OA_W4391936194_052kwzs30,Archimedes Optimization Algorithm With Deep Learning Assisted Content-Based Image Retrieval in Healthcare Sector,2024
+10.1109/access.2024.3367430,PSAU,OA_W4391936194_04jt46d36,Archimedes Optimization Algorithm With Deep Learning Assisted Content-Based Image Retrieval in Healthcare Sector,2024
+10.1109/access.2024.3367993,KKU,OA_W4391983109_052kwzs30,Optimal Deep Learning Empowered Malicious User Detection for Spectrum Sensing in Cognitive Radio Networks,2024
+10.1109/access.2024.3367993,PSAU,OA_W4391983109_04jt46d36,Optimal Deep Learning Empowered Malicious User Detection for Spectrum Sensing in Cognitive Radio Networks,2024
+10.1109/access.2024.3384398,KKU,OA_W4393906152_052kwzs30,Enhancing DDoS Attack Detection and Mitigation in SDN Using an Ensemble Online Machine Learning Model,2024
+10.1109/access.2024.3384398,PSAU,OA_W4393906152_04jt46d36,Enhancing DDoS Attack Detection and Mitigation in SDN Using an Ensemble Online Machine Learning Model,2024
+10.1109/access.2024.3436653,KKU,OA_W4401210375_052kwzs30,Suspicious Human Activity Recognition From Surveillance Videos Using Deep Learning,2024
+10.1109/access.2024.3436653,PSAU,OA_W4401210375_04jt46d36,Suspicious Human Activity Recognition From Surveillance Videos Using Deep Learning,2024
+10.1109/access.2024.3450514,KAU,OA_W4401906639_02ma4wv74,Click-Based Representation Learning Framework of Student Navigational Behavior in MOOCs,2024
+10.1109/access.2024.3450514,PSAU,OA_W4401906639_04jt46d36,Click-Based Representation Learning Framework of Student Navigational Behavior in MOOCs,2024
+10.1109/access.2024.3480330,KKU,OA_W4403391243_052kwzs30,Active-Darknet: An Iterative Learning Approach for Darknet Traffic Detection and Categorization,2024
+10.1109/access.2024.3480330,PSAU,OA_W4403391243_04jt46d36,Active-Darknet: An Iterative Learning Approach for Darknet Traffic Detection and Categorization,2024
+10.1109/access.2024.3482876,KAU,OA_W4403510193_02ma4wv74,Modeling of Bayesian-Based Optimized Transfer Learning Model for Cyber-Attack Detection in Internet of Things Assisted Resource Constrained Systems,2024
+10.1109/access.2024.3482876,KKU,OA_W4403510193_052kwzs30,Modeling of Bayesian-Based Optimized Transfer Learning Model for Cyber-Attack Detection in Internet of Things Assisted Resource Constrained Systems,2024
+10.1109/access.2024.3482876,PSAU,OA_W4403510193_04jt46d36,Modeling of Bayesian-Based Optimized Transfer Learning Model for Cyber-Attack Detection in Internet of Things Assisted Resource Constrained Systems,2024
+10.1109/access.2025.3529843,KKU,OA_W4406457723_052kwzs30,Integrating Explainable Artificial Intelligence With Advanced Deep Learning Model for Crowd Density Estimation in Real-World Surveillance Systems,2025
+10.1109/access.2025.3529843,KSU,KSU_2025_8892,Integrating Explainable Artificial Intelligence With Advanced Deep Learning Model for Crowd Density Estimation in Real-World Surveillance Systems,2025
+10.1109/access.2025.3538331,KKU,OA_W4407155098_052kwzs30,Two-Tiered Privacy Preserving Framework for Software-Defined Networking Driven Defence Mechanism for Consumer Platforms,2025
+10.1109/access.2025.3538331,KSU,KSU_2025_9019,Two-Tiered Privacy Preserving Framework for Software-Defined Networking Driven Defence Mechanism for Consumer Platforms,2025
+10.1109/access.2025.3556352,KAU,OA_W4409014247_02ma4wv74,ET-GNN: Ensemble Transformer-Based Graph Neural Networks for Holistic Automated Essay Scoring,2025
+10.1109/access.2025.3556352,PSAU,OA_W4409014247_04jt46d36,ET-GNN: Ensemble Transformer-Based Graph Neural Networks for Holistic Automated Essay Scoring,2025
+10.1109/access.2025.3570359,KKU,OA_W4410393794_052kwzs30,Automated Classification and Identification of Non-Functional Requirements in Agile-Based Requirements Using Pre-Trained Language Models,2025
+10.1109/access.2025.3570359,KSU,KSU_2025_1966,Automated Classification and Identification of Non-Functional Requirements in Agile-Based Requirements Using Pre-Trained Language Models,2025
+10.1109/bigdata62323.2024.10825944,KKU,OA_W4406458915_052kwzs30,Steering a Standard Arab Language Processing Model Towards Accurate Saudi Dialect Sentiment Analysis Using Generative AI,2024
+10.1109/bigdata62323.2024.10825944,PSAU,OA_W4406458915_04jt46d36,Steering a Standard Arab Language Processing Model Towards Accurate Saudi Dialect Sentiment Analysis Using Generative AI,2024
+10.1109/csnt69054.2026.11502315,KAU,OA_W7160624183_02ma4wv74,Evaluating GRU and Other Neural Architectures for Robust Lung Cancer Surveillance Against FGSM Attacks in Edge Systems,2026
+10.1109/csnt69054.2026.11502315,KKU,OA_W7160624183_052kwzs30,Evaluating GRU and Other Neural Architectures for Robust Lung Cancer Surveillance Against FGSM Attacks in Edge Systems,2026
+10.1109/icetetsip64213.2025.11156944,KKU,OA_W4414231522_052kwzs30,The Growing Need for Deepfakes Detection in the Age of AI-Generated Media,2025
+10.1109/icetetsip64213.2025.11156944,PSAU,OA_W4414231522_04jt46d36,The Growing Need for Deepfakes Detection in the Age of AI-Generated Media,2025
+10.1109/jstars.2025.3593849,KKU,OA_W4412837100_052kwzs30,Satellite-Based Object Detection With PSNR-Driven Image Enhancement and Structural Interpretability,2025
+10.1109/jstars.2025.3593849,PSAU,OA_W4412837100_04jt46d36,Satellite-Based Object Detection With PSNR-Driven Image Enhancement and Structural Interpretability,2025
+10.1109/tbdata.2024.3409939,KKU,OA_W4399377445_052kwzs30,Automatic Recognition of Cyberbullying in the Web of Things and social media using Deep Learning Framework,2024
+10.1109/tbdata.2024.3409939,PSAU,OA_W4399377445_04jt46d36,Automatic Recognition of Cyberbullying in the Web of Things and social media using Deep Learning Framework,2024
+10.1109/tce.2023.3325827,KKU,OA_W4388286164_052kwzs30,Transforming Transportation: Safe and Secure Vehicular Communication and Anomaly Detection With Intelligent Cyber–Physical System and Deep Learning,2023
+10.1109/tce.2023.3325827,PSAU,OA_W4388286164_04jt46d36,Transforming Transportation: Safe and Secure Vehicular Communication and Anomaly Detection With Intelligent Cyber–Physical System and Deep Learning,2023
+10.1109/tce.2024.3371774,KKU,OA_W4392607783_052kwzs30,Elevating Survivability in Next-Gen IoT-Fog-Cloud Networks: Scheduling Optimization With the Metaheuristic Mountain Gazelle Algorithm,2024
+10.1109/tce.2024.3371774,PSAU,OA_W4392607783_04jt46d36,Elevating Survivability in Next-Gen IoT-Fog-Cloud Networks: Scheduling Optimization With the Metaheuristic Mountain Gazelle Algorithm,2024
+10.1109/tce.2024.3423329,KKU,OA_W4400489533_052kwzs30,Exploiting Feature Fusion With Deep Learning-Based Next-Generation Consumer Products Detection on Video Surveillance Monitoring Systems,2024
+10.1109/tce.2024.3423329,PSAU,OA_W4400489533_04jt46d36,Exploiting Feature Fusion With Deep Learning-Based Next-Generation Consumer Products Detection on Video Surveillance Monitoring Systems,2024
+10.1109/tce.2025.3552533,KKU,OA_W4408565095_052kwzs30,LEMS: Optimized Large Model Framework for Edge-AI in Consumer Internet of Things Devices,2025
+10.1109/tce.2025.3552533,KSU,KSU_2025_4773,LEMS: Optimized Large Model Framework for Edge-AI in Consumer Internet of Things Devices,2025
+10.1109/tce.2025.3559432,KKU,OA_W4409310635_052kwzs30,Quantum-Driven Anomaly Detection Framework for Consumer IoT Cyber-Physical Systems,2025
+10.1109/tce.2025.3559432,KSU,KSU_2025_5946,Quantum-Driven Anomaly Detection Framework for Consumer IoT Cyber-Physical Systems,2025
 10.1109/tce.2025.3601605,KFUPM,KFUPM_5e85b131-4dfd-4747-883e-03a09d377055,EcoWeedNet: A Lightweight and Automated Weed Detection Method for Sustainable Next-Generation Agricultural Consumer Electronics,2025
 10.1109/tce.2025.3601605,KSU,KSU_2025_2690,EcoWeedNet: A Lightweight and Automated Weed Detection Method for Sustainable Next-Generation Agricultural Consumer Electronics,2025
+10.1109/tce.2025.3606642,KAU,OA_W4414008399_02ma4wv74,Adaptive Federated Learning Framework for Privacy-Preserving Consumer-Centric IoMT: A Novel Secure Data Collaboration Model,2025
+10.1109/tce.2025.3606642,KSU,KSU_2025_5079,Adaptive Federated Learning Framework for Privacy-Preserving Consumer-Centric IoMT: A Novel Secure Data Collaboration Model,2025
+10.1109/tce.2026.3664285,KAU,OA_W7128725083_02ma4wv74,Vulnerability Assessment of AI-Based Privacy Mechanisms in Industrial IoT Consumer Systems,2026
+10.1109/tce.2026.3664285,KKU,OA_W7128725083_052kwzs30,Vulnerability Assessment of AI-Based Privacy Mechanisms in Industrial IoT Consumer Systems,2026
+10.1109/tits.2025.3591007,KKU,OA_W4413017485_052kwzs30,Securing Intelligent Transportation Systems: A Dual-Framework Approach for Privacy Protection and Cybersecurity Using Generative AI,2025
+10.1109/tits.2025.3591007,PSAU,OA_W4413017485_04jt46d36,Securing Intelligent Transportation Systems: A Dual-Framework Approach for Privacy Protection and Cybersecurity Using Generative AI,2025
+10.1142/s0218348x25400080,KKU,OA_W4405703014_052kwzs30,AUTOMATING METER CLASSIFICATION OF ARABIC POEMS: A HARRIS HAWKS OPTIMIZATION WITH DEEP LEARNING PERSPECTIVE,2024
+10.1142/s0218348x25400080,KSU,KSU_2025_8040,AUTOMATING METER CLASSIFICATION OF ARABIC POEMS: A HARRIS HAWKS OPTIMIZATION WITH DEEP LEARNING PERSPECTIVE,2025
+10.1142/s0218348x25400110,KAU,OA_W4400732638_02ma4wv74,CLOUD-EDGE CONTINUUM FRAMEWORK FOR ADMISSION DATA MANAGEMENT USING DEEP LEARNING MODEL,2024
+10.1142/s0218348x25400110,KKU,OA_W4400732638_052kwzs30,CLOUD-EDGE CONTINUUM FRAMEWORK FOR ADMISSION DATA MANAGEMENT USING DEEP LEARNING MODEL,2024
+10.1142/s0218348x25400134,KKU,OA_W4400732633_052kwzs30,MOTION TARGET MONITORING AND RECOGNITION IN VIDEO SURVEILLANCE USING CLOUD–EDGE–IOT AND MACHINE LEARNING TECHNIQUES,2024
+10.1142/s0218348x25400134,PSAU,OA_W4400732633_04jt46d36,MOTION TARGET MONITORING AND RECOGNITION IN VIDEO SURVEILLANCE USING CLOUD–EDGE–IOT AND MACHINE LEARNING TECHNIQUES,2024
+10.1142/s0218348x25400158,KKU,OA_W4405703034_052kwzs30,APPLIED LINGUISTICS-DRIVEN ARTIFICIAL INTELLIGENCE APPROACH FOR SENTIMENT ANALYSIS AND CLASSIFICATION ON SOCIAL MEDIA,2024
+10.1142/s0218348x25400158,KSU,KSU_2025_6358,APPLIED LINGUISTICS-DRIVEN ARTIFICIAL INTELLIGENCE APPROACH FOR SENTIMENT ANALYSIS AND CLASSIFICATION ON SOCIAL MEDIA,2025
+10.1142/s0218348x25400195,KKU,OA_W4405703012_052kwzs30,COMPUTATIONAL INSIGHTS INTO ARABIC PROPAGANDA: AN INTEGRATION OF CORPUS LINGUISTICS WITH DEEP LEARNING APPROACH,2024
+10.1142/s0218348x25400195,KSU,KSU_2025_8067,COMPUTATIONAL INSIGHTS INTO ARABIC PROPAGANDA: AN INTEGRATION OF CORPUS LINGUISTICS WITH DEEP LEARNING APPROACH,2025
+10.1142/s0218348x25400201,KKU,OA_W4404046314_052kwzs30,HARNESSING PRIVACY-PRESERVING FEDERATED LEARNING WITH BLOCKCHAIN FOR SECURE IOMT APPLICATIONS IN SMART HEALTHCARE SYSTEMS,2024
+10.1142/s0218348x25400201,PSAU,OA_W4404046314_04jt46d36,HARNESSING PRIVACY-PRESERVING FEDERATED LEARNING WITH BLOCKCHAIN FOR SECURE IOMT APPLICATIONS IN SMART HEALTHCARE SYSTEMS,2024
+10.1142/s0218348x25400213,KKU,OA_W4401198914_052kwzs30,MULTI-CLASS AUTOMATED SPEECH LANGUAGE RECOGNITION USING NATURAL LANGUAGE PROCESSING WITH OPTIMAL DEEP LEARNING MODEL,2024
+10.1142/s0218348x25400213,KSU,KSU_2025_9558,MULTI-CLASS AUTOMATED SPEECH LANGUAGE RECOGNITION USING NATURAL LANGUAGE PROCESSING WITH OPTIMAL DEEP LEARNING MODEL,2025
+10.1142/s0218348x25400250,KAU,OA_W4401920968_02ma4wv74,INTEGRATING FRACTAL SNOW ABLATION OPTIMIZER WITH BAYESIAN MACHINE LEARNING FOR ASPECT-LEVEL SENTIMENT ANALYSIS ON SOCIAL MEDIA,2024
+10.1142/s0218348x25400250,KKU,OA_W4401920968_052kwzs30,INTEGRATING FRACTAL SNOW ABLATION OPTIMIZER WITH BAYESIAN MACHINE LEARNING FOR ASPECT-LEVEL SENTIMENT ANALYSIS ON SOCIAL MEDIA,2024
+10.1142/s0218348x25400250,PSAU,OA_W4401920968_04jt46d36,INTEGRATING FRACTAL SNOW ABLATION OPTIMIZER WITH BAYESIAN MACHINE LEARNING FOR ASPECT-LEVEL SENTIMENT ANALYSIS ON SOCIAL MEDIA,2024
+10.1142/s0218348x25400304,KKU,OA_W4404540745_052kwzs30,AUTOMATED MULTI-DIALECT SPEECH RECOGNITION USING STACKED ATTENTION-BASED DEEP LEARNING WITH NATURAL LANGUAGE PROCESSING MODEL,2024
+10.1142/s0218348x25400304,PSAU,OA_W4404540745_04jt46d36,AUTOMATED MULTI-DIALECT SPEECH RECOGNITION USING STACKED ATTENTION-BASED DEEP LEARNING WITH NATURAL LANGUAGE PROCESSING MODEL,2024
+10.1142/s0218348x25400328,KKU,OA_W4404540860_052kwzs30,HARNESSING DEEP TRANSFER LEARNING WITH IMAGING TECHNOLOGY FOR UNDERWATER OBJECT DETECTION AND TRACKING IN CONSUMER ELECTRONICS,2024
+10.1142/s0218348x25400328,PSAU,OA_W4404540860_04jt46d36,HARNESSING DEEP TRANSFER LEARNING WITH IMAGING TECHNOLOGY FOR UNDERWATER OBJECT DETECTION AND TRACKING IN CONSUMER ELECTRONICS,2024
+10.1142/s0218348x25400353,KKU,OA_W4405866909_052kwzs30,ENHANCING CYBERSECURITY VIA ANOMALY RECOGNITION USING THERMAL EXCHANGE FRACTALS OPTIMIZATION WITH DEEP LEARNING ON IOT NETWORKS,2024
+10.1142/s0218348x25400353,KSU,KSU_2025_8180,ENHANCING CYBERSECURITY VIA ANOMALY RECOGNITION USING THERMAL EXCHANGE FRACTALS OPTIMIZATION WITH DEEP LEARNING ON IOT NETWORKS,2025
+10.1142/s0218348x25400365,KKU,OA_W4405823123_052kwzs30,LEVERAGING BLOCKCHAIN WITH CHAOTIC OPPOSITIONAL BARNACLES MATING OPTIMIZER-BASED DEEP LEARNING MODEL FOR SECURE IOT ENVIRONMENT IN CONSUMER ELECTRONICS,2024
+10.1142/s0218348x25400365,KSU,KSU_2025_9173,LEVERAGING BLOCKCHAIN WITH CHAOTIC OPPOSITIONAL BARNACLES MATING OPTIMIZER-BASED DEEP LEARNING MODEL FOR SECURE IOT ENVIRONMENT IN CONSUMER ELECTRONICS,2025
+10.1142/s0218348x25400377,KKU,OA_W4408615085_052kwzs30,APPLIED LINGUISTICS DRIVEN LARGE LANGUAGE MODEL FOR SARCASM RECOGNITION ON SOCIAL MEDIA CORPORA,2025
+10.1142/s0218348x25400377,KSU,KSU_2025_8111,APPLIED LINGUISTICS DRIVEN LARGE LANGUAGE MODEL FOR SARCASM RECOGNITION ON SOCIAL MEDIA CORPORA,2025
+10.1142/s0218348x25400389,KKU,OA_W4405866928_052kwzs30,MODELING OF ENHANCED FRACTAL CHEETAH OPTIMIZER WITH DEEP LEARNING FOR INTEGRATED ARABIC DIALECT IDENTIFICATION,2024
+10.1142/s0218348x25400389,KSU,KSU_2025_7180,MODELING OF ENHANCED FRACTAL CHEETAH OPTIMIZER WITH DEEP LEARNING FOR INTEGRATED ARABIC DIALECT IDENTIFICATION,2025
+10.1142/s0218348x25400389,PSAU,OA_W4405866928_04jt46d36,MODELING OF ENHANCED FRACTAL CHEETAH OPTIMIZER WITH DEEP LEARNING FOR INTEGRATED ARABIC DIALECT IDENTIFICATION,2024
+10.1142/s0218348x25400390,KKU,OA_W4405814315_052kwzs30,GAN-BASED SYNTHETIC MEDICAL IMAGE AUGMENTATION FOR CLASS IMBALANCED DERMOSCOPIC IMAGE ANALYSIS,2024
+10.1142/s0218348x25400390,PSAU,OA_W4405814315_04jt46d36,GAN-BASED SYNTHETIC MEDICAL IMAGE AUGMENTATION FOR CLASS IMBALANCED DERMOSCOPIC IMAGE ANALYSIS,2024
+10.1142/s0218348x25400444,KKU,OA_W4402769772_052kwzs30,HARNESSING BLOCKCHAIN WITH ENSEMBLE DEEP LEARNING-BASED DISTRIBUTED DOS ATTACK DETECTION IN IOT-ASSISTED SECURE CONSUMER ELECTRONICS SYSTEMS,2024
+10.1142/s0218348x25400444,PSAU,OA_W4402769772_04jt46d36,HARNESSING BLOCKCHAIN WITH ENSEMBLE DEEP LEARNING-BASED DISTRIBUTED DOS ATTACK DETECTION IN IOT-ASSISTED SECURE CONSUMER ELECTRONICS SYSTEMS,2024
+10.1142/s0218348x25400468,KKU,OA_W4405866927_052kwzs30,SECURING INTERNET OF THINGS-ASSISTED CONSUMER ELECTRONICS USING BLOCKCHAIN WITH DEEP LEARNING-BASED USER AUTHENTICATION,2024
+10.1142/s0218348x25400468,KSU,KSU_2025_9149,SECURING INTERNET OF THINGS-ASSISTED CONSUMER ELECTRONICS USING BLOCKCHAIN WITH DEEP LEARNING-BASED USER AUTHENTICATION,2025
+10.1142/s0218348x2540047x,KKU,OA_W4402769760_052kwzs30,FROM PIXELS TO PREDICTIONS: ROLE OF BOOSTED DEEP LEARNING-ENABLED OBJECT DETECTION FOR AUTONOMOUS VEHICLES ON LARGE SCALE CONSUMER ELECTRONICS ENVIRONMENT,2024
+10.1142/s0218348x2540047x,PSAU,OA_W4402769760_04jt46d36,FROM PIXELS TO PREDICTIONS: ROLE OF BOOSTED DEEP LEARNING-ENABLED OBJECT DETECTION FOR AUTONOMOUS VEHICLES ON LARGE SCALE CONSUMER ELECTRONICS ENVIRONMENT,2024
+10.1142/s0218348x2540050x,KKU,OA_W4404059921_052kwzs30,INTEGRATING APPLIED LINGUISTICS WITH ARTIFICIAL INTELLIGENCE-ENABLED ARABIC TEXT-TO-SPEECH SYNTHESIZER,2024
+10.1142/s0218348x2540050x,PSAU,OA_W4404059921_04jt46d36,INTEGRATING APPLIED LINGUISTICS WITH ARTIFICIAL INTELLIGENCE-ENABLED ARABIC TEXT-TO-SPEECH SYNTHESIZER,2024
+10.1142/s0218348x25400523,KAU,OA_W4403821611_02ma4wv74,INTEGRATING OPTIMAL DEEP LEARNING WITH NATURAL LANGUAGE PROCESSING FOR ARABIC SPAM AND HAM TWEETS RECOGNITION,2024
+10.1142/s0218348x25400523,KKU,OA_W4403821611_052kwzs30,INTEGRATING OPTIMAL DEEP LEARNING WITH NATURAL LANGUAGE PROCESSING FOR ARABIC SPAM AND HAM TWEETS RECOGNITION,2024
+10.1142/s0218348x25400547,KKU,OA_W4404046622_052kwzs30,MULTI-CLASS SPOKEN LANGUAGE DETECTION USING ARTIFICIAL INTELLIGENCE WITH FRACTAL AL-BIRUNI EARTH RADIUS OPTIMIZATION ALGORITHM,2024
+10.1142/s0218348x25400547,PSAU,OA_W4404046622_04jt46d36,MULTI-CLASS SPOKEN LANGUAGE DETECTION USING ARTIFICIAL INTELLIGENCE WITH FRACTAL AL-BIRUNI EARTH RADIUS OPTIMIZATION ALGORITHM,2024
+10.1142/s0219843625400213,KAU,OA_W4416779778_02ma4wv74,Vision Transformer with Scale-Invariant Features for Human Activity Recognition in Smart Surveillance-Based Fall Detection,2025
+10.1142/s0219843625400213,KKU,OA_W4416779778_052kwzs30,Vision Transformer with Scale-Invariant Features for Human Activity Recognition in Smart Surveillance-Based Fall Detection,2025
+10.1142/s0219843625400213,PSAU,OA_W4416779778_04jt46d36,Vision Transformer with Scale-Invariant Features for Human Activity Recognition in Smart Surveillance-Based Fall Detection,2025
+10.1155/2024/5551009,KKU,OA_W4404116493_052kwzs30,Modeling of Hyperparameter Tuned Fuzzy Deep Neural Network–Based Human Activity Recognition for Disabled People,2024
+10.1155/2024/5551009,PSAU,OA_W4404116493_04jt46d36,Modeling of Hyperparameter Tuned Fuzzy Deep Neural Network–Based Human Activity Recognition for Disabled People,2024
+10.1166/jno.2023.3396,KKU,OA_W4377833010_052kwzs30,Optimized Energy-Efficient Routing Protocol for Wireless Sensor Network Integrated with IoT: An Approach Based on Deep Convolutional Neural Network and Metaheuristic Algorithms,2023
+10.1166/jno.2023.3396,PSAU,OA_W4377833010_04jt46d36,Optimized Energy-Efficient Routing Protocol for Wireless Sensor Network Integrated with IoT: An Approach Based on Deep Convolutional Neural Network and Metaheuristic Algorithms,2023
+10.1166/jno.2023.3397,KKU,OA_W4377833005_052kwzs30,Design a Secure Routing and Monitoring Framework Based on Hybrid Optimization for IoT-Based Wireless Sensor Networks,2023
+10.1166/jno.2023.3397,PSAU,OA_W4377833005_04jt46d36,Design a Secure Routing and Monitoring Framework Based on Hybrid Optimization for IoT-Based Wireless Sensor Networks,2023
+10.1186/s13638-025-02459-8,KKU,OA_W4410120879_052kwzs30,Enhancing dynamic resource management in decentralized federated learning for collaborative edge Internet of Things,2025
+10.1186/s13638-025-02459-8,PSAU,OA_W4410120879_04jt46d36,Enhancing dynamic resource management in decentralized federated learning for collaborative edge Internet of Things,2025
+10.1186/s13677-024-00717-6,KAU,OA_W4404723754_02ma4wv74,A hybrid machine learning model with self-improved optimization algorithm for trust and privacy preservation in cloud environment,2024
+10.1186/s13677-024-00717-6,PSAU,OA_W4404723754_04jt46d36,A hybrid machine learning model with self-improved optimization algorithm for trust and privacy preservation in cloud environment,2024
+10.1186/s13677-025-00781-6,KSU,KSU_2025_11037,Blockchain-enhanced security and bayesian trust assessment for secure task scheduling in latency-critical fog computing environments,2025
+10.1186/s13677-025-00781-6,PSAU,OA_W4414662593_04jt46d36,Blockchain-enhanced security and bayesian trust assessment for secure task scheduling in latency-critical fog computing environments,2025
+10.1186/s13677-026-00878-6,KAU,OA_W7134915576_02ma4wv74,A trustworthy cybersecurity model for transparent cyberattack detection using Bald Eagle Search tuned XGBoost and explainable AI,2026
+10.1186/s13677-026-00878-6,PSAU,OA_W7134915576_04jt46d36,A trustworthy cybersecurity model for transparent cyberattack detection using Bald Eagle Search tuned XGBoost and explainable AI,2026
+10.1186/s13677-026-00944-z,KAU,OA_W7165110451_02ma4wv74,High-precision intrusion detection in IoT networks using an optimized TabNet model with AMP and Optuna,2026
+10.1186/s13677-026-00944-z,PSAU,OA_W7165110451_04jt46d36,High-precision intrusion detection in IoT networks using an optimized TabNet model with AMP and Optuna,2026
+10.12732/ijam.v38i8s.910,KAU,OA_W4416104754_02ma4wv74,EDL-DRD: AN ENHANCED DEEP LEARNING MODEL FOR DECEPTIVE REVIEWS DETECTION WITH ATTENTION MECHANISM,2025
+10.12732/ijam.v38i8s.910,KKU,OA_W4416104754_052kwzs30,EDL-DRD: AN ENHANCED DEEP LEARNING MODEL FOR DECEPTIVE REVIEWS DETECTION WITH ATTENTION MECHANISM,2025
+10.1371/journal.pone.0293061,KAU,OA_W4388501749_02ma4wv74,Role of convolutional features and machine learning for predicting student academic performance from MOODLE data,2023
+10.1371/journal.pone.0293061,PSAU,OA_W4388501749_04jt46d36,Role of convolutional features and machine learning for predicting student academic performance from MOODLE data,2023
+10.1371/journal.pone.0317107,KAU,OA_W4408836550_02ma4wv74,CAPPS: Congestion-aware payment and punishment scheme to stimulate selfish nodes in IoT-based VDTNs,2025
+10.1371/journal.pone.0317107,KSU,KSU_2025_8366,CAPPS: Congestion-aware payment and punishment scheme to stimulate selfish nodes in IoT-based VDTNs,2025
+10.1371/journal.pone.0317107,PSAU,OA_W4408836550_04jt46d36,CAPPS: Congestion-aware payment and punishment scheme to stimulate selfish nodes in IoT-based VDTNs,2025
+10.1371/journal.pone.0332752,KKU,OA_W4415222192_052kwzs30,Deep memory for deep threats: A novel architecture combining GRUs and deep learning models for IDS,2025
+10.1371/journal.pone.0332752,PSAU,OA_W4415222192_04jt46d36,Deep memory for deep threats: A novel architecture combining GRUs and deep learning models for IDS,2025
+10.14569/ijacsa.2023.0141099,KAU,OA_W4388144846_02ma4wv74,Detection of Dyslexia Through Images of Handwriting using Hybrid AI Approach,2023
+10.14569/ijacsa.2023.0141099,KKU,OA_W4388144846_052kwzs30,Detection of Dyslexia Through Images of Handwriting using Hybrid AI Approach,2023
+10.14569/ijacsa.2025.0160622,KAU,OA_W4412036224_02ma4wv74,Audio-Visual Multimodal Deepfake Detection Leveraging Emotional Recognition,2025
+10.14569/ijacsa.2025.0160622,PSAU,OA_W4412036224_04jt46d36,Audio-Visual Multimodal Deepfake Detection Leveraging Emotional Recognition,2025
+10.14569/ijacsa.2025.0161240,KAU,OA_W7118021355_02ma4wv74,MetaEdge: A Meta-Learning-Based Auto-Selective Tool for Hardware-Aware Anomaly Detection on Edge Devices,2025
+10.14569/ijacsa.2025.0161240,PSAU,OA_W7118021355_04jt46d36,MetaEdge: A Meta-Learning-Based Auto-Selective Tool for Hardware-Aware Anomaly Detection on Edge Devices,2025
+10.18280/ts.420433,KKU,OA_W4413127991_052kwzs30,Signal Detection in Non-Cooperative Communications Using Federated Deep Learning,2025
+10.18280/ts.420433,KSU,KSU_2025_1711,Signal Detection in Non-Cooperative Communications Using Federated Deep Learning,2025
+10.18653/v1/2025.arabicnlp-main.21,KAU,OA_W4416037666_02ma4wv74,BALSAM: A Platform for Benchmarking Arabic Large Language Models,2025
+10.18653/v1/2025.arabicnlp-main.21,PSAU,OA_W4416037666_04jt46d36,BALSAM: A Platform for Benchmarking Arabic Large Language Models,2025
+10.21037/mhealth-2025-74,KKU,OA_W7154187977_052kwzs30,Smart home Internet of Things-based behavioural analysis for early detection of cognitive decline: toward Saudi future vision,2026
+10.21037/mhealth-2025-74,PSAU,OA_W7154187977_04jt46d36,Smart home Internet of Things-based behavioural analysis for early detection of cognitive decline: toward Saudi future vision,2026
+10.21203/rs.3.rs-5447617/v1,KKU,OA_W4405348100_052kwzs30,Securing IoMT-Based Healthcare Systems with Meta-Heuristic Quantum Cryptography and Honeybee Optimization,2024
+10.21203/rs.3.rs-5447617/v1,PSAU,OA_W4405348100_04jt46d36,Securing IoMT-Based Healthcare Systems with Meta-Heuristic Quantum Cryptography and Honeybee Optimization,2024
+10.2139/ssrn.5493648,KAU,OA_W4414284903_02ma4wv74,Machine Learning Analysis Of A Century Of Research On Children With Special Needs: A Concise Overview,2025
+10.2139/ssrn.5493648,KKU,OA_W4414284903_052kwzs30,Machine Learning Analysis Of A Century Of Research On Children With Special Needs: A Concise Overview,2025
+10.2196/78432,KAU,OA_W4415740074_02ma4wv74,Medical Feature Extraction From Clinical Examination Notes: Development and Evaluation of a Two-Phase Large Language Model Framework,2025
+10.2196/78432,KKU,OA_W4415740074_052kwzs30,Medical Feature Extraction From Clinical Examination Notes: Development and Evaluation of a Two-Phase Large Language Model Framework,2025
+10.2196/80917,KAU,OA_W4414670348_02ma4wv74,Impact of Detailed Versus Generic Instructions on Fine-Tuned Language Models for Patient Discharge Instructions Generation: Comparative Statistical Analysis,2025
+10.2196/80917,KKU,OA_W4414670348_052kwzs30,Impact of Detailed Versus Generic Instructions on Fine-Tuned Language Models for Patient Discharge Instructions Generation: Comparative Statistical Analysis,2025
+10.25259/jksus_162_2024,KSU,KSU_2025_6323,Utilizing convolutional neural network and gray wolf optimization for image super-reslution,2025
+10.25259/jksus_162_2024,PSAU,OA_W4412583423_04jt46d36,Utilizing convolutional neural network and gray wolf optimization for image super-resolution,2025
+10.3233/cbm-230294,KAU,OA_W4390398600_02ma4wv74,Breast cancer detection employing stacked ensemble model with convolutional features,2023
+10.3233/cbm-230294,PSAU,OA_W4390398600_04jt46d36,Breast cancer detection employing stacked ensemble model with convolutional features,2023
+10.32604/cmc.2024.050781,KKU,OA_W4398150336_052kwzs30,DeBERTa-GRU: Sentiment Analysis for Large Language Model,2024
+10.32604/cmc.2024.050781,PSAU,OA_W4398150336_04jt46d36,DeBERTa-GRU: Sentiment Analysis for Large Language Model,2024
+10.32604/csse.2023.030232,KKU,OA_W4319659873_052kwzs30,Improved Chameleon Swarm Optimization-Based Load Scheduling for IoT-Enabled Cloud Environment,2023
+10.32604/csse.2023.030232,PSAU,OA_W4319659873_04jt46d36,Improved Chameleon Swarm Optimization-Based Load Scheduling for IoT-Enabled Cloud Environment,2023
+10.32604/csse.2023.034721,KAU,OA_W4388552717_02ma4wv74,Deer Hunting Optimization with Deep Learning Enabled Emotion Classification on English Twitter Data,2023
+10.32604/csse.2023.034721,PSAU,OA_W4388552717_04jt46d36,Deer Hunting Optimization with Deep Learning Enabled Emotion Classification on English Twitter Data,2023
+10.32604/csse.2023.035529,KKU,OA_W4319659860_052kwzs30,Red Deer Optimization with Artificial Intelligence Enabled Image Captioning System for Visually Impaired People,2023
+10.32604/csse.2023.035529,PSAU,OA_W4319659860_04jt46d36,Red Deer Optimization with Artificial Intelligence Enabled Image Captioning System for Visually Impaired People,2023
+10.32604/csse.2023.035589,KKU,OA_W4319659903_052kwzs30,Artificial Algae Optimization with Deep Belief Network Enabled Ransomware Detection in IoT Environment,2023
+10.32604/csse.2023.035589,PSAU,OA_W4319659903_04jt46d36,Artificial Algae Optimization with Deep Belief Network Enabled Ransomware Detection in IoT Environment,2023
+10.32604/csse.2023.036735,KKU,OA_W4379615543_052kwzs30,Machine Learning Based Cybersecurity Threat Detection for Secure IoT Assisted Cloud Environment,2023
+10.32604/csse.2023.036735,PSAU,OA_W4379615543_04jt46d36,Machine Learning Based Cybersecurity Threat Detection for Secure IoT Assisted Cloud Environment,2023
+10.32604/csse.2023.037305,KKU,OA_W4393326896_052kwzs30,Digital Text Document Watermarking Based Tampering Attack Detection via Internet,2024
+10.32604/csse.2023.037305,PSAU,OA_W4393326896_04jt46d36,Digital Text Document Watermarking Based Tampering Attack Detection via Internet,2024
+10.32604/csse.2023.040624,KAU,OA_W4385276695_02ma4wv74,Privacy Preserved Brain Disorder Diagnosis Using Federated Learning,2023
+10.32604/csse.2023.040624,PSAU,OA_W4385276695_04jt46d36,Privacy Preserved Brain Disorder Diagnosis Using Federated Learning,2023
+10.32604/csse.2024.054179,KAU,OA_W4399050258_02ma4wv74,Correction: Applying Customized Convolutional Neural Network to Kidney Image Volumes for Kidney Disease Detection,2024
+10.32604/csse.2024.054179,PSAU,OA_W4399050258_04jt46d36,Correction: Applying Customized Convolutional Neural Network to Kidney Image Volumes for Kidney Disease Detection,2024
+10.3389/fmed.2025.1562629,KKU,OA_W4409030877_052kwzs30,Enhancing multi-class neurodegenerative disease classification using deep learning and explainable local interpretable model-agnostic explanations,2025
+10.3389/fmed.2025.1562629,PSAU,OA_W4409030877_04jt46d36,Enhancing multi-class neurodegenerative disease classification using deep learning and explainable local interpretable model-agnostic explanations,2025
+10.3389/fnbot.2024.1398703,KKU,OA_W4398138340_052kwzs30,Remote intelligent perception system for multi-object detection,2024
+10.3389/fnbot.2024.1398703,PSAU,OA_W4398138340_04jt46d36,Remote intelligent perception system for multi-object detection,2024
+10.3389/frai.2024.1399168,KAU,OA_W4401993561_02ma4wv74,Whale-optimized LSTM networks for enhanced automatic text summarization,2024
+10.3389/frai.2024.1399168,PSAU,OA_W4401993561_04jt46d36,Whale-optimized LSTM networks for enhanced automatic text summarization,2024
+10.3389/frai.2025.1520592,KAU,OA_W4407554701_02ma4wv74,Integrating generative adversarial networks with IoT for adaptive AI-powered personalized elderly care in smart homes,2025
+10.3389/frai.2025.1520592,PSAU,OA_W4407554701_04jt46d36,Integrating generative adversarial networks with IoT for adaptive AI-powered personalized elderly care in smart homes,2025
+10.3390/app13042174,KAU,OA_W4319758849_02ma4wv74,Parameterization and Design of Telepresence Robot to Avoid Obstacles,2023
+10.3390/app13042174,PSAU,OA_W4319758849_04jt46d36,Parameterization and Design of Telepresence Robot to Avoid Obstacles,2023
+10.3390/app13042462,KAU,OA_W4320919468_02ma4wv74,Intelligent Time Delay Control of Telepresence Robots Using Novel Deep Reinforcement Learning Algorithm to Interact with Patients,2023
+10.3390/app13042462,PSAU,OA_W4320919468_04jt46d36,Intelligent Time Delay Control of Telepresence Robots Using Novel Deep Reinforcement Learning Algorithm to Interact with Patients,2023
+10.3390/app13042580,KKU,OA_W4321250656_052kwzs30,Enhanced Chimp Optimization-Based Feature Selection with Fuzzy Logic-Based Intrusion Detection System in Cloud Environment,2023
+10.3390/app13042580,PSAU,OA_W4321250656_04jt46d36,Enhanced Chimp Optimization-Based Feature Selection with Fuzzy Logic-Based Intrusion Detection System in Cloud Environment,2023
+10.3390/app13053081,KKU,OA_W4322628599_052kwzs30,Explainable Artificial Intelligence Enabled Intrusion Detection Technique for Secure Cyber-Physical Systems,2023
+10.3390/app13053081,KSU,KSU_2023_9919,Explainable Artificial Intelligence Enabled Intrusion Detection Technique for Secure Cyber-Physical Systems,2023
+10.3390/app13053081,PSAU,OA_W4322628599_04jt46d36,Explainable Artificial Intelligence Enabled Intrusion Detection Technique for Secure Cyber-Physical Systems,2023
+10.3390/app13074537,KAU,OA_W4362558276_02ma4wv74,"Design, Development, and Experimental Verification of a Trajectory Algorithm of a Telepresence Robot",2023
+10.3390/app13074537,PSAU,OA_W4362558276_04jt46d36,"Design, Development, and Experimental Verification of a Trajectory Algorithm of a Telepresence Robot",2023
+10.3390/app13085167,KKU,OA_W4366772369_052kwzs30,Optimal Graph Convolutional Neural Network-Based Ransomware Detection for Cybersecurity in IoT Environment,2023
+10.3390/app13085167,PSAU,OA_W4366772369_04jt46d36,Optimal Graph Convolutional Neural Network-Based Ransomware Detection for Cybersecurity in IoT Environment,2023
+10.3390/biomimetics8070554,KKU,OA_W4388832296_052kwzs30,Deep Convolutional Neural Network with Symbiotic Organism Search-Based Human Activity Recognition for Cognitive Health Assessment,2023
+10.3390/biomimetics8070554,PSAU,OA_W4388832296_04jt46d36,Deep Convolutional Neural Network with Symbiotic Organism Search-Based Human Activity Recognition for Cognitive Health Assessment,2023
+10.3390/cancers15030885,KKU,OA_W4318819419_052kwzs30,Hyperparameter Optimizer with Deep Learning-Based Decision-Support Systems for Histopathological Breast Cancer Diagnosis,2023
+10.3390/cancers15030885,PSAU,OA_W4318819419_04jt46d36,Hyperparameter Optimizer with Deep Learning-Based Decision-Support Systems for Histopathological Breast Cancer Diagnosis,2023
+10.3390/cancers15051492,KAU,OA_W4323314522_02ma4wv74,Adaptive Aquila Optimizer with Explainable Artificial Intelligence-Enabled Cancer Diagnosis on Medical Imaging,2023
+10.3390/cancers15051492,PSAU,OA_W4323314522_04jt46d36,Adaptive Aquila Optimizer with Explainable Artificial Intelligence-Enabled Cancer Diagnosis on Medical Imaging,2023
+10.3390/cancers15051591,KKU,OA_W4323314863_052kwzs30,Leveraging Marine Predators Algorithm with Deep Learning for Lung and Colon Cancer Diagnosis,2023
+10.3390/cancers15051591,PSAU,OA_W4323314863_04jt46d36,Leveraging Marine Predators Algorithm with Deep Learning for Lung and Colon Cancer Diagnosis,2023
+10.3390/cancers15092507,KKU,OA_W4367317767_052kwzs30,Leukocytes Classification for Leukemia Detection Using Quantum Inspired Deep Feature Selection,2023
+10.3390/cancers15092507,PSAU,OA_W4367317767_04jt46d36,Leukocytes Classification for Leukemia Detection Using Quantum Inspired Deep Feature Selection,2023
+10.3390/cancers15133300,KAU,OA_W4381741953_02ma4wv74,Al-Biruni Earth Radius Optimization with Transfer Learning Based Histopathological Image Analysis for Lung and Colon Cancer Detection,2023
+10.3390/cancers15133300,PSAU,OA_W4381741953_04jt46d36,Al-Biruni Earth Radius Optimization with Transfer Learning Based Histopathological Image Analysis for Lung and Colon Cancer Detection,2023
+10.3390/cancers15245793,KAU,OA_W4389545655_02ma4wv74,Improved Prediction of Ovarian Cancer Using Ensemble Classifier and Shaply Explainable AI,2023
+10.3390/cancers15245793,PSAU,OA_W4389545655_04jt46d36,Improved Prediction of Ovarian Cancer Using Ensemble Classifier and Shaply Explainable AI,2023
+10.3390/diagnostics13071238,KKU,OA_W4361006741_052kwzs30,BC2NetRF: Breast Cancer Classification from Mammogram Images Using Enhanced Deep Learning Features and Equilibrium-Jaya Controlled Regula Falsi-Based Features Selection,2023
+10.3390/diagnostics13071238,PSAU,OA_W4361006741_04jt46d36,BC2NetRF: Breast Cancer Classification from Mammogram Images Using Enhanced Deep Learning Features and Equilibrium-Jaya Controlled Regula Falsi-Based Features Selection,2023
+10.3390/diagnostics13091618,KKU,OA_W4368367207_052kwzs30,BRMI-Net: Deep Learning Features and Flower Pollination-Controlled Regula Falsi-Based Feature Selection Framework for Breast Cancer Recognition in Mammography Images,2023
+10.3390/diagnostics13091618,PSAU,OA_W4368367207_04jt46d36,BRMI-Net: Deep Learning Features and Flower Pollination-Controlled Regula Falsi-Based Feature Selection Framework for Breast Cancer Recognition in Mammography Images,2023
+10.3390/diagnostics15040501,KAU,OA_W4407749593_02ma4wv74,Improving Surgical Site Infection Prediction Using Machine Learning: Addressing Challenges of Highly Imbalanced Data,2025
+10.3390/diagnostics15040501,KKU,OA_W4407749593_052kwzs30,Improving Surgical Site Infection Prediction Using Machine Learning: Addressing Challenges of Highly Imbalanced Data,2025
+10.3390/educsci14121324,KAU,OA_W4404924758_02ma4wv74,Enhancing Higher-Education Governance Through Telepresence Robots and Gamification: Strategies for Sustainable Practices in the AI-Driven Digital Era,2024
+10.3390/educsci14121324,PSAU,OA_W4404924758_04jt46d36,Enhancing Higher-Education Governance Through Telepresence Robots and Gamification: Strategies for Sustainable Practices in the AI-Driven Digital Era,2024
+10.3390/educsci15030301,KAU,OA_W4408034555_02ma4wv74,Game Mechanics and Artificial Intelligence Personalization: A Framework for Adaptive Learning Systems,2025
+10.3390/educsci15030301,PSAU,OA_W4408034555_04jt46d36,Game Mechanics and Artificial Intelligence Personalization: A Framework for Adaptive Learning Systems,2025
+10.3390/electronics12194125,KKU,OA_W4387308347_052kwzs30,Modified Aquila Optimizer with Stacked Deep Learning-Based Sentiment Analysis of COVID-19 Tweets,2023
+10.3390/electronics12194125,PSAU,OA_W4387308347_04jt46d36,Modified Aquila Optimizer with Stacked Deep Learning-Based Sentiment Analysis of COVID-19 Tweets,2023
+10.3390/electronics12194130,KKU,OA_W4387333818_052kwzs30,Modeling of Improved Sine Cosine Algorithm with Optimal Deep Learning-Enabled Security Solution,2023
+10.3390/electronics12194130,PSAU,OA_W4387333818_04jt46d36,Modeling of Improved Sine Cosine Algorithm with Optimal Deep Learning-Enabled Security Solution,2023
+10.3390/electronics15020392,KAU,OA_W7124460935_02ma4wv74,"Correction: A. Alissa et al. Feature Subset Selection Hybrid Deep Belief Network Based Cybersecurity Intrusion Detection Model. Electronics 2022, 11, 3077",2026
+10.3390/electronics15020392,PSAU,OA_W7124460935_04jt46d36,"Correction: A. Alissa et al. Feature Subset Selection Hybrid Deep Belief Network Based Cybersecurity Intrusion Detection Model. Electronics 2022, 11, 3077",2026
+10.3390/math11102322,KAU,OA_W4376874822_02ma4wv74,Chaos and Cellular Automata-Based Substitution Box and Its Application in Cryptography,2023
+10.3390/math11102322,KKU,OA_W4376874822_052kwzs30,Chaos and Cellular Automata-Based Substitution Box and Its Application in Cryptography,2023
+10.3390/math11173729,KKU,OA_W4386303378_052kwzs30,Deep Learning in Sign Language Recognition: A Hybrid Approach for the Recognition of Static and Dynamic Signs,2023
+10.3390/math11173729,PSAU,OA_W4386303378_04jt46d36,Deep Learning in Sign Language Recognition: A Hybrid Approach for the Recognition of Static and Dynamic Signs,2023
+10.3390/math11214493,KKU,OA_W4388017417_052kwzs30,Low-Resource Language Processing Using Improved Deep Learning with Hunter–Prey Optimization Algorithm,2023
+10.3390/math11214493,PSAU,OA_W4388017417_04jt46d36,Low-Resource Language Processing Using Improved Deep Learning with Hunter–Prey Optimization Algorithm,2023
+10.3390/math12081155,KKU,OA_W4394763474_052kwzs30,A Bidirectional Arabic Sign Language Framework Using Deep Learning and Fuzzy Matching Score,2024
+10.3390/math12081155,PSAU,OA_W4394763474_04jt46d36,A Bidirectional Arabic Sign Language Framework Using Deep Learning and Fuzzy Matching Score,2024
+10.3390/rs15123092,KKU,OA_W4380682614_052kwzs30,Anomaly Detection in Pedestrian Walkways for Intelligent Transportation System Using Federated Learning and Harris Hawks Optimizer on Remote Sensing Images,2023
+10.3390/rs15123092,PSAU,OA_W4380682614_04jt46d36,Anomaly Detection in Pedestrian Walkways for Intelligent Transportation System Using Federated Learning and Harris Hawks Optimizer on Remote Sensing Images,2023
+10.3390/s23084073,KKU,OA_W4366280065_052kwzs30,Binary Chimp Optimization Algorithm with ML Based Intrusion Detection for Secure IoT-Assisted Wireless Sensor Networks,2023
+10.3390/s23084073,KSU,KSU_2023_9091,Binary Chimp Optimization Algorithm with ML Based Intrusion Detection for Secure IoT-Assisted Wireless Sensor Networks,2023
+10.3390/s23084073,PSAU,OA_W4366280065_04jt46d36,Binary Chimp Optimization Algorithm with ML Based Intrusion Detection for Secure IoT-Assisted Wireless Sensor Networks,2023
+10.3390/s23104804,KKU,OA_W4377041508_052kwzs30,Sine-Cosine-Adopted African Vultures Optimization with Ensemble Autoencoder-Based Intrusion Detection for Cybersecurity in CPS Environment,2023
+10.3390/s23104804,PSAU,OA_W4377041508_04jt46d36,Sine-Cosine-Adopted African Vultures Optimization with Ensemble Autoencoder-Based Intrusion Detection for Cybersecurity in CPS Environment,2023
+10.3390/s23115340,KAU,OA_W4379386224_02ma4wv74,Machine Learning-Based Anomaly Detection in NFV: A Comprehensive Survey,2023
+10.3390/s23115340,PSAU,OA_W4379386224_04jt46d36,Machine Learning-Based Anomaly Detection in NFV: A Comprehensive Survey,2023
+10.3390/s23177370,KKU,OA_W4386141377_052kwzs30,A White Shark Equilibrium Optimizer with a Hybrid Deep-Learning-Based Cybersecurity Solution for a Smart City Environment,2023
+10.3390/s23177370,PSAU,OA_W4386141377_04jt46d36,A White Shark Equilibrium Optimizer with a Hybrid Deep-Learning-Based Cybersecurity Solution for a Smart City Environment,2023
+10.3390/s23239383,KKU,OA_W4388977257_052kwzs30,Multi-Objective Seagull Optimization Algorithm with Deep Learning-Enabled Vulnerability Detection for Secure Cloud Environments,2023
+10.3390/s23239383,KSU,KSU_2023_989,Multi-Objective Seagull Optimization Algorithm with Deep Learning-Enabled Vulnerability Detection for Secure Cloud Environments,2023
+10.3390/s23239475,KKU,OA_W4389080638_052kwzs30,"Recognition of Arabic Air-Written Letters: Machine Learning, Convolutional Neural Networks, and Optical Character Recognition (OCR) Techniques",2023
+10.3390/s23239475,KSU,KSU_2023_1183,"Recognition of Arabic Air-Written Letters: Machine Learning, Convolutional Neural Networks, and Optical Character Recognition (OCR) Techniques",2023
+10.3390/su15065133,KKU,OA_W4324142979_052kwzs30,Blockchain-Driven Image Encryption Process with Arithmetic Optimization Algorithm for Security in Emerging Virtual Environments,2023
+10.3390/su15065133,KSU,KSU_2023_9924,Blockchain-Driven Image Encryption Process with Arithmetic Optimization Algorithm for Security in Emerging Virtual Environments,2023
+10.3390/su15065133,PSAU,OA_W4324142979_04jt46d36,Blockchain-Driven Image Encryption Process with Arithmetic Optimization Algorithm for Security in Emerging Virtual Environments,2023
+10.3390/su15075692,KAU,OA_W4360863132_02ma4wv74,Design of a Telepresence Robot to Avoid Obstacles in IoT-Enabled Sustainable Healthcare Systems,2023
+10.3390/su15075692,PSAU,OA_W4360863132_04jt46d36,Design of a Telepresence Robot to Avoid Obstacles in IoT-Enabled Sustainable Healthcare Systems,2023
+10.3390/su15086902,KKU,OA_W4366599006_052kwzs30,Intrusion Detection Using Chaotic Poor and Rich Optimization with Deep Learning Model for Smart City Environment,2023
+10.3390/su15086902,KSU,KSU_2023_9112,Intrusion Detection Using Chaotic Poor and Rich Optimization with Deep Learning Model for Smart City Environment,2023
+10.3390/su15086902,PSAU,OA_W4366599006_04jt46d36,Intrusion Detection Using Chaotic Poor and Rich Optimization with Deep Learning Model for Smart City Environment,2023
+10.3390/su151511782,KKU,OA_W4385428779_052kwzs30,Blockchain with Quantum Mayfly Optimization-Based Clustering Scheme for Secure and Smart Transport Systems,2023
+10.3390/su151511782,PSAU,OA_W4385428779_04jt46d36,Blockchain with Quantum Mayfly Optimization-Based Clustering Scheme for Secure and Smart Transport Systems,2023
+10.3390/su152416811,KKU,OA_W4389670153_052kwzs30,Political Optimization Algorithm with a Hybrid Deep Learning Assisted Malicious URL Detection Model,2023
+10.3390/su152416811,KSU,KSU_2023_990,Political Optimization Algorithm with a Hybrid Deep Learning Assisted Malicious URL Detection Model,2023
+10.3390/sym16081070,KAU,OA_W4401699918_02ma4wv74,An Innovative Algorithm Based on Chaotic Maps Amalgamated with Bit-Level Permutations for Robust S-Box Construction and Its Application in Medical Image Privacy,2024
+10.3390/sym16081070,KKU,OA_W4401699918_052kwzs30,An Innovative Algorithm Based on Chaotic Maps Amalgamated with Bit-Level Permutations for Robust S-Box Construction and Its Application in Medical Image Privacy,2024
+10.3791/73464,KAU,OA_W7212376639_02ma4wv74,VoiceNet: A Responsible Artificial Intelligence Multilingual Speech Framework for Gender and Age Classification,2026
+10.3791/73464,PSAU,OA_W7212376639_04jt46d36,VoiceNet: A Responsible Artificial Intelligence Multilingual Speech Framework for Gender and Age Classification,2026
+10.3934/math.20241714,KAU,OA_W4405809523_02ma4wv74,Cryptanalysis of hyperchaotic S-box generation and image encryption,2024
+10.3934/math.20241714,KKU,OA_W4405809523_052kwzs30,Cryptanalysis of hyperchaotic S-box generation and image encryption,2024
+10.3934/math.2024769,KKU,OA_W4396702202_052kwzs30,Robust sign language detection for hearing disabled persons by Improved Coyote Optimization Algorithm with deep learning,2024
+10.3934/math.2024769,PSAU,OA_W4396702202_04jt46d36,Robust sign language detection for hearing disabled persons by Improved Coyote Optimization Algorithm with deep learning,2024
+10.3934/math.20251113,KAU,OA_W4415793379_02ma4wv74,Innovative sign language accessibility technique for hearing and speech impaired: deep learning-based hand gesture recognition for communication,2025
+10.3934/math.20251113,PSAU,OA_W4415793379_04jt46d36,Innovative sign language accessibility technique for hearing and speech impaired: deep learning-based hand gesture recognition for communication,2025
+10.3934/math.20251322,KKU,OA_W7116914827_052kwzs30,Mitigating DDoS attacks through ensemble learning models integrated with two-tier heuristic optimisation techniques for effective cyber defence,2025
+10.3934/math.20251322,KSU,KSU_2025_10349,Mitigating DDoS attacks through ensemble learning models integrated with two-tier heuristic optimisation techniques for effective cyber defence,2025
+10.3934/math.2026583,KAU,OA_W7161821076_02ma4wv74,Mathematical modeling of explainable AI based false data injection attack detection for resilient artificial intelligence of things,2026
+10.3934/math.2026583,KKU,OA_W7161821076_052kwzs30,Mathematical modeling of explainable AI based false data injection attack detection for resilient artificial intelligence of things,2026
 10.5194/hess-29-4983-2025,KAUST,10.5194/hess-29-4983-2025,Saudi Rainfall (SaRa): hourly 0.1° gridded rainfall (1979–present) for Saudi Arabia via machine learning fusion of satellite and model data,2025
 10.5194/hess-29-4983-2025,KSU,KSU_2025_12076,Saudi Rainfall (SaRa): hourly 0.1° gridded rainfall (1979-present) for Saudi Arabia via machine learning fusion of satellite and model data,2025
+10.57197/jdr-2023-0021,KKU,OA_W4385465838_052kwzs30,Assisting Visually Impaired People Using Deep Learning-based Anomaly Detection in Pedestrian Walkways for Intelligent Transportation Systems on Remote Sensing Images,2023
+10.57197/jdr-2023-0021,PSAU,OA_W4385465838_04jt46d36,Assisting Visually Impaired People Using Deep Learning-based Anomaly Detection in Pedestrian Walkways for Intelligent Transportation Systems on Remote Sensing Images,2023
+10.57197/jdr-2023-0023,KKU,OA_W4385957838_052kwzs30,Optimal Deep Recurrent Neural Networks for IoT-enabled Human Activity Recognition in Elderly and Disabled Persons,2023
+10.57197/jdr-2023-0023,PSAU,OA_W4385957838_04jt46d36,Optimal Deep Recurrent Neural Networks for IoT-enabled Human Activity Recognition in Elderly and Disabled Persons,2023
+10.57197/jdr-2023-0024,KKU,OA_W4385784682_052kwzs30,Improved Chicken Swarm Optimizer with Vision-based Anomaly Detection on Surveillance Videos for Visually Challenged People,2023
+10.57197/jdr-2023-0024,PSAU,OA_W4385784682_04jt46d36,Improved Chicken Swarm Optimizer with Vision-based Anomaly Detection on Surveillance Videos for Visually Challenged People,2023
+10.57197/jdr-2023-0038,KKU,OA_W4387984147_052kwzs30,Internet of Things-driven Human Activity Recognition of Elderly and Disabled People Using Arithmetic Optimization Algorithm with LSTM Autoencoder,2023
+10.57197/jdr-2023-0038,PSAU,OA_W4387984147_04jt46d36,Internet of Things-driven Human Activity Recognition of Elderly and Disabled People Using Arithmetic Optimization Algorithm with LSTM Autoencoder,2023
+10.57197/jdr-2023-0039,KKU,OA_W4387819708_052kwzs30,Enhanced Bald Eagle Search Optimizer with Transfer Learning-based Sign Language Recognition for Hearing-impaired Persons,2023
+10.57197/jdr-2023-0039,PSAU,OA_W4387819708_04jt46d36,Enhanced Bald Eagle Search Optimizer with Transfer Learning-based Sign Language Recognition for Hearing-impaired Persons,2023
+10.57197/jdr-2023-0040,KKU,OA_W4387819726_052kwzs30,Sand Cat Swarm Optimizer with Deep Wavelet Autoencoder-based Sign Language Recognition for Hearing- and Speech-impaired Persons,2023
+10.57197/jdr-2023-0040,PSAU,OA_W4387819726_04jt46d36,Sand Cat Swarm Optimizer with Deep Wavelet Autoencoder-based Sign Language Recognition for Hearing- and Speech-impaired Persons,2023
+10.57197/jdr-2023-0047,KKU,OA_W4388918639_052kwzs30,Sign Language Recognition Using Artificial Rabbits Optimizer with Siamese Neural Network for Persons with Disabilities,2023
+10.57197/jdr-2023-0047,PSAU,OA_W4388918639_04jt46d36,Sign Language Recognition Using Artificial Rabbits Optimizer with Siamese Neural Network for Persons with Disabilities,2023
+10.57197/jdr-2024-0006,KKU,OA_W4391783616_052kwzs30,IoT-assisted Human Activity Recognition Using Bat Optimization Algorithm with Ensemble Voting Classifier for Disabled Persons,2024
+10.57197/jdr-2024-0006,PSAU,OA_W4391783616_04jt46d36,IoT-assisted Human Activity Recognition Using Bat Optimization Algorithm with Ensemble Voting Classifier for Disabled Persons,2024
+10.5755/j02.eie.40003,KKU,OA_W4415052806_052kwzs30,Enhancing Intrusion Detection and Mitigation in Ad Hoc Networks Using an AI-Driven Deep Learning Approach,2025
+10.5755/j02.eie.40003,KSU,KSU_2025_1513,Enhancing Intrusion Detection and Mitigation in Ad Hoc Networks Using an AI-Driven Deep Learning Approach,2025
+10.59671/hpjiw,KKU,OA_W4394583784_052kwzs30,"Unraveling the Multifaceted Nature of Breast Cancer: Harnessing the Power of Machine Learning and Statistical Models for In-depth Investigation, Prognosis, and Treatment Optimization",2024
+10.59671/hpjiw,PSAU,OA_W4394583784_04jt46d36,"Unraveling the Multifaceted Nature of Breast Cancer: Harnessing the Power of Machine Learning and Statistical Models for In-depth Investigation, Prognosis, and Treatment Optimization",2024
+10.61822/amcs-2024-0039,KKU,OA_W4405850223_052kwzs30,An expert system for leukocyte classification using probabilistic deep feature optimization via distribution estimation,2024
+10.61822/amcs-2024-0039,PSAU,OA_W4405850223_04jt46d36,An expert system for leukocyte classification using probabilistic deep feature optimization via distribution estimation,2024
+10.64064/1658-6336.1011,KAU,OA_W7118085255_02ma4wv74,ASADH: A Meta Learning-Based Auto-Selective System for Anomaly Detection in Healthcare,2025
+10.64064/1658-6336.1011,PSAU,OA_W7118085255_04jt46d36,ASADH: A Meta Learning-Based Auto-Selective System for Anomaly Detection in Healthcare,2025
+10.7717/peerj-cs.1469,KAU,OA_W4386292370_02ma4wv74,A novel approach for explicit song lyrics detection using machine and deep ensemble learning models,2023
+10.7717/peerj-cs.1469,PSAU,OA_W4386292370_04jt46d36,A novel approach for explicit song lyrics detection using machine and deep ensemble learning models,2023
+10.7717/peerj-cs.1771,KKU,OA_W4390054264_052kwzs30,Framework to perform taint analysis and security assessment of IoT devices in smart cities,2023
+10.7717/peerj-cs.1771,PSAU,OA_W4390054264_04jt46d36,Framework to perform taint analysis and security assessment of IoT devices in smart cities,2023
+10.7717/peerj-cs.2265,KKU,OA_W4406782363_052kwzs30,Deep gradient reinforcement learning for music improvisation in cloud computing framework,2025
+10.7717/peerj-cs.2265,PSAU,OA_W4406782363_04jt46d36,Deep gradient reinforcement learning for music improvisation in cloud computing framework,2025
+10.7717/peerj-cs.2440,KKU,OA_W4403954439_052kwzs30,Multimodal biometric identification: leveraging convolutional neural network (CNN) architectures and fusion techniques with fingerprint and finger vein data,2024
+10.7717/peerj-cs.2440,PSAU,OA_W4403954439_04jt46d36,Multimodal biometric identification: leveraging convolutional neural network (CNN) architectures and fusion techniques with fingerprint and finger vein data,2024
+10.7717/peerj-cs.2539,KKU,OA_W4407292978_052kwzs30,Cloud-to-Thing continuum-based sports monitoring system using machine learning and deep learning model,2025
+10.7717/peerj-cs.2539,PSAU,OA_W4407292978_04jt46d36,Cloud-to-Thing continuum-based sports monitoring system using machine learning and deep learning model,2025
+10.7717/peerj-cs.2853,KKU,OA_W4410788370_052kwzs30,Optimized deep learning approach for lung cancer detection using flying fox optimization and bidirectional generative adversarial networks,2025
+10.7717/peerj-cs.2853,KSU,KSU_2025_6661,Optimized deep learning approach for lung cancer detection using flying fox optimization and bidirectional generative adversarial networks,2025
+10.7717/peerj-cs.3804,KAU,OA_W7171501360_02ma4wv74,UB-NET: multimodal IoT-based user authentication using unified multi-model behavioural embedding with custom deep neural network,2026
+10.7717/peerj-cs.3804,KKU,OA_W7171501360_052kwzs30,UB-NET: multimodal IoT-based user authentication using unified multi-model behavioural embedding with custom deep neural network,2026
+10.7717/peerj-cs.3804,PSAU,OA_W7171501360_04jt46d36,UB-NET: multimodal IoT-based user authentication using unified multi-model behavioural embedding with custom deep neural network,2026

@@ -48,6 +48,24 @@ sources:
     cleaned: KSU_cleaned.csv
     technology_review: KSU_technology_review.csv
 
+  openalex:
+    source_label: OpenAlex API
+    file_pattern: openalex_{ror}.json
+    from_date: "2023-01-01"
+    to_date: "2026-12-31"
+    field_id: fields/17          # OpenAlex topic field: Computer Science
+    mailto: al3alee@gmail.com
+    universities:
+      - code: KAU
+        name: King Abdulaziz University
+        ror: 02ma4wv74
+      - code: KKU
+        name: King Khalid University
+        ror: 052kwzs30
+      - code: PSAU
+        name: Prince Sattam Bin Abdulaziz University
+        ror: 04jt46d36
+
 excluded_universities: [PNU]
 
 technology_filter:
