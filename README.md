@@ -1,5 +1,7 @@
 # Saudi Technology Research Data Hub
 
+![tests](https://github.com/ranaalmohethef/saudi-tech-research/actions/workflows/tests.yml/badge.svg)
+
 A data engineering project that collects, cleans, validates, joins, and filters research metadata from Saudi universities to support exploration of technology-related research.
 
 **Team:** Rana Ayman Almohethef · Rana Saad AlHasaniah · Aryam Saad Alotaibi
