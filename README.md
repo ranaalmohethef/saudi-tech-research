@@ -1,5 +1,7 @@
 # Diraya — Saudi Technology Research Hub
+
 ![tests](https://github.com/ranaalmohethef/saudi-tech-research/actions/workflows/tests.yml/badge.svg)
+
 Diraya collects research metadata from six Saudi universities, standardizes and validates it, and publishes technology-related records through a searchable website.
 
 The project combines Azure Data Factory, Azure Functions, Azure Data Lake Storage Gen2, PostgreSQL, and a Flask API.
