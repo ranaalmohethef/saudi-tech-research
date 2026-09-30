@@ -427,15 +427,7 @@ A separate environment requires Azure resources, database table definitions, con
 | External sources | Availability, metadata, and record counts may change between runs |
 | Processing functions | Run synchronously within HTTP requests; larger workloads may require a different execution approach |
 
-## 13. Project Documentation
-
-- [Project report — PDF](docs/Documents/Diraya_Project_Document.pdf)
-- [Project report — Word](docs/Documents/Diraya_Project_Document.docx)
-- [Architecture diagram — PDF](docs/architecture/Diraya_Diagram.pdf)
-- [Website instructions](Website/README.md)
-- [Python pipeline source and tests](https://github.com/ranaalmohethef/saudi-tech-research)
-
-## 14. Scope
+## 13. Scope
 
 Diraya provides research metadata, search, and descriptive analytics for the six included universities within the configured source and year coverage.
 
